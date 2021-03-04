@@ -1,8 +1,12 @@
 from django.shortcuts import render
-
+# Erstatt denne commenten med en import til python-filen som genererer spørsmål.
 
 
 def question(request):
+    # Erstatt denne commenten med en instans av et generert spørsmål.
+
+    # Her er et eksempel-spørsmål som vi kan generere.
+    # Vi kan selvsagt legge til mer metadata til denne.
     question = {
     'question_text': 'Which of these cities is furthest south?',
     'answers': [
