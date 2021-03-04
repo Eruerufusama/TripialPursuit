@@ -1,0 +1,21 @@
+{% extends 'game/base.html' %}
+
+{% block content %}
+
+<div class="center-content">
+    <div class="card">
+        <div class="card-body">
+            {{ question_text }}
+        </div>
+    </div>
+    <div class="btn-group-vertical btn-group-lg">
+
+        {% for answer in answers %}
+
+            <button type="button" class="btn {% if answer.is_correct %}btn-success{% else %}btn-warning{% endif %}">{{ answer.text }}</button>
+
+        {% endfor %}
+    </div>
+</div>
+
+{% endblock content %}
