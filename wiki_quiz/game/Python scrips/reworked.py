@@ -1,6 +1,8 @@
 from SPARQLWrapper import SPARQLWrapper, JSON
 from pprint import pprint
 from random import shuffle, choice
+from queries import country
+
 
 class Question:
     def __init__(self, question: str, answers: list):
@@ -15,20 +17,18 @@ class Answer:
         self.message = message
 
 
-
-
 class QuestionGenerator:
     def __init__(self):
         self.sparql = SPARQLWrapper("https://dbpedia.org/sparql")
         self.possiple_questions = {}
 
-    def generate_question(self, question_type=None):
+    def generate_question(self, question_type: str=None):
         if question_type:
             return self.possible_questions[question_type]
         else:
             return choice(self.possible_questions.values())
 
-    def _query_and_format(self, n_alternatives=4):
+    def _query_and_format(self, query_string: str, n_alternatives: int=4):
         # Comment
         query = self.sparql.setQuery(query_string)
 
@@ -54,14 +54,9 @@ class CountryQuestionGenerator(QuestionGenerator):
             "capital": self.get_capital_question(),
             "population": self.get_population_question()
         }
+        self.queries = country
 
     def generate_capital_question(self):
-        query_string = 
-            """
-                SELECT ?country ?capital 
-                WHERE {
-                    ?country dbo:capital ?capital .
-                    ?country dbo:countryCode ?code .
-                    FILTER NOT EXISTS {?country dbp:dateEnd ?date}
-                }
-            """
+        ...
+        # query_string = self.queries["capital"]
+        # data = self._query_and_format(query_string)
