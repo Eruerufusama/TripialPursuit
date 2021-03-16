@@ -4,6 +4,11 @@ from random import shuffle, choice
 from queries import country
 
 
+import os
+path = os.path.abspath(__file__)
+dir_path = os.path.dirname(path)
+
+
 class Question:
     def __init__(self, question: str, answers: list):
         self.question = question
@@ -41,22 +46,22 @@ class QuestionGenerator:
         # The object level where the interesting data is:
         data = results["results"]["bindings"]
 
-        shuffle(data)
 
         # Limits the result to n alternatives:
-        return data[0:n_alternatives]
+        return data
 
 class CountryQuestionGenerator(QuestionGenerator):
 
     def __init__(self):
         super(self).__init__()
+
         self.possible_questions = {
             "capital": self.get_capital_question(),
             "population": self.get_population_question()
         }
         self.queries = country
 
-    def generate_capital_question(self):
-        ...
-        # query_string = self.queries["capital"]
-        # data = self._query_and_format(query_string)
+    def get_capital_question(self):
+        result = self._query_and_format(self.queries["capital"])
+        shuffle(result)
+        return result
