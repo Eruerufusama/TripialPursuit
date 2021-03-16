@@ -1,7 +1,8 @@
 from SPARQLWrapper import SPARQLWrapper, JSON
 from pprint import pprint
 from random import shuffle, choice
-from queries import country
+from queries import countries
+from pprint import pprint
 
 
 import os
@@ -25,13 +26,15 @@ class Answer:
 class QuestionGenerator:
     def __init__(self):
         self.sparql = SPARQLWrapper("https://dbpedia.org/sparql")
-        self.possiple_questions = {}
+        self.possible_questions = {}
+
 
     def generate_question(self, question_type: str=None):
         if question_type:
             return self.possible_questions[question_type]
         else:
             return choice(self.possible_questions.values())
+
 
     def _query_and_format(self, query_string: str, n_alternatives: int=4):
         # Comment
@@ -50,8 +53,8 @@ class QuestionGenerator:
         # Limits the result to n alternatives:
         return data
 
-class CountryQuestionGenerator(QuestionGenerator):
 
+class CountryQuestionGenerator(QuestionGenerator):
     def __init__(self):
         super(self).__init__()
 
