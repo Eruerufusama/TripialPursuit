@@ -1,7 +1,7 @@
 from django.shortcuts import render
 
 # Erstatt denne commenten med en import til python-filen som genererer spørsmål.
-from reworked import CountryQuestionGenerator
+from game.processing.reworked import CountryQuestionGenerator
 
 
 
@@ -10,7 +10,7 @@ def question(request):
     generator = CountryQuestionGenerator()
     question = generator.generate_question("capital")
 
-    return render(request, 'game/question.html', question)
+    return render(request, 'game/question.html', question[0])
 
 
 # question = {
