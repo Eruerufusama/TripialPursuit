@@ -5,7 +5,7 @@ from queries import countrie_sqarql_querys
 from pprint import pprint
 from json import dump, load
 from os import path, getcwd
-from datatypes import Question, Answer
+from data_types import Question, Answer
 
 
 
@@ -62,16 +62,34 @@ class CountryQuestionGenerator(QuestionGenerator):
             shuffle(data)
             data_4_alternatives = data[0:4]
 
+            alternatives = []
             for i, element in enumerate(data_4_alternatives):
                 # Turns wikidata link and saves the end of the link after the last / and replace underscore with space.
                 country = element["country"]["value"].rsplit('/', 1)[-1].replace("_", " ")
                 capital = element["capital"]["value"].rsplit('/', 1)[-1].replace("_", " ")
-
+                
                 if i == 0:
-                    
-
+                    question_txt = f"What is the capitol of {country}?"
+                    alternatives.append(
+                        Answer(
+                            capital,
+                            True,
+                            f"That is correct, the capitol of {country} is {capital}"
+                        )
+                    )
+                
                 else:
-                    pass
+                    alternatives.append(
+                        Answer(
+                            capital,
+                            False,
+                            f"That is incorrect, the capitol of {country} is {capital}"
+                        )
+                    )
+                
+            question = Question(question_txt, alternatives)
+                
+            return question
 
 
 
@@ -81,4 +99,8 @@ if __name__ == "__main__":
     question_generator.query_to_json()
     
     counrty_question_generator = CountryQuestionGenerator()
-    counrty_question_generator.get_capital_question()
+    obj = counrty_question_generator.get_capital_question()
+    
+    print(obj.question)
+    for alternative in obj.answers:
+        print(f"answer: {alternative.answer}, is correct {alternative.is_correct}, message {alternative.message}\n")
