@@ -1,4 +1,4 @@
-countries = {
+countrie_sqarql_querys = {
     "capital" :
         """
             SELECT DISTINCT ?country ?capital
@@ -25,7 +25,7 @@ countries = {
                     ?country dbo:populationTotal ?pop .
                     FILTER NOT EXISTS {?country dbp:dateEnd ?date}
                     FILTER NOT EXISTS {?country dbo:administrativeCenter ?admin}
-                    FILTER NOT EXISTS {?country dbp:yearEnd ?year}
+                    FILTER NOT EXISTS {?country dbp:yearEnd ?year
                 }
             }
         """

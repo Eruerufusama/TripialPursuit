@@ -1,13 +1,10 @@
 from SPARQLWrapper import SPARQLWrapper, JSON
 from pprint import pprint
 from random import shuffle, choice
-from queries import countries
+from queries import countrie_sqarql_querys
 from pprint import pprint
-
-
-import os
-path = os.path.abspath(__file__)
-dir_path = os.path.dirname(path)
+from json import dump
+from os import path, getcwd
 
 
 class Question:
@@ -27,6 +24,13 @@ class QuestionGenerator:
     def __init__(self):
         self.sparql = SPARQLWrapper("https://dbpedia.org/sparql")
         self.possible_questions = {}
+
+
+    def query_to_json(self):
+        for query_name in countrie_sqarql_querys:
+            current_data = self._query_and_format(countrie_sqarql_querys[query_name])
+            with open(f"{getcwd()}\\wiki_quiz\\game\\json_data\\{query_name}.json", "w") as f:
+                dump(current_data, f, indent=4)
 
 
     def generate_question(self, question_type: str=None):
@@ -68,3 +72,7 @@ class CountryQuestionGenerator(QuestionGenerator):
         result = self._query_and_format(self.queries["capital"])
         shuffle(result)
         return result
+
+
+if __name__ == "__main__":
+    question_generator = QuestionGenerator()
