@@ -3,12 +3,21 @@ from pprint import pprint
 from random import shuffle, choice
 from queries import countrie_sqarql_querys
 from pprint import pprint
-from json import dump, load
+from json import dump
 from os import path, getcwd
-from datatypes import Question, Answer
 
 
+class Question:
+    def __init__(self, question: str, answers: list):
+        self.question = question
+        self.answers = answers
 
+
+class Answer:
+    def __init__(self, answer: str, is_correct: bool, message: str):
+        self.answer = answer
+        self.is_correct = is_correct
+        self.message = message
 
 
 class QuestionGenerator:
@@ -33,52 +42,32 @@ class QuestionGenerator:
 
     def _query_and_format(self, query_string: str, n_alternatives: int=4):
         # Comment
-        self.sparql.setQuery(query_string)
-
+        query = self.sparql.setQuery(query_string)
         # Converts to JSON format
         self.sparql.setReturnFormat(JSON)
-    
         # The returned data from the query:
         results = self.sparql.queryAndConvert()
-
         # The object level where the interesting data is:
         data = results["results"]["bindings"]
-
         # Limits the result to n alternatives:
         return data
 
 
 class CountryQuestionGenerator(QuestionGenerator):
     def __init__(self):
-        super().__init__()
-        self.file_path = "\\wiki_quiz\\game\\json_data\\"
+        super(self).__init__()
 
+        self.possible_questions = {
+            "capital": self.get_capital_question(),
+            "population": self.get_population_question()
+        }
+        self.queries = country
 
     def get_capital_question(self):
-        full_file_path = f"{getcwd()}{self.file_path}capital.json"
-        
-        with open(full_file_path, "r") as capital_json_data:
-            data = load(capital_json_data)
-            shuffle(data)
-            data_4_alternatives = data[0:4]
-
-            for i, element in enumerate(data_4_alternatives):
-                # Turns wikidata link and saves the end of the link after the last / and replace underscore with space.
-                country = element["country"]["value"].rsplit('/', 1)[-1].replace("_", " ")
-                capital = element["capital"]["value"].rsplit('/', 1)[-1].replace("_", " ")
-
-                if i == 0:
-                    
-
-                else:
-                    pass
-
-
+        result = self._query_and_format(self.queries["capital"])
+        shuffle(result)
+        return result
 
 
 if __name__ == "__main__":
     question_generator = QuestionGenerator()
-    question_generator.query_to_json()
-    
-    counrty_question_generator = CountryQuestionGenerator()
-    counrty_question_generator.get_capital_question()
