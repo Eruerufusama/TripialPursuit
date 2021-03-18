@@ -56,12 +56,12 @@ class CountryQuestions:
             country = element["country"]["value"].rsplit('/', 1)[-1].replace("_", " ")
             capital = element["capital"]["value"].rsplit('/', 1)[-1].replace("_", " ")
             if i == 0:
-                question["question_text"] = "What is the capitol of {}?".format(country)
+                question["question_text"] = f"What is the capitol of {country}?"
                 question["answers"].append(
                                             {
                                                 "text": capital,
                                                 "is_correct": True,
-                                                "message": "That is correct, the capitol of {} is {}".format(country, capital)
+                                                "message": f"That is correct, the capitol of {country} is {capital}"
                                             }
                                         )
             else:
@@ -69,7 +69,7 @@ class CountryQuestions:
                                             {
                                                 "text": capital, 
                                                 "is_correct": False,
-                                                "message": "That is incorrect, the capitol of {} is {}".format(country, capital)
+                                                "message": f"That is incorrect, the capitol of {country} is {capital}"
                                             }
                                         )
         
