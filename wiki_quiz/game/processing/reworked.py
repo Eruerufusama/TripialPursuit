@@ -1,12 +1,11 @@
 from SPARQLWrapper import SPARQLWrapper, JSON
 from pprint import pprint
-from random import shuffle, choice
+from random import shuffle, choice, sample
 from queries import countrie_sqarql_querys
 from pprint import pprint
 from json import dump, load
 from os import path, getcwd
 from data_types import Question, Answer
-
 
 
 
@@ -46,6 +45,13 @@ class QuestionGenerator:
 
         # Limits the result to n alternatives:
         return data
+    
+
+    def get_4_alternatives(self, file_path):
+        with open(file_path, "r") as capital_json_data:
+            data = load(capital_json_data)
+            data_4_alternatives = sample(data, 4)
+        return data_4_alternatives
 
 
 class CountryQuestionGenerator(QuestionGenerator):
@@ -53,44 +59,72 @@ class CountryQuestionGenerator(QuestionGenerator):
         super().__init__()
         self.file_path = "\\wiki_quiz\\game\\json_data\\"
 
-
     def get_capital_question(self):
         full_file_path = f"{getcwd()}{self.file_path}capital.json"
-        
-        with open(full_file_path, "r") as capital_json_data:
-            data = load(capital_json_data)
-            shuffle(data)
-            data_4_alternatives = data[0:4]
+        data_4_alternatives = self.get_4_alternatives(full_file_path)
 
-            alternatives = []
-            for i, element in enumerate(data_4_alternatives):
-                # Turns wikidata link and saves the end of the link after the last / and replace underscore with space.
-                country = element["country"]["value"].rsplit('/', 1)[-1].replace("_", " ")
-                capital = element["capital"]["value"].rsplit('/', 1)[-1].replace("_", " ")
-                
-                if i == 0:
-                    question_txt = f"What is the capitol of {country}?"
-                    alternatives.append(
-                        Answer(
-                            capital,
-                            True,
-                            f"That is correct, the capitol of {country} is {capital}"
-                        )
+        alternatives = []
+        for i, element in enumerate(data_4_alternatives):
+            # Turns wikidata link and saves the end of the link after the last / and replace underscore with space.
+            country = element["country"]["value"].rsplit('/', 1)[-1].replace("_", " ")
+            capital = element["capital"]["value"].rsplit('/', 1)[-1].replace("_", " ")
+            
+            if i == 0:
+                question_txt = f"What is the capitol of {country}?"
+                alternatives.append(
+                    Answer(
+                        capital,
+                        True,
+                        f"That is correct, the capitol of {country} is {capital}"
                     )
-                
-                else:
-                    alternatives.append(
-                        Answer(
-                            capital,
-                            False,
-                            f"That is incorrect, the capitol of {country} is {capital}"
-                        )
+                )
+            
+            else:
+                alternatives.append(
+                    Answer(
+                        capital,
+                        False,
+                        f"That is incorrect, the capitol of {country} is {capital}"
                     )
-                
-            question = Question(question_txt, alternatives)
-                
-            return question
+                )
+            
+        question = Question(question_txt, alternatives)
+            
+        return question
 
+    def get_population_question(self):
+        full_file_path = f"{getcwd()}{self.file_path}population.json"
+        data_4_alternatives = self.get_4_alternatives(full_file_path)
+
+        alternatives = []
+
+        for i, element in enumerate(data_4_alternatives):
+            country = element["country"]["value"].rsplit('/', 1)[-1].replace("_", " ")
+            population = int(element["population"]["value"].rsplit('/', 1)[-1].replace("_", " "))
+            population_mill = f"{str(round(population / 1000000, 3))} mill"
+
+            if i == 0:
+                question_txt = f"What is the population of {country}?"
+                alternatives.append(
+                    Answer(
+                        population_mill,
+                        True,
+                        f"That is correct, the population of {country} is {population_mill}"
+                    )
+                )
+            
+            else:
+                alternatives.append(
+                    Answer(
+                        population_mill,
+                        False,
+                        f"That is incorrect, the population of {country} is {population_mill}"
+                    )
+                )
+            
+        question = Question(question_txt, alternatives)
+            
+        return question
 
 
 
@@ -99,8 +133,8 @@ if __name__ == "__main__":
     question_generator.query_to_json()
     
     counrty_question_generator = CountryQuestionGenerator()
-    obj = counrty_question_generator.get_capital_question()
+    obj = counrty_question_generator.get_population_question()
     
     print(obj.question)
     for alternative in obj.answers:
-        print(f"answer: {alternative.answer}, is correct {alternative.is_correct}, message {alternative.message}\n")
+        print(f"answer: {alternative.answer}, is correct: {alternative.is_correct}, message: {alternative.message}\n")
