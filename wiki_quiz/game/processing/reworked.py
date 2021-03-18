@@ -5,19 +5,10 @@ from queries import countrie_sqarql_querys
 from pprint import pprint
 from json import dump
 from os import path, getcwd
+from datatypes import Question, Answer
 
 
-class Question:
-    def __init__(self, question: str, answers: list):
-        self.question = question
-        self.answers = answers
 
-
-class Answer:
-    def __init__(self, answer: str, is_correct: bool, message: str):
-        self.answer = answer
-        self.is_correct = is_correct
-        self.message = message
 
 
 class QuestionGenerator:
