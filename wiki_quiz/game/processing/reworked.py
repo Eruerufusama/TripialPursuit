@@ -13,7 +13,6 @@ from data_types import Question, Answer
 class QuestionGenerator:
     def __init__(self):
         self.sparql = SPARQLWrapper("https://dbpedia.org/sparql")
-        self.possible_questions = {}
 
 
     def query_to_json(self):
@@ -21,13 +20,6 @@ class QuestionGenerator:
             current_data = self._query_and_format(countrie_sqarql_querys[query_name])
             with open(f"{getcwd()}\\wiki_quiz\\game\\json_data\\{query_name}.json", "w") as f:
                 dump(current_data, f, indent=4)
-
-
-    def generate_question(self, question_type: str=None):
-        if question_type:
-            return self.possible_questions[question_type]
-        else:
-            return choice(self.possible_questions.values())
 
 
     def _query_and_format(self, query_string: str, n_alternatives: int=4):
@@ -58,6 +50,19 @@ class CountryQuestionGenerator(QuestionGenerator):
     def __init__(self):
         super().__init__()
         self.file_path = "\\wiki_quiz\\game\\json_data\\"
+        self.possible_country_questions = [
+                                            self.get_capital_question(),
+                                            self.get_population_question()
+                                        ]
+
+
+    def generate_country_questions(self, number_of_questions):
+        generated_questions = []
+        for i in range(number_of_questions):
+            random_question = choice(self.possible_country_questions)
+            generated_questions.append(random_question)
+        return generated_questions
+
 
     def get_capital_question(self):
         full_file_path = f"{getcwd()}{self.file_path}capital.json"
@@ -133,8 +138,10 @@ if __name__ == "__main__":
     question_generator.query_to_json()
     
     counrty_question_generator = CountryQuestionGenerator()
-    obj = counrty_question_generator.get_population_question()
+    question_list = counrty_question_generator.generate_country_questions(10)
     
-    print(obj.question)
-    for alternative in obj.answers:
-        print(f"answer: {alternative.answer}, is correct: {alternative.is_correct}, message: {alternative.message}\n")
+    print(question_list)
+
+    for obj in question_list:
+        for alternative in obj.answers:
+            print(f"answer: {alternative.answer}, is correct: {alternative.is_correct}, message: {alternative.message}\n")
