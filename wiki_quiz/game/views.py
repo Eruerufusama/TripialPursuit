@@ -13,7 +13,7 @@ def question(request):
     country_question_generator = CountryQuestionGenerator()
     question = country_question_generator.get_population_question()
 
-    return render(request, 'game/question.html', question)
+    return render(request, 'game/question.html', question.to_dict())
 
 
 # question = {
