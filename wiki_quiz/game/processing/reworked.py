@@ -4,10 +4,10 @@ from random import shuffle, choice, sample
 from pprint import pprint
 from json import dump, load
 from os import path, getcwd
-from data_types import Question, Answer
-from queries import countrie_sqarql_querys
-#from .data_types import Question, Answer
-#from .queries import countrie_sqarql_querys
+# from data_types import Question, Answer
+# from queries import countrie_sqarql_querys
+from .data_types import Question, Answer
+from .queries import countrie_sqarql_querys
 
 
 class QuestionGenerator:
@@ -39,7 +39,7 @@ class QuestionGenerator:
         return data
     
 
-    def get_4_alternatives(self, file_path):
+    def get_4_alternatives(self, file_path: str):
         with open(file_path, "r") as capital_json_data:
             data = load(capital_json_data)
             data_4_alternatives = sample(data, 4)
@@ -56,7 +56,7 @@ class CountryQuestionGenerator(QuestionGenerator):
                                         ]
 
 
-    def generate_country_questions(self, number_of_questions):
+    def generate_country_questions(self, number_of_questions: int):
         generated_questions = []
         for i in range(number_of_questions):
             random_question = choice(self.possible_country_questions)
