@@ -137,6 +137,7 @@ if __name__ == "__main__":
     question_generator = QuestionGenerator()
     question_generator.query_to_json()
     
+<<<<<<< HEAD
     counrty_question_generator = CountryQuestionGenerator()
     question_list = counrty_question_generator.generate_country_questions(10)
     
@@ -145,3 +146,11 @@ if __name__ == "__main__":
     for obj in question_list:
         for alternative in obj.answers:
             print(f"answer: {alternative.answer}, is correct: {alternative.is_correct}, message: {alternative.message}\n")
+=======
+    country_question_generator = CountryQuestionGenerator()
+    question = country_question_generator.get_population_question()
+    
+    print(question.question)
+    for alternative in question.answers:
+        print(f"answer: {alternative.answer}, is correct: {alternative.is_correct}, message: {alternative.message}\n")
+>>>>>>> c7c8702febe7f4bb94c096dd462a5cb1923bc172
