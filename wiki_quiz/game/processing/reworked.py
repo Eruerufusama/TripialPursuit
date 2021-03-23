@@ -14,6 +14,8 @@ class QuestionGenerator:
     def __init__(self):
         self.sparql = SPARQLWrapper("https://dbpedia.org/sparql")
 
+    def get_url_resource(self, element: dict, key: str):
+        return element[key]["value"].rsplit('/', 1)[-1].replace("_", " ")
 
     def query_to_json(self):
         for query_name in countrie_sqarql_querys:
@@ -99,8 +101,9 @@ class CountryQuestionGenerator(QuestionGenerator):
         alternatives = []
         for i, element in enumerate(data_4_alternatives):
             # Turns wikidata link and saves the end of the link after the last / and replace underscore with space.
-            country = element["country"]["value"].rsplit('/', 1)[-1].replace("_", " ")
-            capital = element["capital"]["value"].rsplit('/', 1)[-1].replace("_", " ")
+            print(element)
+            country = self.get_url_resource(element, "country")
+            capital = self.get_url_resource(element, "capital")
             
             if i == 0:
                 question_txt = f"What is the capitol of {country}?"
@@ -120,9 +123,9 @@ class CountryQuestionGenerator(QuestionGenerator):
                         f"That is incorrect, the capitol of {country} is {capital}"
                     )
                 )
-            
+        
+        shuffle(alternatives)   
         question = Question(question_txt, alternatives)
-        shuffle(question.answers)
         return question
 
     def get_population_question(self):
@@ -132,8 +135,8 @@ class CountryQuestionGenerator(QuestionGenerator):
         alternatives = []
 
         for i, element in enumerate(data_4_alternatives):
-            country = element["country"]["value"].rsplit('/', 1)[-1].replace("_", " ")
-            population = int(element["population"]["value"].rsplit('/', 1)[-1].replace("_", " "))
+            country = self.get_url_resource(element, "country")
+            population = int(self.get_url_resource(element, "population"))
             population_mill = f"{str(round(population / 1000000, 3))} mill"
 
             if i == 0:
@@ -154,9 +157,9 @@ class CountryQuestionGenerator(QuestionGenerator):
                         f"That is incorrect, the population of {country} is {population_mill}"
                     )
                 )
-            
+        
+        shuffle(alternatives)
         question = Question(question_txt, alternatives)
-        shuffle(question.answers)
         return question
 
 
@@ -168,8 +171,5 @@ if __name__ == "__main__":
     counrty_question_generator = CountryQuestionGenerator()
     question_list = counrty_question_generator.generate_country_questions(10)
     
-    print(question_list)
-
-    for obj in question_list:
-        for alternative in obj.answers:
-            print(f"answer: {alternative.answer}, is correct: {alternative.is_correct}, message: {alternative.message}\n")
+    for question in question_list:
+        pprint(question.to_dict())
