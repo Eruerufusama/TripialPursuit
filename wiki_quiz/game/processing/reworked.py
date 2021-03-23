@@ -132,9 +132,9 @@ if __name__ == "__main__":
     question_generator = QuestionGenerator()
     question_generator.query_to_json()
     
-    counrty_question_generator = CountryQuestionGenerator()
-    obj = counrty_question_generator.get_population_question()
+    country_question_generator = CountryQuestionGenerator()
+    question = country_question_generator.get_population_question()
     
-    print(obj.question)
-    for alternative in obj.answers:
+    print(question.question)
+    for alternative in question.answers:
         print(f"answer: {alternative.answer}, is correct: {alternative.is_correct}, message: {alternative.message}\n")
