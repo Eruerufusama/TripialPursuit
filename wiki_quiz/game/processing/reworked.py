@@ -4,11 +4,10 @@ from random import shuffle, choice, sample
 from pprint import pprint
 from json import dump, load
 from os import path, getcwd
-
-from .data_types import Question, Answer
-from .queries import countrie_sqarql_querys
-
-
+from data_types import Question, Answer
+from queries import countrie_sqarql_querys
+#from .data_types import Question, Answer
+#from .queries import countrie_sqarql_querys
 
 
 class QuestionGenerator:
@@ -95,7 +94,7 @@ class CountryQuestionGenerator(QuestionGenerator):
                 )
             
         question = Question(question_txt, alternatives)
-            
+        shuffle(question.answers)
         return question
 
     def get_population_question(self):
@@ -129,7 +128,7 @@ class CountryQuestionGenerator(QuestionGenerator):
                 )
             
         question = Question(question_txt, alternatives)
-            
+        shuffle(question.answers)
         return question
 
 
