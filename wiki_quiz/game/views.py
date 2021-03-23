@@ -1,16 +1,19 @@
 from django.shortcuts import render
 
 # Erstatt denne commenten med en import til python-filen som genererer spørsmål.
-from game.processing.reworked import CountryQuestionGenerator
+from game.processing.reworked import CountryQuestionGenerator, QuestionGenerator
 
 
 
 def question(request):
     # Erstatt denne commenten med en instans av et generert spørsmål.
-    generator = CountryQuestionGenerator()
-    question = generator.generate_question("capital")
+    question_generator = QuestionGenerator()
+    question_generator.query_to_json()
+    
+    country_question_generator = CountryQuestionGenerator()
+    question = country_question_generator.get_population_question()
 
-    return render(request, 'game/question.html', question[0])
+    return render(request, 'game/question.html', question)
 
 
 # question = {
