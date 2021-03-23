@@ -4,10 +4,10 @@ from random import shuffle, choice, sample
 from pprint import pprint
 from json import dump, load
 from os import path, getcwd
-# from data_types import Question, Answer
-# from queries import countrie_sqarql_querys
-from .data_types import Question, Answer
-from .queries import countrie_sqarql_querys
+from data_types import Question, Answer
+from queries import countrie_sqarql_querys
+#from .data_types import Question, Answer
+#from .queries import countrie_sqarql_querys
 
 
 class QuestionGenerator:
@@ -22,7 +22,15 @@ class QuestionGenerator:
                 dump(current_data, f, indent=4)
 
 
-    def _query_and_format(self, query_string: str, n_alternatives: int=4):
+    def _query_and_format(self, query_string: str):
+        """
+        Args:
+            query_string (str): query in string format
+
+        Returns:
+            dict: Returns all the relevant data from a SPARQL query as a dictionary
+        """
+
         # Comment
         self.sparql.setQuery(query_string)
 
@@ -39,10 +47,18 @@ class QuestionGenerator:
         return data
     
 
-    def get_4_alternatives(self, file_path: str):
+    def get_alternatives(self, file_path: str, number_of_alternatives=4):
+        """
+        Args:
+            file_path (str): json folder location file path
+            number_of_alternatives ([type], optional): [description]. Defaults to 4:int.
+
+        Returns:
+            list: returns a list with the 4 alternatives for the generated question.
+        """
         with open(file_path, "r") as capital_json_data:
             data = load(capital_json_data)
-            data_4_alternatives = sample(data, 4)
+            data_4_alternatives = sample(data, number_of_alternatives)
         return data_4_alternatives
 
 
@@ -57,6 +73,13 @@ class CountryQuestionGenerator(QuestionGenerator):
 
 
     def generate_country_questions(self, number_of_questions: int):
+        """
+        Args:
+            number_of_questions (int): number of country category questions to generate.
+
+        Returns:
+            list: returns a list with all the n number of generated questions from the country category.
+        """
         generated_questions = []
         for i in range(number_of_questions):
             random_question = choice(self.possible_country_questions)
@@ -65,8 +88,13 @@ class CountryQuestionGenerator(QuestionGenerator):
 
 
     def get_capital_question(self):
+        """
+        Returns:
+            obj: returns an object which contains all the relevant data 
+                 for the capital question to be desplayed on the webpage.
+        """
         full_file_path = f"{getcwd()}{self.file_path}capital.json"
-        data_4_alternatives = self.get_4_alternatives(full_file_path)
+        data_4_alternatives = self.get_alternatives(full_file_path)
 
         alternatives = []
         for i, element in enumerate(data_4_alternatives):
@@ -99,7 +127,7 @@ class CountryQuestionGenerator(QuestionGenerator):
 
     def get_population_question(self):
         full_file_path = f"{getcwd()}{self.file_path}population.json"
-        data_4_alternatives = self.get_4_alternatives(full_file_path)
+        data_4_alternatives = self.get_alternatives(full_file_path)
 
         alternatives = []
 
