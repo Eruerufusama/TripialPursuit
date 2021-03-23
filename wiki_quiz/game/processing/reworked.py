@@ -15,6 +15,15 @@ class QuestionGenerator:
         self.sparql = SPARQLWrapper("https://dbpedia.org/sparql")
 
     def get_url_resource(self, element: dict, key: str):
+        """
+        Args:
+            element (dict): query data
+            key (str): dict key
+
+        Returns:
+            str: name of the url resource
+        """
+        print(element)
         return element[key]["value"].rsplit('/', 1)[-1].replace("_", " ")
 
     def query_to_json(self):
@@ -172,4 +181,5 @@ if __name__ == "__main__":
     question_list = counrty_question_generator.generate_country_questions(10)
     
     for question in question_list:
-        pprint(question.to_dict())
+        #pprint(question.to_dict())
+        pass
