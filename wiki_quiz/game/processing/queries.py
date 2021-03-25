@@ -13,6 +13,7 @@ countrie_sqarql_querys = {
                     FILTER NOT EXISTS {?country dbp:yearEnd ?year}
                 }
         """,
+    
     "population":
         """
             SELECT DISTINCT ?country ?population 
@@ -26,5 +27,18 @@ countrie_sqarql_querys = {
                     FILTER NOT EXISTS {?country dbo:administrativeCenter ?admin}
                     FILTER NOT EXISTS {?country dbp:yearEnd ?year}
                 }
+    """,
+    
+    "island": 
+        """
+            SELECT DISTINCT ?island ?area ?country 
+            WHERE {
+                ?island rdf:type yago:Island109316454.
+                ?island dbp:areaKm ?area .
+                ?island dbo:country ?country.
+                FILTER NOT EXISTS {?island dbo:countryCode ?code}
+            }
+            ORDER BY DESC (?area)
+            LIMIT(100)
         """
 }

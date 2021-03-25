@@ -23,7 +23,6 @@ class QuestionGenerator:
         Returns:
             str: name of the url resource
         """
-        print(element)
         return element[key]["value"].rsplit('/', 1)[-1].replace("_", " ")
 
     def query_to_json(self):
@@ -79,7 +78,8 @@ class CountryQuestionGenerator(QuestionGenerator):
         self.file_path = "\\wiki_quiz\\game\\json_data\\"
         self.possible_country_questions = [
                                             self.get_capital_question(),
-                                            self.get_population_question()
+                                            self.get_population_question(),
+                                            self.get_island_question()
                                         ]
 
 
@@ -110,7 +110,6 @@ class CountryQuestionGenerator(QuestionGenerator):
         alternatives = []
         for i, element in enumerate(data_4_alternatives):
             # Turns wikidata link and saves the end of the link after the last / and replace underscore with space.
-            print(element)
             country = self.get_url_resource(element, "country")
             capital = self.get_url_resource(element, "capital")
             
@@ -170,6 +169,41 @@ class CountryQuestionGenerator(QuestionGenerator):
         shuffle(alternatives)
         question = Question(question_txt, alternatives)
         return question
+    
+    def get_island_question(self):
+        full_file_path = f"{getcwd()}{self.file_path}island.json"
+        data_4_alternatives = self.get_alternatives(full_file_path)
+
+        alternatives = []
+        for i, element in enumerate(data_4_alternatives):
+            country = self.get_url_resource(element, "country")
+            island = self.get_url_resource(element, "island")
+            
+            if i == 0: 
+                question_txt = f"What country is the island {island} located in?"
+                alternatives.append(
+                    Answer(
+                        country,
+                        True,
+                        f"That is correct, the island {island} is located in {country}"
+                    )
+                )
+            
+            else:
+                alternatives.append(
+                    Answer(
+                        island,
+                        False,
+                        f"That is incorrect, the island {island} is located in {country}"
+                    )
+                )
+        
+        shuffle(alternatives)
+        question = Question(question_txt, alternatives)
+        return question
+
+
+
 
 
 
@@ -179,7 +213,9 @@ if __name__ == "__main__":
     
     counrty_question_generator = CountryQuestionGenerator()
     question_list = counrty_question_generator.generate_country_questions(10)
-    
+
     for question in question_list:
         #pprint(question.to_dict())
         pass
+    
+    pprint(counrty_question_generator.get_island_question().to_dict())
