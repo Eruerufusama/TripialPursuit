@@ -4,10 +4,14 @@ from random import shuffle, choice, sample
 from pprint import pprint
 from json import dump, load
 from os import path, getcwd
-from data_types import Question, Answer
-from queries import countrie_sqarql_querys
-#from .data_types import Question, Answer
-#from .queries import countrie_sqarql_querys
+from hashlib import md5
+from time import sleep
+try:
+    from data_types import Question, Answer
+    from queries import countrie_sqarql_querys
+except:
+    from .data_types import Question, Answer
+    from .queries import countrie_sqarql_querys
 
 
 class QuestionGenerator:
@@ -77,11 +81,12 @@ class CountryQuestionGenerator(QuestionGenerator):
         super().__init__()
         self.file_path = "\\wiki_quiz\\game\\json_data\\"
         self.possible_country_questions = [
-                                            self.get_capital_question(),
-                                            self.get_population_question(),
-                                            self.get_island_question(),
-                                            self.get_olymics_question()
+                                            self.get_capital_question,
+                                            self.get_population_question,
+                                            self.get_island_question,
+                                            self.get_olymics_question
                                         ]
+        self.previous_questions = []
 
 
     def generate_country_questions(self, number_of_questions: int):
@@ -93,9 +98,17 @@ class CountryQuestionGenerator(QuestionGenerator):
             list: returns a list with all the n number of generated questions from the country category.
         """
         generated_questions = []
-        for i in range(number_of_questions):
-            random_question = choice(self.possible_country_questions)
-            generated_questions.append(random_question)
+        while len(generated_questions) < number_of_questions:
+            
+            random_question = choice(self.possible_country_questions)()
+            question_text = random_question.question
+            
+            if question_text not in self.previous_questions:
+                generated_questions.append(random_question)
+                self.previous_questions.append(question_text)
+            sleep(1)
+            print(self.previous_questions)
+        
         return generated_questions
 
 
@@ -249,4 +262,5 @@ if __name__ == "__main__":
         #pprint(question.to_dict())
         pass
     
-    pprint(counrty_question_generator.get_olymics_question().to_dict())
+    pprint(counrty_question_generator.previous_questions)
+    #pprint(counrty_question_generator.get_olymics_question().to_dict())

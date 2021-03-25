@@ -92,16 +92,6 @@
     {
         "island": {
             "type": "uri",
-            "value": "http://dbpedia.org/resource/Kaiser-Wilhelmsland"
-        },
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/German_Empire"
-        }
-    },
-    {
-        "island": {
-            "type": "uri",
             "value": "http://dbpedia.org/resource/Sulawesi"
         },
         "country": {
@@ -337,16 +327,6 @@
         "country": {
             "type": "uri",
             "value": "http://dbpedia.org/resource/East_Timor"
-        }
-    },
-    {
-        "island": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/New_Siberian_Islands"
-        },
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Russian_Federation"
         }
     },
     {
@@ -622,16 +602,6 @@
     {
         "island": {
             "type": "uri",
-            "value": "http://dbpedia.org/resource/Disko_Island"
-        },
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Greenland"
-        }
-    },
-    {
-        "island": {
-            "type": "uri",
             "value": "http://dbpedia.org/resource/Crete"
         },
         "country": {
@@ -747,16 +717,6 @@
         "country": {
             "type": "uri",
             "value": "http://dbpedia.org/resource/Russia"
-        }
-    },
-    {
-        "island": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Andros,_Bahamas"
-        },
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Bahamas"
         }
     },
     {
@@ -892,16 +852,6 @@
     {
         "island": {
             "type": "uri",
-            "value": "http://dbpedia.org/resource/Isabela_Island_(Gal\u00e1pagos)"
-        },
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Volc\u00e1n_Ecuador"
-        }
-    },
-    {
-        "island": {
-            "type": "uri",
             "value": "http://dbpedia.org/resource/Lombok"
         },
         "country": {
@@ -962,16 +912,6 @@
     {
         "island": {
             "type": "uri",
-            "value": "http://dbpedia.org/resource/Spaatz_Island"
-        },
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Antarctica"
-        }
-    },
-    {
-        "island": {
-            "type": "uri",
             "value": "http://dbpedia.org/resource/Madura_Island"
         },
         "country": {
@@ -997,6 +937,66 @@
         "country": {
             "type": "uri",
             "value": "http://dbpedia.org/resource/Indonesia"
+        }
+    },
+    {
+        "island": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Espiritu_Santo"
+        },
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Vanuatu"
+        }
+    },
+    {
+        "island": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Santa_In\u00e9s_Island"
+        },
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Chile"
+        }
+    },
+    {
+        "island": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Euboea"
+        },
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Greece"
+        }
+    },
+    {
+        "island": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Kolguyev_Island"
+        },
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Russia"
+        }
+    },
+    {
+        "island": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Moresby_Island"
+        },
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Canada"
+        }
+    },
+    {
+        "island": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Vaygach_Island"
+        },
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Russia"
         }
     }
 ]
