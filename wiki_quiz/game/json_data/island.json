@@ -4,11 +4,6 @@
             "type": "uri",
             "value": "http://dbpedia.org/resource/Malay_Archipelago"
         },
-        "area": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
-            "value": "2000000"
-        },
         "country": {
             "type": "uri",
             "value": "http://dbpedia.org/resource/Brunei"
@@ -18,11 +13,6 @@
         "island": {
             "type": "uri",
             "value": "http://dbpedia.org/resource/New_Guinea"
-        },
-        "area": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
-            "value": "785753"
         },
         "country": {
             "type": "uri",
@@ -34,11 +24,6 @@
             "type": "uri",
             "value": "http://dbpedia.org/resource/Borneo"
         },
-        "area": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
-            "value": "748168"
-        },
         "country": {
             "type": "uri",
             "value": "http://dbpedia.org/resource/Brunei"
@@ -48,11 +33,6 @@
         "island": {
             "type": "uri",
             "value": "http://dbpedia.org/resource/Baffin_Island"
-        },
-        "area": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
-            "value": "507451"
         },
         "country": {
             "type": "uri",
@@ -64,11 +44,6 @@
             "type": "uri",
             "value": "http://dbpedia.org/resource/Sumatra"
         },
-        "area": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
-            "value": "473481"
-        },
         "country": {
             "type": "uri",
             "value": "http://dbpedia.org/resource/Indonesia"
@@ -78,11 +53,6 @@
         "island": {
             "type": "uri",
             "value": "http://dbpedia.org/resource/Honshu"
-        },
-        "area": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
-            "value": "227960"
         },
         "country": {
             "type": "uri",
@@ -94,11 +64,6 @@
             "type": "uri",
             "value": "http://dbpedia.org/resource/Victoria_Island_(Canada)"
         },
-        "area": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
-            "value": "217291"
-        },
         "country": {
             "type": "uri",
             "value": "http://dbpedia.org/resource/Canada"
@@ -108,11 +73,6 @@
         "island": {
             "type": "uri",
             "value": "http://dbpedia.org/resource/Great_Britain"
-        },
-        "area": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
-            "value": "209331"
         },
         "country": {
             "type": "uri",
@@ -124,11 +84,6 @@
             "type": "uri",
             "value": "http://dbpedia.org/resource/Dinish_Island"
         },
-        "area": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
-            "value": "182109"
-        },
         "country": {
             "type": "uri",
             "value": "http://dbpedia.org/resource/Republic_of_Ireland"
@@ -138,11 +93,6 @@
         "island": {
             "type": "uri",
             "value": "http://dbpedia.org/resource/Kaiser-Wilhelmsland"
-        },
-        "area": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
-            "value": "181650"
         },
         "country": {
             "type": "uri",
@@ -154,11 +104,6 @@
             "type": "uri",
             "value": "http://dbpedia.org/resource/Sulawesi"
         },
-        "area": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#double",
-            "value": "180681.0"
-        },
         "country": {
             "type": "uri",
             "value": "http://dbpedia.org/resource/Indonesia"
@@ -168,11 +113,6 @@
         "island": {
             "type": "uri",
             "value": "http://dbpedia.org/resource/South_Island"
-        },
-        "area": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
-            "value": "150437"
         },
         "country": {
             "type": "uri",
@@ -184,11 +124,6 @@
             "type": "uri",
             "value": "http://dbpedia.org/resource/Java"
         },
-        "area": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#double",
-            "value": "138794.0"
-        },
         "country": {
             "type": "uri",
             "value": "http://dbpedia.org/resource/Indonesia"
@@ -198,11 +133,6 @@
         "island": {
             "type": "uri",
             "value": "http://dbpedia.org/resource/North_Island"
-        },
-        "area": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
-            "value": "113729"
         },
         "country": {
             "type": "uri",
@@ -214,11 +144,6 @@
             "type": "uri",
             "value": "http://dbpedia.org/resource/Luzon"
         },
-        "area": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
-            "value": "109965"
-        },
         "country": {
             "type": "uri",
             "value": "http://dbpedia.org/resource/Philippines"
@@ -228,11 +153,6 @@
         "island": {
             "type": "uri",
             "value": "http://dbpedia.org/resource/Mindanao"
-        },
-        "area": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
-            "value": "97530"
         },
         "country": {
             "type": "uri",
@@ -244,11 +164,6 @@
             "type": "uri",
             "value": "http://dbpedia.org/resource/Novaya_Zemlya"
         },
-        "area": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
-            "value": "90650"
-        },
         "country": {
             "type": "uri",
             "value": "http://dbpedia.org/resource/Russia"
@@ -258,11 +173,6 @@
         "island": {
             "type": "uri",
             "value": "http://dbpedia.org/resource/Ireland"
-        },
-        "area": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
-            "value": "84421"
         },
         "country": {
             "type": "uri",
@@ -274,11 +184,6 @@
             "type": "uri",
             "value": "http://dbpedia.org/resource/Roman_Catholic_Diocese_of_Amboina"
         },
-        "area": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
-            "value": "83777"
-        },
         "country": {
             "type": "uri",
             "value": "http://dbpedia.org/resource/Indonesia"
@@ -288,11 +193,6 @@
         "island": {
             "type": "uri",
             "value": "http://dbpedia.org/resource/Hokkaido"
-        },
-        "area": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#double",
-            "value": "77981.9"
         },
         "country": {
             "type": "uri",
@@ -304,11 +204,6 @@
             "type": "uri",
             "value": "http://dbpedia.org/resource/Hispaniola"
         },
-        "area": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
-            "value": "76192"
-        },
         "country": {
             "type": "uri",
             "value": "http://dbpedia.org/resource/Dominican_Republic"
@@ -318,11 +213,6 @@
         "island": {
             "type": "uri",
             "value": "http://dbpedia.org/resource/Maluku_Islands"
-        },
-        "area": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
-            "value": "74505"
         },
         "country": {
             "type": "uri",
@@ -334,11 +224,6 @@
             "type": "uri",
             "value": "http://dbpedia.org/resource/Sakhalin"
         },
-        "area": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
-            "value": "72492"
-        },
         "country": {
             "type": "uri",
             "value": "http://dbpedia.org/resource/Russia"
@@ -348,11 +233,6 @@
         "island": {
             "type": "uri",
             "value": "http://dbpedia.org/resource/Visayas"
-        },
-        "area": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
-            "value": "71503"
         },
         "country": {
             "type": "uri",
@@ -364,11 +244,6 @@
             "type": "uri",
             "value": "http://dbpedia.org/resource/Bismarck_Archipelago"
         },
-        "area": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
-            "value": "49700"
-        },
         "country": {
             "type": "uri",
             "value": "http://dbpedia.org/resource/Papua_New_Guinea"
@@ -378,11 +253,6 @@
         "island": {
             "type": "uri",
             "value": "http://dbpedia.org/resource/Severny_Island"
-        },
-        "area": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
-            "value": "48904"
         },
         "country": {
             "type": "uri",
@@ -394,11 +264,6 @@
             "type": "uri",
             "value": "http://dbpedia.org/resource/Isla_Grande_de_Tierra_del_Fuego"
         },
-        "area": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
-            "value": "47992"
-        },
         "country": {
             "type": "uri",
             "value": "http://dbpedia.org/resource/Argentina"
@@ -408,11 +273,6 @@
         "island": {
             "type": "uri",
             "value": "http://dbpedia.org/resource/Axel_Heiberg_Island"
-        },
-        "area": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
-            "value": "43178"
         },
         "country": {
             "type": "uri",
@@ -424,11 +284,6 @@
             "type": "uri",
             "value": "http://dbpedia.org/resource/Maraj\u00f3"
         },
-        "area": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
-            "value": "40100"
-        },
         "country": {
             "type": "uri",
             "value": "http://dbpedia.org/resource/Brazil"
@@ -438,11 +293,6 @@
         "island": {
             "type": "uri",
             "value": "http://dbpedia.org/resource/Spitsbergen"
-        },
-        "area": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
-            "value": "37673"
         },
         "country": {
             "type": "uri",
@@ -454,11 +304,6 @@
             "type": "uri",
             "value": "http://dbpedia.org/resource/Kyushu"
         },
-        "area": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
-            "value": "36782"
-        },
         "country": {
             "type": "uri",
             "value": "http://dbpedia.org/resource/Japan"
@@ -468,11 +313,6 @@
         "island": {
             "type": "uri",
             "value": "http://dbpedia.org/resource/New_Britain"
-        },
-        "area": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
-            "value": "36520"
         },
         "country": {
             "type": "uri",
@@ -484,11 +324,6 @@
             "type": "uri",
             "value": "http://dbpedia.org/resource/Yuzhny_Island"
         },
-        "area": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
-            "value": "33275"
-        },
         "country": {
             "type": "uri",
             "value": "http://dbpedia.org/resource/Russia"
@@ -498,11 +333,6 @@
         "island": {
             "type": "uri",
             "value": "http://dbpedia.org/resource/Timor"
-        },
-        "area": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
-            "value": "30777"
         },
         "country": {
             "type": "uri",
@@ -514,11 +344,6 @@
             "type": "uri",
             "value": "http://dbpedia.org/resource/New_Siberian_Islands"
         },
-        "area": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
-            "value": "29900"
-        },
         "country": {
             "type": "uri",
             "value": "http://dbpedia.org/resource/Russian_Federation"
@@ -528,11 +353,6 @@
         "island": {
             "type": "uri",
             "value": "http://dbpedia.org/resource/Bananal_Island"
-        },
-        "area": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#double",
-            "value": "19162.2"
         },
         "country": {
             "type": "uri",
@@ -544,11 +364,6 @@
             "type": "uri",
             "value": "http://dbpedia.org/resource/Halmahera"
         },
-        "area": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
-            "value": "17780"
-        },
         "country": {
             "type": "uri",
             "value": "http://dbpedia.org/resource/Indonesia"
@@ -558,11 +373,6 @@
         "island": {
             "type": "uri",
             "value": "http://dbpedia.org/resource/Seram_Island"
-        },
-        "area": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
-            "value": "17100"
         },
         "country": {
             "type": "uri",
@@ -574,11 +384,6 @@
             "type": "uri",
             "value": "http://dbpedia.org/resource/Franz_Josef_Land"
         },
-        "area": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
-            "value": "16134"
-        },
         "country": {
             "type": "uri",
             "value": "http://dbpedia.org/resource/Russia"
@@ -588,11 +393,6 @@
         "island": {
             "type": "uri",
             "value": "http://dbpedia.org/resource/Bathurst_Island_(Nunavut)"
-        },
-        "area": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
-            "value": "16042"
         },
         "country": {
             "type": "uri",
@@ -604,11 +404,6 @@
             "type": "uri",
             "value": "http://dbpedia.org/resource/Prince_Patrick_Island"
         },
-        "area": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
-            "value": "15848"
-        },
         "country": {
             "type": "uri",
             "value": "http://dbpedia.org/resource/Canada"
@@ -618,11 +413,6 @@
         "island": {
             "type": "uri",
             "value": "http://dbpedia.org/resource/Sumbawa"
-        },
-        "area": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#double",
-            "value": "15214.1"
         },
         "country": {
             "type": "uri",
@@ -634,11 +424,6 @@
             "type": "uri",
             "value": "http://dbpedia.org/resource/Nordaustlandet"
         },
-        "area": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
-            "value": "14443"
-        },
         "country": {
             "type": "uri",
             "value": "http://dbpedia.org/resource/Norway"
@@ -648,11 +433,6 @@
         "island": {
             "type": "uri",
             "value": "http://dbpedia.org/resource/October_Revolution_Island"
-        },
-        "area": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
-            "value": "14170"
         },
         "country": {
             "type": "uri",
@@ -664,11 +444,6 @@
             "type": "uri",
             "value": "http://dbpedia.org/resource/Flores"
         },
-        "area": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
-            "value": "13540"
-        },
         "country": {
             "type": "uri",
             "value": "http://dbpedia.org/resource/Indonesia"
@@ -678,11 +453,6 @@
         "island": {
             "type": "uri",
             "value": "http://dbpedia.org/resource/Samar"
-        },
-        "area": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#double",
-            "value": "13428.8"
         },
         "country": {
             "type": "uri",
@@ -694,11 +464,6 @@
             "type": "uri",
             "value": "http://dbpedia.org/resource/Palawan_(island)"
         },
-        "area": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#double",
-            "value": "12188.6"
-        },
         "country": {
             "type": "uri",
             "value": "http://dbpedia.org/resource/Philippines"
@@ -708,11 +473,6 @@
         "island": {
             "type": "uri",
             "value": "http://dbpedia.org/resource/Panay"
-        },
-        "area": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
-            "value": "12011"
         },
         "country": {
             "type": "uri",
@@ -724,11 +484,6 @@
             "type": "uri",
             "value": "http://dbpedia.org/resource/Tupinambarana"
         },
-        "area": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
-            "value": "11850"
-        },
         "country": {
             "type": "uri",
             "value": "http://dbpedia.org/resource/Brazil"
@@ -738,11 +493,6 @@
         "island": {
             "type": "uri",
             "value": "http://dbpedia.org/resource/Yos_Sudarso_Island"
-        },
-        "area": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
-            "value": "11742"
         },
         "country": {
             "type": "uri",
@@ -754,11 +504,6 @@
             "type": "uri",
             "value": "http://dbpedia.org/resource/Bangka_Island"
         },
-        "area": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#double",
-            "value": "11693.5"
-        },
         "country": {
             "type": "uri",
             "value": "http://dbpedia.org/resource/Indonesia"
@@ -768,11 +513,6 @@
         "island": {
             "type": "uri",
             "value": "http://dbpedia.org/resource/Ellef_Ringnes_Island"
-        },
-        "area": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
-            "value": "11295"
         },
         "country": {
             "type": "uri",
@@ -784,11 +524,6 @@
             "type": "uri",
             "value": "http://dbpedia.org/resource/Bolshevik_Island"
         },
-        "area": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
-            "value": "11270"
-        },
         "country": {
             "type": "uri",
             "value": "http://dbpedia.org/resource/Russia"
@@ -798,11 +533,6 @@
         "island": {
             "type": "uri",
             "value": "http://dbpedia.org/resource/Bylot_Island"
-        },
-        "area": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
-            "value": "11067"
         },
         "country": {
             "type": "uri",
@@ -814,11 +544,6 @@
             "type": "uri",
             "value": "http://dbpedia.org/resource/Sumba"
         },
-        "area": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#double",
-            "value": "11059.6"
-        },
         "country": {
             "type": "uri",
             "value": "http://dbpedia.org/resource/Indonesia"
@@ -828,11 +553,6 @@
         "island": {
             "type": "uri",
             "value": "http://dbpedia.org/resource/Roman_Catholic_Archdiocese_of_Honiara"
-        },
-        "area": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
-            "value": "10728"
         },
         "country": {
             "type": "uri",
@@ -844,11 +564,6 @@
             "type": "uri",
             "value": "http://dbpedia.org/resource/Mindoro"
         },
-        "area": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#double",
-            "value": "10571.8"
-        },
         "country": {
             "type": "uri",
             "value": "http://dbpedia.org/resource/Philippines"
@@ -858,11 +573,6 @@
         "island": {
             "type": "uri",
             "value": "http://dbpedia.org/resource/Cape_Breton_Island"
-        },
-        "area": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
-            "value": "10311"
         },
         "country": {
             "type": "uri",
@@ -874,11 +584,6 @@
             "type": "uri",
             "value": "http://dbpedia.org/resource/Prince_Charles_Island"
         },
-        "area": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
-            "value": "9521"
-        },
         "country": {
             "type": "uri",
             "value": "http://dbpedia.org/resource/Canada"
@@ -888,11 +593,6 @@
         "island": {
             "type": "uri",
             "value": "http://dbpedia.org/resource/Buru"
-        },
-        "area": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
-            "value": "9505"
         },
         "country": {
             "type": "uri",
@@ -904,11 +604,6 @@
             "type": "uri",
             "value": "http://dbpedia.org/resource/Bougainville_Island"
         },
-        "area": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
-            "value": "9318"
-        },
         "country": {
             "type": "uri",
             "value": "http://dbpedia.org/resource/Papua_New_Guinea"
@@ -918,11 +613,6 @@
         "island": {
             "type": "uri",
             "value": "http://dbpedia.org/resource/Komsomolets_Island"
-        },
-        "area": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
-            "value": "9006"
         },
         "country": {
             "type": "uri",
@@ -934,11 +624,6 @@
             "type": "uri",
             "value": "http://dbpedia.org/resource/Disko_Island"
         },
-        "area": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
-            "value": "8578"
-        },
         "country": {
             "type": "uri",
             "value": "http://dbpedia.org/resource/Greenland"
@@ -948,11 +633,6 @@
         "island": {
             "type": "uri",
             "value": "http://dbpedia.org/resource/Crete"
-        },
-        "area": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
-            "value": "8450"
         },
         "country": {
             "type": "uri",
@@ -964,11 +644,6 @@
             "type": "uri",
             "value": "http://dbpedia.org/resource/Chilo\u00e9_Island"
         },
-        "area": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
-            "value": "8394"
-        },
         "country": {
             "type": "uri",
             "value": "http://dbpedia.org/resource/Chile"
@@ -978,11 +653,6 @@
         "island": {
             "type": "uri",
             "value": "http://dbpedia.org/resource/Tiwi_Islands"
-        },
-        "area": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
-            "value": "8320"
         },
         "country": {
             "type": "uri",
@@ -994,11 +664,6 @@
             "type": "uri",
             "value": "http://dbpedia.org/resource/Apostolic_Vicariate_of_Gal\u00e1pagos"
         },
-        "area": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
-            "value": "8010"
-        },
         "country": {
             "type": "uri",
             "value": "http://dbpedia.org/resource/Ecuador"
@@ -1008,11 +673,6 @@
         "island": {
             "type": "uri",
             "value": "http://dbpedia.org/resource/Anticosti_Island"
-        },
-        "area": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#double",
-            "value": "7923.16"
         },
         "country": {
             "type": "uri",
@@ -1024,11 +684,6 @@
             "type": "uri",
             "value": "http://dbpedia.org/resource/Gal\u00e1pagos_Islands"
         },
-        "area": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
-            "value": "7880"
-        },
         "country": {
             "type": "uri",
             "value": "http://dbpedia.org/resource/Ecuador"
@@ -1038,11 +693,6 @@
         "island": {
             "type": "uri",
             "value": "http://dbpedia.org/resource/Wrangel_Island"
-        },
-        "area": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
-            "value": "7600"
         },
         "country": {
             "type": "uri",
@@ -1054,11 +704,6 @@
             "type": "uri",
             "value": "http://dbpedia.org/resource/New_Ireland_(island)"
         },
-        "area": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
-            "value": "7404"
-        },
         "country": {
             "type": "uri",
             "value": "http://dbpedia.org/resource/Papua_New_Guinea"
@@ -1068,11 +713,6 @@
         "island": {
             "type": "uri",
             "value": "http://dbpedia.org/resource/Leyte"
-        },
-        "area": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#double",
-            "value": "7367.6"
         },
         "country": {
             "type": "uri",
@@ -1084,11 +724,6 @@
             "type": "uri",
             "value": "http://dbpedia.org/resource/Zealand"
         },
-        "area": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
-            "value": "7031"
-        },
         "country": {
             "type": "uri",
             "value": "http://dbpedia.org/resource/Denmark"
@@ -1098,11 +733,6 @@
         "island": {
             "type": "uri",
             "value": "http://dbpedia.org/resource/Andaman_Islands"
-        },
-        "area": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
-            "value": "6408"
         },
         "country": {
             "type": "uri",
@@ -1114,11 +744,6 @@
             "type": "uri",
             "value": "http://dbpedia.org/resource/New_Siberia"
         },
-        "area": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
-            "value": "6200"
-        },
         "country": {
             "type": "uri",
             "value": "http://dbpedia.org/resource/Russia"
@@ -1128,11 +753,6 @@
         "island": {
             "type": "uri",
             "value": "http://dbpedia.org/resource/Andros,_Bahamas"
-        },
-        "area": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
-            "value": "5957"
         },
         "country": {
             "type": "uri",
@@ -1144,11 +764,6 @@
             "type": "uri",
             "value": "http://dbpedia.org/resource/Vanua_Levu"
         },
-        "area": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#double",
-            "value": "5587.1"
-        },
         "country": {
             "type": "uri",
             "value": "http://dbpedia.org/resource/Fiji"
@@ -1158,11 +773,6 @@
         "island": {
             "type": "uri",
             "value": "http://dbpedia.org/resource/Wellington_Island"
-        },
-        "area": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#double",
-            "value": "5555.7"
         },
         "country": {
             "type": "uri",
@@ -1174,11 +784,6 @@
             "type": "uri",
             "value": "http://dbpedia.org/resource/Coats_Island"
         },
-        "area": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
-            "value": "5498"
-        },
         "country": {
             "type": "uri",
             "value": "http://dbpedia.org/resource/Canada"
@@ -1188,11 +793,6 @@
         "island": {
             "type": "uri",
             "value": "http://dbpedia.org/resource/Guadalcanal"
-        },
-        "area": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
-            "value": "5302"
         },
         "country": {
             "type": "uri",
@@ -1204,11 +804,6 @@
             "type": "uri",
             "value": "http://dbpedia.org/resource/Faddeyevsky_Peninsula"
         },
-        "area": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
-            "value": "5300"
-        },
         "country": {
             "type": "uri",
             "value": "http://dbpedia.org/resource/Russia"
@@ -1218,11 +813,6 @@
         "island": {
             "type": "uri",
             "value": "http://dbpedia.org/resource/Amund_Ringnes_Island"
-        },
-        "area": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
-            "value": "5255"
         },
         "country": {
             "type": "uri",
@@ -1234,11 +824,6 @@
             "type": "uri",
             "value": "http://dbpedia.org/resource/Bolshoy_Lyakhovsky_Island"
         },
-        "area": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
-            "value": "5157"
-        },
         "country": {
             "type": "uri",
             "value": "http://dbpedia.org/resource/Russia"
@@ -1248,11 +833,6 @@
         "island": {
             "type": "uri",
             "value": "http://dbpedia.org/resource/Trinidad"
-        },
-        "area": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
-            "value": "5131"
         },
         "country": {
             "type": "uri",
@@ -1264,11 +844,6 @@
             "type": "uri",
             "value": "http://dbpedia.org/resource/Riesco_Island"
         },
-        "area": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
-            "value": "5110"
-        },
         "country": {
             "type": "uri",
             "value": "http://dbpedia.org/resource/Chile"
@@ -1278,11 +853,6 @@
         "island": {
             "type": "uri",
             "value": "http://dbpedia.org/resource/Mackenzie_King_Island"
-        },
-        "area": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
-            "value": "5048"
         },
         "country": {
             "type": "uri",
@@ -1294,11 +864,6 @@
             "type": "uri",
             "value": "http://dbpedia.org/resource/Belitung"
         },
-        "area": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#double",
-            "value": "4800.6"
-        },
         "country": {
             "type": "uri",
             "value": "http://dbpedia.org/resource/Indonesia"
@@ -1308,11 +873,6 @@
         "island": {
             "type": "uri",
             "value": "http://dbpedia.org/resource/North_Jutlandic_Island"
-        },
-        "area": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
-            "value": "4685"
         },
         "country": {
             "type": "uri",
@@ -1324,11 +884,6 @@
             "type": "uri",
             "value": "http://dbpedia.org/resource/Ryukyu_Islands"
         },
-        "area": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#double",
-            "value": "4642.11"
-        },
         "country": {
             "type": "uri",
             "value": "http://dbpedia.org/resource/Japan"
@@ -1338,11 +893,6 @@
         "island": {
             "type": "uri",
             "value": "http://dbpedia.org/resource/Isabela_Island_(Gal\u00e1pagos)"
-        },
-        "area": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
-            "value": "4640"
         },
         "country": {
             "type": "uri",
@@ -1354,11 +904,6 @@
             "type": "uri",
             "value": "http://dbpedia.org/resource/Lombok"
         },
-        "area": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#double",
-            "value": "4514.11"
-        },
         "country": {
             "type": "uri",
             "value": "http://dbpedia.org/resource/Indonesia"
@@ -1368,11 +913,6 @@
         "island": {
             "type": "uri",
             "value": "http://dbpedia.org/resource/Stefansson_Island"
-        },
-        "area": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
-            "value": "4463"
         },
         "country": {
             "type": "uri",
@@ -1384,11 +924,6 @@
             "type": "uri",
             "value": "http://dbpedia.org/resource/Buton"
         },
-        "area": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
-            "value": "4408"
-        },
         "country": {
             "type": "uri",
             "value": "http://dbpedia.org/resource/Indonesia"
@@ -1398,11 +933,6 @@
         "island": {
             "type": "uri",
             "value": "http://dbpedia.org/resource/Kangaroo_Island"
-        },
-        "area": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
-            "value": "4405"
         },
         "country": {
             "type": "uri",
@@ -1414,11 +944,6 @@
             "type": "uri",
             "value": "http://dbpedia.org/resource/Malaita"
         },
-        "area": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
-            "value": "4307"
-        },
         "country": {
             "type": "uri",
             "value": "http://dbpedia.org/resource/Solomon_Islands"
@@ -1428,11 +953,6 @@
         "island": {
             "type": "uri",
             "value": "http://dbpedia.org/resource/Hoste_Island"
-        },
-        "area": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
-            "value": "4117"
         },
         "country": {
             "type": "uri",
@@ -1444,11 +964,6 @@
             "type": "uri",
             "value": "http://dbpedia.org/resource/Spaatz_Island"
         },
-        "area": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
-            "value": "4100"
-        },
         "country": {
             "type": "uri",
             "value": "http://dbpedia.org/resource/Antarctica"
@@ -1458,11 +973,6 @@
         "island": {
             "type": "uri",
             "value": "http://dbpedia.org/resource/Madura_Island"
-        },
-        "area": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#double",
-            "value": "4078.67"
         },
         "country": {
             "type": "uri",
@@ -1474,11 +984,6 @@
             "type": "uri",
             "value": "http://dbpedia.org/resource/Sulu_Archipelago"
         },
-        "area": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
-            "value": "4068"
-        },
         "country": {
             "type": "uri",
             "value": "http://dbpedia.org/resource/Philippines"
@@ -1488,11 +993,6 @@
         "island": {
             "type": "uri",
             "value": "http://dbpedia.org/resource/Siberut"
-        },
-        "area": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
-            "value": "4030"
         },
         "country": {
             "type": "uri",

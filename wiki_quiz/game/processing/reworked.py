@@ -79,7 +79,8 @@ class CountryQuestionGenerator(QuestionGenerator):
         self.possible_country_questions = [
                                             self.get_capital_question(),
                                             self.get_population_question(),
-                                            self.get_island_question()
+                                            self.get_island_question(),
+                                            self.get_olymics_question()
                                         ]
 
 
@@ -136,6 +137,7 @@ class CountryQuestionGenerator(QuestionGenerator):
         question = Question(question_txt, alternatives)
         return question
 
+
     def get_population_question(self):
         full_file_path = f"{getcwd()}{self.file_path}population.json"
         data_4_alternatives = self.get_alternatives(full_file_path)
@@ -170,6 +172,7 @@ class CountryQuestionGenerator(QuestionGenerator):
         question = Question(question_txt, alternatives)
         return question
     
+
     def get_island_question(self):
         full_file_path = f"{getcwd()}{self.file_path}island.json"
         data_4_alternatives = self.get_alternatives(full_file_path)
@@ -201,10 +204,38 @@ class CountryQuestionGenerator(QuestionGenerator):
         shuffle(alternatives)
         question = Question(question_txt, alternatives)
         return question
+    
+    
+    def get_olymics_question(self):
+        full_file_path = f"{getcwd()}{self.file_path}olympics.json"
+        data_4_alternatives = self.get_alternatives(full_file_path)
 
-
-
-
+        alternatives = []
+        for i, element in enumerate(data_4_alternatives):
+            country = self.get_url_resource(element, "country")
+            olympic = self.get_url_resource(element, "olympic")
+            
+            if i == 0: 
+                    question_txt = f"What country hosted the {olympic} olymics?"
+                    alternatives.append(
+                        Answer(
+                            country,
+                            True,
+                            f"That is correct, {country} hosted the {olympic} olympics"
+                        )
+                    )
+                
+            else:
+                alternatives.append(
+                    Answer(
+                        country,
+                        False,
+                        f"That is incorrect, {country} hosted the {olympic} olympics"
+                    )
+                )
+        shuffle(alternatives)
+        question = Question(question_txt, alternatives)
+        return question
 
 
 if __name__ == "__main__":
@@ -218,4 +249,4 @@ if __name__ == "__main__":
         #pprint(question.to_dict())
         pass
     
-    pprint(counrty_question_generator.get_island_question().to_dict())
+    pprint(counrty_question_generator.get_olymics_question().to_dict())
