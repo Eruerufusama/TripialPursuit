@@ -2,6 +2,16 @@
     {
         "country": {
             "type": "uri",
+            "value": "http://dbpedia.org/resource/Netherlands"
+        },
+        "olympic": {
+            "type": "literal",
+            "value": "1928 Summer"
+        }
+    },
+    {
+        "country": {
+            "type": "uri",
             "value": "http://dbpedia.org/resource/Switzerland"
         },
         "olympic": {

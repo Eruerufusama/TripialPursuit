@@ -242,6 +242,16 @@
     {
         "country": {
             "type": "uri",
+            "value": "http://dbpedia.org/resource/Kingdom_of_the_Netherlands"
+        },
+        "capital": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Amsterdam"
+        }
+    },
+    {
+        "country": {
+            "type": "uri",
             "value": "http://dbpedia.org/resource/Kiribati"
         },
         "capital": {
@@ -1377,6 +1387,16 @@
         "capital": {
             "type": "uri",
             "value": "http://dbpedia.org/resource/Windhoek"
+        }
+    },
+    {
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Netherlands"
+        },
+        "capital": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Amsterdam"
         }
     },
     {

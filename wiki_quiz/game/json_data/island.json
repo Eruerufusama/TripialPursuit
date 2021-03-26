@@ -532,16 +532,6 @@
     {
         "island": {
             "type": "uri",
-            "value": "http://dbpedia.org/resource/Roman_Catholic_Archdiocese_of_Honiara"
-        },
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Solomon_Islands"
-        }
-    },
-    {
-        "island": {
-            "type": "uri",
             "value": "http://dbpedia.org/resource/Mindoro"
         },
         "country": {
@@ -997,6 +987,16 @@
         "country": {
             "type": "uri",
             "value": "http://dbpedia.org/resource/Russia"
+        }
+    },
+    {
+        "island": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Muna_Island"
+        },
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Indonesia"
         }
     }
 ]

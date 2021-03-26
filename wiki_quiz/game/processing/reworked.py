@@ -6,12 +6,11 @@ from json import dump, load
 from os import path, getcwd
 from hashlib import md5
 from time import sleep
-try:
-    from data_types import Question, Answer
-    from queries import countrie_sqarql_querys
-except:
-    from .data_types import Question, Answer
-    from .queries import countrie_sqarql_querys
+from .data_types import Question, Answer
+from .queries import countrie_sqarql_querys
+
+# from data_types import Question, Answer
+# from queries import countrie_sqarql_querys
 
 
 class QuestionGenerator:
@@ -32,7 +31,8 @@ class QuestionGenerator:
     def query_to_json(self):
         for query_name in countrie_sqarql_querys:
             current_data = self._query_and_format(countrie_sqarql_querys[query_name])
-            with open(f"{getcwd()}\\wiki_quiz\\game\\json_data\\{query_name}.json", "w") as f:
+
+            with open(f"{getcwd()}\\game\\json_data\\{query_name}.json", "w") as f:
                 dump(current_data, f, indent=4)
 
 
@@ -79,7 +79,7 @@ class QuestionGenerator:
 class CountryQuestionGenerator(QuestionGenerator):
     def __init__(self):
         super().__init__()
-        self.file_path = "\\wiki_quiz\\game\\json_data\\"
+        self.file_path = "\\game\\json_data\\"
         self.possible_country_questions = [
                                             self.get_capital_question,
                                             self.get_population_question,

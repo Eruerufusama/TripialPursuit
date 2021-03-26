@@ -244,6 +244,17 @@
     {
         "country": {
             "type": "uri",
+            "value": "http://dbpedia.org/resource/Kingdom_of_the_Netherlands"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "17737438"
+        }
+    },
+    {
+        "country": {
+            "type": "uri",
             "value": "http://dbpedia.org/resource/Kiribati"
         },
         "population": {
@@ -1405,6 +1416,17 @@
             "type": "typed-literal",
             "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
             "value": "2746745"
+        }
+    },
+    {
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Netherlands"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "17418808"
         }
     },
     {
