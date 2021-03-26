@@ -9,7 +9,6 @@ countrie_sqarql_querys = {
                     ?country dbp:areaKm ?area .
                     ?country dbo:populationTotal ?pop .
                     FILTER NOT EXISTS {?country dbp:dateEnd ?date}
-                    FILTER NOT EXISTS {?country dbo:administrativeCenter ?admin}
                     FILTER NOT EXISTS {?country dbp:yearEnd ?year}
                 }
         """,
@@ -24,7 +23,6 @@ countrie_sqarql_querys = {
                     ?country dbp:areaKm ?area .
                     ?country dbo:populationTotal ?population .
                     FILTER NOT EXISTS {?country dbp:dateEnd ?date}
-                    FILTER NOT EXISTS {?country dbo:administrativeCenter ?admin}
                     FILTER NOT EXISTS {?country dbp:yearEnd ?year}
                 }
         """,
@@ -39,7 +37,6 @@ countrie_sqarql_querys = {
                 ?island dbo:country ?country.
                 FILTER NOT EXISTS {?island dbo:countryCode ?code}
                 FILTER NOT EXISTS {?country dbp:dateEnd ?date}
-                FILTER NOT EXISTS {?country dbo:administrativeCenter ?admin}
                 FILTER NOT EXISTS {?country dbp:yearEnd ?year}
             }
             ORDER BY DESC (?area)
@@ -55,9 +52,6 @@ countrie_sqarql_querys = {
                 ?games dbp:venue ?country .
                 ?country rdf:type dbo:Country .
                 ?country dbo:countryCode ?code .
-                FILTER NOT EXISTS {?country dbp:dateEnd ?date}
-                FILTER NOT EXISTS {?country dbo:administrativeCenter ?admin}
-                FILTER NOT EXISTS {?country dbp:yearEnd ?year}
             } 
             order by (?olympic)
         """
