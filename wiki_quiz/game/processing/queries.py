@@ -26,6 +26,60 @@ countrie_sqarql_querys = {
                     FILTER NOT EXISTS {?country dbp:yearEnd ?year}
                 }
         """,
+
+        "area":
+        """
+            SELECT DISTINCT ?country ?area 
+                WHERE {
+                    ?country rdf:type dbo:Country .
+                    ?country dbo:countryCode ?code .
+                    ?country dbo:capital ?capital .
+                    ?country dbp:areaKm ?area .
+                    ?country dbo:populationTotal ?population .
+                    FILTER NOT EXISTS {?country dbp:dateEnd ?date}
+                    FILTER NOT EXISTS {?country dbp:yearEnd ?year}
+                }
+        """,
+
+        "longitude":
+        """
+            SELECT DISTINCT ?country ?longitude 
+                WHERE {
+                    ?country rdf:type dbo:Country .
+                    ?country dbo:countryCode ?code .
+                    ?country dbo:populationTotal ?population .
+                    ?country geo:long ?longitude .
+                    FILTER NOT EXISTS {?country dbp:dateEnd ?date}
+                    FILTER NOT EXISTS {?country dbp:yearEnd ?year}
+                }
+        """,
+
+        "latitude":
+        """
+            SELECT DISTINCT ?country ?latitude 
+                WHERE {
+                    ?country rdf:type dbo:Country .
+                    ?country dbo:countryCode ?code .
+                    ?country dbo:populationTotal ?population .
+                    ?country geo:long ?latitude .
+                    FILTER NOT EXISTS {?country dbp:dateEnd ?date}
+                    FILTER NOT EXISTS {?country dbp:yearEnd ?year}
+                }
+        """,
+
+        "currency":
+        """
+            select distinct ?country ?currency ?currencyCode 
+            WHERE {
+                ?country rdf:type dbo:Country .
+                ?country dbo:countryCode ?code .
+                ?country dbo:capital ?capital .
+                ?country dbo:currency ?currency .
+                ?country dbo:currencyCode ?currencyCode .
+                FILTER NOT EXISTS {?country dbp:dateEnd ?date}
+                FILTER NOT EXISTS {?country dbp:yearEnd ?year}
+            } 
+        """,
     
     "island": 
         """
@@ -41,6 +95,20 @@ countrie_sqarql_querys = {
             }
             ORDER BY DESC (?area)
             LIMIT(100)
+        """,
+
+        "mountain": 
+        """
+            SELECT DISTINCT ?mountain ?height ?rank ?country 
+            WHERE {
+                ?mountain rdf:type schema:Mountain .
+                OPTIONAL {?mountain dbp:elevationM ?height}.
+                ?mountain dbo:mountainRange ?range.
+                ?mountain dbp:elevationRef ?rank.
+                FILTER regex(?rank, "Ranked")
+                ?mountain dbo:locatedInArea ?country.
+                ?country rdf:type dbo:Country.
+            }
         """,
     
     "olympics":
