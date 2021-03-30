@@ -16,6 +16,26 @@ def question(request):
     return render(request, 'game/question.html', question.to_dict())
 
 
+def menu(request):
+    return render(request, 'game/menu.html')
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # question = {
 #     'question_text': 'Which of these cities is furthest south?',
 #     'answers': [

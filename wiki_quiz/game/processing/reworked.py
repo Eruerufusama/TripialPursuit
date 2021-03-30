@@ -36,7 +36,7 @@ class QuestionGenerator:
                 dump(current_data, f, indent=4)
 
 
-    def _query_and_format(self, query_string: str):
+    def _query_and_format(self, query: str, database: str="dbpedia") -> dict:
         """
         Args:
             query_string (str): query in string format
@@ -44,22 +44,16 @@ class QuestionGenerator:
         Returns:
             dict: Returns all the relevant data from a SPARQL query as a dictionary
         """
-
-        # Comment
-        self.sparql.setQuery(query_string)
-
-        # Converts to JSON format
+        self.sparql.setQuery(query)
         self.sparql.setReturnFormat(JSON)
     
-        # The returned data from the query:
         results = self.sparql.queryAndConvert()
 
-        # The object level where the interesting data is:
-        data = results["results"]["bindings"]
-
-        # Limits the result to n alternatives:
-        return data
-    
+        if database == "dbpedia":
+            return results["results"]["bindings"]
+            
+        if database == "wikidata":
+            return results
 
     def get_alternatives(self, file_path: str, number_of_alternatives=4):
         """
@@ -129,26 +123,13 @@ class CountryQuestionGenerator(QuestionGenerator):
             
             if i == 0:
                 question_txt = f"What is the capitol of {country}?"
-                alternatives.append(
-                    Answer(
-                        capital,
-                        True,
-                        f"That is correct, the capitol of {country} is {capital}"
-                    )
-                )
+                alternatives.append(Answer(capital, True, f"That is correct, the capitol of {country} is {capital}"))
             
             else:
-                alternatives.append(
-                    Answer(
-                        capital,
-                        False,
-                        f"That is incorrect, the capitol of {country} is {capital}"
-                    )
-                )
+                alternatives.append(Answer(capital, False, f"That is incorrect, the capitol of {country} is {capital}"))
         
-        shuffle(alternatives)   
-        question = Question(question_txt, alternatives)
-        return question
+        shuffle(alternatives)
+        return Question(question_txt, alternatives)
 
 
     def get_population_question(self):

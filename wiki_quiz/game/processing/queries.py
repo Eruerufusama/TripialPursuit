@@ -12,7 +12,7 @@ countrie_sqarql_querys = {
                     FILTER NOT EXISTS {?country dbp:yearEnd ?year}
                 }
         """,
-    
+
     "population":
         """
             SELECT DISTINCT ?country ?population 
