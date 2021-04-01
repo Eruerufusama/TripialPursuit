@@ -25,6 +25,7 @@ def capital_question(data: list) -> Question:
     return Question(question_text, answers)
 
 
+
 def population_question(data: list) -> Question:
     question_choice = choice(['largest', 'smallest'])
     question_text = f'Which of these countries has the {question_choice} population?'
@@ -52,3 +53,48 @@ def population_question(data: list) -> Question:
 
     shuffle(answers)
     return Question(question_text, answers)
+
+
+
+def island_question(data: list) -> Question:
+
+    answers = []
+    for i, element in enumerate(data):
+
+        country = get_resource_url(element, 'country')
+        island = get_resource_url(element, 'island')
+
+        if i == 0:
+            question_text = f"What country is the island {island} located in?"
+            answer_text = f"That is correct, the island {island} is located in {country}."
+            answers.append(Answer(country, True, answer_text))
+
+        else:
+            answer_text = f"That is incorrect, the island {island} is located in {country}."
+            answers.append(Answer(island, False, answer_text))
+
+        shuffle(answers)
+        return Question(question_txt, answers)
+
+
+
+def olympics_question(data: list) -> Question:
+    
+    answers = []
+    for i, element in enumerate(data):
+
+        country = self.get_url_resource(element, "country")
+        olympic = self.get_url_resource(element, "olympic")
+
+        if i == 0:
+            question_txt = f"What country hosted the {olympic} olymics?"
+            answer_text = f"That is correct, {country} hosted the {olympic} olympics."
+            answers.append(Answer(country, True, answer_text))
+
+        else:
+            answer_text = f"That is incorrect, {country} hosted the {olympic} olympics."
+            answers.append(Answer(country, False, answer_text))
+
+    shuffle(answers)
+    return Question(question_txt, answers)
+

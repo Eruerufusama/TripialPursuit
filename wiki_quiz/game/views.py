@@ -38,6 +38,11 @@ def menu(request):
 
 
 
+def about(request):
+    return render(request, 'game/about.html')
+
+
+
 
 
 
