@@ -1,6 +1,6 @@
 from os import getcwd
 from game.create_questions.functions import get_answers
-from game.create_questions.questions import capital_question, population_question
+from game.create_questions.questions import *
 from game.create_questions.data_types import Question
 
 
@@ -17,6 +17,8 @@ def main() -> None:
 questions = {
     'capital': capital_question,
     'population': population_question,
+    'island': island_question,
+    'olympics': olympics_question
 }
 
 

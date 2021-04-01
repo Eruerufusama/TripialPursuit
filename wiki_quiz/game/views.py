@@ -21,7 +21,7 @@ from game.create_questions.create_questions import generate_question
 
 def question(request) -> 'HttpResponse':
 
-    possible_questions = ['capital', 'population']
+    possible_questions = ['capital', 'population', 'island', 'olympics']
 
     question = generate_question(choice(possible_questions), 4)
     return render(request, 'game/question.html', question.to_dict())

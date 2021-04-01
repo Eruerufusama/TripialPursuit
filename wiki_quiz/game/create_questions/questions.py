@@ -74,7 +74,7 @@ def island_question(data: list) -> Question:
             answers.append(Answer(island, False, answer_text))
 
         shuffle(answers)
-        return Question(question_txt, answers)
+        return Question(question_text, answers)
 
 
 
@@ -83,11 +83,11 @@ def olympics_question(data: list) -> Question:
     answers = []
     for i, element in enumerate(data):
 
-        country = self.get_url_resource(element, "country")
-        olympic = self.get_url_resource(element, "olympic")
+        country = get_resource_url(element, "country")
+        olympic = get_resource_url(element, "olympic")
 
         if i == 0:
-            question_txt = f"What country hosted the {olympic} olymics?"
+            question_text = f"What country hosted the {olympic} olymics?"
             answer_text = f"That is correct, {country} hosted the {olympic} olympics."
             answers.append(Answer(country, True, answer_text))
 
@@ -96,5 +96,5 @@ def olympics_question(data: list) -> Question:
             answers.append(Answer(country, False, answer_text))
 
     shuffle(answers)
-    return Question(question_txt, answers)
+    return Question(question_text, answers)
 
