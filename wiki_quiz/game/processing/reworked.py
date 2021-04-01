@@ -7,10 +7,10 @@ from os import path, getcwd
 from hashlib import md5
 from time import sleep
 from .data_types import Question, Answer
-from .queries import countrie_sqarql_querys
+from .queries import queries
 
 # from data_types import Question, Answer
-# from queries import countrie_sqarql_querys
+# from queries import queries
 
 
 class QuestionGenerator:
@@ -29,8 +29,8 @@ class QuestionGenerator:
         return element[key]["value"].rsplit('/', 1)[-1].replace("_", " ")
 
     def query_to_json(self):
-        for query_name in countrie_sqarql_querys:
-            current_data = self._query_and_format(countrie_sqarql_querys[query_name])
+        for query_name in queries:
+            current_data = self._query_and_format(queries[query_name])
 
             with open(f"{getcwd()}\\game\\json_data\\{query_name}.json", "w") as f:
                 dump(current_data, f, indent=4)
@@ -55,7 +55,7 @@ class QuestionGenerator:
         if database == "wikidata":
             return results
 
-    def get_alternatives(self, file_path: str, number_of_alternatives=4):
+    def get_alternatives(self, file_path: str, number_of_alternatives: int=4):
         """
         Args:
             file_path (str): json folder location file path
@@ -64,10 +64,11 @@ class QuestionGenerator:
         Returns:
             list: returns a list with the 4 alternatives for the generated question.
         """
-        with open(file_path, "r") as capital_json_data:
-            data = load(capital_json_data)
-            data_4_alternatives = sample(data, number_of_alternatives)
-        return data_4_alternatives
+        with open(file_path, "r") as json_file:
+            data = load(json_file)
+            alternatives = sample(data, number_of_alternatives)
+
+        return alternatives
 
 
 class CountryQuestionGenerator(QuestionGenerator):
@@ -146,11 +147,7 @@ class CountryQuestionGenerator(QuestionGenerator):
             if i == 0:
                 question_txt = f"What is the population of {country}?"
                 alternatives.append(
-                    Answer(
-                        population_mill,
-                        True,
-                        f"That is correct, the population of {country} is {population_mill}"
-                    )
+                    Answer(population_mill, True, f"That is correct, the population of {country} is {population_mill}")
                 )
             
             else:

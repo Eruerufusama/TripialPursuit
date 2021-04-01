@@ -4,9 +4,11 @@ from django.shortcuts import render
 from game.processing.reworked import CountryQuestionGenerator, QuestionGenerator
 
 
-
 def question(request):
-    # Erstatt denne commenten med en instans av et generert spørsmål.
+    """
+    Creates a general website for questions.
+    """
+
     question_generator = QuestionGenerator()
     question_generator.query_to_json()
     

@@ -1,4 +1,4 @@
-countrie_sqarql_querys = {
+queries = {
     "capital" :
         """
             SELECT DISTINCT ?country ?capital

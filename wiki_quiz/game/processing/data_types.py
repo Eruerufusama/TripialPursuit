@@ -1,5 +1,5 @@
 class Question:
-    def __init__(self, question: str, answers: list):
+    def __init__(self, question: str="", answers: list=[]):
         self.question = question
         self.answers = answers
 
@@ -8,6 +8,9 @@ class Question:
             "question_text": self.question,
             "answers": [answer.to_dict() for answer in self.answers]
         }
+
+    def add_answer(self, answer):
+        self.answers.append(answer)
 
 
 
