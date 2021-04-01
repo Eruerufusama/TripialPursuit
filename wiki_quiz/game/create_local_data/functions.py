@@ -1,23 +1,6 @@
 from SPARQLWrapper import SPARQLWrapper, JSON
 from os import getcwd
-from sys import argv
 from json import dump
-
-from queries import queries
-
-
-def query_format_dump(query_name: str, database: str="dbpedia") -> None:
-
-    query: str = queries[query_name]
-    data: dict = query_sparql(query, database)
-
-    dump_data(query_name, data)
-
-
-
-def dump_data(filename: str, data: dict) -> None:
-    with open(f'{getcwd()}/game/json_data/{query_name}.json', 'w') as json_file:
-        dump(data, json_file, indent=4)
 
 
 def query_sparql(query: str) -> dict:
@@ -50,10 +33,9 @@ def format_data(data: dict, database: str) -> dict:
     if database == 'wikidata':
         return data
 
-if __name__ == "__main__":
-    
-    if argv[2]:
-        query_format_dump(argv[1], argv[2])
-    else:
-        query_format_dump(argv[1])
-        
+
+def dump_data(filename: str, data: dict) -> None:
+    with open(f'{getcwd()}/game/json_data/{query_name}.json', 'w') as json_file:
+        dump(data, json_file, indent=4)
+
+

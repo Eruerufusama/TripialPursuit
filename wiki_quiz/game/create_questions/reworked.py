@@ -1,23 +1,20 @@
 from SPARQLWrapper import SPARQLWrapper, JSON
 from pprint import pprint
 from random import shuffle, choice, sample
-from pprint import pprint
 from json import dump, load
 from os import path, getcwd
 from hashlib import md5
 from time import sleep
-from .data_types import Question, Answer
-from .queries import queries
 
-# from data_types import Question, Answer
-# from queries import queries
+from game.create_questions.data_types import Question, Answer
+from game.create_local_data.queries import queries
 
 
 class QuestionGenerator:
     def __init__(self):
         self.sparql = SPARQLWrapper("https://dbpedia.org/sparql")
 
-    def get_url_resource(self, element: dict, key: str):
+    def get_url_resource(self, element: dict, key: str) -> str:
         """
         Args:
             element (dict): query data

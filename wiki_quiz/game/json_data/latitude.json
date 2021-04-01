@@ -2279,6 +2279,17 @@
     {
         "country": {
             "type": "uri",
+            "value": "http://dbpedia.org/resource/Wa_State"
+        },
+        "latitude": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#float",
+            "value": "99.1833"
+        }
+    },
+    {
+        "country": {
+            "type": "uri",
             "value": "http://dbpedia.org/resource/Zhedna"
         },
         "latitude": {
@@ -2307,6 +2318,50 @@
             "type": "typed-literal",
             "datatype": "http://www.w3.org/2001/XMLSchema#float",
             "value": "26.0"
+        }
+    },
+    {
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Eurasian_Economic_Union"
+        },
+        "latitude": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#float",
+            "value": "37.6167"
+        }
+    },
+    {
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Eurasian_Economic_Union"
+        },
+        "latitude": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#float",
+            "value": "37.6167"
+        }
+    },
+    {
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Eurasian_Economic_Union"
+        },
+        "latitude": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#float",
+            "value": "37.6167"
+        }
+    },
+    {
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Eurasian_Economic_Union"
+        },
+        "latitude": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#float",
+            "value": "37.6167"
         }
     },
     {

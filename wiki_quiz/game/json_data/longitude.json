@@ -1531,17 +1531,6 @@
     {
         "country": {
             "type": "uri",
-            "value": "http://dbpedia.org/resource/Jamaica"
-        },
-        "longitude": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#float",
-            "value": "-76.7931"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
             "value": "http://dbpedia.org/resource/Japan"
         },
         "longitude": {

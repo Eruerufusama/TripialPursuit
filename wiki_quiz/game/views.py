@@ -1,25 +1,37 @@
 from django.shortcuts import render
+from game.create_questions.create_questions import generate_question
 
-# Erstatt denne commenten med en import til python-filen som genererer spørsmål.
-from game.processing.reworked import CountryQuestionGenerator, QuestionGenerator
+# Gammel kode.
+# from game.create_questions.reworked import CountryQuestionGenerator, QuestionGenerator
 
+# def question(request) -> 'HttpResponse':
+#     """
+#     Creates a general website for questions.
+#     """
 
-def question(request):
-    """
-    Creates a general website for questions.
-    """
-
-    question_generator = QuestionGenerator()
-    question_generator.query_to_json()
+#     question_generator = QuestionGenerator()
+#     question_generator.query_to_json()
     
-    country_question_generator = CountryQuestionGenerator()
-    question = country_question_generator.get_population_question()
+#     country_question_generator = CountryQuestionGenerator()
+#     question = country_question_generator.get_population_question()
 
+#     return render(request, 'game/question.html', question.to_dict())
+
+
+def question(request) -> 'HttpResponse':
+
+    question = generate_question('population', 4)
     return render(request, 'game/question.html', question.to_dict())
 
 
+
+
 def menu(request):
-    return render(request, 'game/menu.html')
+    data = {
+        "categories": ['geography', 'sports', 'movies']
+    }
+
+    return render(request, 'game/menu.html', data)
 
 
 
