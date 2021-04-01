@@ -2,6 +2,18 @@ from sys import argv
 from queries import queries
 from .functions import query_sparql, format_data, dump_data
 
+######################################################################
+#
+#   In order to create a local database, run this file with arguments.
+#
+#   Input-structure:
+#       python <file> <query-reference> <database>
+#
+#   Example of terminal-input:
+#       python create_local_data.py population wikidata
+#
+######################################################################
+
 def main(query_name: str, database: str="dbpedia") -> None:
 
     # Get query.
@@ -18,9 +30,7 @@ def main(query_name: str, database: str="dbpedia") -> None:
 
 
 if __name__ == "__main__":
-    
     if argv[2]:
         main(argv[1], argv[2])
     else:
         main(argv[1])
-        

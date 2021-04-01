@@ -43,8 +43,11 @@ def population_question(data: list) -> Question:
     # Sort from largest population to smallest, or reverse.
     answers.sort(key=lambda x: x['population'], reverse=False if question_choice == 'smallest' else True)
 
-    # Create answer-objects.
-    answers = [Answer(answer['country'], True if i == 0 else False, f"That is correct! The population of {answer['country']} is around {round(answer['population'] / 1_000_000, 1)} Million.") for i, answer in enumerate(answers)]
+    # Creates answer-objects.
+    answers = [
+        Answer(answer['country'], True if i == 0 else False, f"That is correct! The population of {answer['country']} is around {round(answer['population'] / 1_000_000, 1)} Million.")
+        for i, answer in enumerate(answers)
+        ]
 
 
     shuffle(answers)

@@ -1,10 +1,11 @@
 from os import getcwd
 from game.create_questions.functions import get_answers
 from game.create_questions.questions import capital_question, population_question
+from game.create_questions.data_types import Question
 
 
 
-def main():
+def main() -> None:
     question = generate_question('population', 2)
 
     print(question.question)
@@ -19,7 +20,13 @@ questions = {
 }
 
 
-def generate_question(question_type: str, n_answers: int):
+def generate_question(question_type: str, n_answers: int) -> Question:
+    """
+    Generates a question-object.
+
+    Returns:
+        [type]: (Question) A Question-object with n answers, one of which is correct.
+    """
     # Retrieve n answers from local database.
     data = get_answers(f'{getcwd()}/game/json_data/{question_type}.json', n_answers)
 
