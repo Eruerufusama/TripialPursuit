@@ -1,3 +1,4 @@
+from random import choice
 from django.shortcuts import render
 from game.create_questions.create_questions import generate_question
 
@@ -20,7 +21,9 @@ from game.create_questions.create_questions import generate_question
 
 def question(request) -> 'HttpResponse':
 
-    question = generate_question('population', 4)
+    possible_questions = ['capital', 'population']
+
+    question = generate_question(choice(possible_questions), 4)
     return render(request, 'game/question.html', question.to_dict())
 
 
@@ -28,7 +31,7 @@ def question(request) -> 'HttpResponse':
 
 def menu(request):
     data = {
-        "categories": ['geography', 'sports', 'movies']
+        'categories': ['geography', 'sports', 'movies', "im feelin' lucky"]
     }
 
     return render(request, 'game/menu.html', data)

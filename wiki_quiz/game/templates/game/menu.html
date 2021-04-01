@@ -2,6 +2,15 @@
 
 {% block content %}
 
-
+<div class="center-content">
+    <div class="card">
+        <div class="card-body">Categories</div>
+    </div>
+    <div class="btn-group-vertical btn-group-lg categories">
+        {% for category in categories %}
+            <button type="button" class="btn category-btn">{{ category }}</button>
+        {% endfor %}
+    </div>
+</div>
 
 {% endblock content %}
