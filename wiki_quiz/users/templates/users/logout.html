@@ -1,0 +1,12 @@
+{% extends 'game/base.html' %}
+
+{% block content %}
+<div class="center-content">
+    <h3>You have been logged out.</h3>
+    <div class="border-top pt-3">
+        <small class="text-muted">
+            <a href="{% url 'register' %}" class="ml-2">Log in again.</a>
+        </small>
+    </div>
+</div>
+{% endblock content %}
