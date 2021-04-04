@@ -23,6 +23,8 @@ from django.urls import path
 from django.urls import include
 from users import views as user_views
 
+
+
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('register/', user_views.register, name="register"),
@@ -31,3 +33,10 @@ urlpatterns = [
     path('profile/', user_views.profile, name="profile"),
     path('', include('game.urls')),
 ]
+
+# DEVELOPMENT ONLY
+from django.conf import settings
+from django.conf.urls.static import static
+
+if settings.DEBUG:
+    urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
