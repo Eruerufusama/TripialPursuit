@@ -3,7 +3,7 @@ from os import getcwd
 from json import dump
 
 
-def query_sparql(query: str) -> dict:
+def query_sparql(query: str, database: str) -> dict:
     """
     Performs a query to a semantic database.
 
@@ -13,14 +13,13 @@ def query_sparql(query: str) -> dict:
     Returns:
         dict: raw data from a given query.
     """
-
-    sparql_wrapper = SPARQLWrapper('https://dbpedia.org/sparql')
+    sparql_wrapper = SPARQLWrapper(f'https://{"query." if database == "wikidata" else ""}{database}.org/sparql')
     sparql_wrapper.setQuery(query)
     sparql_wrapper.setReturnFormat(JSON) # Rewrite function for n3?
     return sparql_wrapper.queryAndConvert()
 
 
-def format_data(data: dict, database: str) -> dict:
+def format_data(data: dict) -> dict:
     """
     Formats the data given a database.
 
@@ -31,11 +30,7 @@ def format_data(data: dict, database: str) -> dict:
     Returns:
         dict: Properly formatted data.
     """
-
-    if database == 'dbpedia':
-        return data['results']['bindings']
-    if database == 'wikidata':
-        return data
+    return data['results']['bindings']
 
 
 def dump_data(filename: str, data: dict) -> None:

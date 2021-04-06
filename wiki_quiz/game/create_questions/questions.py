@@ -75,7 +75,7 @@ def island_question(data: list) -> Question:
 
         else:
             answer_text = f"That is incorrect, the island {island} is located in {country}."
-            answers.append(Answer(island, False, answer_text))
+            answers.append(Answer(country, False, answer_text))
 
         shuffle(answers)
         return Question(question_text, answers)
@@ -107,4 +107,19 @@ def country_neighbors_question(data: list) -> Question:
     
     answers = []
     for i, element in enumerate(data):
-        print(i)
+        
+        start_country = get_resource_url(element, "start_country")
+        middle_country = get_resource_url(element, "middle_country")
+        end_country = get_resource_url(element, "end_country")
+
+        if i == 0:
+            question_text = f"What country connects {start_country} and {end_country}?"
+            answers_text = f"That is correct, {middle_country} connects {start_country} and {end_country}."
+            answers.append(Answer(middle_country, True, answers_text))
+
+        else:
+            answer_text = f"That is incorrect, {middle_country} connects {start_country} and {end_country}."
+            answers.append(Answer(middle_country, False, answer_text))
+    
+    shuffle(answers)
+    return Question(question_text, answers)

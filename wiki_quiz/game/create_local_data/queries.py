@@ -122,19 +122,18 @@ queries = {
                 ?country dbo:countryCode ?code .
             } 
             order by (?olympic)
-        """
+    """,
     
     "country_neighbours":
     """
-        SELECT ?Country ?CountryLabel ?Country3 ?Country3Label 
-        WHERE {
-            SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en". }
-            ?Country wdt:P31 wd:Q6256.
-            ?Country2 wdt:P31 wd:Q6256.
-            ?Country3 wdt:P31 wd:Q6256.
-            ?Country wdt:P47 ?Country2.
-            ?Country2 wdt:P47 ?Country3.
-            FILTER (?Country != ?Country3)
-        }"
+        SELECT ?start_countryLabel ?middle_countryLabel ?end_countryLabel WHERE {
+        SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en". }
+        ?Country wdt:P31 wd:Q6256.
+        ?Country2 wdt:P31 wd:Q6256.
+        ?Country3 wdt:P31 wd:Q6256.
+        ?Country wdt:P47 ?Country2.
+        ?Country2 wdt:P47 ?Country3.
+        FILTER(?Country != ?Country3)
+        }
     """
 }
