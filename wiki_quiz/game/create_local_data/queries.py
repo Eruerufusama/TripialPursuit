@@ -124,7 +124,7 @@ queries = {
             order by (?olympic)
         """
     
-    "Country neighbours:"
+    "country_neighbours":
     """
         SELECT ?Country ?CountryLabel ?Country3 ?Country3Label 
         WHERE {
