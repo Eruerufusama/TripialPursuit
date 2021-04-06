@@ -47,7 +47,7 @@ def dump_data(filename: str, data: dict) -> None:
         data (dict): query-result.
     """
     
-    with open(f'{getcwd()}/game/json_data/{query_name}.json', 'w') as json_file:
+    with open(f'{getcwd()}/game/json_data/{filename}.json', 'w') as json_file:
         dump(data, json_file, indent=4)
 
 

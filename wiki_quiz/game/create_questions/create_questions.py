@@ -25,6 +25,8 @@ def generate_question(question_type: str, n_answers: int) -> Question:
     Returns:
         [type]: (Question) A Question-object with n answers, one of which is correct.
     """
+
+    
     # Retrieve n answers from local database.
     data = get_answers(f'{getcwd()}\\game\\json_data\\{question_type}.json', n_answers)
 
