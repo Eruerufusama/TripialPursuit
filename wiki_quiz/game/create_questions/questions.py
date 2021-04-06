@@ -1,6 +1,10 @@
 from random import shuffle, choice
-from game.create_questions.data_types import Question, Answer
-from game.create_questions.functions import get_resource_url
+try:
+    from game.create_questions.data_types import Question, Answer
+    from game.create_questions.functions import get_resource_url
+except:
+    from data_types import Question, Answer
+    from functions import get_resource_url
 
 
 def capital_question(data: list) -> Question:
@@ -99,4 +103,8 @@ def olympics_question(data: list) -> Question:
     return Question(question_text, answers)
 
 
-def 
+def country_neighbors_question(data: list) -> Question:
+    
+    answers = []
+    for i, element in enumerate(data):
+        print(i)
