@@ -27,7 +27,7 @@ queries = {
                 }
         """,
 
-        "area":
+    "area":
         """
             SELECT DISTINCT ?country ?area 
                 WHERE {
@@ -41,7 +41,7 @@ queries = {
                 }
         """,
 
-        "longitude":
+    "longitude":
         """
             SELECT DISTINCT ?country ?longitude 
                 WHERE {
@@ -54,7 +54,7 @@ queries = {
                 }
         """,
 
-        "latitude":
+    "latitude":
         """
             SELECT DISTINCT ?country ?latitude 
                 WHERE {
@@ -67,7 +67,7 @@ queries = {
                 }
         """,
 
-        "currency":
+    "currency":
         """
             select distinct ?country ?currency ?currencyCode 
             WHERE {
@@ -97,7 +97,7 @@ queries = {
             LIMIT(100)
         """,
 
-        "mountain": 
+    "mountain": 
         """
             SELECT DISTINCT ?mountain ?height ?rank ?country 
             WHERE {
@@ -109,8 +109,8 @@ queries = {
                 ?mountain dbo:locatedInArea ?country.
                 ?country rdf:type dbo:Country.
             }
-        """,
-    
+    """,
+
     "olympics":
         """
             select distinct ?country ?olympic 
@@ -123,4 +123,18 @@ queries = {
             } 
             order by (?olympic)
         """
+    
+    "Country neighbours:
+    """
+        SELECT ?Country ?CountryLabel ?Country3 ?Country3Label 
+        WHERE {
+            SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en". }
+            ?Country wdt:P31 wd:Q6256.
+            ?Country2 wdt:P31 wd:Q6256.
+            ?Country3 wdt:P31 wd:Q6256.
+            ?Country wdt:P47 ?Country2.
+            ?Country2 wdt:P47 ?Country3.
+            FILTER (?Country != ?Country3)
+        }"
+    """
 }
