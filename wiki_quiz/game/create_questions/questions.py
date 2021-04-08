@@ -108,9 +108,9 @@ def country_neighbors_question(data: list) -> Question:
     answers = []
     for i, element in enumerate(data):
         
-        start_country = get_resource_url(element, "start_country")
-        middle_country = get_resource_url(element, "middle_country")
-        end_country = get_resource_url(element, "end_country")
+        start_country = get_resource_url(element, "start_countryLabel")
+        middle_country = get_resource_url(element, "middle_countryLabel")
+        end_country = get_resource_url(element, "end_countryLabel")
 
         if i == 0:
             question_text = f"What country connects {start_country} and {end_country}?"
