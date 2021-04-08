@@ -10,10 +10,7 @@ except:
    
 
 questions = {
-    'capital': {
-        "function": capital_question,
-        "category": "geography"
-    },
+    'capital': capital_question,
     'population': population_question,
     'island': island_question,
     'olympics': olympics_question,
