@@ -16,7 +16,7 @@ class Answer:
             "message": self.message
         }
     
-    def __repr__(self):
+    def __repr__(self) -> str:
         return f"{self.answer} {self.is_correct}"
 
 
@@ -34,7 +34,7 @@ class Question:
     def add_answer(self, answer: Answer) -> None:
         self.answers.append(answer)
     
-    def __repr__(self):
+    def __repr__(self) -> str:
         return f"{self.question} \n {self.answers}"
 
 
