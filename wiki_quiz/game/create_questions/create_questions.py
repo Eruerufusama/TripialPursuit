@@ -5,7 +5,7 @@ try:
     from game.create_questions.data_types import Question
 except:
     from functions import get_answers
-    from questions import *
+    from geography_questions import *
     from data_types import Question
    
 
