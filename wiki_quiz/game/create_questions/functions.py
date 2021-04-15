@@ -16,5 +16,15 @@ def get_resource_url(url: dict, query_name: str) -> str:
 
 
 def get_answers(filepath: str, n_answers: int) -> list:
+    """
+    Fetch <n> amount of samples from the pool of possible answers.
+
+    Args:
+        filepath (str): Filepath to json-file which contains possible answers.
+        n_answers (int): number of answers.
+
+    Returns:
+        list: List of answer-samples.
+    """
     with open(filepath) as json_file:
         return sample(load(json_file), n_answers)

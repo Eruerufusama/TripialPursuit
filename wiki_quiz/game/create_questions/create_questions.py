@@ -1,7 +1,7 @@
 from os import getcwd
 try:
     from game.create_questions.functions import get_answers
-    from game.create_questions.questions import *
+    from game.create_questions.geography_questions import *
     from game.create_questions.data_types import Question
 except:
     from functions import get_answers
@@ -37,5 +37,5 @@ def generate_question(question_type: str, n_answers: int) -> Question:
 
 
 if __name__ == "__main__":
-    question = generate_question('country_neighbours', 4)
+    question = generate_question('island', 4)
     print(question)
