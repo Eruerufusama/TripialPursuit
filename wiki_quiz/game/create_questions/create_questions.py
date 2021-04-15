@@ -1,7 +1,7 @@
 from os import getcwd
 try:
     from game.create_questions.functions import get_answers
-    from game.create_questions.questions import *
+    from game.create_questions.geography_questions import *
     from game.create_questions.data_types import Question
 except:
     from functions import get_answers

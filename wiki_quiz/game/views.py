@@ -1,6 +1,6 @@
 from random import choice
 from django.shortcuts import render
-from game.create_questions.create_questions import generate_question
+from game.create_questions.create_questions import generate_question, questions
 from django.http import HttpRequest
 
 # Gammel kode.
@@ -22,7 +22,7 @@ from django.http import HttpRequest
 
 def question(request: 'HttpRequest') -> 'HttpResponse':
 
-    possible_questions = ['capital', 'population', 'island', 'olympics']
+    possible_questions = list(questions.keys())
 
     question = generate_question(choice(possible_questions), 4)
     
