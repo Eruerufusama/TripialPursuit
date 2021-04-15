@@ -136,5 +136,15 @@ queries = {
                 ?middle_country wdt:P47 ?end_country.
                 FILTER(?start_country != ?end_country)
             }
+        """,
+    "largest_citys":
+        """
+            SELECT DISTINCT ?cityLabel ?population
+            WHERE {
+                SERVICE wikibase:label {bd:serviceParam wikibase:language "en" .}
+                ?city wdt:P31/wdt:P279* wd:Q515 .
+                ?city wdt:P1082 ?population .
+            }
+            ORDER BY DESC(?population)
         """
 }

@@ -123,3 +123,26 @@ def country_neighbors_question(data: list) -> Question:
     
     shuffle(answers)
     return Question(question_text, answers)
+
+
+def largest_city_question(data: list) -> Question:
+    question_choice = choice(['largest', 'smallest'])  
+    question_text = f'Which of these citys has the {question_choice} population?' 
+
+    answers = []
+    for element in data:  
+        city = get_resource_url(element, "cityLabel")
+        population = int(get_resource_url(element, 'population'))
+        
+        answers.append({'population': population, 'city': city})
+
+    answers.sort(key=lambda x: x['population'], reverse=False if question_choice == 'smallest' else True)
+
+    answers = [
+        Answer(answer['city'], True if i == 0 else False, f"That is correct! The population of {answer['city']} is around {round(answer['population'] / 1_000_000, 1)} Million.")
+        for i, answer in enumerate(answers)
+    ]
+
+
+    shuffle(answers)
+    return Question(question_text, answers)

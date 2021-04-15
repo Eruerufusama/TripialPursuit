@@ -14,7 +14,8 @@ questions = {
     'population': population_question,
     'island': island_question,
     'olympics': olympics_question,
-    'country_neighbours': country_neighbors_question
+    'country_neighbours': country_neighbors_question,
+    'largest_citys': largest_city_question 
 }
 
 
@@ -37,5 +38,5 @@ def generate_question(question_type: str, n_answers: int) -> Question:
 
 
 if __name__ == "__main__":
-    question = generate_question('country_neighbours', 4)
-    print(question)
+    question = generate_question('largest_citys', 4)
+    print(question.to_dict)
