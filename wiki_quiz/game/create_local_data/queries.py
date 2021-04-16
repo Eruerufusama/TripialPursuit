@@ -43,32 +43,6 @@ queries = {
                 order by desc (?area)
         """,
 
-    "longitude":
-        """
-            SELECT DISTINCT ?country ?longitude 
-                WHERE {
-                    ?country rdf:type dbo:Country .
-                    ?country dbo:countryCode ?code .
-                    ?country dbo:populationTotal ?population .
-                    ?country geo:long ?longitude .
-                    FILTER NOT EXISTS {?country dbp:dateEnd ?date}
-                    FILTER NOT EXISTS {?country dbp:yearEnd ?year}
-                }
-        """,
-
-    "latitude":
-        """
-            SELECT DISTINCT ?country ?latitude 
-                WHERE {
-                    ?country rdf:type dbo:Country .
-                    ?country dbo:countryCode ?code .
-                    ?country dbo:populationTotal ?population .
-                    ?country geo:long ?latitude .
-                    FILTER NOT EXISTS {?country dbp:dateEnd ?date}
-                    FILTER NOT EXISTS {?country dbp:yearEnd ?year}
-                }
-        """,
-
     "currency":
         """
             select distinct ?country ?currency ?currencyCode 
@@ -139,6 +113,7 @@ queries = {
                 FILTER(?start_country != ?end_country)
             }
         """,
+    
     "largest_citys":
         """
             SELECT DISTINCT ?cityLabel ?population
@@ -148,5 +123,29 @@ queries = {
                 ?city wdt:P1082 ?population .
             }
             ORDER BY DESC(?population)
+        """,
+    
+    "director":
+        """
+            SELECT DISTINCT ?movieLabel ?directorLabel
+            WHERE {
+                ?movie wdt:P31 wd:Q11424.
+                ?movie wdt:P57 ?director.
+                ?movie wdt:P166 ?award.
+                ?award wdt:P31 wd:Q19020.
+                SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en". }
+            }
+        """,
+
+    "movie_length": 
+        """
+            SELECT DISTINCT ?movieLabel ?length 
+            WHERE {
+                ?movie wdt:P31 wd:Q11424.
+                ?movie wdt:P2047 ?length.
+                ?movie wdt:P166 ?award.
+                ?award wdt:P31 wd:Q19020.
+                SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en". }
+            }
         """
 }
