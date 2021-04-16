@@ -25,6 +25,7 @@ queries = {
                     FILTER NOT EXISTS {?country dbp:dateEnd ?date}
                     FILTER NOT EXISTS {?country dbp:yearEnd ?year}
                 }
+                order by desc (?population)
         """,
 
     "area":
@@ -39,6 +40,7 @@ queries = {
                     FILTER NOT EXISTS {?country dbp:dateEnd ?date}
                     FILTER NOT EXISTS {?country dbp:yearEnd ?year}
                 }
+                order by desc (?area)
         """,
 
     "longitude":
@@ -121,7 +123,7 @@ queries = {
                 ?country rdf:type dbo:Country .
                 ?country dbo:countryCode ?code .
             } 
-            order by (?olympic)
+            order by desc (?olympic)
         """,
     
     "country_neighbours":
