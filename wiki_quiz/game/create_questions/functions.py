@@ -15,7 +15,7 @@ def get_resource_url(url: dict, query_name: str) -> str:
     return url[query_name]['value'].rsplit('/', 1)[-1].replace('_', ' ')
 
 
-def get_answers(filepath: str, n_answers: int) -> list:
+def get_answers(filepath: str, n_answers: int, difficulty:str="normal") -> list:
     """
     Fetch <n> amount of samples from the pool of possible answers.
 
@@ -27,4 +27,13 @@ def get_answers(filepath: str, n_answers: int) -> list:
         list: List of answer-samples.
     """
     with open(filepath) as json_file:
-        return sample(load(json_file), n_answers)
+        data = load(json_file)
+        if difficulty == "normal":
+            return sample(data, n_answers)
+        elif difficulty == "easy" or difficulty == "hard":
+            split = len(data) / 2
+            return sample(
+                data[:split] if difficulty == "easy" 
+                else data[split:], n_answers
+            )
+            
