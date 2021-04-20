@@ -1,7 +1,7 @@
 queries = {
     "capital" :
         """
-            SELECT DISTINCT ?country ?capital
+            SELECT DISTINCT ?country ?capital ?pop
                 WHERE {
                     ?country rdf:type dbo:Country .
                     ?country dbo:countryCode ?code .
@@ -11,6 +11,7 @@ queries = {
                     FILTER NOT EXISTS {?country dbp:dateEnd ?date}
                     FILTER NOT EXISTS {?country dbp:yearEnd ?year}
                 }
+                order by desc (?pop)
         """,
 
     "population":
@@ -72,7 +73,7 @@ queries = {
             ORDER BY DESC (?area)
             LIMIT(100)
         """,
-
+    #Some mountains missing height
     "mountain": 
         """
             SELECT DISTINCT ?mountain ?height ?rank ?country 
@@ -84,7 +85,7 @@ queries = {
                 FILTER regex(?rank, "Ranked")
                 ?mountain dbo:locatedInArea ?country.
                 ?country rdf:type dbo:Country.
-            }
+            } order by desc(?height)
     """,
 
     "olympics":
@@ -102,16 +103,17 @@ queries = {
     
     "country_neighbours":
         """
-            SELECT ?start_countryLabel ?middle_countryLabel ?end_countryLabel 
+            SELECT ?start_countryLabel ?middle_countryLabel ?end_countryLabel ?pop
             WHERE {
                 SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en". }
                 ?start_country wdt:P31 wd:Q6256.
                 ?middle_country wdt:P31 wd:Q6256.
+                ?middle_country wdt:P1082 ?pop.
                 ?end_country wdt:P31 wd:Q6256.
                 ?start_country wdt:P47 ?middle_country.
                 ?middle_country wdt:P47 ?end_country.
                 FILTER(?start_country != ?end_country)
-            }
+            }order by desc (?pop)
         """,
     
     "largest_citys":
@@ -124,10 +126,10 @@ queries = {
             }
             ORDER BY DESC(?population)
         """,
-    
+    #Duplicate movies for movies with multiple directors
     "director":
         """
-            SELECT DISTINCT ?movieLabel ?directorLabel
+            SELECT DISTINCT ?movieLabel ?directorLabel (count(?movie) as ?count) 
             WHERE {
                 ?movie wdt:P31 wd:Q11424.
                 ?movie wdt:P57 ?director.
@@ -135,11 +137,13 @@ queries = {
                 ?award wdt:P31 wd:Q19020.
                 SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en". }
             }
+            group by ?directorLabel ?movieLabel
+            order by desc(?count)
         """,
 
     "movie_length": 
         """
-            SELECT DISTINCT ?movieLabel ?length 
+            SELECT DISTINCT ?movieLabel ?lengthLabel (count(?movie) as ?count) 
             WHERE {
                 ?movie wdt:P31 wd:Q11424.
                 ?movie wdt:P2047 ?length.
@@ -147,5 +151,7 @@ queries = {
                 ?award wdt:P31 wd:Q19020.
                 SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en". }
             }
+            group by ?lengthLabel ?movieLabel
+            order by desc(?count)
         """
 }
