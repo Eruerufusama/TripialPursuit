@@ -126,6 +126,7 @@ queries = {
             }
             ORDER BY DESC(?population)
         """,
+    
     #Duplicate movies for movies with multiple directors
     "director":
         """
@@ -153,5 +154,18 @@ queries = {
             }
             group by ?lengthLabel ?movieLabel
             order by desc(?count)
+        """,
+    
+    "actors":
+        """
+            SELECT DISTINCT ?movieLabel (GROUP_CONCAT(?actorLabel;separator=",") as ?actors)  WHERE {
+                SELECT ?movieLabel ?actorLabel WHERE {
+                    ?movie wdt:P31 wd:Q11424.
+                    ?movie wdt:P166 ?award.
+                    ?award wdt:P31 wd:Q19020.
+                    ?movie wdt:P161 ?actor.
+                    SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en". }
+                }
+            } GROUP BY ?movieLabel
         """
 }
