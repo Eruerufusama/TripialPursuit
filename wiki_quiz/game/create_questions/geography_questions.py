@@ -80,6 +80,25 @@ def island_question(data: list) -> Question:
     return Question(question_text, answers)
 
 
+def currency_question(data: list) -> Question:
+    answers = []
+
+    for i, element in enumerate(data):
+        country = get_resource_url(element, "country")
+        currency_code = element["currencyCode"]["value"]
+        
+        if i == 0:
+            question_text = f"What currency code does {country} use?"
+            answer_text = f"That is correct {country} has {currency_code} as their currency code."
+            answers.append(Answer(currency_code, True, answer_text))
+        
+        else:
+            answer_text = f"That is incorrect, {country} has {currency_code} as their currency code."
+            answers.append(Answer(currency_code, False, answer_text))
+    
+    shuffle(answers)
+    return Question(question_text, answers)
+
 
 def olympics_question(data: list) -> Question:
     

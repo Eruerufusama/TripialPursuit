@@ -16,6 +16,7 @@ questions = {
         'capital': capital_question,
         'population': population_question,
         'island': island_question,
+        'currency': currency_question,
         'olympics': olympics_question,
         'country_neighbours': country_neighbors_question,
         'largest_citys': largest_city_question 
@@ -47,5 +48,5 @@ def generate_question(question_category: str, question_type: str, n_answers: int
 
 
 if __name__ == "__main__":
-    question = generate_question('movie', 'movie_length', 4)
+    question = generate_question('geography', 'currency', 4)
     print(question.to_dict)
