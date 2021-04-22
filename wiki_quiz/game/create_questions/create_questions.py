@@ -11,7 +11,7 @@ except:
     from data_types import Question
    
 
-country_questions = {
+questions = {
     'geography': {
         'capital': capital_question,
         'population': population_question,
@@ -27,12 +27,13 @@ country_questions = {
 }
 
 
-def generate_question(question_category, question_type: str, n_answers: int) -> Question:
+def generate_question(question_category: str, question_type: str, n_answers: int) -> Question:
     """
     Generates a question-object.
 
     Returns:
-        [type]: (Question) A Question-object with n answers, one of which is correct.
+        question_category: (str) A category to which the question-type belongs to.
+        question_type: (str) A Question-object with n answers, one of which is correct.
     """
 
     
@@ -40,7 +41,7 @@ def generate_question(question_category, question_type: str, n_answers: int) -> 
     data = get_answers(f'{getcwd()}\\game\\json_data\\{question_type}.json', n_answers)
 
     # Fetch the appropriate function based on question-type.
-    question_function = country_questions[question_category][question_type]
+    question_function = questions[question_category][question_type]
 
     return question_function(data)
 

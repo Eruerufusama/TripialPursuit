@@ -1,47 +1,42 @@
-from random import choice
+# From django
 from django.shortcuts import render
+from django.http import HttpRequest, HttpResponse
+from django.forms import MultipleChoiceField
+
+# from python standard library
+from random import choice
+
+# Local
 from game.create_questions.create_questions import generate_question, questions
-from django.http import HttpRequest
+from game.forms import MenuForm
 
-# Gammel kode.
-# from game.create_questions.reworked import CountryQuestionGenerator, QuestionGenerator
 
-# def question(request) -> 'HttpResponse':
-#     """
-#     Creates a general website for questions.
-#     """
+def question(request: HttpRequest) -> HttpResponse:
 
-#     question_generator = QuestionGenerator()
-#     question_generator.query_to_json()
+    if request.method == 'POST':
+        form = MenuForm(request.POST)
+
+        if form.is_valid():
+            category = form.cleaned_data['category']
+
+            possible_questions = list(questions[category].keys())
+            question = generate_question(category, choice(possible_questions), 4)
     
-#     country_question_generator = CountryQuestionGenerator()
-#     question = country_question_generator.get_population_question()
-
-#     return render(request, 'game/question.html', question.to_dict())
+            return render(request, 'game/question.html', question.to_dict())
 
 
-def question(request: 'HttpRequest') -> 'HttpResponse':
-
-    possible_questions = list(questions.keys())
-
-    question = generate_question(choice(possible_questions), 4)
-    
-    return render(request, 'game/question.html', question.to_dict())
-
-
-
-
-def menu(request: 'HttpRequest') -> 'HttpResponse':
+def menu(request: HttpRequest) -> HttpResponse:
+    form = MenuForm()
     data = {
-        'categories': ['geography', 'sports', 'movies', "im feelin' lucky"]
+        'categories': ['geography', 'movies', "im feelin' lucky"],
+        'form': form
     }
     
-
     return render(request, 'game/menu.html', data)
+    
 
 
-
-def about(request: 'HttpRequest') -> 'HttpResponse':
+def about(request: HttpRequest) -> HttpResponse:
     return render(request, 'game/about.html')
 
 

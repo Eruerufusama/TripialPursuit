@@ -7,9 +7,11 @@
         <div class="card-body">Categories</div>
     </div>
     <div class="btn-group-vertical btn-group-lg categories">
-        {% for category in categories %}
-            <button type="button" class="btn category-btn">{{ category }}</button>
-        {% endfor %}
+        <form action="/question/" method="post">
+        {% csrf_token %}
+        {{form}}
+        <button type="submit">Play!</button>
+        </form>
     </div>
 </div>
 
