@@ -156,9 +156,36 @@ queries = {
             order by desc(?count)
         """,
     
+    "academy_awards_movie":
+        """
+        SELECT ?movieLabel (count(?movie) as ?count) 
+        WHERE {
+             ?movie wdt:P31 wd:Q11424.
+             ?movie wdt:P166 ?award.
+             ?award wdt:P31 wd:Q19020.
+            SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en". }
+        }
+        group by ?movieLabel
+        order by desc(?count)
+        """,
+
+        "academy_awards_person":
+        """
+        SELECT ?actorLabel (count(?actor) as ?count)
+        WHERE {
+             ?actor wdt:P31 wd:Q5.
+             ?actor wdt:P166 ?award.
+             ?award wdt:P31 wd:Q19020.
+            SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en". }
+        }
+        group by ?movieLabel
+        order by desc(?count)
+        """,
+    
     "actors":
         """
-            SELECT DISTINCT ?movieLabel (GROUP_CONCAT(?actorLabel;separator=",") as ?actors)  WHERE {
+            SELECT DISTINCT ?movieLabel (GROUP_CONCAT(?actorLabel;separator=",") as ?actors)  
+            WHERE {
                 SELECT ?movieLabel ?actorLabel WHERE {
                     ?movie wdt:P31 wd:Q11424.
                     ?movie wdt:P166 ?award.
@@ -167,5 +194,19 @@ queries = {
                     SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en". }
                 }
             } GROUP BY ?movieLabel
+        """,
+
+    "release_year":
+        """
+        SELECT DISTINCT ?movieLabel (SAMPLE(year(?release)) as ?dat) (count(?movie) as ?count) 
+        WHERE {
+            ?movie wdt:P31 wd:Q11424.
+            ?movie wdt:P577 ?release.
+            ?movie wdt:P166 ?award.
+            ?award wdt:P31 wd:Q19020.
+            SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en". }
+        }
+        group by ?movieLabel
+        order by desc(?count)
         """
 }
