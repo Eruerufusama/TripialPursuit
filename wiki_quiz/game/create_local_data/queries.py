@@ -178,7 +178,7 @@ queries = {
              ?award wdt:P31 wd:Q19020.
             SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en". }
         }
-        group by ?movieLabel
+        group by ?actorLabel
         order by desc(?count)
         """,
     
