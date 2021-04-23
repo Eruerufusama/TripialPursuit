@@ -1,4 +1,5 @@
 from os import getcwd
+from pprint import pprint
 try:
     from game.create_questions.functions import get_answers
     from game.create_questions.geography_questions import *
@@ -24,7 +25,8 @@ questions = {
     'movie': {
         'director': director_question,
         'movie_length': movie_length_question,
-        'actors': actors_question
+        'actors': actors_question,
+        'release_year': release_year_question
     }
 }
 
@@ -49,5 +51,5 @@ def generate_question(question_category: str, question_type: str, n_answers: int
 
 
 if __name__ == "__main__":
-    question = generate_question('movie', 'actors', 4)
-    print(question.to_dict)
+    question = generate_question('movie', 'release_year', 4)
+    pprint(question.to_dict())

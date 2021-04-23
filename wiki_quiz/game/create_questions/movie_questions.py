@@ -81,3 +81,18 @@ def actors_question(data: list) -> Question:
     return Question(question_text, answers)
 
 
+def release_year_question(data: list) -> Question:
+    answers = []
+    for i, element in enumerate(data):
+        year = get_resource_url(element, "dat")
+        movie = get_resource_url(element, "movieLabel")
+
+        if i == 0:
+            question_text = f"When was the movie {movie} released?"
+            answers.append(Answer(year, True, f"That is correct, the movie {movie} was realeased in {year}"))
+        
+        else:
+            answers.append(Answer(year, False, f"That is incorrect, the movie {movie} was realeased in {year}"))
+        
+    shuffle(answers)
+    return Question(question_text, answers)

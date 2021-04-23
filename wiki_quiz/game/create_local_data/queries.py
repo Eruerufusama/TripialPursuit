@@ -198,15 +198,15 @@ queries = {
 
     "release_year":
         """
-        SELECT DISTINCT ?movieLabel (SAMPLE(year(?release)) as ?dat) (count(?movie) as ?count) 
-        WHERE {
-            ?movie wdt:P31 wd:Q11424.
-            ?movie wdt:P577 ?release.
-            ?movie wdt:P166 ?award.
-            ?award wdt:P31 wd:Q19020.
-            SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en". }
-        }
-        group by ?movieLabel
-        order by desc(?count)
+            SELECT DISTINCT ?movieLabel (SAMPLE(year(?release)) as ?year) (count(?movie) as ?count) 
+            WHERE {
+                ?movie wdt:P31 wd:Q11424.
+                ?movie wdt:P577 ?release.
+                ?movie wdt:P166 ?award.
+                ?award wdt:P31 wd:Q19020.
+                SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en". }
+            }
+            group by ?movieLabel
+            order by desc(?count)
         """
 }
