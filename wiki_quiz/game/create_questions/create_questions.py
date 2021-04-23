@@ -23,7 +23,8 @@ questions = {
     }, 
     'movie': {
         'director': director_question,
-        'movie_length': movie_length_question
+        'movie_length': movie_length_question,
+        'actors': actors_question
     }
 }
 
@@ -48,5 +49,5 @@ def generate_question(question_category: str, question_type: str, n_answers: int
 
 
 if __name__ == "__main__":
-    question = generate_question('geography', 'currency', 4)
+    question = generate_question('movie', 'actors', 4)
     print(question.to_dict)
