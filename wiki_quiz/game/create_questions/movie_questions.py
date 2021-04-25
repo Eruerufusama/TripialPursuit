@@ -48,6 +48,13 @@ def movie_length_question(data: list) -> Question:
     return Question(question_text, answers)
 
 
+def academy_awards_movie_question(data: list) -> Question:
+    pass
+
+def academy_awards_person(data: list) -> Question:
+    pass
+
+
 def actors_question(data: list) -> Question:
     question_data = []
     for element in data:
