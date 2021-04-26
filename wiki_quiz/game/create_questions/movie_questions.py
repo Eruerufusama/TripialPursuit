@@ -51,7 +51,7 @@ def movie_length_question(data: list) -> Question:
 def academy_awards_movie_question(data: list) -> Question:
     pass
 
-def academy_awards_person(data: list) -> Question:
+def academy_awards_person_question(data: list) -> Question:
     pass
 
 

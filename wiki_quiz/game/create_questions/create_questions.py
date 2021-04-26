@@ -26,7 +26,9 @@ questions = {
         'director': director_question,
         'movie_length': movie_length_question,
         'actors': actors_question,
-        'release_year': release_year_question
+        'release_year': release_year_question,
+        'academy_awards_movie': academy_awards_movie_question,
+        'academy_awards_person': academy_awards_person_question
     }
 }
 

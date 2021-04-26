@@ -158,28 +158,28 @@ queries = {
     
     "academy_awards_movie":
         """
-        SELECT ?movieLabel (count(?movie) as ?count) 
-        WHERE {
-             ?movie wdt:P31 wd:Q11424.
-             ?movie wdt:P166 ?award.
-             ?award wdt:P31 wd:Q19020.
-            SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en". }
-        }
-        group by ?movieLabel
-        order by desc(?count)
+            SELECT ?movieLabel (count(?movie) as ?count) 
+            WHERE {
+                ?movie wdt:P31 wd:Q11424.
+                ?movie wdt:P166 ?award.
+                ?award wdt:P31 wd:Q19020.
+                SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en". }
+            }
+            group by ?movieLabel
+            order by desc(?count)
         """,
 
-        "academy_awards_person":
+    "academy_awards_person":
         """
-        SELECT ?actorLabel (count(?actor) as ?count)
-        WHERE {
-             ?actor wdt:P31 wd:Q5.
-             ?actor wdt:P166 ?award.
-             ?award wdt:P31 wd:Q19020.
-            SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en". }
-        }
-        group by ?actorLabel
-        order by desc(?count)
+            SELECT ?actorLabel (count(?actor) as ?count)
+            WHERE {
+                ?actor wdt:P31 wd:Q5.
+                ?actor wdt:P166 ?award.
+                ?award wdt:P31 wd:Q19020.
+                SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en". }
+            }
+            group by ?actorLabel
+            order by desc(?count)
         """,
     
     "actors":
