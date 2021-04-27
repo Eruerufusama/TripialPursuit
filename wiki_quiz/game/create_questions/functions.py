@@ -28,12 +28,13 @@ def get_answers(filepath: str, n_answers: int, difficulty:str="normal") -> list:
     """
     with open(filepath) as json_file:
         data = load(json_file)
+
         if difficulty == "normal":
             return sample(data, n_answers)
+
         elif difficulty == "easy" or difficulty == "hard":
-            split = len(data) / 2
-            return sample(
-                data[:split] if difficulty == "easy" 
-                else data[split:], n_answers
-            )
+            middle = len(data) // 2
+            data = data[:middle] if difficulty == "easy" else data[middle:]
+
+            return sample(data, n_answers)
             

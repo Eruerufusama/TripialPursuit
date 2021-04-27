@@ -1,5 +1,5 @@
 # From django
-from django.shortcuts import render
+from django.shortcuts import render, redirect
 from django.http import HttpRequest, HttpResponse
 from django.forms import MultipleChoiceField
 
@@ -13,24 +13,30 @@ from game.forms import MenuForm
 
 def question(request: HttpRequest) -> HttpResponse:
 
+    # Check if the request made is from 'GET' or 'POST'
+    # We only care about POST-requests.
     if request.method == 'POST':
         form = MenuForm(request.POST)
 
         if form.is_valid():
-            category = form.cleaned_data['category']
 
+            # Get data back from form.
+            category = form.cleaned_data['category']
+            difficulty = form.cleaned_data['difficulty']
+
+            # Fetch all possible question-uris.
             possible_questions = list(questions[category].keys())
+
+            # Generate a question based on those uris.
             question = generate_question(category, choice(possible_questions), 4)
     
             return render(request, 'game/question.html', question.to_dict())
 
+    return render(request, redirect(menu))
+
 
 def menu(request: HttpRequest) -> HttpResponse:
-    form = MenuForm()
-    data = {
-        'categories': ['geography', 'movies', "im feelin' lucky"],
-        'form': form
-    }
+    data = {'form': MenuForm()}
     
     return render(request, 'game/menu.html', data)
     
@@ -38,10 +44,6 @@ def menu(request: HttpRequest) -> HttpResponse:
 
 def about(request: HttpRequest) -> HttpResponse:
     return render(request, 'game/about.html')
-
-
-
-
 
 
 

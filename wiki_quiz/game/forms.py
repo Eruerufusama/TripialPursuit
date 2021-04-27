@@ -6,8 +6,9 @@ class MenuForm(forms.Form):
         ('movies', 'movies'),
         ('lucky', "I'm feelin' lucky.")
         ])
+        
     difficulty = forms.ChoiceField(choices=[
-        ('1', 'easy',),
-        ('2', 'intermediate'),
-        ('3', 'hard')
+        ('easy', 'easy',),
+        ('normal', 'normal'),
+        ('hard', 'hard')
     ])
