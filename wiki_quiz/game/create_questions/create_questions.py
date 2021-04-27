@@ -42,9 +42,9 @@ def generate_question(question_category: str, question_type: str, n_answers: int
         question_type: (str) A Question-object with n answers, one of which is correct.
     """
 
+    filepath = f'{getcwd()}\\game\\json_data\\{question_type}.json'
     
     # Retrieve n answers from local database.
-    filepath = f'{getcwd()}\\game\\json_data\\{question_type}.json'
     data = get_answers(filepath, n_answers, difficulty)
 
     # Fetch the appropriate function based on question-type.

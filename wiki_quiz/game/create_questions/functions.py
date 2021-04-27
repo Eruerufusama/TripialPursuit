@@ -16,13 +16,14 @@ def get_resource_url(url: dict, query_name: str) -> str:
     return url[query_name]['value'].rsplit('/', 1)[-1].replace('_', ' ')
 
 
-def get_answers(filepath: str, n_answers: int, difficulty:str="normal") -> list:
+def get_answers(filepath: str, n_answers: int, difficulty: str="normal") -> list:
     """
     Fetch <n> amount of samples from the pool of possible answers.
 
     Args:
         filepath (str): Filepath to json-file which contains possible answers.
-        n_answers (int): number of answers.
+        n_answers (int): Number of answers.
+        difficulty (str): Level of difficulty for answers.
 
     Returns:
         list: List of answer-samples.
@@ -31,24 +32,14 @@ def get_answers(filepath: str, n_answers: int, difficulty:str="normal") -> list:
         data = load(json_file)
 
         if difficulty == "normal":
-<<<<<<< HEAD
             return sample(data, n_answers)
 
         elif difficulty == "easy" or difficulty == "hard":
-            middle = len(data) // 2
+            middle = len(data) / 2
             data = data[:middle] if difficulty == "easy" else data[middle:]
 
             return sample(data, n_answers)
-            
-=======
-            return get_samples_no_dupe(data, n_answers)
-            #return sample(data, n_answers)
-        elif difficulty == "easy" or difficulty == "hard":
-            split = len(data) / 2
-            return sample(
-                data[:split] if difficulty == "easy" 
-                else data[split:], n_answers
-            )
+
 
 def get_samples_no_dupe(data: dict, n_answers: int) -> list:
     "Makes sure no question has duplicate URI"
@@ -69,5 +60,5 @@ def get_samples_no_dupe(data: dict, n_answers: int) -> list:
 
 
 if __name__ == "__main__":
-    pprint(get_answers("D:\\Backup\\Code\\INFO216\\Semester oppgave\\TripialPursuit\\wiki_quiz\\game\\json_data\\capital.json", n_answers=4, difficulty="normal"))
->>>>>>> 03163b9763bd2998a4daf46dd4695034f452a79f
+    filepath="D:\\Backup\\Code\\INFO216\\Semester oppgave\\TripialPursuit\\wiki_quiz\\game\\json_data\\capital.json"
+    pprint(get_answers(filepath, 4, "normal"))
