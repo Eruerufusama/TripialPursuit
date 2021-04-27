@@ -51,6 +51,7 @@ def movie_length_question(data: list) -> Question:
 def academy_awards_movie_question(data: list) -> Question:
     pass
 
+
 def academy_awards_person_question(data: list) -> Question:
     pass
 
@@ -91,7 +92,7 @@ def actors_question(data: list) -> Question:
 def release_year_question(data: list) -> Question:
     answers = []
     for i, element in enumerate(data):
-        year = get_resource_url(element, "dat")
+        year = get_resource_url(element, "year")
         movie = get_resource_url(element, "movieLabel")
 
         if i == 0:

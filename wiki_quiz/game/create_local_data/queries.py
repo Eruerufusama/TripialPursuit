@@ -198,7 +198,7 @@ queries = {
 
     "release_year":
         """
-            SELECT DISTINCT ?movieLabel (SAMPLE(year(?release)) as ?year) (count(?movie) as ?count) 
+            SELECT DISTINCT (SAMPLE(year(?release)) as ?year) ?movieLabel (count(?movie) as ?count) 
             WHERE {
                 ?movie wdt:P31 wd:Q11424.
                 ?movie wdt:P577 ?release.

@@ -30,10 +30,13 @@ def print_search(search_result):
 def select_search(search_result, index):
     return search_result[index][0]
 
+def extract_usefull_properties():
+    pass
+
 if __name__ == "__main__":
     search = input("Type what to search for on wikidata\n")
     search_result = get_q_code(search, 4)
     print_search(search_result)
     index = int(input("select index\n"))
     q_code = select_search(search_result, index)
-    print(q_code)
+    
