@@ -40,41 +40,21 @@ def get_answers(filepath: str, n_answers: int, difficulty:str="normal") -> list:
             )
 
 def get_samples_no_dupe(data: dict, n_answers: int) -> list:
+    "Makes sure no question has duplicate URI"
+
     alternatives = []
     uri_log = []
     
-    #while len(alternatives) < 4:
-    current_sample = sample(data, 1)
-    #print(current_sample)
-
-    for element in current_sample:
-        for key, value in element.items():
-            uri = element[key]["value"]
-            
-            if uri not in uri_log:
-                alternatives.append(current_sample)
-            else:
-                continue
-            
-            uri_log.append(uri)
-            
-    return alternatives
-    """
     while len(alternatives) < 4:
         current_sample = sample(data, 1)
         for element in current_sample:
-            for i, value in enumerate(element.values()):
-                uri = value["value"]
-                print(uri)
-                if uri not in duplicates and i == 0:
-                    #print("current sample", current_sample, "\n")
+            for key, value in element.items():
+                uri = element[key]["value"]
+                if uri not in uri_log:
+                    print(uri_log)
                     alternatives.append(current_sample)
-                    duplicates.append(uri)
-
-    #print("alternatives:", alternatives, "\n")
-    #print("duplicates:", duplicates)
+                    uri_log.append(uri)     
     return alternatives
-    """
 
 
 if __name__ == "__main__":
