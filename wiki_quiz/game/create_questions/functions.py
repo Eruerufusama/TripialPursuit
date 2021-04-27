@@ -16,28 +16,30 @@ def get_resource_url(url: dict, query_name: str) -> str:
     return url[query_name]['value'].rsplit('/', 1)[-1].replace('_', ' ')
 
 
-def get_answers(filepath: str, n_answers: int, difficulty:str="normal") -> list:
+def get_answers(filepath: str, n_answers: int, difficulty: str="normal") -> list:
     """
     Fetch <n> amount of samples from the pool of possible answers.
 
     Args:
         filepath (str): Filepath to json-file which contains possible answers.
-        n_answers (int): number of answers.
+        n_answers (int): Number of answers.
+        difficulty (str): Level of difficulty for answers.
 
     Returns:
         list: List of answer-samples.
     """
     with open(filepath) as json_file:
         data = load(json_file)
+
         if difficulty == "normal":
-            return get_samples_no_dupe(data, n_answers)
-            #return sample(data, n_answers)
+            return sample(data, n_answers)
+
         elif difficulty == "easy" or difficulty == "hard":
-            split = len(data) / 2
-            return sample(
-                data[:split] if difficulty == "easy" 
-                else data[split:], n_answers
-            )
+            middle = len(data) / 2
+            data = data[:middle] if difficulty == "easy" else data[middle:]
+
+            return sample(data, n_answers)
+
 
 def get_samples_no_dupe(data: dict, n_answers: int) -> list:
     "Makes sure no question has duplicate URI"

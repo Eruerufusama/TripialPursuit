@@ -33,7 +33,7 @@ questions = {
 }
 
 
-def generate_question(question_category: str, question_type: str, n_answers: int) -> Question:
+def generate_question(question_category: str, question_type: str, n_answers: int, difficulty: str='normal') -> Question:
     """
     Generates a question-object.
 
@@ -42,9 +42,10 @@ def generate_question(question_category: str, question_type: str, n_answers: int
         question_type: (str) A Question-object with n answers, one of which is correct.
     """
 
+    filepath = f'{getcwd()}\\game\\json_data\\{question_type}.json'
     
     # Retrieve n answers from local database.
-    data = get_answers(f'{getcwd()}\\game\\json_data\\{question_type}.json', n_answers)
+    data = get_answers(filepath, n_answers, difficulty)
 
     # Fetch the appropriate function based on question-type.
     question_function = questions[question_category][question_type]
