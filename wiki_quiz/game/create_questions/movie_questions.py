@@ -1,4 +1,6 @@
 from random import shuffle, choice
+from pprint import pprint
+from random import sample
 try:
     from game.create_questions.data_types import Question, Answer
     from game.create_questions.functions import get_resource_url
@@ -42,5 +44,62 @@ def movie_length_question(data: list) -> Question:
         for i, answer in enumerate(answers)
     ]
 
+    shuffle(answers)
+    return Question(question_text, answers)
+
+
+def academy_awards_movie_question(data: list) -> Question:
+    pass
+
+def academy_awards_person_question(data: list) -> Question:
+    pass
+
+
+def actors_question(data: list) -> Question:
+    question_data = []
+    for element in data:
+        actors = get_resource_url(element, "actors").split(",")
+        movie = get_resource_url(element, "movieLabel")
+        question_data.append([movie, set(actors)])
+
+    # Remove actors from other movies to make sure we dont get multiple correct alternatives
+    # Removes all actors which were present in both the first movie (we base our question on) and in each other movie
+    for i in range(len(question_data) - 1):
+        question_data[0][1] - question_data[i+1][1]
+    
+    # Converts back to list
+    for i in range(len(question_data)):
+        question_data[i][1] = list(question_data[i][1])
+    
+    answers = []
+    for i, element in enumerate(question_data):
+        movie = element[0]
+        actor = element[1]
+        
+        if i == 0:
+            two_random_actors = sample(actor, 2)
+            question_text = f"In which movie did {two_random_actors[0]} and {two_random_actors[1]} play together?"
+            answers.append(Answer(movie, True, f"That is correct, {two_random_actors[0]} and {two_random_actors[1]} played together in {movie}"))
+        
+        else:
+            answers.append(Answer(movie, False, f"That is incorrent, {two_random_actors[0]} and {two_random_actors[1]} played together in {movie}"))
+    
+    shuffle(answers)
+    return Question(question_text, answers)
+
+
+def release_year_question(data: list) -> Question:
+    answers = []
+    for i, element in enumerate(data):
+        year = get_resource_url(element, "dat")
+        movie = get_resource_url(element, "movieLabel")
+
+        if i == 0:
+            question_text = f"When was the movie {movie} released?"
+            answers.append(Answer(year, True, f"That is correct, the movie {movie} was realeased in {year}"))
+        
+        else:
+            answers.append(Answer(year, False, f"That is incorrect, the movie {movie} was realeased in {year}"))
+        
     shuffle(answers)
     return Question(question_text, answers)
