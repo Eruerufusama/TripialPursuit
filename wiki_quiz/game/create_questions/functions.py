@@ -1,4 +1,4 @@
-from random import sample
+from random import choice, shuffle
 from json import load
 from pprint import pprint
 
@@ -32,7 +32,8 @@ def get_answers(filepath: str, n_answers: int, difficulty: str="normal") -> list
         data = load(json_file)
 
         if difficulty == "normal":
-            return sample(data, n_answers)
+            # sample(data, 4)
+            return get_samples_no_dupe(data, n_answers)
 
         elif difficulty == "easy" or difficulty == "hard":
             middle = len(data) / 2
@@ -42,49 +43,24 @@ def get_answers(filepath: str, n_answers: int, difficulty: str="normal") -> list
 
 
 def get_samples_no_dupe(data: dict, n_answers: int) -> list:
-    "Makes sure no question has duplicate URI"
+    current_chosen_alts_list = []
+    correct = choice(data)
+    shuffle(data)
 
-    """
-    alternatives = []
-    uri_log = []
+    for current in data:
+        if len(current_chosen_alts_list) == 4:
+            return current_chosen_alts_list
+        if valid_alternative(current, current_chosen_alts_list):
+            current_chosen_alts_list.append(current)
     
-    while len(alternatives) < 4:
-        current_sample = sample(data, 1)
-        uri = current_sample[0]["year"]["value"]
-        if uri not in uri_log and current_sample not in alternatives:
-            alternatives.append(current_sample)
-            uri_log.append(uri)     
-    return alternatives
-    """
 
-    alternatives = []
-    uri_log = []
-    
-    while len(alternatives) < 4:
-        current_sample = sample(data, 1)
-        for element in current_sample:
-            for key, value in element.items():
-                uri = element[key]["value"]
-                if uri not in uri_log and current_sample not in alternatives:
-                    alternatives.append(current_sample)
-                    uri_log.append(uri)
-                break
-    
-    for i, element in enumerate(alternatives): 
-        alternatives[i] = element[0]
-    
-    #print("uri_log")
-    #print(uri_log, "\n"*5)    
-    return alternatives
-    #return alternatives, uri_log
+def valid_alternative(current, current_chosen_alts_list):
+        for key, val in current.items():
+            for alt in current_chosen_alts_list:
+                if alt[key]["value"] == val["value"]:
+                    return False
+        return True
 
 
 if __name__ == "__main__":
-    """
-    while True:
-        alternatives, uri_log = get_answers("D:\\Backup\\Code\\INFO216\\Semester oppgave\\TripialPursuit\\wiki_quiz\\game\\json_data\\release_year.json", n_answers=4, difficulty="normal")
-        for element in uri_log:
-            print(element, uri_log.count(element))
-            if uri_log.count(element) > 1:
-                print(alternatives, "\n"*10, uri_log)
-    """
+    pprint(get_answers("D:\\Backup\\Code\\INFO216\\Semester oppgave\\TripialPursuit\\wiki_quiz\\game\\json_data\\academy_awards_person.json", n_answers=4, difficulty="normal"))
