@@ -75,7 +75,6 @@ def valid_alternative(current: dict, current_chosen_alts_list: list):
         bool: Returns a boolian True if the values dont match
         and returns boolian false if the values match 
     """
-    print(current_chosen_alts_list)
     for key, val in current.items():
         for alt in current_chosen_alts_list:
             if alt[key]["value"] == val["value"]:
@@ -84,4 +83,4 @@ def valid_alternative(current: dict, current_chosen_alts_list: list):
 
 
 if __name__ == "__main__":
-    get_answers("D:\\Backup\\Code\\INFO216\\Semester oppgave\\TripialPursuit\\wiki_quiz\\game\\json_data\\land_locked.json", n_answers=2, difficulty="normal")
+    pprint(get_answers("D:\\Backup\\Code\\INFO216\\Semester oppgave\\TripialPursuit\\wiki_quiz\\game\\json_data\\land_locked.json", n_answers=2, difficulty="normal"))
