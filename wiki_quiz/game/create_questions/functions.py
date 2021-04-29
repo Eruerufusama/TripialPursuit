@@ -52,10 +52,12 @@ def get_samples_no_dupe(data: dict, n_answers: int) -> list:
         for element in current_sample:
             for key, value in element.items():
                 uri = element[key]["value"]
+                
                 if uri not in uri_log:
                     print(uri_log)
                     alternatives.append(current_sample)
                     uri_log.append(uri)     
+
     return alternatives
 
 

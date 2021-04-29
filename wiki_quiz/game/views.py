@@ -6,7 +6,7 @@ from django.forms import MultipleChoiceField
 # from python standard library
 from random import choice
 
-# Local
+# From local
 from game.create_questions.create_questions import generate_question, questions
 from game.forms import MenuForm
 
@@ -23,21 +23,23 @@ def question(request: HttpRequest) -> HttpResponse:
             # Get data back from form.
             category = form.cleaned_data['category']
             difficulty = form.cleaned_data['difficulty']
+            n_questions = form.cleaned_data['n_questions']
 
             # Fetch all possible question-uris.
             possible_questions = list(questions[category].keys())
 
-            # Generate a question based on those uris.
-            question = generate_question(category, choice(possible_questions), 4)
-    
-            return render(request, 'game/question.html', question.to_dict())
+            # Generate questions based on those uris.
+            _questions = [generate_question(category, choice(possible_questions), 4).to_dict() for _ in range(int(n_questions))]
+            
+            context = {"questions": _questions}
 
-    return render(request, redirect(menu))
+            # Render website.
+            return render(request, 'game/question.html', context)
 
 
 def menu(request: HttpRequest) -> HttpResponse:
     data = {'form': MenuForm()}
-    
+
     return render(request, 'game/menu.html', data)
     
 

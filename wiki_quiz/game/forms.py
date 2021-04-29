@@ -5,10 +5,17 @@ class MenuForm(forms.Form):
         ('geography', 'geography'),
         ('movies', 'movies'),
         ('lucky', "I'm feelin' lucky.")
-        ])
+    ])
         
     difficulty = forms.ChoiceField(choices=[
-        ('easy', 'easy',),
+        ('easy', 'easy'),
         ('normal', 'normal'),
         ('hard', 'hard')
+    ])
+
+    n_questions = forms.ChoiceField(choices=[
+        (5, '5'),
+        (10, '10'),
+        (20, '20'),
+        (50, '50'),
     ])

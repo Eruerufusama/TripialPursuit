@@ -1,4 +1,5 @@
 {% extends 'game/base.html' %}
+{% load crispy_forms_tags %}
 
 {% block content %}
 
@@ -9,7 +10,7 @@
     <div class="btn-group-vertical btn-group-lg categories">
         <form action="/question/" method="post">
         {% csrf_token %}
-        {{form}}
+        {{form|crispy}}
         <button type="submit">Play!</button>
         </form>
     </div>

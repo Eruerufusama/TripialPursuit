@@ -1,20 +1,38 @@
 {% extends 'game/base.html' %}
+{% load static %}
 
 {% block content %}
 
+<!-- Questions -->
+<div class="questions">
+    {% for question in questions %}
+        
+        <div class="center-content hide">
 
-<div class="center-content">
-    <div class="card">
-        <div class="card-body">{{ question_text }}</div>
-    </div>
-    <div class="btn-group-vertical btn-group-lg">
+            <!-- Page-numbers -->
+            <div class="card">
+                <div class="card-body">{{ question.question_text }}</div>
+            </div>
 
-        {% for answer in answers %}
+            <!-- Question-boxes -->
+            <div class="btn-group-vertical btn-group-lg categories">
 
-            <button type="button" class="btn {% if answer.is_correct %}btn-success{% else %}btn-warning{% endif %}">{{ answer.text }}</button>
+                {% for answer in question.answers %}
 
-        {% endfor %}
-    </div>
+                    <button type="button" class="btn {% if answer.is_correct %}btn-success{% else %}btn-warning{% endif %}">{{ answer.text }}</button>
+                {% endfor %}
+            </div>
+        </div>
+    {% endfor %}
 </div>
 
+<!-- Numbering of questions -->
+<nav class="nav nav-pills nav-fill question-numbers">
+    {% for question in questions %}
+        <button onclick="switchQuestion({{ forloop.counter0 }})" class="nav-item nav-link {% if forloop.first %}active{% endif %}">{{ forloop.counter }}</button>
+    {% endfor %}
+</nav>
+
+<!-- Script that makes you able to switch between questions -->
+<script src="{% static 'game/tabs.js' %}"></script>
 {% endblock content %}
