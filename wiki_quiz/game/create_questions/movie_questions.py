@@ -131,3 +131,22 @@ def release_year_question(data: list) -> Question:
         
     shuffle(answers)
     return Question(question_text, answers)
+
+
+def actor_has_actor_parent_question(data: list) -> Question:
+    answers = []
+    for i, element in enumerate(data):
+        actor = get_resource_url(element, "actorLabel")
+        parent_value = get_resource_url(element, "bool")
+
+        if i == 0:
+            question_text = f"Did the actor {actor} have a parent who was also an actor?"
+            answer_text = f"That is correct"
+            answers.append(Answer(parent_value, True, answer_text))
+        
+        else:
+            answer_text = f"That is incorrect"
+            answers.append(Answer(parent_value, False, answer_text))
+        
+    shuffle(answers)
+    return Question(question_text, answers)

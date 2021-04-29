@@ -55,6 +55,7 @@ def get_samples_no_dupe(data: dict, n_answers: int) -> list:
         list: with the n valid examples
     """
     current_chosen_alts_list = []
+    shuffle(data)
     correct = choice(data)
 
     for current in data:
