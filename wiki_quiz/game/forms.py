@@ -13,9 +13,8 @@ class MenuForm(forms.Form):
         ('hard', 'hard')
     ])
 
-    n_questions = forms.ChoiceField(choices=[
-        (5, '5'),
-        (10, '10'),
-        (20, '20'),
-        (50, '50'),
+    number_of_questions = forms.ChoiceField(choices=[
+        (5, 5),
+        (10, 10),
+        (15, 15),
     ])

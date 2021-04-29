@@ -4,16 +4,23 @@
 {% block content %}
 
 <div class="center-content">
+
+    <!-- Title -->
     <div class="card">
-        <div class="card-body">Categories</div>
+        <div class="card-body">Welcome to Tripial Pursuit!</div>
     </div>
-    <div class="btn-group-vertical btn-group-lg categories">
+
+    <!-- Menu form -->
+    <div class=" btn-group-lg categories">
         <form action="/question/" method="post">
+
         {% csrf_token %}
         {{form|crispy}}
-        <button type="submit">Play!</button>
+
+        <button type="submit" class="btn btn-primary btn-lg btn-block">Play!</button>
         </form>
     </div>
+
 </div>
 
 {% endblock content %}

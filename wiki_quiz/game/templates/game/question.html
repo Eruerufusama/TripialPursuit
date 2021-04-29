@@ -3,6 +3,8 @@
 
 {% block content %}
 
+
+
 <!-- Questions -->
 <div class="questions">
     {% for question in questions %}
@@ -15,24 +17,30 @@
             </div>
 
             <!-- Question-boxes -->
-            <div class="btn-group-vertical btn-group-lg categories">
+            <div class="btn-group-vertical btn-group-lg categories answers">
 
                 {% for answer in question.answers %}
-
-                    <button type="button" class="btn {% if answer.is_correct %}btn-success{% else %}btn-warning{% endif %}">{{ answer.text }}</button>
+                    <button onclick="showAnswer({{ forloop.counter0 }})" type="button" class="btn {% if answer.is_correct %}correct{% endif %}">{{ answer.text }}</button>
                 {% endfor %}
+
             </div>
+
+            <!-- Response on clicking an answer. -->
+            <div class="alert alert-primary" role="alert">
+                This is a primary alert—check it out!
+            </div>
+
         </div>
     {% endfor %}
 </div>
 
 <!-- Numbering of questions -->
-<nav class="nav nav-pills nav-fill question-numbers">
+<nav class="fixed-bottom btn-group btn-group-lg question-numbers">
     {% for question in questions %}
-        <button onclick="switchQuestion({{ forloop.counter0 }})" class="nav-item nav-link {% if forloop.first %}active{% endif %}">{{ forloop.counter }}</button>
+        <button onclick="switchQuestion({{ forloop.counter0 }})" class="page-item btn btn-light {% if forloop.first %}active{% endif %}">{{ forloop.counter }}</button>
     {% endfor %}
 </nav>
 
 <!-- Script that makes you able to switch between questions -->
-<script src="{% static 'game/tabs.js' %}"></script>
+<script src="{% static 'game/questions_scripts.js' %}"></script>
 {% endblock content %}

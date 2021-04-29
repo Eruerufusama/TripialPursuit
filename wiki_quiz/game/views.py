@@ -23,13 +23,13 @@ def question(request: HttpRequest) -> HttpResponse:
             # Get data back from form.
             category = form.cleaned_data['category']
             difficulty = form.cleaned_data['difficulty']
-            n_questions = form.cleaned_data['n_questions']
+            number_of_questions = int(form.cleaned_data['number_of_questions'])
 
             # Fetch all possible question-uris.
             possible_questions = list(questions[category].keys())
 
             # Generate questions based on those uris.
-            _questions = [generate_question(category, choice(possible_questions), 4).to_dict() for _ in range(int(n_questions))]
+            _questions = [generate_question(category, choice(possible_questions), 4).to_dict() for _ in range(number_of_questions)]
             
             context = {"questions": _questions}
 

@@ -84,4 +84,4 @@ def valid_alternative(current: dict, current_chosen_alts_list: list):
 
 
 if __name__ == "__main__":
-    get_answers("D:\\Backup\\Code\\INFO216\\Semester oppgave\\TripialPursuit\\wiki_quiz\\game\\json_data\\land_locked.json", n_answers=2, difficulty="normal")
+    get_answers("game\\json_data\\land_locked.json", n_answers=2, difficulty="normal")
