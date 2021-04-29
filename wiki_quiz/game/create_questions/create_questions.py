@@ -28,7 +28,8 @@ questions = {
         'actors': actors_question,
         'release_year': release_year_question,
         'academy_awards_movie': academy_awards_movie_question,
-        'academy_awards_person': academy_awards_person_question
+        'academy_awards_person': academy_awards_person_question,
+        'land_locked': land_locked_question
     }
 }
 
@@ -54,5 +55,5 @@ def generate_question(question_category: str, question_type: str, n_answers: int
 
 
 if __name__ == "__main__":
-    question = generate_question('movie', 'release_year', 4)
+    question = generate_question('movie', 'academy_awards_person', 4)
     pprint(question.to_dict())

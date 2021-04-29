@@ -1,3 +1,5 @@
+# Country queries:
+
 queries = {
     "capital" :
         """
@@ -46,7 +48,7 @@ queries = {
 
     "currency":
         """
-            select distinct ?country ?currency ?currencyCode 
+            select distinct ?currencyCode ?country ?currency 
             WHERE {
                 ?country rdf:type dbo:Country .
                 ?country dbo:countryCode ?code .
@@ -60,7 +62,7 @@ queries = {
     
     "island": 
         """
-            SELECT DISTINCT ?island ?country 
+            SELECT DISTINCT ?country ?island 
             WHERE {
                 ?country dbo:countryCode ?code .
                 ?island rdf:type yago:Island109316454.
@@ -127,10 +129,27 @@ queries = {
             ORDER BY DESC(?population)
         """,
     
+    "land_locked": 
+        """
+            SELECT ?countryLabel ?locked  WHERE {
+                SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en". }
+                ?country wdt:P31 wd:Q6256.
+                OPTIONAL {?country wdt:P31 wd:Q123480.}
+                BIND (exists{?country wdt:P31 wd:Q123480.} AS ?locked)
+            }
+        """,
+
+
+
+
+
+    # Movie queries:
+
+
     #Duplicate movies for movies with multiple directors
     "director":
         """
-            SELECT DISTINCT ?movieLabel ?directorLabel (count(?movie) as ?count) 
+            SELECT DISTINCT  ?directorLabel ?movieLabel (count(?movie) as ?count) 
             WHERE {
                 ?movie wdt:P31 wd:Q11424.
                 ?movie wdt:P57 ?director.
@@ -144,7 +163,7 @@ queries = {
 
     "movie_length": 
         """
-            SELECT DISTINCT ?movieLabel ?lengthLabel (count(?movie) as ?count) 
+            SELECT DISTINCT ?lengthLabel ?movieLabel (count(?movie) as ?count) 
             WHERE {
                 ?movie wdt:P31 wd:Q11424.
                 ?movie wdt:P2047 ?length.
@@ -158,7 +177,7 @@ queries = {
     
     "academy_awards_movie":
         """
-            SELECT ?movieLabel (count(?movie) as ?count) 
+            SELECT (count(?movie) as ?count)  ?movieLabel
             WHERE {
                 ?movie wdt:P31 wd:Q11424.
                 ?movie wdt:P166 ?award.
@@ -171,7 +190,7 @@ queries = {
 
     "academy_awards_person":
         """
-            SELECT ?actorLabel (count(?actor) as ?count)
+            SELECT (count(?actor) as ?count) ?actorLabel
             WHERE {
                 ?actor wdt:P31 wd:Q5.
                 ?actor wdt:P166 ?award.
@@ -198,7 +217,7 @@ queries = {
 
     "release_year":
         """
-            SELECT DISTINCT ?movieLabel (SAMPLE(year(?release)) as ?year) (count(?movie) as ?count) 
+            SELECT DISTINCT (SAMPLE(year(?release)) as ?year) ?movieLabel (count(?movie) as ?count) 
             WHERE {
                 ?movie wdt:P31 wd:Q11424.
                 ?movie wdt:P577 ?release.

@@ -49,10 +49,38 @@ def movie_length_question(data: list) -> Question:
 
 
 def academy_awards_movie_question(data: list) -> Question:
-    pass
+    answers = []
+    for i, element in enumerate(data):
+        award_count = get_resource_url(element, "count")
+        movie = get_resource_url(element, "movieLabel")
+
+        if i == 0:
+            question_text = f"How many academy awards have the movie {movie} wone?"
+            answers.append(Answer(award_count, True, f"That is correct, the movie {movie} has wone {award_count} academy awards."))
+        
+        else:
+            answers.append(Answer(award_count, False, f"That is incorrect, the movie {movie} has wone {award_count} academy awards."))
+        
+    shuffle(answers)
+    return Question(question_text, answers)
+
+
 
 def academy_awards_person_question(data: list) -> Question:
-    pass
+    answers = []
+    for i, element in enumerate(data):
+        award_count = get_resource_url(element, "count")
+        person = get_resource_url(element, "actorLabel")
+
+        if i == 0:
+            question_text = f"How many academy awards have {person} wone?"
+            answers.append(Answer(award_count, True, f"That is correct, {person} has wone {award_count} academy awards."))
+        
+        else:
+            answers.append(Answer(award_count, False, f"That is incorrect, {person} has wone {award_count} academy awards."))
+        
+    shuffle(answers)
+    return Question(question_text, answers)
 
 
 def actors_question(data: list) -> Question:
@@ -91,7 +119,7 @@ def actors_question(data: list) -> Question:
 def release_year_question(data: list) -> Question:
     answers = []
     for i, element in enumerate(data):
-        year = get_resource_url(element, "dat")
+        year = get_resource_url(element, "year")
         movie = get_resource_url(element, "movieLabel")
 
         if i == 0:

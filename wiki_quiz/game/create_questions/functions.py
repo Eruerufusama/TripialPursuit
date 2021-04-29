@@ -1,4 +1,4 @@
-from random import sample
+from random import choice, shuffle
 from json import load
 from pprint import pprint
 
@@ -32,35 +32,56 @@ def get_answers(filepath: str, n_answers: int, difficulty: str="normal") -> list
         data = load(json_file)
 
         if difficulty == "normal":
-            return sample(data, n_answers)
+            # sample(data, 4)
+            return get_samples_no_dupe(data, n_answers)
 
         elif difficulty == "easy" or difficulty == "hard":
             middle = len(data) / 2
             data = data[:middle] if difficulty == "easy" else data[middle:]
 
-            return sample(data, n_answers)
+            return get_samples_no_dupe(data, n_answers)
 
 
 def get_samples_no_dupe(data: dict, n_answers: int) -> list:
-    "Makes sure no question has duplicate URI"
+    """ Fetches for unique samples from the dataset
+        and makes sure that no data can have the same value for the given key
+        to prevent duplicate alternatives in the question
 
-    alternatives = []
-    uri_log = []
+    Args:
+        data (dict): json file data
+        n_answers (int): number of alternatives
+
+    Returns:
+        list: with the n valid examples
+    """
+    current_chosen_alts_list = []
+    correct = choice(data)
+
+    for current in data:
+        if len(current_chosen_alts_list) == n_answers:
+            return current_chosen_alts_list
+        if valid_alternative(current, current_chosen_alts_list):
+            current_chosen_alts_list.append(current)
     
-    while len(alternatives) < 4:
-        current_sample = sample(data, 1)
-        for element in current_sample:
-            for key, value in element.items():
-                uri = element[key]["value"]
-                
-                if uri not in uri_log:
-                    print(uri_log)
-                    alternatives.append(current_sample)
-                    uri_log.append(uri)     
 
-    return alternatives
+def valid_alternative(current: dict, current_chosen_alts_list: list):
+    """ Helper function for get_samples_no_dupe.
+        
+    Args:
+        current (dict): [description]
+        current_chosen_alts_list (list): [description]
+
+    Returns:
+        bool: Returns a boolian True if the values dont match
+        and returns boolian false if the values match 
+    """
+    print(current_chosen_alts_list)
+    for key, val in current.items():
+        for alt in current_chosen_alts_list:
+            if alt[key]["value"] == val["value"]:
+                return False
+    return True
 
 
 if __name__ == "__main__":
-    filepath="D:\\Backup\\Code\\INFO216\\Semester oppgave\\TripialPursuit\\wiki_quiz\\game\\json_data\\capital.json"
-    pprint(get_answers(filepath, 4, "normal"))
+    get_answers("D:\\Backup\\Code\\INFO216\\Semester oppgave\\TripialPursuit\\wiki_quiz\\game\\json_data\\land_locked.json", n_answers=2, difficulty="normal")
