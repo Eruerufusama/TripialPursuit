@@ -39,28 +39,49 @@ def get_answers(filepath: str, n_answers: int, difficulty: str="normal") -> list
             middle = len(data) / 2
             data = data[:middle] if difficulty == "easy" else data[middle:]
 
-            return sample(data, n_answers)
+            return get_samples_no_dupe(data, n_answers)
 
 
 def get_samples_no_dupe(data: dict, n_answers: int) -> list:
+    """ Fetches for unique samples from the dataset
+        and makes sure that no data can have the same value for the given key
+        to prevent duplicate alternatives in the question
+
+    Args:
+        data (dict): json file data
+        n_answers (int): number of alternatives
+
+    Returns:
+        list: with the n valid examples
+    """
     current_chosen_alts_list = []
     correct = choice(data)
-    shuffle(data)
 
     for current in data:
-        if len(current_chosen_alts_list) == 4:
+        if len(current_chosen_alts_list) == n_answers:
             return current_chosen_alts_list
         if valid_alternative(current, current_chosen_alts_list):
             current_chosen_alts_list.append(current)
     
 
-def valid_alternative(current, current_chosen_alts_list):
-        for key, val in current.items():
-            for alt in current_chosen_alts_list:
-                if alt[key]["value"] == val["value"]:
-                    return False
-        return True
+def valid_alternative(current: dict, current_chosen_alts_list: list):
+    """ Helper function for get_samples_no_dupe.
+        
+    Args:
+        current (dict): [description]
+        current_chosen_alts_list (list): [description]
+
+    Returns:
+        bool: Returns a boolian True if the values dont match
+        and returns boolian false if the values match 
+    """
+    print(current_chosen_alts_list)
+    for key, val in current.items():
+        for alt in current_chosen_alts_list:
+            if alt[key]["value"] == val["value"]:
+                return False
+    return True
 
 
 if __name__ == "__main__":
-    pprint(get_answers("D:\\Backup\\Code\\INFO216\\Semester oppgave\\TripialPursuit\\wiki_quiz\\game\\json_data\\academy_awards_person.json", n_answers=4, difficulty="normal"))
+    get_answers("D:\\Backup\\Code\\INFO216\\Semester oppgave\\TripialPursuit\\wiki_quiz\\game\\json_data\\land_locked.json", n_answers=2, difficulty="normal")

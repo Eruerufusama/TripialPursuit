@@ -1,3 +1,5 @@
+# Country queries:
+
 queries = {
     "capital" :
         """
@@ -127,6 +129,23 @@ queries = {
             ORDER BY DESC(?population)
         """,
     
+    "land_locked": 
+        """
+            SELECT ?countryLabel ?locked  WHERE {
+                SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en". }
+                ?country wdt:P31 wd:Q6256.
+                OPTIONAL {?country wdt:P31 wd:Q123480.}
+                BIND (exists{?country wdt:P31 wd:Q123480.} AS ?locked)
+            }
+        """,
+
+
+
+
+
+    # Movie queries:
+
+
     #Duplicate movies for movies with multiple directors
     "director":
         """

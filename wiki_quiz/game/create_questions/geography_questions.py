@@ -164,3 +164,6 @@ def largest_city_question(data: list) -> Question:
 
     shuffle(answers)
     return Question(question_text, answers)
+
+def land_locked_question(data: list) --> Question:
+    pass

@@ -28,7 +28,8 @@ questions = {
         'actors': actors_question,
         'release_year': release_year_question,
         'academy_awards_movie': academy_awards_movie_question,
-        'academy_awards_person': academy_awards_person_question
+        'academy_awards_person': academy_awards_person_question,
+        'land_locked': land_locked_question
     }
 }
 
