@@ -165,5 +165,22 @@ def largest_city_question(data: list) -> Question:
     shuffle(answers)
     return Question(question_text, answers)
 
+
 def land_locked_question(data: list) -> Question:
-    ...
+    answers = []
+    for i, element in enumerate(data):
+        
+        country = get_resource_url(element, "countryLabel")
+        locked_value = get_resource_url(element, "locked")
+        
+        if i == 0:
+            question_text = f'Is {country} landlocked?'
+            answer_text = f'That is correct'
+            answers.append(Answer(locked_value, True, answer_text))
+
+        else:
+            answer_text = f'That is incorrect'
+            answers.append(Answer(locked_value, False, answer_text))
+
+    shuffle(answers)
+    return Question(question_text, answers)

@@ -227,5 +227,19 @@ queries = {
             }
             group by ?movieLabel
             order by desc(?count)
+        """,
+    
+    "actor_has_actor_parent":
+        """ 
+        SELECT DISTINCT ?actorLabel ?bool
+        WHERE {
+            ?actor wdt:P31 wd:Q5 ; 
+                wdt:P106 wd:Q33999 ; 
+                wdt:P166 ?award ;
+                wdt:P22 ?parent .
+            ?parent wdt:P31 wd:Q5.
+                BIND(EXISTS{?parent wdt:P106 wd:Q33999} as ?bool)
+            SERVICE wikibase:label {bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en".}
+        }
         """
 }
