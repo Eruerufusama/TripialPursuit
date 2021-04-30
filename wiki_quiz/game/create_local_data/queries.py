@@ -236,15 +236,18 @@ queries = {
     
     "actor_has_actor_parent":
         """ 
-        SELECT DISTINCT ?actorLabel ?bool
-        WHERE {
-            ?actor wdt:P31 wd:Q5 ; 
-                wdt:P106 wd:Q33999 ; 
-                wdt:P166 ?award ;
-                wdt:P22 ?parent .
-            ?parent wdt:P31 wd:Q5.
-                BIND(EXISTS{?parent wdt:P106 wd:Q33999} as ?bool)
-            SERVICE wikibase:label {bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en".}
-        }
+            SELECT DISTINCT ?actorLabel ?bool (count(?actor) as ?count)
+                WHERE {
+                    ?actor wdt:P31 wd:Q5 ; 
+                        wdt:P106 wd:Q33999 ; 
+                        wdt:P166 ?award ;
+                        wdt:P22 ?parent .
+                    ?award wdt:P31 wd:Q19020.
+                    ?parent wdt:P31 wd:Q5.
+                    BIND(EXISTS{?parent wdt:P106 wd:Q33999} as ?bool)
+                    
+                    SERVICE wikibase:label {bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en".}
+                }group by ?actorLabel ?bool
+                order by desc (?count)
         """
 }
