@@ -115,6 +115,8 @@ queries = {
                 ?start_country wdt:P47 ?middle_country.
                 ?middle_country wdt:P47 ?end_country.
                 FILTER(?start_country != ?end_country)
+                FILTER(?middle_country != ?end_country)
+                FILTER(?start_country != ?middle_country)
             }order by desc (?pop)
         """,
     
