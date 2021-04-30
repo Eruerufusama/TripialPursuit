@@ -48,16 +48,17 @@ queries = {
 
     "currency":
         """
-            select distinct ?currencyCode ?country ?currency 
+            select distinct ?currencyCode ?country ?population ?currency 
             WHERE {
                 ?country rdf:type dbo:Country .
                 ?country dbo:countryCode ?code .
                 ?country dbo:capital ?capital .
+                ?country dbo:populationTotal ?population .
                 ?country dbo:currency ?currency .
                 ?country dbo:currencyCode ?currencyCode .
                 FILTER NOT EXISTS {?country dbp:dateEnd ?date}
                 FILTER NOT EXISTS {?country dbp:yearEnd ?year}
-            } 
+            }  order by desc(?population)
         """,
     
     "island": 
@@ -129,16 +130,18 @@ queries = {
                 ?city wdt:P1082 ?population .
             }
             ORDER BY DESC(?population)
+            LIMIT 1000
         """,
     
     "land_locked": 
         """
-            SELECT ?countryLabel ?locked  WHERE {
+            SELECT ?countryLabel ?locked ?pop WHERE {
                 SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en". }
-                ?country wdt:P31 wd:Q6256.
+                ?country wdt:P31 wd:Q6256;
+                         wdt:P1082 ?pop.
                 OPTIONAL {?country wdt:P31 wd:Q123480.}
                 BIND (exists{?country wdt:P31 wd:Q123480.} AS ?locked)
-            }
+            }order by desc(?pop)
         """,
 
 
