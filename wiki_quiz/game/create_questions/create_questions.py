@@ -21,7 +21,7 @@ questions = {
         'olympics': olympics_question,
         'country_neighbours': country_neighbors_question,
         'largest_citys': largest_city_question,
-        # 'land_locked': land_locked_question
+        'land_locked': land_locked_question
     }, 
     'movie': {
         'director': director_question,
@@ -56,5 +56,5 @@ def generate_question(question_category: str, question_type: str, n_answers: int
 
 
 if __name__ == "__main__":
-    question = generate_question('movie', 'release_year', 4)
+    question = generate_question('geography', 'land_locked', 2)
     pprint(question.to_dict())

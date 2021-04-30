@@ -57,12 +57,12 @@ def get_samples_no_dupe(data: dict, n_answers: int) -> list:
     current_chosen_alts_list = []
     shuffle(data)
     correct = choice(data)
-
     for current in data:
         if len(current_chosen_alts_list) == n_answers:
             return current_chosen_alts_list
         if valid_alternative(current, current_chosen_alts_list):
             current_chosen_alts_list.append(current)
+    return False
     
 
 def valid_alternative(current: dict, current_chosen_alts_list: list):
@@ -84,4 +84,4 @@ def valid_alternative(current: dict, current_chosen_alts_list: list):
 
 
 if __name__ == "__main__":
-    pprint(get_answers("D:\\Backup\\Code\\INFO216\\Semester oppgave\\TripialPursuit\\wiki_quiz\\game\\json_data\\land_locked.json", n_answers=2, difficulty="normal"))
+    print(get_answers("D:\\Backup\\Code\\INFO216\\Semester oppgave\\TripialPursuit\\wiki_quiz\\game\\json_data\\land_locked.json", n_answers=2, difficulty="normal"))
