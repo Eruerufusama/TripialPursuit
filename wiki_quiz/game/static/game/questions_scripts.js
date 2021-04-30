@@ -1,8 +1,10 @@
 // Get reference to questions and buttons.
-let questions = document.querySelector('.questions').children
-let numbers = document.querySelector('.question-numbers').children
+let questions = document.querySelector('.questions').children;
+let numbers = document.querySelector('.question-numbers').children;
+let answerTexts = document.querySelectorAll('.answer-text');
 
 for (let i = 0; i < numbers.length; i++) {
+    answerTexts[i].style.display ='none';
 
     // Hide questions that aren't active.
     if (!numbers[i].classList.contains('active')) {
@@ -33,22 +35,33 @@ function showAnswer(index) {
     let activeQuestion = document.querySelector('.active-question');
     let answers = activeQuestion.querySelector('.answers').children;
 
+    let answerText = activeQuestion.querySelector('.answer-text');
+
+    // Show correct and incorrect answers when an answer is clicked.
     if (answers[index].classList.contains('correct')) {
         console.log('correct!');
         answers[index].style.backgroundColor = "#45f556";
+
+        answerText.innerHTML = "That is correct!";
+        answerText.style.display ='flex';
     }
     else {
         console.log('That is false!');
         answers[index].style.backgroundColor = "#f54b45";
 
-        for (const button of answers) {
-            if (button.classList.contains('correct')) {
-                button.style.backgroundColor = "#45f556";
+        for (i = 0; i < answers.length; i++) {
+            if (answers[i].classList.contains('correct')) {
+                answers[i].style.backgroundColor = "#45f556";
+
+                answerText.innerHTML = "Big oof.";
+                answerText.style.display ='flex';
             }
         }
     }
 
+    // Disable all buttons.
     for (const button of answers) {
         button.disabled = true;
     }
+
 }

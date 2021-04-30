@@ -3,7 +3,7 @@ from django import forms
 class MenuForm(forms.Form):
     category = forms.ChoiceField(choices=[
         ('geography', 'geography'),
-        ('movies', 'movies'),
+        ('movie', 'movie'),
         ('lucky', "I'm feelin' lucky.")
     ])
         

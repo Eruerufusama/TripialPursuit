@@ -21,7 +21,7 @@ questions = {
         'olympics': olympics_question,
         'country_neighbours': country_neighbors_question,
         'largest_citys': largest_city_question,
-        'land_locked': land_locked_question
+        # 'land_locked': land_locked_question
     }, 
     'movie': {
         'director': director_question,
