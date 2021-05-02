@@ -27,11 +27,26 @@ def print_search(search_result):
     for i, element in enumerate(search_result):
         print(f"{i} = {element[1]}")
 
+
 def select_search(search_result, index):
     return search_result[index][0]
 
-def extract_usefull_properties():
-    pass
+
+def extract_usefull_properties(q_code):
+    url = "https://www.wikidata.org/wiki/" + q_code
+    html = urlopen(url)
+    bs = BeautifulSoup(html, "html.parser")
+    table_data = bs.find("div", {"class": "wikibase-listview"}).find_all("a")
+
+    p_codes = []
+    for element in table_data:
+        href = element["href"]
+        if "/wiki/Property" in href:
+            only_property = href.split(":")[-1]
+            p_codes.append(only_property)
+    
+    return p_codes
+
 
 if __name__ == "__main__":
     search = input("Type what to search for on wikidata\n")
@@ -39,4 +54,4 @@ if __name__ == "__main__":
     print_search(search_result)
     index = int(input("select index\n"))
     q_code = select_search(search_result, index)
-    
+    pprint(extract_usefull_properties(q_code))
