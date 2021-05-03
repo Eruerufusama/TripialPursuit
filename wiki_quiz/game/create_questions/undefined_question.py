@@ -4,7 +4,9 @@ from urllib.parse import urljoin
 from bs4 import BeautifulSoup
 from pprint import pprint
 import re
-
+from random import choice
+from SPARQLWrapper import SPARQLWrapper, JSON
+from data_types import Question, Answer
 
 def get_q_code(search, n_searches):
     url = "https://www.wikidata.org/w/index.php?search=" + search
@@ -22,7 +24,6 @@ def get_q_code(search, n_searches):
             continue
         return search_data
 
-
 def print_search(search_result):
     for i, element in enumerate(search_result):
         print(f"{i} = {element[1]}")
@@ -36,22 +37,100 @@ def extract_usefull_properties(q_code):
     url = "https://www.wikidata.org/wiki/" + q_code
     html = urlopen(url)
     bs = BeautifulSoup(html, "html.parser")
-    table_data = bs.find("div", {"class": "wikibase-listview"}).find_all("a")
+    table_data = bs.find("div", {"class": "wikibase-listview"})
 
     p_codes = []
     for element in table_data:
-        href = element["href"]
-        if "/wiki/Property" in href:
-            only_property = href.split(":")[-1]
-            p_codes.append(only_property)
-    
+        current_p_code = element.get("data-property-id")
+        p_codes.append(current_p_code)
     return p_codes
 
 
+def get_property_name(prop):
+    url = "https://www.wikidata.org/wiki/Property:" + prop
+    html = urlopen(url)
+    bs = BeautifulSoup(html, "html.parser")
+    h1 = bs.find("h1")
+    property_name = h1.find("span", {"class": "wikibase-title-label"})
+    return property_name.get_text()
+
+
+def query_sparql(query: str, database: str) -> dict:
+    """
+    Performs a query to a semantic database.
+
+    Args:
+        query (str): SPARQL query.
+
+    Returns:
+        dict: raw data from a given query.
+    """
+
+    sparql_wrapper = SPARQLWrapper(f'https://{"query." if database == "wikidata" else ""}{database}.org/sparql')
+    sparql_wrapper.setQuery(query)
+    sparql_wrapper.setReturnFormat(JSON)
+    data = sparql_wrapper.queryAndConvert()
+    return data['results']['bindings']
+
+
+def create_undefined_question(query_data, property_name):
+    correct_subject = query_data[0]["personLabel"]["value"]
+    del query_data[0]["personLabel"]
+
+    correct_object = query_data[0]["valueLabel"]["value"]
+    del query_data[0]["valueLabel"]
+
+    alternatives = []
+    for element in query_data[0]:
+        alternatives.append(query_data[0][element]["value"])
+    
+    question_text = f"{correct_subject} {property_name} _______?"
+
+    print(question_text)
+    print("correct:", correct_object)
+    print(alternatives)
+
+    
+
+
 if __name__ == "__main__":
-    search = input("Type what to search for on wikidata\n")
+    search = input("Type what to search for on wikidata:\n").replace(" ", "")
     search_result = get_q_code(search, 4)
+    
     print_search(search_result)
-    index = int(input("select index\n"))
+    index = int(input("select index:\n"))
+    
     q_code = select_search(search_result, index)
-    pprint(extract_usefull_properties(q_code))
+    
+
+    p_codes = extract_usefull_properties(q_code)
+
+    selected_p_code = choice(p_codes)
+    property_name = get_property_name(selected_p_code)
+
+    query = (
+        "SELECT DISTINCT ?personLabel ?valueLabel ?value2Label ?value3Label ?value4Label WHERE {"
+        "SERVICE wikibase:label {bd:serviceParam wikibase:language '[AUTO_LANGUAGE],en'.}"
+        "{SELECT ?person ?value ?value2 ?value3 ?value4 WHERE{"
+            f"Filter(?person = wd:{q_code}) ."
+            "?person wdt:P31 ?type;"
+                    f"wdt:{selected_p_code} ?value."
+            "?person2 wdt:P31 ?type;"
+                    f"wdt:{selected_p_code} ?value2."
+            "?person3 wdt:P31 ?type;"
+                    f"wdt:{selected_p_code} ?value3."
+            "?person4 wdt:P31 ?type;"
+                    f"wdt:{selected_p_code} ?value4."
+            "Filter(?value != ?value2)"
+            "Filter(?value != ?value3)"
+            "Filter(?value != ?value4)"
+            "Filter(?value3 != ?value2)"
+            "Filter(?value4 != ?value2)"
+            "Filter(?value3 != ?value4)"
+        "} LIMIT 1}"
+    "}"
+    )
+    
+    query_data = query_sparql(query, "wikidata")
+    pprint(query_data)
+    create_undefined_question(query_data, property_name)
