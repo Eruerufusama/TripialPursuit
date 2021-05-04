@@ -1,3 +1,14 @@
+# !!! This was made as a proof of concept to test how a dynamic query would work!!!
+
+# !!! The resault of the query only work for some topics due to data incosistancy 
+# !!! and lack of structure on wikidata!!!
+
+# !!! Topics we recomend to test are Ronaldo, Donald Trump !!!
+
+# !!! Due to the poor resault of the generated questions we decided to not implement
+# !!! this code into the final project interfance
+
+
 import re
 from urllib.request import urlopen
 from urllib.parse import urljoin
@@ -8,7 +19,16 @@ from random import choice
 from SPARQLWrapper import SPARQLWrapper, JSON
 from data_types import Question, Answer
 
-def get_q_code(search, n_searches):
+def get_q_code(search: str, n_searches: int):
+    """Lets you search for a ting in wikidata and returns 4 search resaults
+
+    Args:
+        search (str): search string
+        n_searches (int): number of search resaults you want back
+
+    Returns:
+        [type]: returns a list of data from the search
+    """
     url = "https://www.wikidata.org/w/index.php?search=" + search
     html = urlopen(url)
     bs = BeautifulSoup(html, "html.parser")
@@ -24,16 +44,42 @@ def get_q_code(search, n_searches):
             continue
         return search_data
 
-def print_search(search_result):
+def print_search(search_result: list):
+    """Shoiws the data from get_q_code
+
+    Args:
+        search_result (list): data the print will show
+    """
+
     for i, element in enumerate(search_result):
         print(f"{i} = {element[1]}")
 
 
-def select_search(search_result, index):
+def select_search(search_result: list, index: int):
+    """returns the selected search resault from and index
+
+    Args:
+        search_result (list): search resault data
+        index_int (int): index number of selected data from search
+
+    Returns:
+        [str]: q_code string
+    """
     return search_result[index][0]
 
 
-def extract_usefull_properties(q_code):
+def extract_usefull_properties(q_code: str) -> list:
+    """ extracts all the usefull properties we can use to generate a query from scraping
+        which are from the statements category "https://www.wikidata.org/wiki/Q11571"
+
+
+    Args:
+        q_code (str): string of the searched q_code
+
+    Returns:
+        p_codes (list): all the usefull p_codes to generate a query
+    """
+    
     url = "https://www.wikidata.org/wiki/" + q_code
     html = urlopen(url)
     bs = BeautifulSoup(html, "html.parser")
@@ -73,7 +119,14 @@ def query_sparql(query: str, database: str) -> dict:
     return data['results']['bindings']
 
 
-def create_undefined_question(query_data, property_name):
+def create_undefined_question(query_data: dict, property_name: str):
+    """ 
+        Structures the data in question format and displays it.
+    Args:
+        query_data (dict): the returened data from the query
+        property_name (str): the property from the type we seached for. 
+    """
+    
     correct_subject = query_data[0]["personLabel"]["value"]
     del query_data[0]["personLabel"]
 
@@ -88,7 +141,7 @@ def create_undefined_question(query_data, property_name):
 
     print(question_text)
     print("correct:", correct_object)
-    print(alternatives)
+    print("alternatives:", alternatives)
 
     
 
@@ -132,5 +185,4 @@ if __name__ == "__main__":
     )
     
     query_data = query_sparql(query, "wikidata")
-    pprint(query_data)
     create_undefined_question(query_data, property_name)
