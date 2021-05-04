@@ -1,1481 +1,10 @@
 [
     {
-        "countryLabel": {
-            "xml:lang": "en",
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
             "type": "literal",
-            "value": "Hungary"
+            "value": "1409517397"
         },
-        "locked": {
-            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
-            "type": "literal",
-            "value": "true"
-        }
-    },
-    {
-        "countryLabel": {
-            "xml:lang": "en",
-            "type": "literal",
-            "value": "Austria"
-        },
-        "locked": {
-            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
-            "type": "literal",
-            "value": "true"
-        }
-    },
-    {
-        "countryLabel": {
-            "xml:lang": "en",
-            "type": "literal",
-            "value": "Ethiopia"
-        },
-        "locked": {
-            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
-            "type": "literal",
-            "value": "true"
-        }
-    },
-    {
-        "countryLabel": {
-            "xml:lang": "en",
-            "type": "literal",
-            "value": "Czech Republic"
-        },
-        "locked": {
-            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
-            "type": "literal",
-            "value": "true"
-        }
-    },
-    {
-        "countryLabel": {
-            "xml:lang": "en",
-            "type": "literal",
-            "value": "Slovakia"
-        },
-        "locked": {
-            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
-            "type": "literal",
-            "value": "true"
-        }
-    },
-    {
-        "countryLabel": {
-            "xml:lang": "en",
-            "type": "literal",
-            "value": "Kazakhstan"
-        },
-        "locked": {
-            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
-            "type": "literal",
-            "value": "true"
-        }
-    },
-    {
-        "countryLabel": {
-            "xml:lang": "en",
-            "type": "literal",
-            "value": "South Africa"
-        },
-        "locked": {
-            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
-            "type": "literal",
-            "value": "false"
-        }
-    },
-    {
-        "countryLabel": {
-            "xml:lang": "en",
-            "type": "literal",
-            "value": "Algeria"
-        },
-        "locked": {
-            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
-            "type": "literal",
-            "value": "false"
-        }
-    },
-    {
-        "countryLabel": {
-            "xml:lang": "en",
-            "type": "literal",
-            "value": "Uzbekistan"
-        },
-        "locked": {
-            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
-            "type": "literal",
-            "value": "true"
-        }
-    },
-    {
-        "countryLabel": {
-            "xml:lang": "en",
-            "type": "literal",
-            "value": "Chile"
-        },
-        "locked": {
-            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
-            "type": "literal",
-            "value": "false"
-        }
-    },
-    {
-        "countryLabel": {
-            "xml:lang": "en",
-            "type": "literal",
-            "value": "Singapore"
-        },
-        "locked": {
-            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
-            "type": "literal",
-            "value": "false"
-        }
-    },
-    {
-        "countryLabel": {
-            "xml:lang": "en",
-            "type": "literal",
-            "value": "Liechtenstein"
-        },
-        "locked": {
-            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
-            "type": "literal",
-            "value": "false"
-        }
-    },
-    {
-        "countryLabel": {
-            "xml:lang": "en",
-            "type": "literal",
-            "value": "Bahrain"
-        },
-        "locked": {
-            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
-            "type": "literal",
-            "value": "false"
-        }
-    },
-    {
-        "countryLabel": {
-            "xml:lang": "en",
-            "type": "literal",
-            "value": "Australia"
-        },
-        "locked": {
-            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
-            "type": "literal",
-            "value": "false"
-        }
-    },
-    {
-        "countryLabel": {
-            "xml:lang": "en",
-            "type": "literal",
-            "value": "Argentina"
-        },
-        "locked": {
-            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
-            "type": "literal",
-            "value": "false"
-        }
-    },
-    {
-        "countryLabel": {
-            "xml:lang": "en",
-            "type": "literal",
-            "value": "Peru"
-        },
-        "locked": {
-            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
-            "type": "literal",
-            "value": "false"
-        }
-    },
-    {
-        "countryLabel": {
-            "xml:lang": "en",
-            "type": "literal",
-            "value": "North Korea"
-        },
-        "locked": {
-            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
-            "type": "literal",
-            "value": "false"
-        }
-    },
-    {
-        "countryLabel": {
-            "xml:lang": "en",
-            "type": "literal",
-            "value": "Cambodia"
-        },
-        "locked": {
-            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
-            "type": "literal",
-            "value": "false"
-        }
-    },
-    {
-        "countryLabel": {
-            "xml:lang": "en",
-            "type": "literal",
-            "value": "Timor Leste"
-        },
-        "locked": {
-            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
-            "type": "literal",
-            "value": "false"
-        }
-    },
-    {
-        "countryLabel": {
-            "xml:lang": "en",
-            "type": "literal",
-            "value": "Chad"
-        },
-        "locked": {
-            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
-            "type": "literal",
-            "value": "true"
-        }
-    },
-    {
-        "countryLabel": {
-            "xml:lang": "en",
-            "type": "literal",
-            "value": "New Zealand"
-        },
-        "locked": {
-            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
-            "type": "literal",
-            "value": "false"
-        }
-    },
-    {
-        "countryLabel": {
-            "xml:lang": "en",
-            "type": "literal",
-            "value": "India"
-        },
-        "locked": {
-            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
-            "type": "literal",
-            "value": "false"
-        }
-    },
-    {
-        "countryLabel": {
-            "xml:lang": "en",
-            "type": "literal",
-            "value": "Tuvalu"
-        },
-        "locked": {
-            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
-            "type": "literal",
-            "value": "false"
-        }
-    },
-    {
-        "countryLabel": {
-            "xml:lang": "en",
-            "type": "literal",
-            "value": "Samoa"
-        },
-        "locked": {
-            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
-            "type": "literal",
-            "value": "false"
-        }
-    },
-    {
-        "countryLabel": {
-            "xml:lang": "en",
-            "type": "literal",
-            "value": "Solomon Islands"
-        },
-        "locked": {
-            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
-            "type": "literal",
-            "value": "false"
-        }
-    },
-    {
-        "countryLabel": {
-            "xml:lang": "en",
-            "type": "literal",
-            "value": "Vanuatu"
-        },
-        "locked": {
-            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
-            "type": "literal",
-            "value": "false"
-        }
-    },
-    {
-        "countryLabel": {
-            "xml:lang": "en",
-            "type": "literal",
-            "value": "Papua New Guinea"
-        },
-        "locked": {
-            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
-            "type": "literal",
-            "value": "false"
-        }
-    },
-    {
-        "countryLabel": {
-            "xml:lang": "en",
-            "type": "literal",
-            "value": "Palau"
-        },
-        "locked": {
-            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
-            "type": "literal",
-            "value": "false"
-        }
-    },
-    {
-        "countryLabel": {
-            "xml:lang": "en",
-            "type": "literal",
-            "value": "Nauru"
-        },
-        "locked": {
-            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
-            "type": "literal",
-            "value": "false"
-        }
-    },
-    {
-        "countryLabel": {
-            "xml:lang": "en",
-            "type": "literal",
-            "value": "Federated States of Micronesia"
-        },
-        "locked": {
-            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
-            "type": "literal",
-            "value": "false"
-        }
-    },
-    {
-        "countryLabel": {
-            "xml:lang": "en",
-            "type": "literal",
-            "value": "Marshall Islands"
-        },
-        "locked": {
-            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
-            "type": "literal",
-            "value": "false"
-        }
-    },
-    {
-        "countryLabel": {
-            "xml:lang": "en",
-            "type": "literal",
-            "value": "Kiribati"
-        },
-        "locked": {
-            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
-            "type": "literal",
-            "value": "false"
-        }
-    },
-    {
-        "countryLabel": {
-            "xml:lang": "en",
-            "type": "literal",
-            "value": "Mongolia"
-        },
-        "locked": {
-            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
-            "type": "literal",
-            "value": "true"
-        }
-    },
-    {
-        "countryLabel": {
-            "xml:lang": "en",
-            "type": "literal",
-            "value": "Fiji"
-        },
-        "locked": {
-            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
-            "type": "literal",
-            "value": "false"
-        }
-    },
-    {
-        "countryLabel": {
-            "xml:lang": "en",
-            "type": "literal",
-            "value": "Venezuela"
-        },
-        "locked": {
-            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
-            "type": "literal",
-            "value": "false"
-        }
-    },
-    {
-        "countryLabel": {
-            "xml:lang": "en",
-            "type": "literal",
-            "value": "Paraguay"
-        },
-        "locked": {
-            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
-            "type": "literal",
-            "value": "true"
-        }
-    },
-    {
-        "countryLabel": {
-            "xml:lang": "en",
-            "type": "literal",
-            "value": "Guyana"
-        },
-        "locked": {
-            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
-            "type": "literal",
-            "value": "false"
-        }
-    },
-    {
-        "countryLabel": {
-            "xml:lang": "en",
-            "type": "literal",
-            "value": "Ecuador"
-        },
-        "locked": {
-            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
-            "type": "literal",
-            "value": "false"
-        }
-    },
-    {
-        "countryLabel": {
-            "xml:lang": "en",
-            "type": "literal",
-            "value": "Colombia"
-        },
-        "locked": {
-            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
-            "type": "literal",
-            "value": "false"
-        }
-    },
-    {
-        "countryLabel": {
-            "xml:lang": "en",
-            "type": "literal",
-            "value": "Bolivia"
-        },
-        "locked": {
-            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
-            "type": "literal",
-            "value": "true"
-        }
-    },
-    {
-        "countryLabel": {
-            "xml:lang": "en",
-            "type": "literal",
-            "value": "Trinidad and Tobago"
-        },
-        "locked": {
-            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
-            "type": "literal",
-            "value": "false"
-        }
-    },
-    {
-        "countryLabel": {
-            "xml:lang": "en",
-            "type": "literal",
-            "value": "Saint Vincent and the Grenadines"
-        },
-        "locked": {
-            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
-            "type": "literal",
-            "value": "false"
-        }
-    },
-    {
-        "countryLabel": {
-            "xml:lang": "en",
-            "type": "literal",
-            "value": "Saint Lucia"
-        },
-        "locked": {
-            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
-            "type": "literal",
-            "value": "false"
-        }
-    },
-    {
-        "countryLabel": {
-            "xml:lang": "en",
-            "type": "literal",
-            "value": "Saint Kitts and Nevis"
-        },
-        "locked": {
-            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
-            "type": "literal",
-            "value": "false"
-        }
-    },
-    {
-        "countryLabel": {
-            "xml:lang": "en",
-            "type": "literal",
-            "value": "Jamaica"
-        },
-        "locked": {
-            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
-            "type": "literal",
-            "value": "false"
-        }
-    },
-    {
-        "countryLabel": {
-            "xml:lang": "en",
-            "type": "literal",
-            "value": "Grenada"
-        },
-        "locked": {
-            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
-            "type": "literal",
-            "value": "false"
-        }
-    },
-    {
-        "countryLabel": {
-            "xml:lang": "en",
-            "type": "literal",
-            "value": "Guatemala"
-        },
-        "locked": {
-            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
-            "type": "literal",
-            "value": "false"
-        }
-    },
-    {
-        "countryLabel": {
-            "xml:lang": "en",
-            "type": "literal",
-            "value": "The Bahamas"
-        },
-        "locked": {
-            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
-            "type": "literal",
-            "value": "false"
-        }
-    },
-    {
-        "countryLabel": {
-            "xml:lang": "en",
-            "type": "literal",
-            "value": "Antigua and Barbuda"
-        },
-        "locked": {
-            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
-            "type": "literal",
-            "value": "false"
-        }
-    },
-    {
-        "countryLabel": {
-            "xml:lang": "en",
-            "type": "literal",
-            "value": "Honduras"
-        },
-        "locked": {
-            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
-            "type": "literal",
-            "value": "false"
-        }
-    },
-    {
-        "countryLabel": {
-            "xml:lang": "en",
-            "type": "literal",
-            "value": "Dominica"
-        },
-        "locked": {
-            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
-            "type": "literal",
-            "value": "false"
-        }
-    },
-    {
-        "countryLabel": {
-            "xml:lang": "en",
-            "type": "literal",
-            "value": "Dominican Republic"
-        },
-        "locked": {
-            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
-            "type": "literal",
-            "value": "false"
-        }
-    },
-    {
-        "countryLabel": {
-            "xml:lang": "en",
-            "type": "literal",
-            "value": "Haiti"
-        },
-        "locked": {
-            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
-            "type": "literal",
-            "value": "false"
-        }
-    },
-    {
-        "countryLabel": {
-            "xml:lang": "en",
-            "type": "literal",
-            "value": "El Salvador"
-        },
-        "locked": {
-            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
-            "type": "literal",
-            "value": "false"
-        }
-    },
-    {
-        "countryLabel": {
-            "xml:lang": "en",
-            "type": "literal",
-            "value": "Iran"
-        },
-        "locked": {
-            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
-            "type": "literal",
-            "value": "false"
-        }
-    },
-    {
-        "countryLabel": {
-            "xml:lang": "en",
-            "type": "literal",
-            "value": "Iraq"
-        },
-        "locked": {
-            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
-            "type": "literal",
-            "value": "false"
-        }
-    },
-    {
-        "countryLabel": {
-            "xml:lang": "en",
-            "type": "literal",
-            "value": "Costa Rica"
-        },
-        "locked": {
-            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
-            "type": "literal",
-            "value": "false"
-        }
-    },
-    {
-        "countryLabel": {
-            "xml:lang": "en",
-            "type": "literal",
-            "value": "Israel"
-        },
-        "locked": {
-            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
-            "type": "literal",
-            "value": "false"
-        }
-    },
-    {
-        "countryLabel": {
-            "xml:lang": "en",
-            "type": "literal",
-            "value": "Yemen"
-        },
-        "locked": {
-            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
-            "type": "literal",
-            "value": "false"
-        }
-    },
-    {
-        "countryLabel": {
-            "xml:lang": "en",
-            "type": "literal",
-            "value": "Jordan"
-        },
-        "locked": {
-            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
-            "type": "literal",
-            "value": "false"
-        }
-    },
-    {
-        "countryLabel": {
-            "xml:lang": "en",
-            "type": "literal",
-            "value": "Nicaragua"
-        },
-        "locked": {
-            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
-            "type": "literal",
-            "value": "false"
-        }
-    },
-    {
-        "countryLabel": {
-            "xml:lang": "en",
-            "type": "literal",
-            "value": "Kyrgyzstan"
-        },
-        "locked": {
-            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
-            "type": "literal",
-            "value": "true"
-        }
-    },
-    {
-        "countryLabel": {
-            "xml:lang": "en",
-            "type": "literal",
-            "value": "Laos"
-        },
-        "locked": {
-            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
-            "type": "literal",
-            "value": "true"
-        }
-    },
-    {
-        "countryLabel": {
-            "xml:lang": "en",
-            "type": "literal",
-            "value": "Lebanon"
-        },
-        "locked": {
-            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
-            "type": "literal",
-            "value": "false"
-        }
-    },
-    {
-        "countryLabel": {
-            "xml:lang": "en",
-            "type": "literal",
-            "value": "Maldives"
-        },
-        "locked": {
-            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
-            "type": "literal",
-            "value": "false"
-        }
-    },
-    {
-        "countryLabel": {
-            "xml:lang": "en",
-            "type": "literal",
-            "value": "Malaysia"
-        },
-        "locked": {
-            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
-            "type": "literal",
-            "value": "false"
-        }
-    },
-    {
-        "countryLabel": {
-            "xml:lang": "en",
-            "type": "literal",
-            "value": "Myanmar"
-        },
-        "locked": {
-            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
-            "type": "literal",
-            "value": "false"
-        }
-    },
-    {
-        "countryLabel": {
-            "xml:lang": "en",
-            "type": "literal",
-            "value": "Nepal"
-        },
-        "locked": {
-            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
-            "type": "literal",
-            "value": "true"
-        }
-    },
-    {
-        "countryLabel": {
-            "xml:lang": "en",
-            "type": "literal",
-            "value": "Oman"
-        },
-        "locked": {
-            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
-            "type": "literal",
-            "value": "false"
-        }
-    },
-    {
-        "countryLabel": {
-            "xml:lang": "en",
-            "type": "literal",
-            "value": "Pakistan"
-        },
-        "locked": {
-            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
-            "type": "literal",
-            "value": "false"
-        }
-    },
-    {
-        "countryLabel": {
-            "xml:lang": "en",
-            "type": "literal",
-            "value": "Qatar"
-        },
-        "locked": {
-            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
-            "type": "literal",
-            "value": "false"
-        }
-    },
-    {
-        "countryLabel": {
-            "xml:lang": "en",
-            "type": "literal",
-            "value": "Saudi Arabia"
-        },
-        "locked": {
-            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
-            "type": "literal",
-            "value": "false"
-        }
-    },
-    {
-        "countryLabel": {
-            "xml:lang": "en",
-            "type": "literal",
-            "value": "Sri Lanka"
-        },
-        "locked": {
-            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
-            "type": "literal",
-            "value": "false"
-        }
-    },
-    {
-        "countryLabel": {
-            "xml:lang": "en",
-            "type": "literal",
-            "value": "Syria"
-        },
-        "locked": {
-            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
-            "type": "literal",
-            "value": "false"
-        }
-    },
-    {
-        "countryLabel": {
-            "xml:lang": "en",
-            "type": "literal",
-            "value": "Tajikistan"
-        },
-        "locked": {
-            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
-            "type": "literal",
-            "value": "true"
-        }
-    },
-    {
-        "countryLabel": {
-            "xml:lang": "en",
-            "type": "literal",
-            "value": "Taiwan"
-        },
-        "locked": {
-            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
-            "type": "literal",
-            "value": "false"
-        }
-    },
-    {
-        "countryLabel": {
-            "xml:lang": "en",
-            "type": "literal",
-            "value": "Turkmenistan"
-        },
-        "locked": {
-            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
-            "type": "literal",
-            "value": "true"
-        }
-    },
-    {
-        "countryLabel": {
-            "xml:lang": "en",
-            "type": "literal",
-            "value": "Afghanistan"
-        },
-        "locked": {
-            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
-            "type": "literal",
-            "value": "true"
-        }
-    },
-    {
-        "countryLabel": {
-            "xml:lang": "en",
-            "type": "literal",
-            "value": "Mali"
-        },
-        "locked": {
-            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
-            "type": "literal",
-            "value": "true"
-        }
-    },
-    {
-        "countryLabel": {
-            "xml:lang": "en",
-            "type": "literal",
-            "value": "Bhutan"
-        },
-        "locked": {
-            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
-            "type": "literal",
-            "value": "true"
-        }
-    },
-    {
-        "countryLabel": {
-            "xml:lang": "en",
-            "type": "literal",
-            "value": "Central African Republic"
-        },
-        "locked": {
-            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
-            "type": "literal",
-            "value": "true"
-        }
-    },
-    {
-        "countryLabel": {
-            "xml:lang": "en",
-            "type": "literal",
-            "value": "Zambia"
-        },
-        "locked": {
-            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
-            "type": "literal",
-            "value": "true"
-        }
-    },
-    {
-        "countryLabel": {
-            "xml:lang": "en",
-            "type": "literal",
-            "value": "Zimbabwe"
-        },
-        "locked": {
-            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
-            "type": "literal",
-            "value": "true"
-        }
-    },
-    {
-        "countryLabel": {
-            "xml:lang": "en",
-            "type": "literal",
-            "value": "South Sudan"
-        },
-        "locked": {
-            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
-            "type": "literal",
-            "value": "true"
-        }
-    },
-    {
-        "countryLabel": {
-            "xml:lang": "en",
-            "type": "literal",
-            "value": "Botswana"
-        },
-        "locked": {
-            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
-            "type": "literal",
-            "value": "true"
-        }
-    },
-    {
-        "countryLabel": {
-            "xml:lang": "en",
-            "type": "literal",
-            "value": "Burkina Faso"
-        },
-        "locked": {
-            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
-            "type": "literal",
-            "value": "true"
-        }
-    },
-    {
-        "countryLabel": {
-            "xml:lang": "en",
-            "type": "literal",
-            "value": "Burundi"
-        },
-        "locked": {
-            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
-            "type": "literal",
-            "value": "true"
-        }
-    },
-    {
-        "countryLabel": {
-            "xml:lang": "en",
-            "type": "literal",
-            "value": "Lesotho"
-        },
-        "locked": {
-            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
-            "type": "literal",
-            "value": "true"
-        }
-    },
-    {
-        "countryLabel": {
-            "xml:lang": "en",
-            "type": "literal",
-            "value": "Malawi"
-        },
-        "locked": {
-            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
-            "type": "literal",
-            "value": "true"
-        }
-    },
-    {
-        "countryLabel": {
-            "xml:lang": "en",
-            "type": "literal",
-            "value": "Niger"
-        },
-        "locked": {
-            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
-            "type": "literal",
-            "value": "true"
-        }
-    },
-    {
-        "countryLabel": {
-            "xml:lang": "en",
-            "type": "literal",
-            "value": "Uganda"
-        },
-        "locked": {
-            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
-            "type": "literal",
-            "value": "true"
-        }
-    },
-    {
-        "countryLabel": {
-            "xml:lang": "en",
-            "type": "literal",
-            "value": "Rwanda"
-        },
-        "locked": {
-            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
-            "type": "literal",
-            "value": "true"
-        }
-    },
-    {
-        "countryLabel": {
-            "xml:lang": "en",
-            "type": "literal",
-            "value": "Gagauzia"
-        },
-        "locked": {
-            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
-            "type": "literal",
-            "value": "false"
-        }
-    },
-    {
-        "countryLabel": {
-            "xml:lang": "en",
-            "type": "literal",
-            "value": "Imperial State of Iran"
-        },
-        "locked": {
-            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
-            "type": "literal",
-            "value": "false"
-        }
-    },
-    {
-        "countryLabel": {
-            "xml:lang": "en",
-            "type": "literal",
-            "value": "Republic of Artsakh"
-        },
-        "locked": {
-            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
-            "type": "literal",
-            "value": "false"
-        }
-    },
-    {
-        "countryLabel": {
-            "xml:lang": "en",
-            "type": "literal",
-            "value": "Danish Realm"
-        },
-        "locked": {
-            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
-            "type": "literal",
-            "value": "false"
-        }
-    },
-    {
-        "countryLabel": {
-            "xml:lang": "en",
-            "type": "literal",
-            "value": "Transnistria"
-        },
-        "locked": {
-            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
-            "type": "literal",
-            "value": "true"
-        }
-    },
-    {
-        "countryLabel": {
-            "xml:lang": "en",
-            "type": "literal",
-            "value": "Adun"
-        },
-        "locked": {
-            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
-            "type": "literal",
-            "value": "false"
-        }
-    },
-    {
-        "countryLabel": {
-            "xml:lang": "en",
-            "type": "literal",
-            "value": "Kingdom of Africa"
-        },
-        "locked": {
-            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
-            "type": "literal",
-            "value": "false"
-        }
-    },
-    {
-        "countryLabel": {
-            "xml:lang": "en",
-            "type": "literal",
-            "value": "\u0421\u043b\u0430\u0432\u0430 \u041e\u0441\u0442\u0440\u043e\u0432 \u0410\u043b\u0435\u043a\u0441\u0430\u043d\u0434\u0440"
-        },
-        "locked": {
-            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
-            "type": "literal",
-            "value": "false"
-        }
-    },
-    {
-        "countryLabel": {
-            "xml:lang": "en",
-            "type": "literal",
-            "value": "Canada"
-        },
-        "locked": {
-            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
-            "type": "literal",
-            "value": "false"
-        }
-    },
-    {
-        "countryLabel": {
-            "xml:lang": "en",
-            "type": "literal",
-            "value": "Japan"
-        },
-        "locked": {
-            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
-            "type": "literal",
-            "value": "false"
-        }
-    },
-    {
-        "countryLabel": {
-            "xml:lang": "en",
-            "type": "literal",
-            "value": "Norway"
-        },
-        "locked": {
-            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
-            "type": "literal",
-            "value": "false"
-        }
-    },
-    {
-        "countryLabel": {
-            "xml:lang": "en",
-            "type": "literal",
-            "value": "Wales"
-        },
-        "locked": {
-            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
-            "type": "literal",
-            "value": "false"
-        }
-    },
-    {
-        "countryLabel": {
-            "xml:lang": "en",
-            "type": "literal",
-            "value": "Ireland"
-        },
-        "locked": {
-            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
-            "type": "literal",
-            "value": "false"
-        }
-    },
-    {
-        "countryLabel": {
-            "xml:lang": "en",
-            "type": "literal",
-            "value": "United States of America"
-        },
-        "locked": {
-            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
-            "type": "literal",
-            "value": "false"
-        }
-    },
-    {
-        "countryLabel": {
-            "xml:lang": "en",
-            "type": "literal",
-            "value": "Finland"
-        },
-        "locked": {
-            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
-            "type": "literal",
-            "value": "false"
-        }
-    },
-    {
-        "countryLabel": {
-            "xml:lang": "en",
-            "type": "literal",
-            "value": "Sweden"
-        },
-        "locked": {
-            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
-            "type": "literal",
-            "value": "false"
-        }
-    },
-    {
-        "countryLabel": {
-            "xml:lang": "en",
-            "type": "literal",
-            "value": "Denmark"
-        },
-        "locked": {
-            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
-            "type": "literal",
-            "value": "false"
-        }
-    },
-    {
-        "countryLabel": {
-            "xml:lang": "en",
-            "type": "literal",
-            "value": "Poland"
-        },
-        "locked": {
-            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
-            "type": "literal",
-            "value": "false"
-        }
-    },
-    {
-        "countryLabel": {
-            "xml:lang": "en",
-            "type": "literal",
-            "value": "Italy"
-        },
-        "locked": {
-            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
-            "type": "literal",
-            "value": "false"
-        }
-    },
-    {
-        "countryLabel": {
-            "xml:lang": "en",
-            "type": "literal",
-            "value": "Switzerland"
-        },
-        "locked": {
-            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
-            "type": "literal",
-            "value": "false"
-        }
-    },
-    {
-        "countryLabel": {
-            "xml:lang": "en",
-            "type": "literal",
-            "value": "Greece"
-        },
-        "locked": {
-            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
-            "type": "literal",
-            "value": "false"
-        }
-    },
-    {
-        "countryLabel": {
-            "xml:lang": "en",
-            "type": "literal",
-            "value": "Turkey"
-        },
-        "locked": {
-            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
-            "type": "literal",
-            "value": "false"
-        }
-    },
-    {
-        "countryLabel": {
-            "xml:lang": "en",
-            "type": "literal",
-            "value": "Portugal"
-        },
-        "locked": {
-            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
-            "type": "literal",
-            "value": "false"
-        }
-    },
-    {
-        "countryLabel": {
-            "xml:lang": "en",
-            "type": "literal",
-            "value": "Netherlands"
-        },
-        "locked": {
-            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
-            "type": "literal",
-            "value": "false"
-        }
-    },
-    {
-        "countryLabel": {
-            "xml:lang": "en",
-            "type": "literal",
-            "value": "Uruguay"
-        },
-        "locked": {
-            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
-            "type": "literal",
-            "value": "false"
-        }
-    },
-    {
-        "countryLabel": {
-            "xml:lang": "en",
-            "type": "literal",
-            "value": "Egypt"
-        },
-        "locked": {
-            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
-            "type": "literal",
-            "value": "false"
-        }
-    },
-    {
-        "countryLabel": {
-            "xml:lang": "en",
-            "type": "literal",
-            "value": "Mexico"
-        },
-        "locked": {
-            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
-            "type": "literal",
-            "value": "false"
-        }
-    },
-    {
-        "countryLabel": {
-            "xml:lang": "en",
-            "type": "literal",
-            "value": "Kenya"
-        },
-        "locked": {
-            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
-            "type": "literal",
-            "value": "false"
-        }
-    },
-    {
-        "countryLabel": {
-            "xml:lang": "en",
-            "type": "literal",
-            "value": "Ghana"
-        },
-        "locked": {
-            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
-            "type": "literal",
-            "value": "false"
-        }
-    },
-    {
-        "countryLabel": {
-            "xml:lang": "en",
-            "type": "literal",
-            "value": "France"
-        },
-        "locked": {
-            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
-            "type": "literal",
-            "value": "false"
-        }
-    },
-    {
-        "countryLabel": {
-            "xml:lang": "en",
-            "type": "literal",
-            "value": "United Kingdom"
-        },
-        "locked": {
-            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
-            "type": "literal",
-            "value": "false"
-        }
-    },
-    {
         "countryLabel": {
             "xml:lang": "en",
             "type": "literal",
@@ -1488,10 +17,15 @@
         }
     },
     {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "1326093247"
+        },
         "countryLabel": {
             "xml:lang": "en",
             "type": "literal",
-            "value": "Brazil"
+            "value": "India"
         },
         "locked": {
             "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
@@ -1500,10 +34,15 @@
         }
     },
     {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "331449281"
+        },
         "countryLabel": {
             "xml:lang": "en",
             "type": "literal",
-            "value": "Germany"
+            "value": "United States of America"
         },
         "locked": {
             "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
@@ -1512,138 +51,11 @@
         }
     },
     {
-        "countryLabel": {
-            "xml:lang": "en",
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
             "type": "literal",
-            "value": "Latvia"
+            "value": "270625568"
         },
-        "locked": {
-            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
-            "type": "literal",
-            "value": "false"
-        }
-    },
-    {
-        "countryLabel": {
-            "xml:lang": "en",
-            "type": "literal",
-            "value": "Romania"
-        },
-        "locked": {
-            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
-            "type": "literal",
-            "value": "false"
-        }
-    },
-    {
-        "countryLabel": {
-            "xml:lang": "en",
-            "type": "literal",
-            "value": "Bulgaria"
-        },
-        "locked": {
-            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
-            "type": "literal",
-            "value": "false"
-        }
-    },
-    {
-        "countryLabel": {
-            "xml:lang": "en",
-            "type": "literal",
-            "value": "Albania"
-        },
-        "locked": {
-            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
-            "type": "literal",
-            "value": "false"
-        }
-    },
-    {
-        "countryLabel": {
-            "xml:lang": "en",
-            "type": "literal",
-            "value": "Croatia"
-        },
-        "locked": {
-            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
-            "type": "literal",
-            "value": "false"
-        }
-    },
-    {
-        "countryLabel": {
-            "xml:lang": "en",
-            "type": "literal",
-            "value": "Andorra"
-        },
-        "locked": {
-            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
-            "type": "literal",
-            "value": "false"
-        }
-    },
-    {
-        "countryLabel": {
-            "xml:lang": "en",
-            "type": "literal",
-            "value": "Cyprus"
-        },
-        "locked": {
-            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
-            "type": "literal",
-            "value": "false"
-        }
-    },
-    {
-        "countryLabel": {
-            "xml:lang": "en",
-            "type": "literal",
-            "value": "Malta"
-        },
-        "locked": {
-            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
-            "type": "literal",
-            "value": "false"
-        }
-    },
-    {
-        "countryLabel": {
-            "xml:lang": "en",
-            "type": "literal",
-            "value": "Montenegro"
-        },
-        "locked": {
-            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
-            "type": "literal",
-            "value": "false"
-        }
-    },
-    {
-        "countryLabel": {
-            "xml:lang": "en",
-            "type": "literal",
-            "value": "Cuba"
-        },
-        "locked": {
-            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
-            "type": "literal",
-            "value": "false"
-        }
-    },
-    {
-        "countryLabel": {
-            "xml:lang": "en",
-            "type": "literal",
-            "value": "Barbados"
-        },
-        "locked": {
-            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
-            "type": "literal",
-            "value": "false"
-        }
-    },
-    {
         "countryLabel": {
             "xml:lang": "en",
             "type": "literal",
@@ -1656,10 +68,15 @@
         }
     },
     {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "216565318"
+        },
         "countryLabel": {
             "xml:lang": "en",
             "type": "literal",
-            "value": "Thailand"
+            "value": "Pakistan"
         },
         "locked": {
             "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
@@ -1668,10 +85,15 @@
         }
     },
     {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "210147125"
+        },
         "countryLabel": {
             "xml:lang": "en",
             "type": "literal",
-            "value": "United Arab Emirates"
+            "value": "Brazil"
         },
         "locked": {
             "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
@@ -1680,354 +102,11 @@
         }
     },
     {
-        "countryLabel": {
-            "xml:lang": "en",
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
             "type": "literal",
-            "value": "Vietnam"
+            "value": "190886311"
         },
-        "locked": {
-            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
-            "type": "literal",
-            "value": "false"
-        }
-    },
-    {
-        "countryLabel": {
-            "xml:lang": "en",
-            "type": "literal",
-            "value": "South Korea"
-        },
-        "locked": {
-            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
-            "type": "literal",
-            "value": "false"
-        }
-    },
-    {
-        "countryLabel": {
-            "xml:lang": "en",
-            "type": "literal",
-            "value": "Bangladesh"
-        },
-        "locked": {
-            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
-            "type": "literal",
-            "value": "false"
-        }
-    },
-    {
-        "countryLabel": {
-            "xml:lang": "en",
-            "type": "literal",
-            "value": "Angola"
-        },
-        "locked": {
-            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
-            "type": "literal",
-            "value": "false"
-        }
-    },
-    {
-        "countryLabel": {
-            "xml:lang": "en",
-            "type": "literal",
-            "value": "Brunei"
-        },
-        "locked": {
-            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
-            "type": "literal",
-            "value": "false"
-        }
-    },
-    {
-        "countryLabel": {
-            "xml:lang": "en",
-            "type": "literal",
-            "value": "Tanzania"
-        },
-        "locked": {
-            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
-            "type": "literal",
-            "value": "false"
-        }
-    },
-    {
-        "countryLabel": {
-            "xml:lang": "en",
-            "type": "literal",
-            "value": "Philippines"
-        },
-        "locked": {
-            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
-            "type": "literal",
-            "value": "false"
-        }
-    },
-    {
-        "countryLabel": {
-            "xml:lang": "en",
-            "type": "literal",
-            "value": "Togo"
-        },
-        "locked": {
-            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
-            "type": "literal",
-            "value": "false"
-        }
-    },
-    {
-        "countryLabel": {
-            "xml:lang": "en",
-            "type": "literal",
-            "value": "Tunisia"
-        },
-        "locked": {
-            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
-            "type": "literal",
-            "value": "false"
-        }
-    },
-    {
-        "countryLabel": {
-            "xml:lang": "en",
-            "type": "literal",
-            "value": "Benin"
-        },
-        "locked": {
-            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
-            "type": "literal",
-            "value": "false"
-        }
-    },
-    {
-        "countryLabel": {
-            "xml:lang": "en",
-            "type": "literal",
-            "value": "Comoros"
-        },
-        "locked": {
-            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
-            "type": "literal",
-            "value": "false"
-        }
-    },
-    {
-        "countryLabel": {
-            "xml:lang": "en",
-            "type": "literal",
-            "value": "Republic of the Congo"
-        },
-        "locked": {
-            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
-            "type": "literal",
-            "value": "false"
-        }
-    },
-    {
-        "countryLabel": {
-            "xml:lang": "en",
-            "type": "literal",
-            "value": "Democratic Republic of the Congo"
-        },
-        "locked": {
-            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
-            "type": "literal",
-            "value": "false"
-        }
-    },
-    {
-        "countryLabel": {
-            "xml:lang": "en",
-            "type": "literal",
-            "value": "Djibouti"
-        },
-        "locked": {
-            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
-            "type": "literal",
-            "value": "false"
-        }
-    },
-    {
-        "countryLabel": {
-            "xml:lang": "en",
-            "type": "literal",
-            "value": "Eritrea"
-        },
-        "locked": {
-            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
-            "type": "literal",
-            "value": "false"
-        }
-    },
-    {
-        "countryLabel": {
-            "xml:lang": "en",
-            "type": "literal",
-            "value": "The Gambia"
-        },
-        "locked": {
-            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
-            "type": "literal",
-            "value": "false"
-        }
-    },
-    {
-        "countryLabel": {
-            "xml:lang": "en",
-            "type": "literal",
-            "value": "Guinea"
-        },
-        "locked": {
-            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
-            "type": "literal",
-            "value": "false"
-        }
-    },
-    {
-        "countryLabel": {
-            "xml:lang": "en",
-            "type": "literal",
-            "value": "Guinea-Bissau"
-        },
-        "locked": {
-            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
-            "type": "literal",
-            "value": "false"
-        }
-    },
-    {
-        "countryLabel": {
-            "xml:lang": "en",
-            "type": "literal",
-            "value": "Ivory Coast"
-        },
-        "locked": {
-            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
-            "type": "literal",
-            "value": "false"
-        }
-    },
-    {
-        "countryLabel": {
-            "xml:lang": "en",
-            "type": "literal",
-            "value": "Cameroon"
-        },
-        "locked": {
-            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
-            "type": "literal",
-            "value": "false"
-        }
-    },
-    {
-        "countryLabel": {
-            "xml:lang": "en",
-            "type": "literal",
-            "value": "Cape Verde"
-        },
-        "locked": {
-            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
-            "type": "literal",
-            "value": "false"
-        }
-    },
-    {
-        "countryLabel": {
-            "xml:lang": "en",
-            "type": "literal",
-            "value": "Liberia"
-        },
-        "locked": {
-            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
-            "type": "literal",
-            "value": "false"
-        }
-    },
-    {
-        "countryLabel": {
-            "xml:lang": "en",
-            "type": "literal",
-            "value": "Libya"
-        },
-        "locked": {
-            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
-            "type": "literal",
-            "value": "false"
-        }
-    },
-    {
-        "countryLabel": {
-            "xml:lang": "en",
-            "type": "literal",
-            "value": "Madagascar"
-        },
-        "locked": {
-            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
-            "type": "literal",
-            "value": "false"
-        }
-    },
-    {
-        "countryLabel": {
-            "xml:lang": "en",
-            "type": "literal",
-            "value": "Mauritania"
-        },
-        "locked": {
-            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
-            "type": "literal",
-            "value": "false"
-        }
-    },
-    {
-        "countryLabel": {
-            "xml:lang": "en",
-            "type": "literal",
-            "value": "Mauritius"
-        },
-        "locked": {
-            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
-            "type": "literal",
-            "value": "false"
-        }
-    },
-    {
-        "countryLabel": {
-            "xml:lang": "en",
-            "type": "literal",
-            "value": "Morocco"
-        },
-        "locked": {
-            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
-            "type": "literal",
-            "value": "false"
-        }
-    },
-    {
-        "countryLabel": {
-            "xml:lang": "en",
-            "type": "literal",
-            "value": "Mozambique"
-        },
-        "locked": {
-            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
-            "type": "literal",
-            "value": "false"
-        }
-    },
-    {
-        "countryLabel": {
-            "xml:lang": "en",
-            "type": "literal",
-            "value": "Namibia"
-        },
-        "locked": {
-            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
-            "type": "literal",
-            "value": "false"
-        }
-    },
-    {
         "countryLabel": {
             "xml:lang": "en",
             "type": "literal",
@@ -2040,10 +119,15 @@
         }
     },
     {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "164669751"
+        },
         "countryLabel": {
             "xml:lang": "en",
             "type": "literal",
-            "value": "S\u00e3o Tom\u00e9 and Pr\u00edncipe"
+            "value": "Bangladesh"
         },
         "locked": {
             "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
@@ -2052,10 +136,15 @@
         }
     },
     {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "126434565"
+        },
         "countryLabel": {
             "xml:lang": "en",
             "type": "literal",
-            "value": "Senegal"
+            "value": "Japan"
         },
         "locked": {
             "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
@@ -2064,10 +153,15 @@
         }
     },
     {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "124777324"
+        },
         "countryLabel": {
             "xml:lang": "en",
             "type": "literal",
-            "value": "Seychelles"
+            "value": "Mexico"
         },
         "locked": {
             "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
@@ -2076,10 +170,32 @@
         }
     },
     {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "104957438"
+        },
         "countryLabel": {
             "xml:lang": "en",
             "type": "literal",
-            "value": "Sierra Leone"
+            "value": "Ethiopia"
+        },
+        "locked": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
+            "type": "literal",
+            "value": "true"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "100981437"
+        },
+        "countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Philippines"
         },
         "locked": {
             "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
@@ -2088,10 +204,15 @@
         }
     },
     {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "94798827"
+        },
         "countryLabel": {
             "xml:lang": "en",
             "type": "literal",
-            "value": "Somalia"
+            "value": "Egypt"
         },
         "locked": {
             "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
@@ -2100,6 +221,317 @@
         }
     },
     {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "94660000"
+        },
+        "countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Vietnam"
+        },
+        "locked": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
+            "type": "literal",
+            "value": "false"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "86790567"
+        },
+        "countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Democratic Republic of the Congo"
+        },
+        "locked": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
+            "type": "literal",
+            "value": "false"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "83614362"
+        },
+        "countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Turkey"
+        },
+        "locked": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
+            "type": "literal",
+            "value": "false"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "83149300"
+        },
+        "countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Germany"
+        },
+        "locked": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
+            "type": "literal",
+            "value": "false"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "79966230"
+        },
+        "countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Iran"
+        },
+        "locked": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
+            "type": "literal",
+            "value": "false"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "66628000"
+        },
+        "countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "France"
+        },
+        "locked": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
+            "type": "literal",
+            "value": "false"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "66022273"
+        },
+        "countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "United Kingdom"
+        },
+        "locked": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
+            "type": "literal",
+            "value": "false"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "65931550"
+        },
+        "countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Thailand"
+        },
+        "locked": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
+            "type": "literal",
+            "value": "false"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "60317000"
+        },
+        "countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Italy"
+        },
+        "locked": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
+            "type": "literal",
+            "value": "false"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "59622350"
+        },
+        "countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "South Africa"
+        },
+        "locked": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
+            "type": "literal",
+            "value": "false"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "57310019"
+        },
+        "countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Tanzania"
+        },
+        "locked": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
+            "type": "literal",
+            "value": "false"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "53370609"
+        },
+        "countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Myanmar"
+        },
+        "locked": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
+            "type": "literal",
+            "value": "false"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "51466201"
+        },
+        "countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "South Korea"
+        },
+        "locked": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
+            "type": "literal",
+            "value": "false"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "49065615"
+        },
+        "countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Colombia"
+        },
+        "locked": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
+            "type": "literal",
+            "value": "false"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "48468138"
+        },
+        "countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Kenya"
+        },
+        "locked": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
+            "type": "literal",
+            "value": "false"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "44938712"
+        },
+        "countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Argentina"
+        },
+        "locked": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
+            "type": "literal",
+            "value": "false"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "42862958"
+        },
+        "countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Uganda"
+        },
+        "locked": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
+            "type": "literal",
+            "value": "true"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "41318142"
+        },
+        "countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Algeria"
+        },
+        "locked": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
+            "type": "literal",
+            "value": "false"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "40533330"
+        },
         "countryLabel": {
             "xml:lang": "en",
             "type": "literal",
@@ -2112,10 +544,15 @@
         }
     },
     {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "38382576"
+        },
         "countryLabel": {
             "xml:lang": "en",
             "type": "literal",
-            "value": "American Samoa"
+            "value": "Poland"
         },
         "locked": {
             "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
@@ -2124,10 +561,15 @@
         }
     },
     {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "38274618"
+        },
         "countryLabel": {
             "xml:lang": "en",
             "type": "literal",
-            "value": "Northern Mariana Islands"
+            "value": "Iraq"
         },
         "locked": {
             "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
@@ -2136,10 +578,15 @@
         }
     },
     {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "37894799"
+        },
         "countryLabel": {
             "xml:lang": "en",
             "type": "literal",
-            "value": "Aruba"
+            "value": "Canada"
         },
         "locked": {
             "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
@@ -2148,10 +595,32 @@
         }
     },
     {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "36643815"
+        },
         "countryLabel": {
             "xml:lang": "en",
             "type": "literal",
-            "value": "Sint Maarten"
+            "value": "Afghanistan"
+        },
+        "locked": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
+            "type": "literal",
+            "value": "true"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "36029138"
+        },
+        "countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Morocco"
         },
         "locked": {
             "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
@@ -2160,10 +629,32 @@
         }
     },
     {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "33570609"
+        },
         "countryLabel": {
             "xml:lang": "en",
             "type": "literal",
-            "value": "Cook Islands"
+            "value": "Uzbekistan"
+        },
+        "locked": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
+            "type": "literal",
+            "value": "true"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "33000000"
+        },
+        "countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Saudi Arabia"
         },
         "locked": {
             "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
@@ -2172,6 +663,436 @@
         }
     },
     {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "31624264"
+        },
+        "countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Malaysia"
+        },
+        "locked": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
+            "type": "literal",
+            "value": "false"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "30327877"
+        },
+        "countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Nepal"
+        },
+        "locked": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
+            "type": "literal",
+            "value": "true"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "29784193"
+        },
+        "countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Angola"
+        },
+        "locked": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
+            "type": "literal",
+            "value": "false"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "29668834"
+        },
+        "countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Mozambique"
+        },
+        "locked": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
+            "type": "literal",
+            "value": "false"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "29381884"
+        },
+        "countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Peru"
+        },
+        "locked": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
+            "type": "literal",
+            "value": "false"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "28515829"
+        },
+        "countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Venezuela"
+        },
+        "locked": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
+            "type": "literal",
+            "value": "false"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "28250420"
+        },
+        "countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Yemen"
+        },
+        "locked": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
+            "type": "literal",
+            "value": "false"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "26908262"
+        },
+        "countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Ghana"
+        },
+        "locked": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
+            "type": "literal",
+            "value": "false"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "25570895"
+        },
+        "countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Madagascar"
+        },
+        "locked": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
+            "type": "literal",
+            "value": "false"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "25490965"
+        },
+        "countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "North Korea"
+        },
+        "locked": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
+            "type": "literal",
+            "value": "false"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "24511800"
+        },
+        "countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Australia"
+        },
+        "locked": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
+            "type": "literal",
+            "value": "false"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "24294750"
+        },
+        "countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Ivory Coast"
+        },
+        "locked": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
+            "type": "literal",
+            "value": "false"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "24053727"
+        },
+        "countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Cameroon"
+        },
+        "locked": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
+            "type": "literal",
+            "value": "false"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "23593794"
+        },
+        "countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Taiwan"
+        },
+        "locked": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
+            "type": "literal",
+            "value": "false"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "21477348"
+        },
+        "countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Niger"
+        },
+        "locked": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
+            "type": "literal",
+            "value": "true"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "21444000"
+        },
+        "countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Sri Lanka"
+        },
+        "locked": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
+            "type": "literal",
+            "value": "false"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "19586539"
+        },
+        "countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Romania"
+        },
+        "locked": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
+            "type": "literal",
+            "value": "false"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "19193382"
+        },
+        "countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Burkina Faso"
+        },
+        "locked": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
+            "type": "literal",
+            "value": "true"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "18622104"
+        },
+        "countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Malawi"
+        },
+        "locked": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
+            "type": "literal",
+            "value": "true"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "18541980"
+        },
+        "countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Mali"
+        },
+        "locked": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
+            "type": "literal",
+            "value": "true"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "18499181"
+        },
+        "countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Syria"
+        },
+        "locked": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
+            "type": "literal",
+            "value": "false"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "18276500"
+        },
+        "countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Kazakhstan"
+        },
+        "locked": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
+            "type": "literal",
+            "value": "true"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "18054726"
+        },
+        "countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Chile"
+        },
+        "locked": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
+            "type": "literal",
+            "value": "false"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "17282163"
+        },
+        "countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Netherlands"
+        },
+        "locked": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
+            "type": "literal",
+            "value": "false"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "17263239"
+        },
+        "countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Guatemala"
+        },
+        "locked": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
+            "type": "literal",
+            "value": "false"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "17100715"
+        },
         "countryLabel": {
             "xml:lang": "en",
             "type": "literal",
@@ -2184,6 +1105,1966 @@
         }
     },
     {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "17094130"
+        },
+        "countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Zambia"
+        },
+        "locked": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
+            "type": "literal",
+            "value": "true"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "16624858"
+        },
+        "countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Ecuador"
+        },
+        "locked": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
+            "type": "literal",
+            "value": "false"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "16529904"
+        },
+        "countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Zimbabwe"
+        },
+        "locked": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
+            "type": "literal",
+            "value": "true"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "16005373"
+        },
+        "countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Cambodia"
+        },
+        "locked": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
+            "type": "literal",
+            "value": "false"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "15850567"
+        },
+        "countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Senegal"
+        },
+        "locked": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
+            "type": "literal",
+            "value": "false"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "15477751"
+        },
+        "countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Chad"
+        },
+        "locked": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
+            "type": "literal",
+            "value": "true"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "12717176"
+        },
+        "countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Guinea"
+        },
+        "locked": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
+            "type": "literal",
+            "value": "false"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "12575714"
+        },
+        "countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "South Sudan"
+        },
+        "locked": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
+            "type": "literal",
+            "value": "true"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "12208407"
+        },
+        "countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Rwanda"
+        },
+        "locked": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
+            "type": "literal",
+            "value": "true"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "11565204"
+        },
+        "countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Tunisia"
+        },
+        "locked": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
+            "type": "literal",
+            "value": "false"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "11530580"
+        },
+        "countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Burundi"
+        },
+        "locked": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
+            "type": "literal",
+            "value": "true"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "11484636"
+        },
+        "countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Cuba"
+        },
+        "locked": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
+            "type": "literal",
+            "value": "false"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "11175692"
+        },
+        "countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Benin"
+        },
+        "locked": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
+            "type": "literal",
+            "value": "false"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "11051600"
+        },
+        "countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Bolivia"
+        },
+        "locked": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
+            "type": "literal",
+            "value": "true"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "11031386"
+        },
+        "countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Somalia"
+        },
+        "locked": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
+            "type": "literal",
+            "value": "false"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "10981229"
+        },
+        "countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Haiti"
+        },
+        "locked": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
+            "type": "literal",
+            "value": "false"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "10760421"
+        },
+        "countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Greece"
+        },
+        "locked": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
+            "type": "literal",
+            "value": "false"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "10701777"
+        },
+        "countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Czech Republic"
+        },
+        "locked": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
+            "type": "literal",
+            "value": "true"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "10428241"
+        },
+        "countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Jordan"
+        },
+        "locked": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
+            "type": "literal",
+            "value": "false"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "10403761"
+        },
+        "countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Dominican Republic"
+        },
+        "locked": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
+            "type": "literal",
+            "value": "false"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "10379295"
+        },
+        "countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Sweden"
+        },
+        "locked": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
+            "type": "literal",
+            "value": "false"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "10295909"
+        },
+        "countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Portugal"
+        },
+        "locked": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
+            "type": "literal",
+            "value": "false"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "9769526"
+        },
+        "countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Hungary"
+        },
+        "locked": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
+            "type": "literal",
+            "value": "true"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "9400145"
+        },
+        "countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "United Arab Emirates"
+        },
+        "locked": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
+            "type": "literal",
+            "value": "false"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "9265067"
+        },
+        "countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Honduras"
+        },
+        "locked": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
+            "type": "literal",
+            "value": "false"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "9093000"
+        },
+        "countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Israel"
+        },
+        "locked": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
+            "type": "literal",
+            "value": "false"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "8921343"
+        },
+        "countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Tajikistan"
+        },
+        "locked": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
+            "type": "literal",
+            "value": "true"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "8809212"
+        },
+        "countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Austria"
+        },
+        "locked": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
+            "type": "literal",
+            "value": "true"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "8466017"
+        },
+        "countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Switzerland"
+        },
+        "locked": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
+            "type": "literal",
+            "value": "false"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "8251162"
+        },
+        "countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Papua New Guinea"
+        },
+        "locked": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
+            "type": "literal",
+            "value": "false"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "7797694"
+        },
+        "countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Togo"
+        },
+        "locked": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
+            "type": "literal",
+            "value": "false"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "7557212"
+        },
+        "countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Sierra Leone"
+        },
+        "locked": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
+            "type": "literal",
+            "value": "false"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "7000039"
+        },
+        "countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Bulgaria"
+        },
+        "locked": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
+            "type": "literal",
+            "value": "false"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "6858160"
+        },
+        "countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Laos"
+        },
+        "locked": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
+            "type": "literal",
+            "value": "true"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "6811297"
+        },
+        "countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Paraguay"
+        },
+        "locked": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
+            "type": "literal",
+            "value": "true"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "6678567"
+        },
+        "countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Libya"
+        },
+        "locked": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
+            "type": "literal",
+            "value": "false"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "6420746"
+        },
+        "countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "El Salvador"
+        },
+        "locked": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
+            "type": "literal",
+            "value": "false"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "6217581"
+        },
+        "countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Nicaragua"
+        },
+        "locked": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
+            "type": "literal",
+            "value": "false"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "6201500"
+        },
+        "countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Kyrgyzstan"
+        },
+        "locked": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
+            "type": "literal",
+            "value": "true"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "6100075"
+        },
+        "countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Lebanon"
+        },
+        "locked": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
+            "type": "literal",
+            "value": "false"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "5930987"
+        },
+        "countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Danish Realm"
+        },
+        "locked": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
+            "type": "literal",
+            "value": "false"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "5888926"
+        },
+        "countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Singapore"
+        },
+        "locked": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
+            "type": "literal",
+            "value": "false"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "5850901"
+        },
+        "countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Turkmenistan"
+        },
+        "locked": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
+            "type": "literal",
+            "value": "true"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "5827463"
+        },
+        "countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Denmark"
+        },
+        "locked": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
+            "type": "literal",
+            "value": "false"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "5780000"
+        },
+        "countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Somaliland"
+        },
+        "locked": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
+            "type": "literal",
+            "value": "false"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "5501043"
+        },
+        "countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Finland"
+        },
+        "locked": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
+            "type": "literal",
+            "value": "false"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "5397036"
+        },
+        "countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Slovakia"
+        },
+        "locked": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
+            "type": "literal",
+            "value": "true"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "5391369"
+        },
+        "countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Norway"
+        },
+        "locked": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
+            "type": "literal",
+            "value": "false"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "5260750"
+        },
+        "countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Republic of the Congo"
+        },
+        "locked": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
+            "type": "literal",
+            "value": "false"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "5112300"
+        },
+        "countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "New Zealand"
+        },
+        "locked": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
+            "type": "literal",
+            "value": "false"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "4905769"
+        },
+        "countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Costa Rica"
+        },
+        "locked": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
+            "type": "literal",
+            "value": "false"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "4829480"
+        },
+        "countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Oman"
+        },
+        "locked": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
+            "type": "literal",
+            "value": "false"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "4761865"
+        },
+        "countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Ireland"
+        },
+        "locked": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
+            "type": "literal",
+            "value": "false"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "4731906"
+        },
+        "countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Liberia"
+        },
+        "locked": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
+            "type": "literal",
+            "value": "false"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "4659080"
+        },
+        "countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Central African Republic"
+        },
+        "locked": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
+            "type": "literal",
+            "value": "true"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "4420184"
+        },
+        "countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Mauritania"
+        },
+        "locked": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
+            "type": "literal",
+            "value": "false"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "4105493"
+        },
+        "countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Croatia"
+        },
+        "locked": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
+            "type": "literal",
+            "value": "false"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "3497000"
+        },
+        "countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Eritrea"
+        },
+        "locked": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
+            "type": "literal",
+            "value": "false"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "3456750"
+        },
+        "countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Uruguay"
+        },
+        "locked": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
+            "type": "literal",
+            "value": "false"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "3113000"
+        },
+        "countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Wales"
+        },
+        "locked": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
+            "type": "literal",
+            "value": "false"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "3075647"
+        },
+        "countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Mongolia"
+        },
+        "locked": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
+            "type": "literal",
+            "value": "true"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "3020209"
+        },
+        "countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Albania"
+        },
+        "locked": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
+            "type": "literal",
+            "value": "false"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "2890299"
+        },
+        "countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Jamaica"
+        },
+        "locked": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
+            "type": "literal",
+            "value": "false"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "2708339"
+        },
+        "countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Galicia"
+        },
+        "locked": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
+            "type": "literal",
+            "value": "false"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "2639211"
+        },
+        "countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Qatar"
+        },
+        "locked": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
+            "type": "literal",
+            "value": "false"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "2533794"
+        },
+        "countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Namibia"
+        },
+        "locked": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
+            "type": "literal",
+            "value": "false"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "2291661"
+        },
+        "countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Botswana"
+        },
+        "locked": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
+            "type": "literal",
+            "value": "true"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "2233339"
+        },
+        "countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Lesotho"
+        },
+        "locked": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
+            "type": "literal",
+            "value": "true"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "2100568"
+        },
+        "countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "The Gambia"
+        },
+        "locked": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
+            "type": "literal",
+            "value": "false"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "1909000"
+        },
+        "countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Latvia"
+        },
+        "locked": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
+            "type": "literal",
+            "value": "false"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "1861283"
+        },
+        "countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Guinea-Bissau"
+        },
+        "locked": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
+            "type": "literal",
+            "value": "false"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "1492584"
+        },
+        "countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Bahrain"
+        },
+        "locked": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
+            "type": "literal",
+            "value": "false"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "1369125"
+        },
+        "countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Trinidad and Tobago"
+        },
+        "locked": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
+            "type": "literal",
+            "value": "false"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "1296311"
+        },
+        "countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Timor Leste"
+        },
+        "locked": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
+            "type": "literal",
+            "value": "false"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "1264613"
+        },
+        "countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Mauritius"
+        },
+        "locked": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
+            "type": "literal",
+            "value": "false"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "1141166"
+        },
+        "countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Cyprus"
+        },
+        "locked": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
+            "type": "literal",
+            "value": "false"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "956985"
+        },
+        "countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Djibouti"
+        },
+        "locked": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
+            "type": "literal",
+            "value": "false"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "905502"
+        },
+        "countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Fiji"
+        },
+        "locked": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
+            "type": "literal",
+            "value": "false"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "823652"
+        },
+        "countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Comoros"
+        },
+        "locked": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
+            "type": "literal",
+            "value": "false"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "807610"
+        },
+        "countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Bhutan"
+        },
+        "locked": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
+            "type": "literal",
+            "value": "true"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "777859"
+        },
+        "countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Guyana"
+        },
+        "locked": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
+            "type": "literal",
+            "value": "false"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "622359"
+        },
+        "countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Montenegro"
+        },
+        "locked": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
+            "type": "literal",
+            "value": "false"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "611343"
+        },
+        "countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Solomon Islands"
+        },
+        "locked": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
+            "type": "literal",
+            "value": "false"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "546388"
+        },
+        "countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Cape Verde"
+        },
+        "locked": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
+            "type": "literal",
+            "value": "false"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "469000"
+        },
+        "countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Transnistria"
+        },
+        "locked": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
+            "type": "literal",
+            "value": "true"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "465292"
+        },
+        "countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Malta"
+        },
+        "locked": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
+            "type": "literal",
+            "value": "false"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "436330"
+        },
+        "countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Maldives"
+        },
+        "locked": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
+            "type": "literal",
+            "value": "false"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "428697"
+        },
+        "countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Brunei"
+        },
+        "locked": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
+            "type": "literal",
+            "value": "false"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "395361"
+        },
+        "countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "The Bahamas"
+        },
+        "locked": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
+            "type": "literal",
+            "value": "false"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "285719"
+        },
+        "countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Barbados"
+        },
+        "locked": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
+            "type": "literal",
+            "value": "false"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "276244"
+        },
+        "countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Vanuatu"
+        },
+        "locked": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
+            "type": "literal",
+            "value": "false"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "204327"
+        },
+        "countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "S\u00e3o Tom\u00e9 and Pr\u00edncipe"
+        },
+        "locked": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
+            "type": "literal",
+            "value": "false"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "196440"
+        },
+        "countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Samoa"
+        },
+        "locked": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
+            "type": "literal",
+            "value": "false"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "178844"
+        },
+        "countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Saint Lucia"
+        },
+        "locked": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
+            "type": "literal",
+            "value": "false"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "146600"
+        },
+        "countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Republic of Artsakh"
+        },
+        "locked": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
+            "type": "literal",
+            "value": "false"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "134535"
+        },
+        "countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Gagauzia"
+        },
+        "locked": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
+            "type": "literal",
+            "value": "false"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "119940"
+        },
+        "countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Kiribati"
+        },
+        "locked": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
+            "type": "literal",
+            "value": "false"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "109897"
+        },
+        "countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Saint Vincent and the Grenadines"
+        },
+        "locked": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
+            "type": "literal",
+            "value": "false"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "107825"
+        },
+        "countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Grenada"
+        },
+        "locked": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
+            "type": "literal",
+            "value": "false"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "105544"
+        },
+        "countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Federated States of Micronesia"
+        },
+        "locked": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
+            "type": "literal",
+            "value": "false"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "102911"
+        },
+        "countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Aruba"
+        },
+        "locked": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
+            "type": "literal",
+            "value": "false"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "102012"
+        },
+        "countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Antigua and Barbuda"
+        },
+        "locked": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
+            "type": "literal",
+            "value": "false"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "95843"
+        },
+        "countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Seychelles"
+        },
+        "locked": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
+            "type": "literal",
+            "value": "false"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "76177"
+        },
+        "countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Andorra"
+        },
+        "locked": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
+            "type": "literal",
+            "value": "false"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "73925"
+        },
+        "countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Dominica"
+        },
+        "locked": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
+            "type": "literal",
+            "value": "false"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "55689"
+        },
+        "countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "American Samoa"
+        },
+        "locked": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
+            "type": "literal",
+            "value": "false"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "55345"
+        },
+        "countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Saint Kitts and Nevis"
+        },
+        "locked": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
+            "type": "literal",
+            "value": "false"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "55144"
+        },
+        "countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Northern Mariana Islands"
+        },
+        "locked": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
+            "type": "literal",
+            "value": "false"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "53127"
+        },
+        "countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Marshall Islands"
+        },
+        "locked": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
+            "type": "literal",
+            "value": "false"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "37922"
+        },
+        "countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Liechtenstein"
+        },
+        "locked": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
+            "type": "literal",
+            "value": "false"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "37132"
+        },
+        "countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Sint Maarten"
+        },
+        "locked": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
+            "type": "literal",
+            "value": "false"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "21729"
+        },
+        "countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Palau"
+        },
+        "locked": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
+            "type": "literal",
+            "value": "false"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "17434"
+        },
+        "countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Cook Islands"
+        },
+        "locked": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
+            "type": "literal",
+            "value": "false"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "13650"
+        },
+        "countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Nauru"
+        },
+        "locked": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
+            "type": "literal",
+            "value": "false"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "11192"
+        },
+        "countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Tuvalu"
+        },
+        "locked": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
+            "type": "literal",
+            "value": "false"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "1612"
+        },
         "countryLabel": {
             "xml:lang": "en",
             "type": "literal",
@@ -2196,10 +3077,15 @@
         }
     },
     {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "183"
+        },
         "countryLabel": {
             "xml:lang": "en",
             "type": "literal",
-            "value": "Somaliland"
+            "value": "\u0421\u043b\u0430\u0432\u0430 \u041e\u0441\u0442\u0440\u043e\u0432 \u0410\u043b\u0435\u043a\u0441\u0430\u043d\u0434\u0440"
         },
         "locked": {
             "datatype": "http://www.w3.org/2001/XMLSchema#boolean",

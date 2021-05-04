@@ -1,1002 +1,1002 @@
 [
     {
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Brunei"
+        },
         "island": {
             "type": "uri",
             "value": "http://dbpedia.org/resource/Malay_Archipelago"
-        },
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Brunei"
         }
     },
     {
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Indonesia"
+        },
         "island": {
             "type": "uri",
             "value": "http://dbpedia.org/resource/New_Guinea"
-        },
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Indonesia"
         }
     },
     {
-        "island": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Borneo"
-        },
         "country": {
             "type": "uri",
             "value": "http://dbpedia.org/resource/Brunei"
+        },
+        "island": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Borneo"
         }
     },
     {
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Canada"
+        },
         "island": {
             "type": "uri",
             "value": "http://dbpedia.org/resource/Baffin_Island"
-        },
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Canada"
         }
     },
     {
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Indonesia"
+        },
         "island": {
             "type": "uri",
             "value": "http://dbpedia.org/resource/Sumatra"
-        },
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Indonesia"
         }
     },
     {
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Japan"
+        },
         "island": {
             "type": "uri",
             "value": "http://dbpedia.org/resource/Honshu"
-        },
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Japan"
         }
     },
     {
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Canada"
+        },
         "island": {
             "type": "uri",
             "value": "http://dbpedia.org/resource/Victoria_Island_(Canada)"
-        },
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Canada"
         }
     },
     {
-        "island": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Great_Britain"
-        },
         "country": {
             "type": "uri",
             "value": "http://dbpedia.org/resource/United_Kingdom"
+        },
+        "island": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Great_Britain"
         }
     },
     {
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Republic_of_Ireland"
+        },
         "island": {
             "type": "uri",
             "value": "http://dbpedia.org/resource/Dinish_Island"
-        },
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Republic_of_Ireland"
         }
     },
     {
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Indonesia"
+        },
         "island": {
             "type": "uri",
             "value": "http://dbpedia.org/resource/Sulawesi"
-        },
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Indonesia"
         }
     },
     {
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/New_Zealand"
+        },
         "island": {
             "type": "uri",
             "value": "http://dbpedia.org/resource/South_Island"
-        },
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/New_Zealand"
         }
     },
     {
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Indonesia"
+        },
         "island": {
             "type": "uri",
             "value": "http://dbpedia.org/resource/Java"
-        },
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Indonesia"
         }
     },
     {
-        "island": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/North_Island"
-        },
         "country": {
             "type": "uri",
             "value": "http://dbpedia.org/resource/New_Zealand"
+        },
+        "island": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/North_Island"
         }
     },
     {
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Philippines"
+        },
         "island": {
             "type": "uri",
             "value": "http://dbpedia.org/resource/Luzon"
-        },
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Philippines"
         }
     },
     {
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Philippines"
+        },
         "island": {
             "type": "uri",
             "value": "http://dbpedia.org/resource/Mindanao"
-        },
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Philippines"
         }
     },
     {
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Russia"
+        },
         "island": {
             "type": "uri",
             "value": "http://dbpedia.org/resource/Novaya_Zemlya"
-        },
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Russia"
         }
     },
     {
-        "island": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Ireland"
-        },
         "country": {
             "type": "uri",
             "value": "http://dbpedia.org/resource/Republic_of_Ireland"
+        },
+        "island": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Ireland"
         }
     },
     {
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Indonesia"
+        },
         "island": {
             "type": "uri",
             "value": "http://dbpedia.org/resource/Roman_Catholic_Diocese_of_Amboina"
-        },
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Indonesia"
         }
     },
     {
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Japan"
+        },
         "island": {
             "type": "uri",
             "value": "http://dbpedia.org/resource/Hokkaido"
-        },
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Japan"
         }
     },
     {
-        "island": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Hispaniola"
-        },
         "country": {
             "type": "uri",
             "value": "http://dbpedia.org/resource/Dominican_Republic"
+        },
+        "island": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Hispaniola"
         }
     },
     {
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Indonesia"
+        },
         "island": {
             "type": "uri",
             "value": "http://dbpedia.org/resource/Maluku_Islands"
-        },
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Indonesia"
         }
     },
     {
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Russia"
+        },
         "island": {
             "type": "uri",
             "value": "http://dbpedia.org/resource/Sakhalin"
-        },
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Russia"
         }
     },
     {
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Philippines"
+        },
         "island": {
             "type": "uri",
             "value": "http://dbpedia.org/resource/Visayas"
-        },
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Philippines"
         }
     },
     {
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Papua_New_Guinea"
+        },
         "island": {
             "type": "uri",
             "value": "http://dbpedia.org/resource/Bismarck_Archipelago"
-        },
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Papua_New_Guinea"
         }
     },
     {
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Russia"
+        },
         "island": {
             "type": "uri",
             "value": "http://dbpedia.org/resource/Severny_Island"
-        },
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Russia"
         }
     },
     {
-        "island": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Isla_Grande_de_Tierra_del_Fuego"
-        },
         "country": {
             "type": "uri",
             "value": "http://dbpedia.org/resource/Argentina"
+        },
+        "island": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Isla_Grande_de_Tierra_del_Fuego"
         }
     },
     {
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Canada"
+        },
         "island": {
             "type": "uri",
             "value": "http://dbpedia.org/resource/Axel_Heiberg_Island"
-        },
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Canada"
         }
     },
     {
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Brazil"
+        },
         "island": {
             "type": "uri",
             "value": "http://dbpedia.org/resource/Maraj\u00f3"
-        },
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Brazil"
         }
     },
     {
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Norway"
+        },
         "island": {
             "type": "uri",
             "value": "http://dbpedia.org/resource/Spitsbergen"
-        },
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Norway"
         }
     },
     {
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Japan"
+        },
         "island": {
             "type": "uri",
             "value": "http://dbpedia.org/resource/Kyushu"
-        },
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Japan"
         }
     },
     {
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Papua_New_Guinea"
+        },
         "island": {
             "type": "uri",
             "value": "http://dbpedia.org/resource/New_Britain"
-        },
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Papua_New_Guinea"
         }
     },
     {
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Russia"
+        },
         "island": {
             "type": "uri",
             "value": "http://dbpedia.org/resource/Yuzhny_Island"
-        },
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Russia"
         }
     },
     {
-        "island": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Timor"
-        },
         "country": {
             "type": "uri",
             "value": "http://dbpedia.org/resource/East_Timor"
+        },
+        "island": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Timor"
         }
     },
     {
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Brazil"
+        },
         "island": {
             "type": "uri",
             "value": "http://dbpedia.org/resource/Bananal_Island"
-        },
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Brazil"
         }
     },
     {
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Indonesia"
+        },
         "island": {
             "type": "uri",
             "value": "http://dbpedia.org/resource/Halmahera"
-        },
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Indonesia"
         }
     },
     {
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Indonesia"
+        },
         "island": {
             "type": "uri",
             "value": "http://dbpedia.org/resource/Seram_Island"
-        },
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Indonesia"
         }
     },
     {
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Russia"
+        },
         "island": {
             "type": "uri",
             "value": "http://dbpedia.org/resource/Franz_Josef_Land"
-        },
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Russia"
         }
     },
     {
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Canada"
+        },
         "island": {
             "type": "uri",
             "value": "http://dbpedia.org/resource/Bathurst_Island_(Nunavut)"
-        },
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Canada"
         }
     },
     {
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Canada"
+        },
         "island": {
             "type": "uri",
             "value": "http://dbpedia.org/resource/Prince_Patrick_Island"
-        },
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Canada"
         }
     },
     {
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Indonesia"
+        },
         "island": {
             "type": "uri",
             "value": "http://dbpedia.org/resource/Sumbawa"
-        },
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Indonesia"
         }
     },
     {
-        "island": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Nordaustlandet"
-        },
         "country": {
             "type": "uri",
             "value": "http://dbpedia.org/resource/Norway"
+        },
+        "island": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Nordaustlandet"
         }
     },
     {
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Russia"
+        },
         "island": {
             "type": "uri",
             "value": "http://dbpedia.org/resource/October_Revolution_Island"
-        },
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Russia"
         }
     },
     {
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Indonesia"
+        },
         "island": {
             "type": "uri",
             "value": "http://dbpedia.org/resource/Flores"
-        },
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Indonesia"
         }
     },
     {
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Philippines"
+        },
         "island": {
             "type": "uri",
             "value": "http://dbpedia.org/resource/Samar"
-        },
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Philippines"
         }
     },
     {
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Philippines"
+        },
         "island": {
             "type": "uri",
             "value": "http://dbpedia.org/resource/Palawan_(island)"
-        },
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Philippines"
         }
     },
     {
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Philippines"
+        },
         "island": {
             "type": "uri",
             "value": "http://dbpedia.org/resource/Panay"
-        },
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Philippines"
         }
     },
     {
-        "island": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Tupinambarana"
-        },
         "country": {
             "type": "uri",
             "value": "http://dbpedia.org/resource/Brazil"
+        },
+        "island": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Tupinambarana"
         }
     },
     {
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Indonesia"
+        },
         "island": {
             "type": "uri",
             "value": "http://dbpedia.org/resource/Yos_Sudarso_Island"
-        },
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Indonesia"
         }
     },
     {
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Indonesia"
+        },
         "island": {
             "type": "uri",
             "value": "http://dbpedia.org/resource/Bangka_Island"
-        },
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Indonesia"
         }
     },
     {
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Canada"
+        },
         "island": {
             "type": "uri",
             "value": "http://dbpedia.org/resource/Ellef_Ringnes_Island"
-        },
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Canada"
         }
     },
     {
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Russia"
+        },
         "island": {
             "type": "uri",
             "value": "http://dbpedia.org/resource/Bolshevik_Island"
-        },
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Russia"
         }
     },
     {
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Canada"
+        },
         "island": {
             "type": "uri",
             "value": "http://dbpedia.org/resource/Bylot_Island"
-        },
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Canada"
         }
     },
     {
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Indonesia"
+        },
         "island": {
             "type": "uri",
             "value": "http://dbpedia.org/resource/Sumba"
-        },
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Indonesia"
         }
     },
     {
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Solomon_Islands"
+        },
         "island": {
             "type": "uri",
             "value": "http://dbpedia.org/resource/Roman_Catholic_Archdiocese_of_Honiara"
-        },
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Solomon_Islands"
         }
     },
     {
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Philippines"
+        },
         "island": {
             "type": "uri",
             "value": "http://dbpedia.org/resource/Mindoro"
-        },
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Philippines"
         }
     },
     {
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Canada"
+        },
         "island": {
             "type": "uri",
             "value": "http://dbpedia.org/resource/Cape_Breton_Island"
-        },
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Canada"
         }
     },
     {
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Canada"
+        },
         "island": {
             "type": "uri",
             "value": "http://dbpedia.org/resource/Prince_Charles_Island"
-        },
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Canada"
         }
     },
     {
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Indonesia"
+        },
         "island": {
             "type": "uri",
             "value": "http://dbpedia.org/resource/Buru"
-        },
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Indonesia"
         }
     },
     {
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Papua_New_Guinea"
+        },
         "island": {
             "type": "uri",
             "value": "http://dbpedia.org/resource/Bougainville_Island"
-        },
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Papua_New_Guinea"
         }
     },
     {
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Russia"
+        },
         "island": {
             "type": "uri",
             "value": "http://dbpedia.org/resource/Komsomolets_Island"
-        },
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Russia"
         }
     },
     {
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Greece"
+        },
         "island": {
             "type": "uri",
             "value": "http://dbpedia.org/resource/Crete"
-        },
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Greece"
         }
     },
     {
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Chile"
+        },
         "island": {
             "type": "uri",
             "value": "http://dbpedia.org/resource/Chilo\u00e9_Island"
-        },
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Chile"
         }
     },
     {
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Australia"
+        },
         "island": {
             "type": "uri",
             "value": "http://dbpedia.org/resource/Tiwi_Islands"
-        },
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Australia"
         }
     },
     {
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Ecuador"
+        },
         "island": {
             "type": "uri",
             "value": "http://dbpedia.org/resource/Apostolic_Vicariate_of_Gal\u00e1pagos"
-        },
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Ecuador"
         }
     },
     {
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Canada"
+        },
         "island": {
             "type": "uri",
             "value": "http://dbpedia.org/resource/Anticosti_Island"
-        },
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Canada"
         }
     },
     {
-        "island": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Gal\u00e1pagos_Islands"
-        },
         "country": {
             "type": "uri",
             "value": "http://dbpedia.org/resource/Ecuador"
+        },
+        "island": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Gal\u00e1pagos_Islands"
         }
     },
     {
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Russia"
+        },
         "island": {
             "type": "uri",
             "value": "http://dbpedia.org/resource/Wrangel_Island"
-        },
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Russia"
         }
     },
     {
-        "island": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/New_Ireland_(island)"
-        },
         "country": {
             "type": "uri",
             "value": "http://dbpedia.org/resource/Papua_New_Guinea"
+        },
+        "island": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/New_Ireland_(island)"
         }
     },
     {
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Philippines"
+        },
         "island": {
             "type": "uri",
             "value": "http://dbpedia.org/resource/Leyte"
-        },
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Philippines"
         }
     },
     {
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Denmark"
+        },
         "island": {
             "type": "uri",
             "value": "http://dbpedia.org/resource/Zealand"
-        },
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Denmark"
         }
     },
     {
-        "island": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Andaman_Islands"
-        },
         "country": {
             "type": "uri",
             "value": "http://dbpedia.org/resource/India"
+        },
+        "island": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Andaman_Islands"
         }
     },
     {
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Russia"
+        },
         "island": {
             "type": "uri",
             "value": "http://dbpedia.org/resource/New_Siberia"
-        },
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Russia"
         }
     },
     {
-        "island": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Vanua_Levu"
-        },
         "country": {
             "type": "uri",
             "value": "http://dbpedia.org/resource/Fiji"
+        },
+        "island": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Vanua_Levu"
         }
     },
     {
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Chile"
+        },
         "island": {
             "type": "uri",
             "value": "http://dbpedia.org/resource/Wellington_Island"
-        },
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Chile"
         }
     },
     {
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Canada"
+        },
         "island": {
             "type": "uri",
             "value": "http://dbpedia.org/resource/Coats_Island"
-        },
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Canada"
         }
     },
     {
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Solomon_Islands"
+        },
         "island": {
             "type": "uri",
             "value": "http://dbpedia.org/resource/Guadalcanal"
-        },
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Solomon_Islands"
         }
     },
     {
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Russia"
+        },
         "island": {
             "type": "uri",
             "value": "http://dbpedia.org/resource/Faddeyevsky_Peninsula"
-        },
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Russia"
         }
     },
     {
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Canada"
+        },
         "island": {
             "type": "uri",
             "value": "http://dbpedia.org/resource/Amund_Ringnes_Island"
-        },
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Canada"
         }
     },
     {
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Russia"
+        },
         "island": {
             "type": "uri",
             "value": "http://dbpedia.org/resource/Bolshoy_Lyakhovsky_Island"
-        },
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Russia"
         }
     },
     {
-        "island": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Trinidad"
-        },
         "country": {
             "type": "uri",
             "value": "http://dbpedia.org/resource/Trinidad_and_Tobago"
+        },
+        "island": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Trinidad"
         }
     },
     {
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Chile"
+        },
         "island": {
             "type": "uri",
             "value": "http://dbpedia.org/resource/Riesco_Island"
-        },
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Chile"
         }
     },
     {
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Canada"
+        },
         "island": {
             "type": "uri",
             "value": "http://dbpedia.org/resource/Mackenzie_King_Island"
-        },
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Canada"
         }
     },
     {
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Indonesia"
+        },
         "island": {
             "type": "uri",
             "value": "http://dbpedia.org/resource/Belitung"
-        },
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Indonesia"
         }
     },
     {
-        "island": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/North_Jutlandic_Island"
-        },
         "country": {
             "type": "uri",
             "value": "http://dbpedia.org/resource/Denmark"
+        },
+        "island": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/North_Jutlandic_Island"
         }
     },
     {
-        "island": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Ryukyu_Islands"
-        },
         "country": {
             "type": "uri",
             "value": "http://dbpedia.org/resource/Japan"
+        },
+        "island": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Ryukyu_Islands"
         }
     },
     {
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Indonesia"
+        },
         "island": {
             "type": "uri",
             "value": "http://dbpedia.org/resource/Lombok"
-        },
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Indonesia"
         }
     },
     {
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Canada"
+        },
         "island": {
             "type": "uri",
             "value": "http://dbpedia.org/resource/Stefansson_Island"
-        },
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Canada"
         }
     },
     {
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Indonesia"
+        },
         "island": {
             "type": "uri",
             "value": "http://dbpedia.org/resource/Buton"
-        },
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Indonesia"
         }
     },
     {
-        "island": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Kangaroo_Island"
-        },
         "country": {
             "type": "uri",
             "value": "http://dbpedia.org/resource/Australia"
+        },
+        "island": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Kangaroo_Island"
         }
     },
     {
-        "island": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Malaita"
-        },
         "country": {
             "type": "uri",
             "value": "http://dbpedia.org/resource/Solomon_Islands"
+        },
+        "island": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Malaita"
         }
     },
     {
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Chile"
+        },
         "island": {
             "type": "uri",
             "value": "http://dbpedia.org/resource/Hoste_Island"
-        },
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Chile"
         }
     },
     {
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Indonesia"
+        },
         "island": {
             "type": "uri",
             "value": "http://dbpedia.org/resource/Madura_Island"
-        },
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Indonesia"
         }
     },
     {
-        "island": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Sulu_Archipelago"
-        },
         "country": {
             "type": "uri",
             "value": "http://dbpedia.org/resource/Philippines"
+        },
+        "island": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Sulu_Archipelago"
         }
     },
     {
-        "island": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Siberut"
-        },
         "country": {
             "type": "uri",
             "value": "http://dbpedia.org/resource/Indonesia"
+        },
+        "island": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Siberut"
         }
     },
     {
-        "island": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Espiritu_Santo"
-        },
         "country": {
             "type": "uri",
             "value": "http://dbpedia.org/resource/Vanuatu"
+        },
+        "island": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Espiritu_Santo"
         }
     },
     {
-        "island": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Santa_In\u00e9s_Island"
-        },
         "country": {
             "type": "uri",
             "value": "http://dbpedia.org/resource/Chile"
+        },
+        "island": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Santa_In\u00e9s_Island"
         }
     },
     {
-        "island": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Euboea"
-        },
         "country": {
             "type": "uri",
             "value": "http://dbpedia.org/resource/Greece"
+        },
+        "island": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Euboea"
         }
     },
     {
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Russia"
+        },
         "island": {
             "type": "uri",
             "value": "http://dbpedia.org/resource/Kolguyev_Island"
-        },
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Russia"
         }
     },
     {
-        "island": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Moresby_Island"
-        },
         "country": {
             "type": "uri",
             "value": "http://dbpedia.org/resource/Canada"
+        },
+        "island": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Moresby_Island"
         }
     },
     {
-        "island": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Vaygach_Island"
-        },
         "country": {
             "type": "uri",
             "value": "http://dbpedia.org/resource/Russia"
+        },
+        "island": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Vaygach_Island"
         }
     }
 ]

@@ -2,485 +2,12 @@
     {
         "country": {
             "type": "uri",
-            "value": "http://dbpedia.org/resource/Luxembourg"
+            "value": "http://dbpedia.org/resource/Georgia_(country)"
         },
         "population": {
             "type": "typed-literal",
             "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
-            "value": "626108"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Malawi"
-        },
-        "population": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
-            "value": "19129952"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Malaysia"
-        },
-        "population": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
-            "value": "32730000"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Maldives"
-        },
-        "population": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
-            "value": "379270"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Mali"
-        },
-        "population": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
-            "value": "20250833"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Ukraine"
-        },
-        "population": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
-            "value": "41660982"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/United_Arab_Emirates"
-        },
-        "population": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
-            "value": "9890400"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/United_Kingdom"
-        },
-        "population": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
-            "value": "67886004"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Uruguay"
-        },
-        "population": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
-            "value": "3518552"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Uzbekistan"
-        },
-        "population": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
-            "value": "33570609"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Vanuatu"
-        },
-        "population": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
-            "value": "307815"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Venezuela"
-        },
-        "population": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
-            "value": "28067000"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Bolivia"
-        },
-        "population": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
-            "value": "11428245"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Bosnia_and_Herzegovina"
-        },
-        "population": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
-            "value": "3301000"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Brazil"
-        },
-        "population": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
-            "value": "210147125"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Democratic_Republic_of_the_Congo"
-        },
-        "population": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
-            "value": "101780263"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Denmark"
-        },
-        "population": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
-            "value": "5824857"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Djibouti"
-        },
-        "population": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
-            "value": "921804"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Dominican_Republic"
-        },
-        "population": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
-            "value": "10735896"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Greece"
-        },
-        "population": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
-            "value": "10724599"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Guatemala"
-        },
-        "population": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
-            "value": "17263239"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Kerguelen_Islands"
-        },
-        "population": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
-            "value": "45"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Kingdom_of_the_Netherlands"
-        },
-        "population": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
-            "value": "17737438"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Kiribati"
-        },
-        "population": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
-            "value": "123346"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Korea"
-        },
-        "population": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
-            "value": "77000000"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Kosovo"
-        },
-        "population": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
-            "value": "1873160"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Puntland"
-        },
-        "population": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
-            "value": "4285000"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Qatar"
-        },
-        "population": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
-            "value": "2795484"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Albania"
-        },
-        "population": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
-            "value": "2845955"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Algeria"
-        },
-        "population": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
-            "value": "43600000"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Chad"
-        },
-        "population": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
-            "value": "13670084"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Finland"
-        },
-        "population": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
-            "value": "5528737"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Nigeria"
-        },
-        "population": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
-            "value": "206630269"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/North_Macedonia"
-        },
-        "population": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
-            "value": "2077132"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Northern_Cyprus"
-        },
-        "population": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
-            "value": "326000"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Norway"
-        },
-        "population": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
-            "value": "5432580"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Austria"
-        },
-        "population": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
-            "value": "8902600"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Autonomous_Region_of_Bougainville"
-        },
-        "population": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
-            "value": "249358"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Azerbaijan"
-        },
-        "population": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
-            "value": "10127874"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Barbados"
-        },
-        "population": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
-            "value": "287025"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Lithuania"
-        },
-        "population": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
-            "value": "2794329"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Cameroon"
-        },
-        "population": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
-            "value": "26545864"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Canada"
-        },
-        "population": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
-            "value": "38005238"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Carriacou_and_Petite_Martinique"
-        },
-        "population": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
-            "value": "6081"
+            "value": "37168584012104"
         }
     },
     {
@@ -497,155 +24,23 @@
     {
         "country": {
             "type": "uri",
-            "value": "http://dbpedia.org/resource/Gaza_Strip"
+            "value": "http://dbpedia.org/resource/Brazil"
         },
         "population": {
             "type": "typed-literal",
             "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
-            "value": "1850000"
+            "value": "210147125"
         }
     },
     {
         "country": {
             "type": "uri",
-            "value": "http://dbpedia.org/resource/Georgia_(country)"
+            "value": "http://dbpedia.org/resource/Nigeria"
         },
         "population": {
             "type": "typed-literal",
             "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
-            "value": "37168584012104"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Ghana"
-        },
-        "population": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
-            "value": "31072940"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Belarus"
-        },
-        "population": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
-            "value": "9408400"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Belgium"
-        },
-        "population": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
-            "value": "11492641"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Belize"
-        },
-        "population": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
-            "value": "408487"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Benin"
-        },
-        "population": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
-            "value": "11733059"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Kazakhstan"
-        },
-        "population": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
-            "value": "18711200"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Liberia"
-        },
-        "population": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
-            "value": "5073296"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Libya"
-        },
-        "population": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
-            "value": "6871287"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Liechtenstein"
-        },
-        "population": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
-            "value": "38749"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Zimbabwe"
-        },
-        "population": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
-            "value": "14215809"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Moldova"
-        },
-        "population": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
-            "value": "2640438"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Monaco"
-        },
-        "population": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
-            "value": "38300"
+            "value": "206630269"
         }
     },
     {
@@ -662,56 +57,133 @@
     {
         "country": {
             "type": "uri",
-            "value": "http://dbpedia.org/resource/Rwanda"
+            "value": "http://dbpedia.org/resource/Mexico"
         },
         "population": {
             "type": "typed-literal",
             "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
-            "value": "12374397"
+            "value": "128649565"
         }
     },
     {
         "country": {
             "type": "uri",
-            "value": "http://dbpedia.org/resource/Slovakia"
+            "value": "http://dbpedia.org/resource/Japan"
         },
         "population": {
             "type": "typed-literal",
             "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
-            "value": "5457926"
+            "value": "125960000"
         }
     },
     {
         "country": {
             "type": "uri",
-            "value": "http://dbpedia.org/resource/Slovenia"
+            "value": "http://dbpedia.org/resource/Philippines"
         },
         "population": {
             "type": "typed-literal",
             "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
-            "value": "2095861"
+            "value": "109048269"
         }
     },
     {
         "country": {
             "type": "uri",
-            "value": "http://dbpedia.org/resource/Somalia"
+            "value": "http://dbpedia.org/resource/Democratic_Republic_of_the_Congo"
         },
         "population": {
             "type": "typed-literal",
             "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
-            "value": "15893219"
+            "value": "101780263"
         }
     },
     {
         "country": {
             "type": "uri",
-            "value": "http://dbpedia.org/resource/Somaliland"
+            "value": "http://dbpedia.org/resource/Egypt"
         },
         "population": {
             "type": "typed-literal",
             "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
-            "value": "3508180"
+            "value": "100075480"
+        }
+    },
+    {
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Iran"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "83183741"
+        }
+    },
+    {
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Turkey"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "83154997"
+        }
+    },
+    {
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Korea"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "77000000"
+        }
+    },
+    {
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Thailand"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "69758935"
+        }
+    },
+    {
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/United_Kingdom"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "67886004"
+        }
+    },
+    {
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/France"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "67081000"
+        }
+    },
+    {
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Italy"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "60317116"
         }
     },
     {
@@ -739,23 +211,12 @@
     {
         "country": {
             "type": "uri",
-            "value": "http://dbpedia.org/resource/South_Sudan"
+            "value": "http://dbpedia.org/resource/Colombia"
         },
         "population": {
             "type": "typed-literal",
             "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
-            "value": "12778250"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/South_West_State_of_Somalia"
-        },
-        "population": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
-            "value": "5678245"
+            "value": "50372424"
         }
     },
     {
@@ -772,204 +233,6 @@
     {
         "country": {
             "type": "uri",
-            "value": "http://dbpedia.org/resource/Sri_Lanka"
-        },
-        "population": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
-            "value": "21803000"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/France"
-        },
-        "population": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
-            "value": "67081000"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Galmudug"
-        },
-        "population": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
-            "value": "6200000"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Guyana"
-        },
-        "population": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
-            "value": "786391"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Hungary"
-        },
-        "population": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
-            "value": "9772756"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Iceland"
-        },
-        "population": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
-            "value": "364134"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Iran"
-        },
-        "population": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
-            "value": "83183741"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Italy"
-        },
-        "population": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
-            "value": "60317116"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Ivory_Coast"
-        },
-        "population": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
-            "value": "26378274"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Jamaica"
-        },
-        "population": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
-            "value": "2726667"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Japan"
-        },
-        "population": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
-            "value": "125960000"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/San_Marino"
-        },
-        "population": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
-            "value": "34232"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Saudi_Arabia"
-        },
-        "population": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
-            "value": "34218169"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Savoy"
-        },
-        "population": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
-            "value": "1238534"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Serbia"
-        },
-        "population": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
-            "value": "6963764"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Ambazonia"
-        },
-        "population": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
-            "value": "3521898"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Andorra"
-        },
-        "population": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
-            "value": "77543"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Angola"
-        },
-        "population": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
-            "value": "31127674"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
             "value": "http://dbpedia.org/resource/Argentina"
         },
         "population": {
@@ -981,507 +244,23 @@
     {
         "country": {
             "type": "uri",
-            "value": "http://dbpedia.org/resource/Armenia"
+            "value": "http://dbpedia.org/resource/Algeria"
         },
         "population": {
             "type": "typed-literal",
             "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
-            "value": "2956900"
+            "value": "43600000"
         }
     },
     {
         "country": {
             "type": "uri",
-            "value": "http://dbpedia.org/resource/Republic_of_Ireland"
+            "value": "http://dbpedia.org/resource/Ukraine"
         },
         "population": {
             "type": "typed-literal",
             "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
-            "value": "4977400"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Thailand"
-        },
-        "population": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
-            "value": "69758935"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/The_Gambia"
-        },
-        "population": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
-            "value": "2173999"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Abkhazia"
-        },
-        "population": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
-            "value": "245246"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Afghanistan"
-        },
-        "population": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
-            "value": "32225560"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Transnistria"
-        },
-        "population": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
-            "value": "469000"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Trinidad_and_Tobago"
-        },
-        "population": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
-            "value": "1363985"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Tunisia"
-        },
-        "population": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
-            "value": "11722038"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Turkey"
-        },
-        "population": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
-            "value": "83154997"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Turkmenistan"
-        },
-        "population": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
-            "value": "6031187"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Tuvalu"
-        },
-        "population": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
-            "value": "11646"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Brunei"
-        },
-        "population": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
-            "value": "459500"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Bulgaria"
-        },
-        "population": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
-            "value": "6951482"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Bunyoro"
-        },
-        "population": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
-            "value": "1400000"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Burkina_Faso"
-        },
-        "population": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
-            "value": "21510181"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Burundi"
-        },
-        "population": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
-            "value": "11865821"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Colombia"
-        },
-        "population": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
-            "value": "50372424"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Comoros"
-        },
-        "population": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
-            "value": "850688"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Croatia"
-        },
-        "population": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
-            "value": "4058165"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Czech_Republic"
-        },
-        "population": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
-            "value": "10693939"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Kuwait"
-        },
-        "population": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
-            "value": "4420110"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Kyrgyzstan"
-        },
-        "population": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
-            "value": "6533500"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Laos"
-        },
-        "population": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
-            "value": "7123205"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Latvia"
-        },
-        "population": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
-            "value": "1907675"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Papua_New_Guinea"
-        },
-        "population": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
-            "value": "8935000"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Paraguay"
-        },
-        "population": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
-            "value": "7292672"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Peru"
-        },
-        "population": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
-            "value": "32824358"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Romania"
-        },
-        "population": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
-            "value": "19317984"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Sweden"
-        },
-        "population": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
-            "value": "10343403"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Switzerland"
-        },
-        "population": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
-            "value": "8570146"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Syria"
-        },
-        "population": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
-            "value": "17500657"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Taiwan"
-        },
-        "population": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
-            "value": "23780452"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Tajikistan"
-        },
-        "population": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
-            "value": "9537645"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Wa_State"
-        },
-        "population": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
-            "value": "558000"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Estonia"
-        },
-        "population": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
-            "value": "1328976"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Federated_States_of_Micronesia"
-        },
-        "population": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
-            "value": "104468"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Fiji"
-        },
-        "population": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
-            "value": "926276"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Nakhchivan_Autonomous_Republic"
-        },
-        "population": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
-            "value": "456100"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Namibia"
-        },
-        "population": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
-            "value": "2746745"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Netherlands"
-        },
-        "population": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
-            "value": "17418808"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Nicaragua"
-        },
-        "population": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
-            "value": "6486201"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Philippines"
-        },
-        "population": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
-            "value": "109048269"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Poland"
-        },
-        "population": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
-            "value": "38383000"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Portugal"
-        },
-        "population": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
-            "value": "10295909"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/State_of_Palestine"
-        },
-        "population": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
-            "value": "5051953"
+            "value": "41660982"
         }
     },
     {
@@ -1498,67 +277,23 @@
     {
         "country": {
             "type": "uri",
-            "value": "http://dbpedia.org/resource/Twente"
+            "value": "http://dbpedia.org/resource/Poland"
         },
         "population": {
             "type": "typed-literal",
             "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
-            "value": "626586"
+            "value": "38383000"
         }
     },
     {
         "country": {
             "type": "uri",
-            "value": "http://dbpedia.org/resource/Egypt"
+            "value": "http://dbpedia.org/resource/Canada"
         },
         "population": {
             "type": "typed-literal",
             "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
-            "value": "100075480"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Eritrea"
-        },
-        "population": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
-            "value": "6081196"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Himan_and_Heeb"
-        },
-        "population": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
-            "value": "811918"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Mongolia"
-        },
-        "population": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
-            "value": "3353470"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Montenegro"
-        },
-        "population": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
-            "value": "622359"
+            "value": "38005238"
         }
     },
     {
@@ -1575,6 +310,83 @@
     {
         "country": {
             "type": "uri",
+            "value": "http://dbpedia.org/resource/Saudi_Arabia"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "34218169"
+        }
+    },
+    {
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Uzbekistan"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "33570609"
+        }
+    },
+    {
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Peru"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "32824358"
+        }
+    },
+    {
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Malaysia"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "32730000"
+        }
+    },
+    {
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Afghanistan"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "32225560"
+        }
+    },
+    {
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Angola"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "31127674"
+        }
+    },
+    {
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Ghana"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "31072940"
+        }
+    },
+    {
+        "country": {
+            "type": "uri",
             "value": "http://dbpedia.org/resource/Mozambique"
         },
         "population": {
@@ -1586,56 +398,265 @@
     {
         "country": {
             "type": "uri",
-            "value": "http://dbpedia.org/resource/Jordan"
+            "value": "http://dbpedia.org/resource/Venezuela"
         },
         "population": {
             "type": "typed-literal",
             "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
-            "value": "10658123"
+            "value": "28067000"
         }
     },
     {
         "country": {
             "type": "uri",
-            "value": "http://dbpedia.org/resource/Jubaland"
+            "value": "http://dbpedia.org/resource/Cameroon"
         },
         "population": {
             "type": "typed-literal",
             "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
-            "value": "1360633"
+            "value": "26545864"
         }
     },
     {
         "country": {
             "type": "uri",
-            "value": "http://dbpedia.org/resource/Mauritius"
+            "value": "http://dbpedia.org/resource/Ivory_Coast"
         },
         "population": {
             "type": "typed-literal",
             "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
-            "value": "1265475"
+            "value": "26378274"
         }
     },
     {
         "country": {
             "type": "uri",
-            "value": "http://dbpedia.org/resource/Mexico"
+            "value": "http://dbpedia.org/resource/Taiwan"
         },
         "population": {
             "type": "typed-literal",
             "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
-            "value": "128649565"
+            "value": "23780452"
         }
     },
     {
         "country": {
             "type": "uri",
-            "value": "http://dbpedia.org/resource/Malta"
+            "value": "http://dbpedia.org/resource/Sri_Lanka"
         },
         "population": {
             "type": "typed-literal",
             "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
-            "value": "514564"
+            "value": "21803000"
+        }
+    },
+    {
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Burkina_Faso"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "21510181"
+        }
+    },
+    {
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Mali"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "20250833"
+        }
+    },
+    {
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Romania"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "19317984"
+        }
+    },
+    {
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Malawi"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "19129952"
+        }
+    },
+    {
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Kazakhstan"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "18711200"
+        }
+    },
+    {
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Kingdom_of_the_Netherlands"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "17737438"
+        }
+    },
+    {
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Syria"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "17500657"
+        }
+    },
+    {
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Netherlands"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "17418808"
+        }
+    },
+    {
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Guatemala"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "17263239"
+        }
+    },
+    {
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Somalia"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "15893219"
+        }
+    },
+    {
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Zimbabwe"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "14215809"
+        }
+    },
+    {
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Chad"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "13670084"
+        }
+    },
+    {
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/South_Sudan"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "12778250"
+        }
+    },
+    {
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Rwanda"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "12374397"
+        }
+    },
+    {
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Burundi"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "11865821"
+        }
+    },
+    {
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Benin"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "11733059"
+        }
+    },
+    {
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Tunisia"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "11722038"
+        }
+    },
+    {
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Belgium"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "11492641"
+        }
+    },
+    {
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Bolivia"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "11428245"
         }
     },
     {
@@ -1652,6 +673,61 @@
     {
         "country": {
             "type": "uri",
+            "value": "http://dbpedia.org/resource/Dominican_Republic"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "10735896"
+        }
+    },
+    {
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Greece"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "10724599"
+        }
+    },
+    {
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Czech_Republic"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "10693939"
+        }
+    },
+    {
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Jordan"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "10658123"
+        }
+    },
+    {
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Sweden"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "10343403"
+        }
+    },
+    {
+        "country": {
+            "type": "uri",
             "value": "http://dbpedia.org/resource/Third_Portuguese_Republic"
         },
         "population": {
@@ -1663,12 +739,936 @@
     {
         "country": {
             "type": "uri",
+            "value": "http://dbpedia.org/resource/Portugal"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "10295909"
+        }
+    },
+    {
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Azerbaijan"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "10127874"
+        }
+    },
+    {
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/United_Arab_Emirates"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "9890400"
+        }
+    },
+    {
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Hungary"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "9772756"
+        }
+    },
+    {
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Tajikistan"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "9537645"
+        }
+    },
+    {
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Belarus"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "9408400"
+        }
+    },
+    {
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Papua_New_Guinea"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "8935000"
+        }
+    },
+    {
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Austria"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "8902600"
+        }
+    },
+    {
+        "country": {
+            "type": "uri",
             "value": "http://dbpedia.org/resource/Togo"
         },
         "population": {
             "type": "typed-literal",
             "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
             "value": "8608444"
+        }
+    },
+    {
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Switzerland"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "8570146"
+        }
+    },
+    {
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Paraguay"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "7292672"
+        }
+    },
+    {
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Laos"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "7123205"
+        }
+    },
+    {
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Serbia"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "6963764"
+        }
+    },
+    {
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Bulgaria"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "6951482"
+        }
+    },
+    {
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Libya"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "6871287"
+        }
+    },
+    {
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Kyrgyzstan"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "6533500"
+        }
+    },
+    {
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Nicaragua"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "6486201"
+        }
+    },
+    {
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Galmudug"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "6200000"
+        }
+    },
+    {
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Eritrea"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "6081196"
+        }
+    },
+    {
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Turkmenistan"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "6031187"
+        }
+    },
+    {
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Denmark"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "5824857"
+        }
+    },
+    {
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/South_West_State_of_Somalia"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "5678245"
+        }
+    },
+    {
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Finland"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "5528737"
+        }
+    },
+    {
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Slovakia"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "5457926"
+        }
+    },
+    {
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Norway"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "5432580"
+        }
+    },
+    {
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Liberia"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "5073296"
+        }
+    },
+    {
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/State_of_Palestine"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "5051953"
+        }
+    },
+    {
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Republic_of_Ireland"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "4977400"
+        }
+    },
+    {
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Kuwait"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "4420110"
+        }
+    },
+    {
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Puntland"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "4285000"
+        }
+    },
+    {
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Croatia"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "4058165"
+        }
+    },
+    {
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Ambazonia"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "3521898"
+        }
+    },
+    {
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Uruguay"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "3518552"
+        }
+    },
+    {
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Somaliland"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "3508180"
+        }
+    },
+    {
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Mongolia"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "3353470"
+        }
+    },
+    {
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Bosnia_and_Herzegovina"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "3301000"
+        }
+    },
+    {
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Armenia"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "2956900"
+        }
+    },
+    {
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Albania"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "2845955"
+        }
+    },
+    {
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Qatar"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "2795484"
+        }
+    },
+    {
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Lithuania"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "2794329"
+        }
+    },
+    {
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Namibia"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "2746745"
+        }
+    },
+    {
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Jamaica"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "2726667"
+        }
+    },
+    {
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Moldova"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "2640438"
+        }
+    },
+    {
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/The_Gambia"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "2173999"
+        }
+    },
+    {
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Slovenia"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "2095861"
+        }
+    },
+    {
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/North_Macedonia"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "2077132"
+        }
+    },
+    {
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Latvia"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "1907675"
+        }
+    },
+    {
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Kosovo"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "1873160"
+        }
+    },
+    {
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Gaza_Strip"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "1850000"
+        }
+    },
+    {
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Bunyoro"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "1400000"
+        }
+    },
+    {
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Trinidad_and_Tobago"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "1363985"
+        }
+    },
+    {
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Jubaland"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "1360633"
+        }
+    },
+    {
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Estonia"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "1328976"
+        }
+    },
+    {
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Mauritius"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "1265475"
+        }
+    },
+    {
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Savoy"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "1238534"
+        }
+    },
+    {
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Fiji"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "926276"
+        }
+    },
+    {
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Djibouti"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "921804"
+        }
+    },
+    {
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Comoros"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "850688"
+        }
+    },
+    {
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Himan_and_Heeb"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "811918"
+        }
+    },
+    {
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Guyana"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "786391"
+        }
+    },
+    {
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Twente"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "626586"
+        }
+    },
+    {
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Luxembourg"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "626108"
+        }
+    },
+    {
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Montenegro"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "622359"
+        }
+    },
+    {
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Wa_State"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "558000"
+        }
+    },
+    {
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Malta"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "514564"
+        }
+    },
+    {
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Transnistria"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "469000"
+        }
+    },
+    {
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Brunei"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "459500"
+        }
+    },
+    {
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Nakhchivan_Autonomous_Republic"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "456100"
+        }
+    },
+    {
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Belize"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "408487"
+        }
+    },
+    {
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Maldives"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "379270"
+        }
+    },
+    {
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Iceland"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "364134"
+        }
+    },
+    {
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Northern_Cyprus"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "326000"
+        }
+    },
+    {
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Vanuatu"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "307815"
+        }
+    },
+    {
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Barbados"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "287025"
+        }
+    },
+    {
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Autonomous_Region_of_Bougainville"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "249358"
+        }
+    },
+    {
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Abkhazia"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "245246"
+        }
+    },
+    {
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Kiribati"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "123346"
+        }
+    },
+    {
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Federated_States_of_Micronesia"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "104468"
+        }
+    },
+    {
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Andorra"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "77543"
+        }
+    },
+    {
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Liechtenstein"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "38749"
+        }
+    },
+    {
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Monaco"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "38300"
+        }
+    },
+    {
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/San_Marino"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "34232"
+        }
+    },
+    {
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Tuvalu"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "11646"
+        }
+    },
+    {
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Carriacou_and_Petite_Martinique"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "6081"
+        }
+    },
+    {
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Kerguelen_Islands"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "45"
         }
     }
 ]

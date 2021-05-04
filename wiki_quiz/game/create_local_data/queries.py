@@ -112,11 +112,11 @@ queries = {
                 ?border wdt:P31 wd:Q15104814 ;
                         wdt:P17 ?start_country , ?middle_country .
                 ?border2 wdt:P31 wd:Q15104814 ;
-                        wdt:P17 ?middle_country , ?end_country .
-                ?end wdt:P1082 ?pop
+                         wdt:P17 ?middle_country , ?end_country .
+                ?end_country wdt:P1082 ?pop
                 FILTER (?start_country != ?middle_country)
                 FILTER (?start_country != ?end_country)
-                FILTER (?middle != ?end_country)
+                FILTER (?middle_country != ?end_country)
                 SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en". }
             }order by desc(?pop)
         """,
