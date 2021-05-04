@@ -106,19 +106,19 @@ queries = {
     
     "country_neighbours":
         """
-            SELECT ?start_countryLabel ?middle_countryLabel ?end_countryLabel ?pop
+            SELECT ?start_countryLabel ?middle_countryLabel ?end_countryLabel ?pop 
             WHERE {
+                filter(?start_country = wd:Q183)
+                ?border wdt:P31 wd:Q15104814 ;
+                        wdt:P17 ?start_country , ?middle_country .
+                ?border2 wdt:P31 wd:Q15104814 ;
+                        wdt:P17 ?middle_country , ?end_country .
+                ?end wdt:P1082 ?pop
+                FILTER (?start_country != ?middle_country)
+                FILTER (?start_country != ?end_country)
+                FILTER (?middle != ?end_country)
                 SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en". }
-                ?start_country wdt:P31 wd:Q6256.
-                ?middle_country wdt:P31 wd:Q6256.
-                ?middle_country wdt:P1082 ?pop.
-                ?end_country wdt:P31 wd:Q6256.
-                ?start_country wdt:P47 ?middle_country.
-                ?middle_country wdt:P47 ?end_country.
-                FILTER(?start_country != ?end_country)
-                FILTER(?middle_country != ?end_country)
-                FILTER(?start_country != ?middle_country)
-            }order by desc (?pop)
+            }order by desc(?pop)
         """,
     
     "largest_citys":
