@@ -35,7 +35,7 @@ def question(request: HttpRequest) -> HttpResponse:
 
             # Render website.
             return render(request, 'game/question.html', context)
-
+    
 
 def menu(request: HttpRequest) -> HttpResponse:
     data = {'form': MenuForm()}
