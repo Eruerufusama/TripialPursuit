@@ -29,7 +29,10 @@ def question(request: HttpRequest) -> HttpResponse:
             possible_questions = list(questions[category].keys())
 
             # Generate questions based on those uris.
-            _questions = [generate_question(category, choice(possible_questions), 4).to_dict() for _ in range(number_of_questions)]
+            _questions = []
+            for _ in range(number_of_questions):
+                question = choice(possible_questions)
+                _questions.append(generate_question(category, question, 2 if question == "land_locked" else 4).to_dict())
             
             context = {"questions": _questions}
 
