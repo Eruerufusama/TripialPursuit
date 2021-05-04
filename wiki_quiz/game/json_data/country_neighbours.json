@@ -1,1 +1,926 @@
-[]
+[
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "210147125"
+        },
+        "start_countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Germany"
+        },
+        "middle_countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "France"
+        },
+        "end_countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Brazil"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "146804372"
+        },
+        "start_countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Germany"
+        },
+        "middle_countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Poland"
+        },
+        "end_countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Russia"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "66628000"
+        },
+        "start_countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Germany"
+        },
+        "middle_countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Belgium"
+        },
+        "end_countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "France"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "66628000"
+        },
+        "start_countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Germany"
+        },
+        "middle_countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Luxembourg"
+        },
+        "end_countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "France"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "66628000"
+        },
+        "start_countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Germany"
+        },
+        "middle_countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Switzerland"
+        },
+        "end_countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "France"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "66022273"
+        },
+        "start_countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Germany"
+        },
+        "middle_countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "France"
+        },
+        "end_countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "United Kingdom"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "60317000"
+        },
+        "start_countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Germany"
+        },
+        "middle_countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Switzerland"
+        },
+        "end_countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Italy"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "60317000"
+        },
+        "start_countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Germany"
+        },
+        "middle_countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Austria"
+        },
+        "end_countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Italy"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "60317000"
+        },
+        "start_countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Germany"
+        },
+        "middle_countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "France"
+        },
+        "end_countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Italy"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "46733038"
+        },
+        "start_countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Germany"
+        },
+        "middle_countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "France"
+        },
+        "end_countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Spain"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "42558328"
+        },
+        "start_countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Germany"
+        },
+        "middle_countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Poland"
+        },
+        "end_countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Ukraine"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "38382576"
+        },
+        "start_countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Germany"
+        },
+        "middle_countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Czech Republic"
+        },
+        "end_countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Poland"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "17282163"
+        },
+        "start_countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Germany"
+        },
+        "middle_countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Belgium"
+        },
+        "end_countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Netherlands"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "17100715"
+        },
+        "start_countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Germany"
+        },
+        "middle_countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Belgium"
+        },
+        "end_countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Kingdom of the Netherlands"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "17100715"
+        },
+        "start_countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Germany"
+        },
+        "middle_countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Netherlands"
+        },
+        "end_countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Kingdom of the Netherlands"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "17100715"
+        },
+        "start_countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Germany"
+        },
+        "middle_countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Netherlands"
+        },
+        "end_countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Kingdom of the Netherlands"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "17100715"
+        },
+        "start_countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Germany"
+        },
+        "middle_countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "France"
+        },
+        "end_countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Kingdom of the Netherlands"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "15700000"
+        },
+        "start_countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Germany"
+        },
+        "middle_countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Poland"
+        },
+        "end_countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Czechoslovakia"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "11431406"
+        },
+        "start_countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Germany"
+        },
+        "middle_countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Luxembourg"
+        },
+        "end_countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Belgium"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "11431406"
+        },
+        "start_countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Germany"
+        },
+        "middle_countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Netherlands"
+        },
+        "end_countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Belgium"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "11431406"
+        },
+        "start_countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Germany"
+        },
+        "middle_countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Netherlands"
+        },
+        "end_countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Belgium"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "11431406"
+        },
+        "start_countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Germany"
+        },
+        "middle_countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "France"
+        },
+        "end_countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Belgium"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "10701777"
+        },
+        "start_countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Germany"
+        },
+        "middle_countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Poland"
+        },
+        "end_countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Czech Republic"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "10701777"
+        },
+        "start_countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Germany"
+        },
+        "middle_countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Austria"
+        },
+        "end_countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Czech Republic"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "9769526"
+        },
+        "start_countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Germany"
+        },
+        "middle_countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Austria"
+        },
+        "end_countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Hungary"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "9349645"
+        },
+        "start_countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Germany"
+        },
+        "middle_countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Poland"
+        },
+        "end_countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Belarus"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "8809212"
+        },
+        "start_countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Germany"
+        },
+        "middle_countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Switzerland"
+        },
+        "end_countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Austria"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "8809212"
+        },
+        "start_countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Germany"
+        },
+        "middle_countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Czech Republic"
+        },
+        "end_countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Austria"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "8466017"
+        },
+        "start_countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Germany"
+        },
+        "middle_countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Austria"
+        },
+        "end_countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Switzerland"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "8466017"
+        },
+        "start_countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Germany"
+        },
+        "middle_countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "France"
+        },
+        "end_countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Switzerland"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "5397036"
+        },
+        "start_countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Germany"
+        },
+        "middle_countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Poland"
+        },
+        "end_countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Slovakia"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "5397036"
+        },
+        "start_countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Germany"
+        },
+        "middle_countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Austria"
+        },
+        "end_countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Slovakia"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "5397036"
+        },
+        "start_countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Germany"
+        },
+        "middle_countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Czech Republic"
+        },
+        "end_countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Slovakia"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "2790842"
+        },
+        "start_countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Germany"
+        },
+        "middle_countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Poland"
+        },
+        "end_countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Lithuania"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "2066880"
+        },
+        "start_countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Germany"
+        },
+        "middle_countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Austria"
+        },
+        "end_countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Slovenia"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "626108"
+        },
+        "start_countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Germany"
+        },
+        "middle_countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Belgium"
+        },
+        "end_countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Luxembourg"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "626108"
+        },
+        "start_countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Germany"
+        },
+        "middle_countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "France"
+        },
+        "end_countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Luxembourg"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "563402"
+        },
+        "start_countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Germany"
+        },
+        "middle_countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "France"
+        },
+        "end_countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Suriname"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "76177"
+        },
+        "start_countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Germany"
+        },
+        "middle_countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "France"
+        },
+        "end_countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Andorra"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "38695"
+        },
+        "start_countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Germany"
+        },
+        "middle_countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "France"
+        },
+        "end_countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Monaco"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "37922"
+        },
+        "start_countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Germany"
+        },
+        "middle_countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Switzerland"
+        },
+        "end_countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Liechtenstein"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "37922"
+        },
+        "start_countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Germany"
+        },
+        "middle_countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Austria"
+        },
+        "end_countryLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Liechtenstein"
+        }
+    }
+]
