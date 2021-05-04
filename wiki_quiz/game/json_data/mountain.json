@@ -2,21 +2,81 @@
     {
         "mountain": {
             "type": "uri",
-            "value": "http://dbpedia.org/resource/Lupghar_Sar"
+            "value": "http://dbpedia.org/resource/Kangchenjunga"
         },
         "height": {
             "type": "typed-literal",
             "datatype": "http://www.w3.org/2001/XMLSchema#integer",
-            "value": "7200"
+            "value": "8586"
         },
         "rank": {
             "type": "literal",
             "xml:lang": "en",
-            "value": "(Ranked 108th)"
+            "value": "(Ranked 3rd)"
         },
         "country": {
             "type": "uri",
-            "value": "http://dbpedia.org/resource/Pakistan"
+            "value": "http://dbpedia.org/resource/India"
+        }
+    },
+    {
+        "mountain": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Kangchenjunga"
+        },
+        "height": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "value": "8586"
+        },
+        "rank": {
+            "type": "literal",
+            "xml:lang": "en",
+            "value": "(Ranked 3rd)"
+        },
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Nepal"
+        }
+    },
+    {
+        "mountain": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Lhotse"
+        },
+        "height": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "value": "8516"
+        },
+        "rank": {
+            "type": "literal",
+            "xml:lang": "en",
+            "value": "(Ranked 4th)"
+        },
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/People's_Republic_of_China"
+        }
+    },
+    {
+        "mountain": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Lhotse"
+        },
+        "height": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "value": "8516"
+        },
+        "rank": {
+            "type": "literal",
+            "xml:lang": "en",
+            "value": "(Ranked 4th)"
+        },
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Nepal"
         }
     },
     {
@@ -62,41 +122,21 @@
     {
         "mountain": {
             "type": "uri",
-            "value": "http://dbpedia.org/resource/Malangutti_Sar"
+            "value": "http://dbpedia.org/resource/Cho_Oyu"
         },
         "height": {
             "type": "typed-literal",
             "datatype": "http://www.w3.org/2001/XMLSchema#integer",
-            "value": "7207"
+            "value": "8188"
         },
         "rank": {
             "type": "literal",
             "xml:lang": "en",
-            "value": "(Ranked 104th)"
+            "value": "(Ranked 6th)"
         },
         "country": {
             "type": "uri",
-            "value": "http://dbpedia.org/resource/Pakistan"
-        }
-    },
-    {
-        "mountain": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Ultar"
-        },
-        "height": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
-            "value": "7388"
-        },
-        "rank": {
-            "type": "literal",
-            "xml:lang": "en",
-            "value": "(Ranked 70th)"
-        },
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Pakistan"
+            "value": "http://dbpedia.org/resource/Nepal"
         }
     },
     {
@@ -122,157 +162,17 @@
     {
         "mountain": {
             "type": "uri",
-            "value": "http://dbpedia.org/resource/Diran"
+            "value": "http://dbpedia.org/resource/Manaslu"
         },
         "height": {
             "type": "typed-literal",
             "datatype": "http://www.w3.org/2001/XMLSchema#integer",
-            "value": "7266"
+            "value": "8163"
         },
         "rank": {
             "type": "literal",
             "xml:lang": "en",
-            "value": "(Ranked 93rd)"
-        },
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Pakistan"
-        }
-    },
-    {
-        "mountain": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Distaghil_Sar"
-        },
-        "height": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
-            "value": "7885"
-        },
-        "rank": {
-            "type": "literal",
-            "xml:lang": "en",
-            "value": "(Ranked 19th)"
-        },
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Pakistan"
-        }
-    },
-    {
-        "mountain": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Khartaphu"
-        },
-        "height": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
-            "value": "7213"
-        },
-        "rank": {
-            "type": "literal",
-            "xml:lang": "en",
-            "value": "(Ranked 102nd)"
-        },
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/China"
-        }
-    },
-    {
-        "mountain": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Khunyang_Chhish"
-        },
-        "height": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
-            "value": "7852"
-        },
-        "rank": {
-            "type": "literal",
-            "xml:lang": "en",
-            "value": "(Ranked 21st)"
-        },
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Pakistan"
-        }
-    },
-    {
-        "mountain": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Kongur_Tagh"
-        },
-        "height": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
-            "value": "7649"
-        },
-        "rank": {
-            "type": "literal",
-            "xml:lang": "en",
-            "value": "(Ranked 37th)"
-        },
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/China"
-        }
-    },
-    {
-        "mountain": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Pumari_Chhish"
-        },
-        "height": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
-            "value": "7492"
-        },
-        "rank": {
-            "type": "literal",
-            "xml:lang": "en",
-            "value": "(Ranked 53rd)"
-        },
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Pakistan"
-        }
-    },
-    {
-        "mountain": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Rakaposhi"
-        },
-        "height": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
-            "value": "7788"
-        },
-        "rank": {
-            "type": "literal",
-            "xml:lang": "en",
-            "value": "(Ranked 27th)"
-        },
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Pakistan"
-        }
-    },
-    {
-        "mountain": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Chamlang"
-        },
-        "height": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
-            "value": "7319"
-        },
-        "rank": {
-            "type": "literal",
-            "xml:lang": "en",
-            "value": "(Ranked 80th)"
+            "value": "(Ranked 8th)"
         },
         "country": {
             "type": "uri",
@@ -282,57 +182,37 @@
     {
         "mountain": {
             "type": "uri",
-            "value": "http://dbpedia.org/resource/Changtse"
+            "value": "http://dbpedia.org/resource/Manaslu"
         },
         "height": {
             "type": "typed-literal",
             "datatype": "http://www.w3.org/2001/XMLSchema#integer",
-            "value": "7543"
+            "value": "8163"
         },
         "rank": {
             "type": "literal",
             "xml:lang": "en",
-            "value": "(Ranked 45th)"
+            "value": "(Ranked 8th)"
         },
         "country": {
             "type": "uri",
-            "value": "http://dbpedia.org/resource/China"
+            "value": "http://dbpedia.org/resource/Gorkha"
         }
     },
     {
         "mountain": {
             "type": "uri",
-            "value": "http://dbpedia.org/resource/Noijin_Kangsang"
+            "value": "http://dbpedia.org/resource/Nanga_Parbat"
         },
         "height": {
             "type": "typed-literal",
             "datatype": "http://www.w3.org/2001/XMLSchema#integer",
-            "value": "7191"
+            "value": "8126"
         },
         "rank": {
             "type": "literal",
             "xml:lang": "en",
-            "value": "(Ranked 105th)"
-        },
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Tibet"
-        }
-    },
-    {
-        "mountain": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Baintha_Brakk"
-        },
-        "height": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
-            "value": "7285"
-        },
-        "rank": {
-            "type": "literal",
-            "xml:lang": "en",
-            "value": "(Ranked 87th)"
+            "value": "(Ranked 9th)"
         },
         "country": {
             "type": "uri",
@@ -342,121 +222,21 @@
     {
         "mountain": {
             "type": "uri",
-            "value": "http://dbpedia.org/resource/Baltoro_Kangri"
+            "value": "http://dbpedia.org/resource/Annapurna_Massif"
         },
         "height": {
             "type": "typed-literal",
             "datatype": "http://www.w3.org/2001/XMLSchema#integer",
-            "value": "7312"
+            "value": "8091"
         },
         "rank": {
             "type": "literal",
             "xml:lang": "en",
-            "value": "(Ranked 82nd)"
-        },
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Pakistan"
-        }
-    },
-    {
-        "mountain": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Cho_Oyu"
-        },
-        "height": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
-            "value": "8188"
-        },
-        "rank": {
-            "type": "literal",
-            "xml:lang": "en",
-            "value": "(Ranked 6th)"
+            "value": "(Ranked 10th)"
         },
         "country": {
             "type": "uri",
             "value": "http://dbpedia.org/resource/Nepal"
-        }
-    },
-    {
-        "mountain": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Chomo_Lonzo"
-        },
-        "height": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
-            "value": "7804"
-        },
-        "rank": {
-            "type": "literal",
-            "xml:lang": "en",
-            "value": "(Ranked 24th)"
-        },
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/China"
-        }
-    },
-    {
-        "mountain": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Chomo_Lonzo"
-        },
-        "height": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
-            "value": "7804"
-        },
-        "rank": {
-            "type": "literal",
-            "xml:lang": "en",
-            "value": "(Ranked 24th)"
-        },
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Tibet"
-        }
-    },
-    {
-        "mountain": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Chongtar_Kangri"
-        },
-        "height": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
-            "value": "7315"
-        },
-        "rank": {
-            "type": "literal",
-            "xml:lang": "en",
-            "value": "(Ranked 81st)"
-        },
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/China"
-        }
-    },
-    {
-        "mountain": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Gangkhar_Puensum"
-        },
-        "height": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
-            "value": "7570"
-        },
-        "rank": {
-            "type": "literal",
-            "xml:lang": "en",
-            "value": "(Ranked 40th)"
-        },
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Bhutan"
         }
     },
     {
@@ -473,6 +253,46 @@
             "type": "literal",
             "xml:lang": "en",
             "value": "(Ranked 11th)"
+        },
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Pakistan"
+        }
+    },
+    {
+        "mountain": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Broad_Peak"
+        },
+        "height": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "value": "8051"
+        },
+        "rank": {
+            "type": "literal",
+            "xml:lang": "en",
+            "value": "(Ranked 12th)"
+        },
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/China"
+        }
+    },
+    {
+        "mountain": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Broad_Peak"
+        },
+        "height": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "value": "8051"
+        },
+        "rank": {
+            "type": "literal",
+            "xml:lang": "en",
+            "value": "(Ranked 12th)"
         },
         "country": {
             "type": "uri",
@@ -502,37 +322,177 @@
     {
         "mountain": {
             "type": "uri",
-            "value": "http://dbpedia.org/resource/Ghent_Kangri"
+            "value": "http://dbpedia.org/resource/Shishapangma"
         },
         "height": {
             "type": "typed-literal",
             "datatype": "http://www.w3.org/2001/XMLSchema#integer",
-            "value": "7401"
+            "value": "8027"
         },
         "rank": {
             "type": "literal",
             "xml:lang": "en",
-            "value": "(Ranked 69th)"
+            "value": "(Ranked 14th)"
         },
         "country": {
             "type": "uri",
-            "value": "http://dbpedia.org/resource/Saltoro_Ridge"
+            "value": "http://dbpedia.org/resource/People's_Republic_of_China"
         }
     },
     {
         "mountain": {
             "type": "uri",
-            "value": "http://dbpedia.org/resource/Ghent_Kangri"
+            "value": "http://dbpedia.org/resource/Gyachung_Kang"
         },
         "height": {
             "type": "typed-literal",
             "datatype": "http://www.w3.org/2001/XMLSchema#integer",
-            "value": "7401"
+            "value": "7952"
         },
         "rank": {
             "type": "literal",
             "xml:lang": "en",
-            "value": "(Ranked 69th)"
+            "value": "(Ranked 15th)"
+        },
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Nepal"
+        }
+    },
+    {
+        "mountain": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Annapurna_II"
+        },
+        "height": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "value": "7937"
+        },
+        "rank": {
+            "type": "literal",
+            "xml:lang": "en",
+            "value": "(Ranked 16th)"
+        },
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Nepal"
+        }
+    },
+    {
+        "mountain": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Himalchuli"
+        },
+        "height": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "value": "7893"
+        },
+        "rank": {
+            "type": "literal",
+            "xml:lang": "en",
+            "value": "(Ranked 18th)"
+        },
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Nepal"
+        }
+    },
+    {
+        "mountain": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Himalchuli"
+        },
+        "height": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "value": "7893"
+        },
+        "rank": {
+            "type": "literal",
+            "xml:lang": "en",
+            "value": "(Ranked 18th)"
+        },
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Gorkha"
+        }
+    },
+    {
+        "mountain": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Distaghil_Sar"
+        },
+        "height": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "value": "7885"
+        },
+        "rank": {
+            "type": "literal",
+            "xml:lang": "en",
+            "value": "(Ranked 19th)"
+        },
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Pakistan"
+        }
+    },
+    {
+        "mountain": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Ngadi_Chuli"
+        },
+        "height": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "value": "7871"
+        },
+        "rank": {
+            "type": "literal",
+            "xml:lang": "en",
+            "value": "(Ranked 20th)"
+        },
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Nepal"
+        }
+    },
+    {
+        "mountain": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Khunyang_Chhish"
+        },
+        "height": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "value": "7852"
+        },
+        "rank": {
+            "type": "literal",
+            "xml:lang": "en",
+            "value": "(Ranked 21st)"
+        },
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Pakistan"
+        }
+    },
+    {
+        "mountain": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Nanda_Devi"
+        },
+        "height": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "value": "7816"
+        },
+        "rank": {
+            "type": "literal",
+            "xml:lang": "en",
+            "value": "(Ranked 23rd)"
         },
         "country": {
             "type": "uri",
@@ -542,17 +502,697 @@
     {
         "mountain": {
             "type": "uri",
-            "value": "http://dbpedia.org/resource/Ghent_Kangri"
+            "value": "http://dbpedia.org/resource/Chomo_Lonzo"
         },
         "height": {
             "type": "typed-literal",
             "datatype": "http://www.w3.org/2001/XMLSchema#integer",
-            "value": "7401"
+            "value": "7804"
         },
         "rank": {
             "type": "literal",
             "xml:lang": "en",
-            "value": "(Ranked 69th)"
+            "value": "(Ranked 24th)"
+        },
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/China"
+        }
+    },
+    {
+        "mountain": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Chomo_Lonzo"
+        },
+        "height": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "value": "7804"
+        },
+        "rank": {
+            "type": "literal",
+            "xml:lang": "en",
+            "value": "(Ranked 24th)"
+        },
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Tibet"
+        }
+    },
+    {
+        "mountain": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Batura_Sar"
+        },
+        "height": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "value": "7795"
+        },
+        "rank": {
+            "type": "literal",
+            "xml:lang": "en",
+            "value": "(Ranked 25th)"
+        },
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Pakistan"
+        }
+    },
+    {
+        "mountain": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Rakaposhi"
+        },
+        "height": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "value": "7788"
+        },
+        "rank": {
+            "type": "literal",
+            "xml:lang": "en",
+            "value": "(Ranked 27th)"
+        },
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Pakistan"
+        }
+    },
+    {
+        "mountain": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Namcha_Barwa"
+        },
+        "height": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "value": "7782"
+        },
+        "rank": {
+            "type": "literal",
+            "xml:lang": "en",
+            "value": "(Ranked 28th)"
+        },
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/M\u00eadog_County"
+        }
+    },
+    {
+        "mountain": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Namcha_Barwa"
+        },
+        "height": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "value": "7782"
+        },
+        "rank": {
+            "type": "literal",
+            "xml:lang": "en",
+            "value": "(Ranked 28th)"
+        },
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/McMahon_Line"
+        }
+    },
+    {
+        "mountain": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Kanjut_Sar"
+        },
+        "height": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "value": "7760"
+        },
+        "rank": {
+            "type": "literal",
+            "xml:lang": "en",
+            "value": "(Ranked 26th)"
+        },
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/India"
+        }
+    },
+    {
+        "mountain": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Kanjut_Sar"
+        },
+        "height": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "value": "7760"
+        },
+        "rank": {
+            "type": "literal",
+            "xml:lang": "en",
+            "value": "(Ranked 26th)"
+        },
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Pakistan"
+        }
+    },
+    {
+        "mountain": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Kamet"
+        },
+        "height": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "value": "7756"
+        },
+        "rank": {
+            "type": "literal",
+            "xml:lang": "en",
+            "value": "(Ranked 29th)"
+        },
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/India"
+        }
+    },
+    {
+        "mountain": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Kumbhakarna_Mountain"
+        },
+        "height": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "value": "7710"
+        },
+        "rank": {
+            "type": "literal",
+            "xml:lang": "en",
+            "value": "(Ranked 32nd)"
+        },
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Nepal"
+        }
+    },
+    {
+        "mountain": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Tirich_Mir"
+        },
+        "height": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "value": "7708"
+        },
+        "rank": {
+            "type": "literal",
+            "xml:lang": "en",
+            "value": "(Ranked 33rd)"
+        },
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Pakistan"
+        }
+    },
+    {
+        "mountain": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Saser_Kangri"
+        },
+        "height": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "value": "7672"
+        },
+        "rank": {
+            "type": "literal",
+            "xml:lang": "en",
+            "value": "(Ranked 35th)"
+        },
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/China"
+        }
+    },
+    {
+        "mountain": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Saser_Kangri"
+        },
+        "height": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "value": "7672"
+        },
+        "rank": {
+            "type": "literal",
+            "xml:lang": "en",
+            "value": "(Ranked 35th)"
+        },
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/India"
+        }
+    },
+    {
+        "mountain": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Saser_Kangri"
+        },
+        "height": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "value": "7672"
+        },
+        "rank": {
+            "type": "literal",
+            "xml:lang": "en",
+            "value": "(Ranked 35th)"
+        },
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Pakistan"
+        }
+    },
+    {
+        "mountain": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Kongur_Tagh"
+        },
+        "height": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "value": "7649"
+        },
+        "rank": {
+            "type": "literal",
+            "xml:lang": "en",
+            "value": "(Ranked 37th)"
+        },
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/China"
+        }
+    },
+    {
+        "mountain": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Shispare"
+        },
+        "height": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "value": "7611"
+        },
+        "rank": {
+            "type": "literal",
+            "xml:lang": "en",
+            "value": "(Ranked 38th)"
+        },
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Pakistan"
+        }
+    },
+    {
+        "mountain": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Trivor"
+        },
+        "height": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "value": "7577"
+        },
+        "rank": {
+            "type": "literal",
+            "xml:lang": "en",
+            "value": "(Ranked 39th)"
+        },
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Pakistan"
+        }
+    },
+    {
+        "mountain": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Gangkhar_Puensum"
+        },
+        "height": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "value": "7570"
+        },
+        "rank": {
+            "type": "literal",
+            "xml:lang": "en",
+            "value": "(Ranked 40th)"
+        },
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Bhutan"
+        }
+    },
+    {
+        "mountain": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Mount_Gongga"
+        },
+        "height": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "value": "7556"
+        },
+        "rank": {
+            "type": "literal",
+            "xml:lang": "en",
+            "value": "(Ranked 41st)"
+        },
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/China"
+        }
+    },
+    {
+        "mountain": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Skyang_Kangri"
+        },
+        "height": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "value": "7545"
+        },
+        "rank": {
+            "type": "literal",
+            "xml:lang": "en",
+            "value": "(Ranked 44th)"
+        },
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/China"
+        }
+    },
+    {
+        "mountain": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Skyang_Kangri"
+        },
+        "height": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "value": "7545"
+        },
+        "rank": {
+            "type": "literal",
+            "xml:lang": "en",
+            "value": "(Ranked 44th)"
+        },
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Pakistan"
+        }
+    },
+    {
+        "mountain": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Changtse"
+        },
+        "height": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "value": "7543"
+        },
+        "rank": {
+            "type": "literal",
+            "xml:lang": "en",
+            "value": "(Ranked 45th)"
+        },
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/China"
+        }
+    },
+    {
+        "mountain": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Yukshin_Gardan_Sar"
+        },
+        "height": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "value": "7530"
+        },
+        "rank": {
+            "type": "literal",
+            "xml:lang": "en",
+            "value": "(Ranked 55th)"
+        },
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Pakistan"
+        }
+    },
+    {
+        "mountain": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Kula_Kangri"
+        },
+        "height": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "value": "7528"
+        },
+        "rank": {
+            "type": "literal",
+            "xml:lang": "en",
+            "value": "(Ranked 46th)"
+        },
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/People's_Republic_of_China"
+        }
+    },
+    {
+        "mountain": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Kula_Kangri"
+        },
+        "height": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "value": "7528"
+        },
+        "rank": {
+            "type": "literal",
+            "xml:lang": "en",
+            "value": "(Ranked 46th)"
+        },
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Tibet"
+        }
+    },
+    {
+        "mountain": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Mamostong_Kangri"
+        },
+        "height": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "value": "7516"
+        },
+        "rank": {
+            "type": "literal",
+            "xml:lang": "en",
+            "value": "(Ranked 48th)"
+        },
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/India"
+        }
+    },
+    {
+        "mountain": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Muztagh_Ata"
+        },
+        "height": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "value": "7509"
+        },
+        "rank": {
+            "type": "literal",
+            "xml:lang": "en",
+            "value": "(Ranked 43rd)"
+        },
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/China"
+        }
+    },
+    {
+        "mountain": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Ismoil_Somoni_Peak"
+        },
+        "height": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "value": "7495"
+        },
+        "rank": {
+            "type": "literal",
+            "xml:lang": "en",
+            "value": "(Ranked 50th)"
+        },
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Tajikistan"
+        }
+    },
+    {
+        "mountain": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Pumari_Chhish"
+        },
+        "height": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "value": "7492"
+        },
+        "rank": {
+            "type": "literal",
+            "xml:lang": "en",
+            "value": "(Ranked 53rd)"
+        },
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Pakistan"
+        }
+    },
+    {
+        "mountain": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Passu_Sar"
+        },
+        "height": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "value": "7478"
+        },
+        "rank": {
+            "type": "literal",
+            "xml:lang": "en",
+            "value": "(Ranked 54th)"
+        },
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Pakistan"
+        }
+    },
+    {
+        "mountain": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Teram_Kangri"
+        },
+        "height": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "value": "7462"
+        },
+        "rank": {
+            "type": "literal",
+            "xml:lang": "en",
+            "value": "(Ranked 56th)"
+        },
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/China"
+        }
+    },
+    {
+        "mountain": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Teram_Kangri"
+        },
+        "height": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "value": "7462"
+        },
+        "rank": {
+            "type": "literal",
+            "xml:lang": "en",
+            "value": "(Ranked 56th)"
+        },
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/India"
+        }
+    },
+    {
+        "mountain": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Teram_Kangri"
+        },
+        "height": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "value": "7462"
+        },
+        "rank": {
+            "type": "literal",
+            "xml:lang": "en",
+            "value": "(Ranked 56th)"
+        },
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Pakistan"
+        }
+    },
+    {
+        "mountain": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Jongsong_Peak"
+        },
+        "height": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "value": "7462"
+        },
+        "rank": {
+            "type": "literal",
+            "xml:lang": "en",
+            "value": "(Ranked 57th)"
+        },
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/China"
+        }
+    },
+    {
+        "mountain": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Malubiting"
+        },
+        "height": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "value": "7458"
+        },
+        "rank": {
+            "type": "literal",
+            "xml:lang": "en",
+            "value": "(Ranked 58th)"
         },
         "country": {
             "type": "uri",
@@ -602,26 +1242,6 @@
     {
         "mountain": {
             "type": "uri",
-            "value": "http://dbpedia.org/resource/Batura_Sar"
-        },
-        "height": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
-            "value": "7795"
-        },
-        "rank": {
-            "type": "literal",
-            "xml:lang": "en",
-            "value": "(Ranked 25th)"
-        },
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Pakistan"
-        }
-    },
-    {
-        "mountain": {
-            "type": "uri",
             "value": "http://dbpedia.org/resource/K12_(mountain)"
         },
         "height": {
@@ -653,6 +1273,46 @@
             "type": "literal",
             "xml:lang": "en",
             "value": "(Ranked 61st)"
+        },
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Pakistan"
+        }
+    },
+    {
+        "mountain": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Yangra"
+        },
+        "height": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "value": "7422"
+        },
+        "rank": {
+            "type": "literal",
+            "xml:lang": "en",
+            "value": "(Ranked 62nd)"
+        },
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/China"
+        }
+    },
+    {
+        "mountain": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Momhil_Sar"
+        },
+        "height": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "value": "7414"
+        },
+        "rank": {
+            "type": "literal",
+            "xml:lang": "en",
+            "value": "(Ranked 64th)"
         },
         "country": {
             "type": "uri",
@@ -682,386 +1342,6 @@
     {
         "mountain": {
             "type": "uri",
-            "value": "http://dbpedia.org/resource/Kamet"
-        },
-        "height": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
-            "value": "7756"
-        },
-        "rank": {
-            "type": "literal",
-            "xml:lang": "en",
-            "value": "(Ranked 29th)"
-        },
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/India"
-        }
-    },
-    {
-        "mountain": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Kangchenjunga"
-        },
-        "height": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
-            "value": "8586"
-        },
-        "rank": {
-            "type": "literal",
-            "xml:lang": "en",
-            "value": "(Ranked 3rd)"
-        },
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/India"
-        }
-    },
-    {
-        "mountain": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Kangchenjunga"
-        },
-        "height": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
-            "value": "8586"
-        },
-        "rank": {
-            "type": "literal",
-            "xml:lang": "en",
-            "value": "(Ranked 3rd)"
-        },
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Nepal"
-        }
-    },
-    {
-        "mountain": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Kangpenqing"
-        },
-        "height": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
-            "value": "7281"
-        },
-        "rank": {
-            "type": "literal",
-            "xml:lang": "en",
-            "value": "(Ranked 90th)"
-        },
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/China"
-        }
-    },
-    {
-        "mountain": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Kangpenqing"
-        },
-        "height": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
-            "value": "7281"
-        },
-        "rank": {
-            "type": "literal",
-            "xml:lang": "en",
-            "value": "(Ranked 90th)"
-        },
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Tibet"
-        }
-    },
-    {
-        "mountain": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Kangphu_Kang"
-        },
-        "height": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
-            "value": "7204"
-        },
-        "rank": {
-            "type": "literal",
-            "xml:lang": "en",
-            "value": "(Ranked 107th)"
-        },
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Bhutan"
-        }
-    },
-    {
-        "mountain": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Kanjut_Sar"
-        },
-        "height": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
-            "value": "7760"
-        },
-        "rank": {
-            "type": "literal",
-            "xml:lang": "en",
-            "value": "(Ranked 26th)"
-        },
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/India"
-        }
-    },
-    {
-        "mountain": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Kanjut_Sar"
-        },
-        "height": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
-            "value": "7760"
-        },
-        "rank": {
-            "type": "literal",
-            "xml:lang": "en",
-            "value": "(Ranked 26th)"
-        },
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Pakistan"
-        }
-    },
-    {
-        "mountain": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Lhotse"
-        },
-        "height": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
-            "value": "8516"
-        },
-        "rank": {
-            "type": "literal",
-            "xml:lang": "en",
-            "value": "(Ranked 4th)"
-        },
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/People's_Republic_of_China"
-        }
-    },
-    {
-        "mountain": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Lhotse"
-        },
-        "height": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
-            "value": "8516"
-        },
-        "rank": {
-            "type": "literal",
-            "xml:lang": "en",
-            "value": "(Ranked 4th)"
-        },
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Nepal"
-        }
-    },
-    {
-        "mountain": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Teram_Kangri"
-        },
-        "height": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
-            "value": "7462"
-        },
-        "rank": {
-            "type": "literal",
-            "xml:lang": "en",
-            "value": "(Ranked 56th)"
-        },
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/China"
-        }
-    },
-    {
-        "mountain": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Teram_Kangri"
-        },
-        "height": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
-            "value": "7462"
-        },
-        "rank": {
-            "type": "literal",
-            "xml:lang": "en",
-            "value": "(Ranked 56th)"
-        },
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/India"
-        }
-    },
-    {
-        "mountain": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Teram_Kangri"
-        },
-        "height": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
-            "value": "7462"
-        },
-        "rank": {
-            "type": "literal",
-            "xml:lang": "en",
-            "value": "(Ranked 56th)"
-        },
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Pakistan"
-        }
-    },
-    {
-        "mountain": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Momhil_Sar"
-        },
-        "height": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
-            "value": "7414"
-        },
-        "rank": {
-            "type": "literal",
-            "xml:lang": "en",
-            "value": "(Ranked 64th)"
-        },
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Pakistan"
-        }
-    },
-    {
-        "mountain": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Skyang_Kangri"
-        },
-        "height": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
-            "value": "7545"
-        },
-        "rank": {
-            "type": "literal",
-            "xml:lang": "en",
-            "value": "(Ranked 44th)"
-        },
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/China"
-        }
-    },
-    {
-        "mountain": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Skyang_Kangri"
-        },
-        "height": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
-            "value": "7545"
-        },
-        "rank": {
-            "type": "literal",
-            "xml:lang": "en",
-            "value": "(Ranked 44th)"
-        },
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Pakistan"
-        }
-    },
-    {
-        "mountain": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Gyachung_Kang"
-        },
-        "height": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
-            "value": "7952"
-        },
-        "rank": {
-            "type": "literal",
-            "xml:lang": "en",
-            "value": "(Ranked 15th)"
-        },
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Nepal"
-        }
-    },
-    {
-        "mountain": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Gyala_Peri"
-        },
-        "height": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
-            "value": "7294"
-        },
-        "rank": {
-            "type": "literal",
-            "xml:lang": "en",
-            "value": "(Ranked 85th)"
-        },
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/M\u00eadog_County"
-        }
-    },
-    {
-        "mountain": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Gyala_Peri"
-        },
-        "height": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
-            "value": "7294"
-        },
-        "rank": {
-            "type": "literal",
-            "xml:lang": "en",
-            "value": "(Ranked 85th)"
-        },
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/McMahon_Line"
-        }
-    },
-    {
-        "mountain": {
-            "type": "uri",
             "value": "http://dbpedia.org/resource/Haramosh_Peak"
         },
         "height": {
@@ -1077,26 +1357,6 @@
         "country": {
             "type": "uri",
             "value": "http://dbpedia.org/resource/Pakistan"
-        }
-    },
-    {
-        "mountain": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Ismoil_Somoni_Peak"
-        },
-        "height": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
-            "value": "7495"
-        },
-        "rank": {
-            "type": "literal",
-            "xml:lang": "en",
-            "value": "(Ranked 50th)"
-        },
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Tajikistan"
         }
     },
     {
@@ -1122,57 +1382,37 @@
     {
         "mountain": {
             "type": "uri",
-            "value": "http://dbpedia.org/resource/Saraghrar"
+            "value": "http://dbpedia.org/resource/Ghent_Kangri"
         },
         "height": {
             "type": "typed-literal",
             "datatype": "http://www.w3.org/2001/XMLSchema#integer",
-            "value": "7340"
+            "value": "7401"
         },
         "rank": {
             "type": "literal",
             "xml:lang": "en",
-            "value": "(Ranked 78th)"
+            "value": "(Ranked 69th)"
         },
         "country": {
             "type": "uri",
-            "value": "http://dbpedia.org/resource/Pakistan"
+            "value": "http://dbpedia.org/resource/Saltoro_Ridge"
         }
     },
     {
         "mountain": {
             "type": "uri",
-            "value": "http://dbpedia.org/resource/Saser_Kangri"
+            "value": "http://dbpedia.org/resource/Ghent_Kangri"
         },
         "height": {
             "type": "typed-literal",
             "datatype": "http://www.w3.org/2001/XMLSchema#integer",
-            "value": "7672"
+            "value": "7401"
         },
         "rank": {
             "type": "literal",
             "xml:lang": "en",
-            "value": "(Ranked 35th)"
-        },
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/China"
-        }
-    },
-    {
-        "mountain": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Saser_Kangri"
-        },
-        "height": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
-            "value": "7672"
-        },
-        "rank": {
-            "type": "literal",
-            "xml:lang": "en",
-            "value": "(Ranked 35th)"
+            "value": "(Ranked 69th)"
         },
         "country": {
             "type": "uri",
@@ -1182,17 +1422,17 @@
     {
         "mountain": {
             "type": "uri",
-            "value": "http://dbpedia.org/resource/Saser_Kangri"
+            "value": "http://dbpedia.org/resource/Ghent_Kangri"
         },
         "height": {
             "type": "typed-literal",
             "datatype": "http://www.w3.org/2001/XMLSchema#integer",
-            "value": "7672"
+            "value": "7401"
         },
         "rank": {
             "type": "literal",
             "xml:lang": "en",
-            "value": "(Ranked 35th)"
+            "value": "(Ranked 69th)"
         },
         "country": {
             "type": "uri",
@@ -1202,297 +1442,17 @@
     {
         "mountain": {
             "type": "uri",
-            "value": "http://dbpedia.org/resource/Annapurna_II"
+            "value": "http://dbpedia.org/resource/Ultar"
         },
         "height": {
             "type": "typed-literal",
             "datatype": "http://www.w3.org/2001/XMLSchema#integer",
-            "value": "7937"
+            "value": "7388"
         },
         "rank": {
             "type": "literal",
             "xml:lang": "en",
-            "value": "(Ranked 16th)"
-        },
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Nepal"
-        }
-    },
-    {
-        "mountain": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Annapurna_Massif"
-        },
-        "height": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
-            "value": "8091"
-        },
-        "rank": {
-            "type": "literal",
-            "xml:lang": "en",
-            "value": "(Ranked 10th)"
-        },
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Nepal"
-        }
-    },
-    {
-        "mountain": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/The_Crown_(mountain)"
-        },
-        "height": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
-            "value": "7295"
-        },
-        "rank": {
-            "type": "literal",
-            "xml:lang": "en",
-            "value": "(Ranked 84th)"
-        },
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/China"
-        }
-    },
-    {
-        "mountain": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Trivor"
-        },
-        "height": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
-            "value": "7577"
-        },
-        "rank": {
-            "type": "literal",
-            "xml:lang": "en",
-            "value": "(Ranked 39th)"
-        },
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Pakistan"
-        }
-    },
-    {
-        "mountain": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Broad_Peak"
-        },
-        "height": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
-            "value": "8051"
-        },
-        "rank": {
-            "type": "literal",
-            "xml:lang": "en",
-            "value": "(Ranked 12th)"
-        },
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/China"
-        }
-    },
-    {
-        "mountain": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Broad_Peak"
-        },
-        "height": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
-            "value": "8051"
-        },
-        "rank": {
-            "type": "literal",
-            "xml:lang": "en",
-            "value": "(Ranked 12th)"
-        },
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Pakistan"
-        }
-    },
-    {
-        "mountain": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Kula_Kangri"
-        },
-        "height": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
-            "value": "7528"
-        },
-        "rank": {
-            "type": "literal",
-            "xml:lang": "en",
-            "value": "(Ranked 46th)"
-        },
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/People's_Republic_of_China"
-        }
-    },
-    {
-        "mountain": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Kula_Kangri"
-        },
-        "height": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
-            "value": "7528"
-        },
-        "rank": {
-            "type": "literal",
-            "xml:lang": "en",
-            "value": "(Ranked 46th)"
-        },
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Tibet"
-        }
-    },
-    {
-        "mountain": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Kumbhakarna_Mountain"
-        },
-        "height": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
-            "value": "7710"
-        },
-        "rank": {
-            "type": "literal",
-            "xml:lang": "en",
-            "value": "(Ranked 32nd)"
-        },
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Nepal"
-        }
-    },
-    {
-        "mountain": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Labuche_Kang"
-        },
-        "height": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
-            "value": "7367"
-        },
-        "rank": {
-            "type": "literal",
-            "xml:lang": "en",
-            "value": "(Ranked 75th)"
-        },
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/China"
-        }
-    },
-    {
-        "mountain": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Labuche_Kang_III/East"
-        },
-        "height": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
-            "value": "7250"
-        },
-        "rank": {
-            "type": "literal",
-            "xml:lang": "en",
-            "value": "(Ranked 93rd)"
-        },
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/China"
-        }
-    },
-    {
-        "mountain": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Langtang_Lirung"
-        },
-        "height": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
-            "value": "7234"
-        },
-        "rank": {
-            "type": "literal",
-            "xml:lang": "en",
-            "value": "(Ranked 99th)"
-        },
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Nepal"
-        }
-    },
-    {
-        "mountain": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Langtang_Ri"
-        },
-        "height": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
-            "value": "7205"
-        },
-        "rank": {
-            "type": "literal",
-            "xml:lang": "en",
-            "value": "(Ranked 106th)"
-        },
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/China"
-        }
-    },
-    {
-        "mountain": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Paraber_Peak"
-        },
-        "height": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
-            "value": "6322"
-        },
-        "rank": {
-            "type": "literal",
-            "xml:lang": "en",
-            "value": "(Ranked NA)"
-        },
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Pakistan"
-        }
-    },
-    {
-        "mountain": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Passu_Sar"
-        },
-        "height": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
-            "value": "7478"
-        },
-        "rank": {
-            "type": "literal",
-            "xml:lang": "en",
-            "value": "(Ranked 54th)"
+            "value": "(Ranked 70th)"
         },
         "country": {
             "type": "uri",
@@ -1602,57 +1562,17 @@
     {
         "mountain": {
             "type": "uri",
-            "value": "http://dbpedia.org/resource/Shishapangma"
+            "value": "http://dbpedia.org/resource/Labuche_Kang"
         },
         "height": {
             "type": "typed-literal",
             "datatype": "http://www.w3.org/2001/XMLSchema#integer",
-            "value": "8027"
+            "value": "7367"
         },
         "rank": {
             "type": "literal",
             "xml:lang": "en",
-            "value": "(Ranked 14th)"
-        },
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/People's_Republic_of_China"
-        }
-    },
-    {
-        "mountain": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Shispare"
-        },
-        "height": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
-            "value": "7611"
-        },
-        "rank": {
-            "type": "literal",
-            "xml:lang": "en",
-            "value": "(Ranked 38th)"
-        },
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Pakistan"
-        }
-    },
-    {
-        "mountain": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Siguang_Ri"
-        },
-        "height": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
-            "value": "7308"
-        },
-        "rank": {
-            "type": "literal",
-            "xml:lang": "en",
-            "value": "(Ranked 83rd)"
+            "value": "(Ranked 75th)"
         },
         "country": {
             "type": "uri",
@@ -1662,317 +1582,17 @@
     {
         "mountain": {
             "type": "uri",
-            "value": "http://dbpedia.org/resource/Siguang_Ri"
+            "value": "http://dbpedia.org/resource/Saraghrar"
         },
         "height": {
             "type": "typed-literal",
             "datatype": "http://www.w3.org/2001/XMLSchema#integer",
-            "value": "7308"
+            "value": "7340"
         },
         "rank": {
             "type": "literal",
             "xml:lang": "en",
-            "value": "(Ranked 83rd)"
-        },
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Tibet"
-        }
-    },
-    {
-        "mountain": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Singhi_Kangri"
-        },
-        "height": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
-            "value": "7202"
-        },
-        "rank": {
-            "type": "literal",
-            "xml:lang": "en",
-            "value": "(Ranked 108th)"
-        },
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/China"
-        }
-    },
-    {
-        "mountain": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Namcha_Barwa"
-        },
-        "height": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
-            "value": "7782"
-        },
-        "rank": {
-            "type": "literal",
-            "xml:lang": "en",
-            "value": "(Ranked 28th)"
-        },
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/M\u00eadog_County"
-        }
-    },
-    {
-        "mountain": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Namcha_Barwa"
-        },
-        "height": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
-            "value": "7782"
-        },
-        "rank": {
-            "type": "literal",
-            "xml:lang": "en",
-            "value": "(Ranked 28th)"
-        },
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/McMahon_Line"
-        }
-    },
-    {
-        "mountain": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Nanda_Devi"
-        },
-        "height": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
-            "value": "7816"
-        },
-        "rank": {
-            "type": "literal",
-            "xml:lang": "en",
-            "value": "(Ranked 23rd)"
-        },
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/India"
-        }
-    },
-    {
-        "mountain": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Nanga_Parbat"
-        },
-        "height": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
-            "value": "8126"
-        },
-        "rank": {
-            "type": "literal",
-            "xml:lang": "en",
-            "value": "(Ranked 9th)"
-        },
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Pakistan"
-        }
-    },
-    {
-        "mountain": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Ngadi_Chuli"
-        },
-        "height": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
-            "value": "7871"
-        },
-        "rank": {
-            "type": "literal",
-            "xml:lang": "en",
-            "value": "(Ranked 20th)"
-        },
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Nepal"
-        }
-    },
-    {
-        "mountain": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Porong_Ri"
-        },
-        "height": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
-            "value": "7292"
-        },
-        "rank": {
-            "type": "literal",
-            "xml:lang": "en",
-            "value": "(Ranked 86th)"
-        },
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/China"
-        }
-    },
-    {
-        "mountain": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Porong_Ri"
-        },
-        "height": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
-            "value": "7292"
-        },
-        "rank": {
-            "type": "literal",
-            "xml:lang": "en",
-            "value": "(Ranked 86th)"
-        },
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Tibet"
-        }
-    },
-    {
-        "mountain": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Himalchuli"
-        },
-        "height": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
-            "value": "7893"
-        },
-        "rank": {
-            "type": "literal",
-            "xml:lang": "en",
-            "value": "(Ranked 18th)"
-        },
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Nepal"
-        }
-    },
-    {
-        "mountain": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Himalchuli"
-        },
-        "height": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
-            "value": "7893"
-        },
-        "rank": {
-            "type": "literal",
-            "xml:lang": "en",
-            "value": "(Ranked 18th)"
-        },
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Gorkha"
-        }
-    },
-    {
-        "mountain": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Mount_Farnham"
-        },
-        "height": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
-            "value": "3493"
-        },
-        "rank": {
-            "type": "literal",
-            "xml:lang": "en",
-            "value": "(Ranked 40th in Canada)"
-        },
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/British_Columbia"
-        }
-    },
-    {
-        "mountain": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Mount_Gongga"
-        },
-        "height": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
-            "value": "7556"
-        },
-        "rank": {
-            "type": "literal",
-            "xml:lang": "en",
-            "value": "(Ranked 41st)"
-        },
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/China"
-        }
-    },
-    {
-        "mountain": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Muztagh_Ata"
-        },
-        "height": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
-            "value": "7509"
-        },
-        "rank": {
-            "type": "literal",
-            "xml:lang": "en",
-            "value": "(Ranked 43rd)"
-        },
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/China"
-        }
-    },
-    {
-        "mountain": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Muztagh_Tower"
-        },
-        "height": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
-            "value": "7276"
-        },
-        "rank": {
-            "type": "literal",
-            "xml:lang": "en",
-            "value": "(Ranked 90th)"
-        },
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/China"
-        }
-    },
-    {
-        "mountain": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Muztagh_Tower"
-        },
-        "height": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
-            "value": "7276"
-        },
-        "rank": {
-            "type": "literal",
-            "xml:lang": "en",
-            "value": "(Ranked 90th)"
+            "value": "(Ranked 78th)"
         },
         "country": {
             "type": "uri",
@@ -2022,77 +1642,17 @@
     {
         "mountain": {
             "type": "uri",
-            "value": "http://dbpedia.org/resource/Jongsong_Peak"
+            "value": "http://dbpedia.org/resource/Chamlang"
         },
         "height": {
             "type": "typed-literal",
             "datatype": "http://www.w3.org/2001/XMLSchema#integer",
-            "value": "7462"
+            "value": "7319"
         },
         "rank": {
             "type": "literal",
             "xml:lang": "en",
-            "value": "(Ranked 57th)"
-        },
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/China"
-        }
-    },
-    {
-        "mountain": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Malubiting"
-        },
-        "height": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
-            "value": "7458"
-        },
-        "rank": {
-            "type": "literal",
-            "xml:lang": "en",
-            "value": "(Ranked 58th)"
-        },
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Pakistan"
-        }
-    },
-    {
-        "mountain": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Mamostong_Kangri"
-        },
-        "height": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
-            "value": "7516"
-        },
-        "rank": {
-            "type": "literal",
-            "xml:lang": "en",
-            "value": "(Ranked 48th)"
-        },
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/India"
-        }
-    },
-    {
-        "mountain": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Manaslu"
-        },
-        "height": {
-            "type": "typed-literal",
-            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
-            "value": "8163"
-        },
-        "rank": {
-            "type": "literal",
-            "xml:lang": "en",
-            "value": "(Ranked 8th)"
+            "value": "(Ranked 80th)"
         },
         "country": {
             "type": "uri",
@@ -2102,37 +1662,397 @@
     {
         "mountain": {
             "type": "uri",
-            "value": "http://dbpedia.org/resource/Manaslu"
+            "value": "http://dbpedia.org/resource/Chongtar_Kangri"
         },
         "height": {
             "type": "typed-literal",
             "datatype": "http://www.w3.org/2001/XMLSchema#integer",
-            "value": "8163"
+            "value": "7315"
         },
         "rank": {
             "type": "literal",
             "xml:lang": "en",
-            "value": "(Ranked 8th)"
+            "value": "(Ranked 81st)"
         },
         "country": {
             "type": "uri",
-            "value": "http://dbpedia.org/resource/Gorkha"
+            "value": "http://dbpedia.org/resource/China"
         }
     },
     {
         "mountain": {
             "type": "uri",
-            "value": "http://dbpedia.org/resource/Tirich_Mir"
+            "value": "http://dbpedia.org/resource/Baltoro_Kangri"
         },
         "height": {
             "type": "typed-literal",
             "datatype": "http://www.w3.org/2001/XMLSchema#integer",
-            "value": "7708"
+            "value": "7312"
         },
         "rank": {
             "type": "literal",
             "xml:lang": "en",
-            "value": "(Ranked 33rd)"
+            "value": "(Ranked 82nd)"
+        },
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Pakistan"
+        }
+    },
+    {
+        "mountain": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Siguang_Ri"
+        },
+        "height": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "value": "7308"
+        },
+        "rank": {
+            "type": "literal",
+            "xml:lang": "en",
+            "value": "(Ranked 83rd)"
+        },
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/China"
+        }
+    },
+    {
+        "mountain": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Siguang_Ri"
+        },
+        "height": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "value": "7308"
+        },
+        "rank": {
+            "type": "literal",
+            "xml:lang": "en",
+            "value": "(Ranked 83rd)"
+        },
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Tibet"
+        }
+    },
+    {
+        "mountain": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/The_Crown_(mountain)"
+        },
+        "height": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "value": "7295"
+        },
+        "rank": {
+            "type": "literal",
+            "xml:lang": "en",
+            "value": "(Ranked 84th)"
+        },
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/China"
+        }
+    },
+    {
+        "mountain": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Gyala_Peri"
+        },
+        "height": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "value": "7294"
+        },
+        "rank": {
+            "type": "literal",
+            "xml:lang": "en",
+            "value": "(Ranked 85th)"
+        },
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/M\u00eadog_County"
+        }
+    },
+    {
+        "mountain": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Gyala_Peri"
+        },
+        "height": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "value": "7294"
+        },
+        "rank": {
+            "type": "literal",
+            "xml:lang": "en",
+            "value": "(Ranked 85th)"
+        },
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/McMahon_Line"
+        }
+    },
+    {
+        "mountain": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Porong_Ri"
+        },
+        "height": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "value": "7292"
+        },
+        "rank": {
+            "type": "literal",
+            "xml:lang": "en",
+            "value": "(Ranked 86th)"
+        },
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/China"
+        }
+    },
+    {
+        "mountain": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Porong_Ri"
+        },
+        "height": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "value": "7292"
+        },
+        "rank": {
+            "type": "literal",
+            "xml:lang": "en",
+            "value": "(Ranked 86th)"
+        },
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Tibet"
+        }
+    },
+    {
+        "mountain": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Baintha_Brakk"
+        },
+        "height": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "value": "7285"
+        },
+        "rank": {
+            "type": "literal",
+            "xml:lang": "en",
+            "value": "(Ranked 87th)"
+        },
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Pakistan"
+        }
+    },
+    {
+        "mountain": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Yutmaru_Sar"
+        },
+        "height": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "value": "7283"
+        },
+        "rank": {
+            "type": "literal",
+            "xml:lang": "en",
+            "value": "(Ranked 88th)"
+        },
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Pakistan"
+        }
+    },
+    {
+        "mountain": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Kangpenqing"
+        },
+        "height": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "value": "7281"
+        },
+        "rank": {
+            "type": "literal",
+            "xml:lang": "en",
+            "value": "(Ranked 90th)"
+        },
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/China"
+        }
+    },
+    {
+        "mountain": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Kangpenqing"
+        },
+        "height": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "value": "7281"
+        },
+        "rank": {
+            "type": "literal",
+            "xml:lang": "en",
+            "value": "(Ranked 90th)"
+        },
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Tibet"
+        }
+    },
+    {
+        "mountain": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Muztagh_Tower"
+        },
+        "height": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "value": "7276"
+        },
+        "rank": {
+            "type": "literal",
+            "xml:lang": "en",
+            "value": "(Ranked 90th)"
+        },
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/China"
+        }
+    },
+    {
+        "mountain": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Muztagh_Tower"
+        },
+        "height": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "value": "7276"
+        },
+        "rank": {
+            "type": "literal",
+            "xml:lang": "en",
+            "value": "(Ranked 90th)"
+        },
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Pakistan"
+        }
+    },
+    {
+        "mountain": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Diran"
+        },
+        "height": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "value": "7266"
+        },
+        "rank": {
+            "type": "literal",
+            "xml:lang": "en",
+            "value": "(Ranked 93rd)"
+        },
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Pakistan"
+        }
+    },
+    {
+        "mountain": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Labuche_Kang_III/East"
+        },
+        "height": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "value": "7250"
+        },
+        "rank": {
+            "type": "literal",
+            "xml:lang": "en",
+            "value": "(Ranked 93rd)"
+        },
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/China"
+        }
+    },
+    {
+        "mountain": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Langtang_Lirung"
+        },
+        "height": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "value": "7234"
+        },
+        "rank": {
+            "type": "literal",
+            "xml:lang": "en",
+            "value": "(Ranked 99th)"
+        },
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Nepal"
+        }
+    },
+    {
+        "mountain": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Khartaphu"
+        },
+        "height": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "value": "7213"
+        },
+        "rank": {
+            "type": "literal",
+            "xml:lang": "en",
+            "value": "(Ranked 102nd)"
+        },
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/China"
+        }
+    },
+    {
+        "mountain": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Malangutti_Sar"
+        },
+        "height": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "value": "7207"
+        },
+        "rank": {
+            "type": "literal",
+            "xml:lang": "en",
+            "value": "(Ranked 104th)"
         },
         "country": {
             "type": "uri",
@@ -2162,17 +2082,17 @@
     {
         "mountain": {
             "type": "uri",
-            "value": "http://dbpedia.org/resource/Yangra"
+            "value": "http://dbpedia.org/resource/Langtang_Ri"
         },
         "height": {
             "type": "typed-literal",
             "datatype": "http://www.w3.org/2001/XMLSchema#integer",
-            "value": "7422"
+            "value": "7205"
         },
         "rank": {
             "type": "literal",
             "xml:lang": "en",
-            "value": "(Ranked 62nd)"
+            "value": "(Ranked 106th)"
         },
         "country": {
             "type": "uri",
@@ -2182,17 +2102,57 @@
     {
         "mountain": {
             "type": "uri",
-            "value": "http://dbpedia.org/resource/Yukshin_Gardan_Sar"
+            "value": "http://dbpedia.org/resource/Kangphu_Kang"
         },
         "height": {
             "type": "typed-literal",
             "datatype": "http://www.w3.org/2001/XMLSchema#integer",
-            "value": "7530"
+            "value": "7204"
         },
         "rank": {
             "type": "literal",
             "xml:lang": "en",
-            "value": "(Ranked 55th)"
+            "value": "(Ranked 107th)"
+        },
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Bhutan"
+        }
+    },
+    {
+        "mountain": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Singhi_Kangri"
+        },
+        "height": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "value": "7202"
+        },
+        "rank": {
+            "type": "literal",
+            "xml:lang": "en",
+            "value": "(Ranked 108th)"
+        },
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/China"
+        }
+    },
+    {
+        "mountain": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Lupghar_Sar"
+        },
+        "height": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "value": "7200"
+        },
+        "rank": {
+            "type": "literal",
+            "xml:lang": "en",
+            "value": "(Ranked 108th)"
         },
         "country": {
             "type": "uri",
@@ -2202,21 +2162,61 @@
     {
         "mountain": {
             "type": "uri",
-            "value": "http://dbpedia.org/resource/Yutmaru_Sar"
+            "value": "http://dbpedia.org/resource/Noijin_Kangsang"
         },
         "height": {
             "type": "typed-literal",
             "datatype": "http://www.w3.org/2001/XMLSchema#integer",
-            "value": "7283"
+            "value": "7191"
         },
         "rank": {
             "type": "literal",
             "xml:lang": "en",
-            "value": "(Ranked 88th)"
+            "value": "(Ranked 105th)"
+        },
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Tibet"
+        }
+    },
+    {
+        "mountain": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Paraber_Peak"
+        },
+        "height": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "value": "6322"
+        },
+        "rank": {
+            "type": "literal",
+            "xml:lang": "en",
+            "value": "(Ranked NA)"
         },
         "country": {
             "type": "uri",
             "value": "http://dbpedia.org/resource/Pakistan"
+        }
+    },
+    {
+        "mountain": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Mount_Farnham"
+        },
+        "height": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "value": "3493"
+        },
+        "rank": {
+            "type": "literal",
+            "xml:lang": "en",
+            "value": "(Ranked 40th in Canada)"
+        },
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/British_Columbia"
         }
     },
     {
