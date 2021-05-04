@@ -4,7 +4,7 @@ from pprint import pprint
 from typing import Sequence, Union
 
 
-def get_resource_url(sparql_response_element: dict[dict], query_name: str) -> str:
+def get_resource_url(sparql_response_element: Sequence[dict], query_name: str) -> str:
     """
     Removes url-syntax from resource url, keeping the relevant data.
 
@@ -18,8 +18,8 @@ def get_resource_url(sparql_response_element: dict[dict], query_name: str) -> st
     uri = sparql_response_element[query_name]['value']
     return uri.rsplit('/', 1)[-1].replace('_', ' ')
 
-Answer = dict[dict]
-def get_answers(filepath: str, n_answers: int, difficulty: str="normal") -> list[Answer]:
+Answer = Sequence[dict]
+def get_answers(filepath: str, n_answers: int, difficulty: str="normal") -> Sequence[Answer]:
     """
     Fetch <n> amount of samples from the pool of possible answers.
 
