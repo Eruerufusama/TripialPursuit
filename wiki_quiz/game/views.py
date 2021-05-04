@@ -7,7 +7,7 @@ from django.forms import MultipleChoiceField
 from random import choice
 
 # From local
-from game.create_questions.create_questions import generate_question, questions
+from game.create_questions.main import generate_question, QUESTIONS, BINARY_QUESTIONS
 from game.forms import MenuForm
 
 
@@ -26,18 +26,16 @@ def question(request: HttpRequest) -> HttpResponse:
             number_of_questions = int(form.cleaned_data['number_of_questions'])
 
             # Fetch all possible question-uris.
-            possible_questions = list(questions[category].keys())
+            possible_questions = list(QUESTIONS[category].keys())
 
             # Generate questions based on those uris.
             _questions = []
             for _ in range(number_of_questions):
-                question = choice(possible_questions)
-                _questions.append(generate_question(category, question, 2 if question == "land_locked" else 4).to_dict())
-            
-            context = {"questions": _questions}
+                question_key = choice(possible_questions)
+                _questions.append(generate_question(category, question_key, 2 if question_key in BINARY_QUESTIONS else 4).to_dict())
 
             # Render website.
-            return render(request, 'game/question.html', context)
+            return render(request, 'game/question.html', {"questions": _questions})
     
 
 def menu(request: HttpRequest) -> HttpResponse:

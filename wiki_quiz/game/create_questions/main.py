@@ -12,7 +12,7 @@ except:
     from data_types import Question
    
 
-questions = {
+QUESTIONS = {
     'geography': {
         'capital': capital_question,
         'population': population_question,
@@ -34,6 +34,8 @@ questions = {
     }
 }
 
+BINARY_QUESTIONS = ['land_locked', 'actor_has_actor_parent']
+
 
 def generate_question(question_category: str, question_type: str, n_answers: int, difficulty: str='normal') -> Question:
     """
@@ -50,7 +52,7 @@ def generate_question(question_category: str, question_type: str, n_answers: int
     data = get_answers(filepath, n_answers, difficulty)
 
     # Fetch the appropriate function based on question-type.
-    question_function = questions[question_category][question_type]
+    question_function = QUESTIONS[question_category][question_type]
 
     return question_function(data)
 

@@ -1,8 +1,10 @@
 from random import choice, shuffle
 from json import load
 from pprint import pprint
+from typing import Sequence, Union
 
-def get_resource_url(url: dict, query_name: str) -> str:
+
+def get_resource_url(sparql_response_element: dict[dict], query_name: str) -> str:
     """
     Removes url-syntax from resource url, keeping the relevant data.
 
@@ -13,10 +15,11 @@ def get_resource_url(url: dict, query_name: str) -> str:
     Returns:
         str: [description]
     """
-    return url[query_name]['value'].rsplit('/', 1)[-1].replace('_', ' ')
+    uri = sparql_response_element[query_name]['value']
+    return uri.rsplit('/', 1)[-1].replace('_', ' ')
 
-
-def get_answers(filepath: str, n_answers: int, difficulty: str="normal") -> list:
+Answer = dict[dict]
+def get_answers(filepath: str, n_answers: int, difficulty: str="normal") -> list[Answer]:
     """
     Fetch <n> amount of samples from the pool of possible answers.
 
@@ -84,4 +87,4 @@ def valid_alternative(current: dict, current_chosen_alts_list: list):
 
 
 if __name__ == "__main__":
-    print(get_answers("D:\\Backup\\Code\\INFO216\\Semester oppgave\\TripialPursuit\\wiki_quiz\\game\\json_data\\land_locked.json", n_answers=2, difficulty="normal"))
+    print()
