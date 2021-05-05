@@ -1,3110 +1,2719 @@
 [
     {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Luxembourg"
-        },
-        "currency": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Euro"
-        },
-        "currencyCode": {
-            "type": "literal",
-            "value": "EUR"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Madagascar"
-        },
-        "currency": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Malagasy_ariary"
-        },
-        "currencyCode": {
-            "type": "literal",
-            "value": "MGA"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Malawi"
-        },
-        "currency": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Malawian_kwacha"
-        },
-        "currencyCode": {
-            "type": "literal",
-            "value": "MWK"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Malaysia"
-        },
-        "currency": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Malaysian_ringgit"
-        },
-        "currencyCode": {
-            "type": "literal",
-            "value": "MYR"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Maldives"
-        },
-        "currency": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Maldivian_rufiyaa"
-        },
-        "currencyCode": {
-            "type": "literal",
-            "value": "MVR"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Mali"
-        },
-        "currency": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/West_African_CFA_franc"
-        },
-        "currencyCode": {
-            "type": "literal",
-            "value": ""
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Mali"
-        },
-        "currency": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/West_African_CFA_franc"
-        },
-        "currencyCode": {
-            "type": "literal",
-            "value": "XOF"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Uganda"
-        },
-        "currency": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Ugandan_shilling"
-        },
-        "currencyCode": {
-            "type": "literal",
-            "value": "UGX"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Ukraine"
-        },
-        "currency": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Ukrainian_hryvnia"
-        },
-        "currencyCode": {
-            "type": "literal",
-            "value": "UAH"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/United_Arab_Emirates"
-        },
-        "currency": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/United_Arab_Emirates_dirham"
-        },
-        "currencyCode": {
-            "type": "literal",
-            "value": "AED"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/United_Kingdom"
-        },
-        "currency": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Pound_sterling"
-        },
-        "currencyCode": {
-            "type": "literal",
-            "value": "GBP"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Uruguay"
-        },
-        "currency": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Uruguayan_peso"
-        },
-        "currencyCode": {
-            "type": "literal",
-            "value": "UYU"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Uzbekistan"
-        },
-        "currency": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Uzbek_som"
-        },
-        "currencyCode": {
-            "type": "literal",
-            "value": "UZS"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Vanuatu"
-        },
-        "currency": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Vanuatu_vatu"
-        },
-        "currencyCode": {
-            "type": "literal",
-            "value": "VUV"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Venezuela"
-        },
-        "currency": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Venezuelan_bol\u00edvar"
-        },
-        "currencyCode": {
-            "type": "literal",
-            "value": "VES"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Bolivia"
-        },
-        "currency": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Bolivian_boliviano"
-        },
-        "currencyCode": {
-            "type": "literal",
-            "value": "BOB"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Bosnia_and_Herzegovina"
-        },
-        "currency": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Bosnia_and_Herzegovina_convertible_mark"
-        },
-        "currencyCode": {
-            "type": "literal",
-            "value": "BAM"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Botswana"
-        },
-        "currency": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Botswana_pula"
-        },
-        "currencyCode": {
-            "type": "literal",
-            "value": "BWP"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Brazil"
-        },
-        "currency": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Brazilian_real"
-        },
-        "currencyCode": {
-            "type": "literal",
-            "value": "BRL"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Democratic_Republic_of_the_Congo"
-        },
-        "currency": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Congolese_franc"
-        },
-        "currencyCode": {
-            "type": "literal",
-            "value": "CDF"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Denmark"
-        },
-        "currency": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Danish_krone"
-        },
-        "currencyCode": {
-            "type": "literal",
-            "value": "DKK"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Djibouti"
-        },
-        "currency": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Djiboutian_franc"
-        },
-        "currencyCode": {
-            "type": "literal",
-            "value": "DJF"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Dominica"
-        },
-        "currency": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/East_Caribbean_dollar"
-        },
-        "currencyCode": {
-            "type": "literal",
-            "value": "XCD"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Dominican_Republic"
-        },
-        "currency": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Dominican_peso"
-        },
-        "currencyCode": {
-            "type": "literal",
-            "value": "DOP"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Greece"
-        },
-        "currency": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Euro"
-        },
-        "currencyCode": {
-            "type": "literal",
-            "value": "EUR"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Grenada"
-        },
-        "currency": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/East_Caribbean_dollar"
-        },
-        "currencyCode": {
-            "type": "literal",
-            "value": "XCD"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Guatemala"
-        },
-        "currency": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Guatemalan_quetzal"
-        },
-        "currencyCode": {
-            "type": "literal",
-            "value": "GTQ"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Guinea"
-        },
-        "currency": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Guinean_franc"
-        },
-        "currencyCode": {
-            "type": "literal",
-            "value": "GNF"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Guinea-Bissau"
-        },
-        "currency": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/West_African_CFA_franc"
-        },
-        "currencyCode": {
-            "type": "literal",
-            "value": "XOF"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Kenya"
-        },
-        "currency": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Kenyan_shilling"
-        },
-        "currencyCode": {
-            "type": "literal",
-            "value": "KES"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Kerguelen_Islands"
-        },
-        "currency": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Euro"
-        },
-        "currencyCode": {
-            "type": "literal",
-            "value": "EUR"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Khatumo_State"
-        },
-        "currency": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Somali_shilling"
-        },
         "currencyCode": {
             "type": "literal",
-            "value": "SOS"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Kiribati"
+            "value": "GEL"
         },
-        "currency": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Australian_dollar"
-        },
-        "currencyCode": {
-            "type": "literal",
-            "value": "AUD"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Kosovo"
-        },
-        "currency": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Euro"
-        },
-        "currencyCode": {
-            "type": "literal",
-            "value": "EUR"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Puntland"
-        },
-        "currency": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Somali_shilling"
-        },
-        "currencyCode": {
-            "type": "literal",
-            "value": "SOS"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Qatar"
-        },
-        "currency": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Qatari_riyal"
-        },
-        "currencyCode": {
-            "type": "literal",
-            "value": "QAR"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Albania"
-        },
-        "currency": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Albanian_lek"
-        },
-        "currencyCode": {
-            "type": "literal",
-            "value": "ALL"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Algeria"
-        },
-        "currency": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Algerian_dinar"
-        },
-        "currencyCode": {
-            "type": "literal",
-            "value": "DZD"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Central_African_Republic"
-        },
-        "currency": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Central_African_CFA_franc"
-        },
-        "currencyCode": {
-            "type": "literal",
-            "value": "XAF"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Central_Regions_State"
-        },
-        "currency": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Somali_shilling"
-        },
-        "currencyCode": {
-            "type": "literal",
-            "value": "SOS"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Chad"
-        },
-        "currency": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Central_African_CFA_franc"
-        },
-        "currencyCode": {
-            "type": "literal",
-            "value": "XAF"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Finland"
-        },
-        "currency": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Euro"
-        },
-        "currencyCode": {
-            "type": "literal",
-            "value": "EUR"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Niger"
-        },
-        "currency": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/West_African_CFA_franc"
-        },
-        "currencyCode": {
-            "type": "literal",
-            "value": "XOF"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Nigeria"
-        },
-        "currency": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Nigerian_naira"
-        },
-        "currencyCode": {
-            "type": "literal",
-            "value": "NGN"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Niue"
-        },
-        "currency": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/New_Zealand_dollar"
-        },
-        "currencyCode": {
-            "type": "literal",
-            "value": "NZD"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/North_Korea"
-        },
-        "currency": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/North_Korean_won"
-        },
-        "currencyCode": {
-            "type": "literal",
-            "value": "KPW"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/North_Macedonia"
-        },
-        "currency": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Macedonian_denar"
-        },
-        "currencyCode": {
-            "type": "literal",
-            "value": "MKD"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Norway"
-        },
-        "currency": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Norwegian_krone"
-        },
-        "currencyCode": {
-            "type": "literal",
-            "value": "NOK"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Australia"
-        },
-        "currency": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Australian_dollar"
-        },
-        "currencyCode": {
-            "type": "literal",
-            "value": "AUD"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Austria"
-        },
-        "currency": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Euro"
-        },
-        "currencyCode": {
-            "type": "literal",
-            "value": "EUR"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Autonomous_Region_of_Bougainville"
-        },
-        "currency": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Papua_New_Guinean_kina"
-        },
-        "currencyCode": {
-            "type": "literal",
-            "value": "PGK"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Azerbaijan"
-        },
-        "currency": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Azerbaijani_manat"
-        },
-        "currencyCode": {
-            "type": "literal",
-            "value": "AZN"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Bahrain"
-        },
-        "currency": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Bahraini_dinar"
-        },
-        "currencyCode": {
-            "type": "literal",
-            "value": "BHD"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Bangladesh"
-        },
-        "currency": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Bangladeshi_taka"
-        },
-        "currencyCode": {
-            "type": "literal",
-            "value": "BDT"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Barbados"
-        },
-        "currency": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Barbadian_dollar"
-        },
-        "currencyCode": {
-            "type": "literal",
-            "value": "BBD"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Lithuania"
-        },
-        "currency": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Euro"
-        },
-        "currencyCode": {
-            "type": "literal",
-            "value": "EUR"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Deindustrialisation_in_India"
-        },
-        "currency": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Indian_rupee"
-        },
-        "currencyCode": {
-            "type": "literal",
-            "value": "INR"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Cambodia"
-        },
-        "currency": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Cambodian_riel"
-        },
-        "currencyCode": {
-            "type": "literal",
-            "value": "KHR"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Cameroon"
-        },
-        "currency": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Central_African_CFA_franc"
-        },
-        "currencyCode": {
-            "type": "literal",
-            "value": "XAF"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Canada"
-        },
-        "currency": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Canadian_dollar"
-        },
-        "currencyCode": {
-            "type": "literal",
-            "value": "CAD"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Cape_Verde"
-        },
-        "currency": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Cape_Verdean_escudo"
-        },
-        "currencyCode": {
-            "type": "literal",
-            "value": "CVE"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Carriacou_and_Petite_Martinique"
-        },
-        "currency": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/East_Caribbean_dollar"
-        },
-        "currencyCode": {
-            "type": "literal",
-            "value": "XCD"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Chile"
-        },
-        "currency": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Chilean_peso"
-        },
-        "currencyCode": {
-            "type": "literal",
-            "value": "CLP"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/China"
-        },
-        "currency": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Renminbi"
-        },
-        "currencyCode": {
-            "type": "literal",
-            "value": "CNY"
-        }
-    },
-    {
         "country": {
             "type": "uri",
             "value": "http://dbpedia.org/resource/Georgia_(country)"
         },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "37168584012104"
+        },
         "currency": {
             "type": "uri",
             "value": "http://dbpedia.org/resource/Georgian_lari"
-        },
-        "currencyCode": {
-            "type": "literal",
-            "value": "GEL"
         }
     },
     {
+        "currencyCode": {
+            "type": "literal",
+            "value": "CNY"
+        },
         "country": {
             "type": "uri",
-            "value": "http://dbpedia.org/resource/Ghana"
+            "value": "http://dbpedia.org/resource/China"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "1400050000"
         },
         "currency": {
             "type": "uri",
-            "value": "http://dbpedia.org/resource/Ghanaian_cedi"
-        },
-        "currencyCode": {
-            "type": "literal",
-            "value": "GHS"
+            "value": "http://dbpedia.org/resource/Renminbi"
         }
     },
     {
+        "currencyCode": {
+            "type": "literal",
+            "value": "BRL"
+        },
         "country": {
             "type": "uri",
-            "value": "http://dbpedia.org/resource/Belarus"
+            "value": "http://dbpedia.org/resource/Brazil"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "210147125"
         },
         "currency": {
             "type": "uri",
-            "value": "http://dbpedia.org/resource/Belarusian_ruble"
-        },
-        "currencyCode": {
-            "type": "literal",
-            "value": "BYN"
+            "value": "http://dbpedia.org/resource/Brazilian_real"
         }
     },
     {
+        "currencyCode": {
+            "type": "literal",
+            "value": "NGN"
+        },
         "country": {
             "type": "uri",
-            "value": "http://dbpedia.org/resource/Belgium"
+            "value": "http://dbpedia.org/resource/Nigeria"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "206630269"
         },
         "currency": {
             "type": "uri",
-            "value": "http://dbpedia.org/resource/Euro"
-        },
-        "currencyCode": {
-            "type": "literal",
-            "value": "EUR"
+            "value": "http://dbpedia.org/resource/Nigerian_naira"
         }
     },
     {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Belize"
-        },
-        "currency": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Belize_dollar"
-        },
         "currencyCode": {
             "type": "literal",
-            "value": "BZD"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Benin"
+            "value": "RUB"
         },
-        "currency": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/West_African_CFA_franc"
-        },
-        "currencyCode": {
-            "type": "literal",
-            "value": "XOF"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Bhutan"
-        },
-        "currency": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Bhutanese_ngultrum"
-        },
-        "currencyCode": {
-            "type": "literal",
-            "value": "BTN"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Kazakhstan"
-        },
-        "currency": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Kazakhstani_tenge"
-        },
-        "currencyCode": {
-            "type": "literal",
-            "value": "KZT"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Lebanon"
-        },
-        "currency": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Lebanese_pound"
-        },
-        "currencyCode": {
-            "type": "literal",
-            "value": "LBP"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Libya"
-        },
-        "currency": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Libyan_dinar"
-        },
-        "currencyCode": {
-            "type": "literal",
-            "value": "LYD"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Liechtenstein"
-        },
-        "currency": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Swiss_franc"
-        },
-        "currencyCode": {
-            "type": "literal",
-            "value": "CHF"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Zambia"
-        },
-        "currency": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Zambian_kwacha"
-        },
-        "currencyCode": {
-            "type": "literal",
-            "value": "ZMW"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Zanzibar"
-        },
-        "currency": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Tanzanian_shilling"
-        },
-        "currencyCode": {
-            "type": "literal",
-            "value": "TZS"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/\u00celes_des_Saintes"
-        },
-        "currency": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/\u20ac"
-        },
-        "currencyCode": {
-            "type": "literal",
-            "value": "EUR"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/\u00celes_des_Saintes"
-        },
-        "currency": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Euro"
-        },
-        "currencyCode": {
-            "type": "literal",
-            "value": "EUR"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Moldova"
-        },
-        "currency": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Moldovan_leu"
-        },
-        "currencyCode": {
-            "type": "literal",
-            "value": "MDL"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Monaco"
-        },
-        "currency": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Euro"
-        },
-        "currencyCode": {
-            "type": "literal",
-            "value": "EUR"
-        }
-    },
-    {
         "country": {
             "type": "uri",
             "value": "http://dbpedia.org/resource/Russia"
         },
-        "currency": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Russian_ruble"
-        },
-        "currencyCode": {
-            "type": "literal",
-            "value": "RUB"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Rwanda"
-        },
-        "currency": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Rwandan_franc"
-        },
-        "currencyCode": {
-            "type": "literal",
-            "value": "RWF"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Saint_Kitts_and_Nevis"
-        },
-        "currency": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/East_Caribbean_dollar"
-        },
-        "currencyCode": {
-            "type": "literal",
-            "value": "XCD"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Saint_Lucia"
-        },
-        "currency": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/East_Caribbean_dollar"
-        },
-        "currencyCode": {
-            "type": "literal",
-            "value": "XCD"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Saint_Vincent_and_the_Grenadines"
-        },
-        "currency": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/East_Caribbean_dollar"
-        },
-        "currencyCode": {
-            "type": "literal",
-            "value": "XCD"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Samoa"
-        },
-        "currency": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Samoan_t\u0101l\u0101"
-        },
-        "currencyCode": {
-            "type": "literal",
-            "value": "WST"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Slovakia"
-        },
-        "currency": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Euro_sign"
-        },
-        "currencyCode": {
-            "type": "literal",
-            "value": "EUR"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Slovenia"
-        },
-        "currency": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Euro"
-        },
-        "currencyCode": {
-            "type": "literal",
-            "value": "EUR"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Solomon_Islands"
-        },
-        "currency": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Solomon_Islands_dollar"
-        },
-        "currencyCode": {
-            "type": "literal",
-            "value": "SBD"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Somalia"
-        },
-        "currency": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Somali_shilling"
-        },
-        "currencyCode": {
-            "type": "literal",
-            "value": "SOS"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/South_Africa"
-        },
-        "currency": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/South_African_rand"
-        },
-        "currencyCode": {
-            "type": "literal",
-            "value": "ZAR"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/South_Korea"
-        },
-        "currency": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/South_Korean_won"
-        },
-        "currencyCode": {
-            "type": "literal",
-            "value": "KRW"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/South_Ossetia"
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "146748590"
         },
         "currency": {
             "type": "uri",
             "value": "http://dbpedia.org/resource/Russian_ruble"
-        },
-        "currencyCode": {
-            "type": "literal",
-            "value": "RUB"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/South_Sudan"
-        },
-        "currency": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/South_Sudanese_pound"
-        },
-        "currencyCode": {
-            "type": "literal",
-            "value": "SSP"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Spain"
-        },
-        "currency": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Euro"
-        },
-        "currencyCode": {
-            "type": "literal",
-            "value": "EUR"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Sri_Lanka"
-        },
-        "currency": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Sri_Lankan_rupee"
-        },
-        "currencyCode": {
-            "type": "literal",
-            "value": "LKR"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/East_Timor"
-        },
-        "currency": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/United_States_dollar"
-        },
-        "currencyCode": {
-            "type": "literal",
-            "value": "USD"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Ecuador"
-        },
-        "currency": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/United_States_dollar"
-        },
-        "currencyCode": {
-            "type": "literal",
-            "value": "USD"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Gabon"
-        },
-        "currency": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Central_African_CFA_franc"
-        },
-        "currencyCode": {
-            "type": "literal",
-            "value": "XAF"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Gagauzia"
-        },
-        "currency": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Moldovan_leu"
-        },
-        "currencyCode": {
-            "type": "literal",
-            "value": "MDL"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Galmudug"
-        },
-        "currency": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Somali_shilling"
-        },
-        "currencyCode": {
-            "type": "literal",
-            "value": "SOS"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Guyana"
-        },
-        "currency": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Guyanese_dollar"
-        },
-        "currencyCode": {
-            "type": "literal",
-            "value": "GYD"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Haiti"
-        },
-        "currency": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Haitian_gourde"
-        },
-        "currencyCode": {
-            "type": "literal",
-            "value": "HTG"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Honduras"
-        },
-        "currency": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Honduran_lempira"
-        },
-        "currencyCode": {
-            "type": "literal",
-            "value": "HNL"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Hungary"
-        },
-        "currency": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Hungarian_forint"
-        },
-        "currencyCode": {
-            "type": "literal",
-            "value": "HUF"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Iceland"
-        },
-        "currency": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Icelandic_kr\u00f3na"
-        },
-        "currencyCode": {
-            "type": "literal",
-            "value": "ISK"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/India"
-        },
-        "currency": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Indian_rupee"
-        },
-        "currencyCode": {
-            "type": "literal",
-            "value": "INR"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Indonesia"
-        },
-        "currency": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Indonesian_rupiah"
-        },
-        "currencyCode": {
-            "type": "literal",
-            "value": "IDR"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Iran"
-        },
-        "currency": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Iranian_rial"
-        },
-        "currencyCode": {
-            "type": "literal",
-            "value": "IRR"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Iraq"
-        },
-        "currency": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Iraqi_dinar"
-        },
-        "currencyCode": {
-            "type": "literal",
-            "value": "IQD"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Israel"
-        },
-        "currency": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Israeli_new_shekel"
-        },
-        "currencyCode": {
-            "type": "literal",
-            "value": "ILS"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Italy"
-        },
-        "currency": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Euro_sign"
-        },
-        "currencyCode": {
-            "type": "literal",
-            "value": "EUR"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Ivory_Coast"
-        },
-        "currency": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/West_African_CFA_franc"
-        },
-        "currencyCode": {
-            "type": "literal",
-            "value": "XOF"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Jamaica"
-        },
-        "currency": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Jamaican_dollar"
-        },
-        "currencyCode": {
-            "type": "literal",
-            "value": "JMD"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Japan"
-        },
-        "currency": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Japanese_yen"
-        },
-        "currencyCode": {
-            "type": "literal",
-            "value": "JPY"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/San_Marino"
-        },
-        "currency": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Euro"
-        },
-        "currencyCode": {
-            "type": "literal",
-            "value": "EUR"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Saudi_Arabia"
-        },
-        "currency": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Saudi_Riyal"
-        },
-        "currencyCode": {
-            "type": "literal",
-            "value": "SAR"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Senegal"
-        },
-        "currency": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/West_African_CFA_franc"
-        },
-        "currencyCode": {
-            "type": "literal",
-            "value": "XOF"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Serbia"
-        },
-        "currency": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Serbian_dinar"
-        },
-        "currencyCode": {
-            "type": "literal",
-            "value": "RSD"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Andorra"
-        },
-        "currency": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Euro"
-        },
-        "currencyCode": {
-            "type": "literal",
-            "value": "EUR"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Angola"
-        },
-        "currency": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Angolan_kwanza"
-        },
-        "currencyCode": {
-            "type": "literal",
-            "value": "AOA"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Antigua_and_Barbuda"
-        },
-        "currency": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/East_Caribbean_dollar"
-        },
-        "currencyCode": {
-            "type": "literal",
-            "value": "XCD"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Argentina"
-        },
-        "currency": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Argentine_peso"
-        },
-        "currencyCode": {
-            "type": "literal",
-            "value": "ARS"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Armenia"
-        },
-        "currency": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Armenian_dram"
-        },
-        "currencyCode": {
-            "type": "literal",
-            "value": "AMD"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Armenia"
-        },
-        "currency": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Armenian_dram_sign"
-        },
-        "currencyCode": {
-            "type": "literal",
-            "value": "AMD"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Oman"
-        },
-        "currency": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Omani_rial"
-        },
-        "currencyCode": {
-            "type": "literal",
-            "value": "OMR"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Pakistan"
-        },
-        "currency": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Pakistani_rupee"
-        },
-        "currencyCode": {
-            "type": "literal",
-            "value": "PKR"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Palau"
-        },
-        "currency": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/United_States_dollar"
-        },
-        "currencyCode": {
-            "type": "literal",
-            "value": "USD"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Republic_of_Artsakh"
-        },
-        "currency": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Armenian_dram"
-        },
-        "currencyCode": {
-            "type": "literal",
-            "value": "AMD"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Republic_of_Artsakh"
-        },
-        "currency": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Artsakh_dram"
-        },
-        "currencyCode": {
-            "type": "literal",
-            "value": "AMD"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Republic_of_Ireland"
-        },
-        "currency": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Euro"
-        },
-        "currencyCode": {
-            "type": "literal",
-            "value": "EUR"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Republic_of_the_Congo"
-        },
-        "currency": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Central_African_CFA_franc"
-        },
-        "currencyCode": {
-            "type": "literal",
-            "value": "XAF"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Republika_Srpska"
-        },
-        "currency": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Bosnia_and_Herzegovina_convertible_mark"
-        },
-        "currencyCode": {
-            "type": "literal",
-            "value": "BAM"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Thailand"
-        },
-        "currency": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Thai_baht"
-        },
-        "currencyCode": {
-            "type": "literal",
-            "value": "THB"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/The_Gambia"
-        },
-        "currency": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Gambian_dalasi"
-        },
-        "currencyCode": {
-            "type": "literal",
-            "value": "GMD"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Abkhazia"
-        },
-        "currency": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Russian_ruble"
-        },
-        "currencyCode": {
-            "type": "literal",
-            "value": "RUB"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Abkhazia"
-        },
-        "currency": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Abkhazian_apsar"
-        },
-        "currencyCode": {
-            "type": "literal",
-            "value": "RUB"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Afghanistan"
-        },
-        "currency": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Afghan_afghani"
-        },
-        "currencyCode": {
-            "type": "literal",
-            "value": "AFN"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Transnistria"
-        },
-        "currency": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Transnistrian_ruble"
-        },
-        "currencyCode": {
-            "type": "literal",
-            "value": "PRB"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Trinidad_and_Tobago"
-        },
-        "currency": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Trinidad_and_Tobago_dollar"
-        },
-        "currencyCode": {
-            "type": "literal",
-            "value": "TTD"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Tunisia"
-        },
-        "currency": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Tunisian_dinar"
-        },
-        "currencyCode": {
-            "type": "literal",
-            "value": "TND"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Turkey"
-        },
-        "currency": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Turkish_lira"
-        },
-        "currencyCode": {
-            "type": "literal",
-            "value": "TRY"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Turkmenistan"
-        },
-        "currency": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Turkmenistan_Manat"
-        },
-        "currencyCode": {
-            "type": "literal",
-            "value": "TMT"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Tuvalu"
-        },
-        "currency": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Australian_dollar"
-        },
-        "currencyCode": {
-            "type": "literal",
-            "value": "AUD"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Tuvalu"
-        },
-        "currency": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Tuvaluan_dollar"
-        },
-        "currencyCode": {
-            "type": "literal",
-            "value": "AUD"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Brunei"
-        },
-        "currency": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Brunei_dollar"
-        },
-        "currencyCode": {
-            "type": "literal",
-            "value": "BND"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Bulgaria"
-        },
-        "currency": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Bulgarian_lev"
-        },
-        "currencyCode": {
-            "type": "literal",
-            "value": "BGN"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Bunyoro"
-        },
-        "currency": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Ugandan_Shilling"
-        },
-        "currencyCode": {
-            "type": "literal",
-            "value": "UGX"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Burkina_Faso"
-        },
-        "currency": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/West_African_CFA_franc"
-        },
-        "currencyCode": {
-            "type": "literal",
-            "value": "XOF"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Burundi"
-        },
-        "currency": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Burundian_franc"
-        },
-        "currencyCode": {
-            "type": "literal",
-            "value": "BIF"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Colombia"
-        },
-        "currency": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Colombian_peso"
-        },
-        "currencyCode": {
-            "type": "literal",
-            "value": "COP"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Comoros"
-        },
-        "currency": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Comorian_franc"
-        },
-        "currencyCode": {
-            "type": "literal",
-            "value": "KMF"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Costa_Rica"
-        },
-        "currency": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Costa_Rican_col\u00f3n"
-        },
-        "currencyCode": {
-            "type": "literal",
-            "value": "CRC"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Croatia"
-        },
-        "currency": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Croatian_kuna"
-        },
-        "currencyCode": {
-            "type": "literal",
-            "value": "HRK"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Cuba"
-        },
-        "currency": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Cuban_convertible_peso"
-        },
-        "currencyCode": {
-            "type": "literal",
-            "value": "CUC"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Cuba"
-        },
-        "currency": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Cuban_peso"
-        },
-        "currencyCode": {
-            "type": "literal",
-            "value": "CUC"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Cyprus"
-        },
-        "currency": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Euro"
-        },
-        "currencyCode": {
-            "type": "literal",
-            "value": "EUR"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Czech_Republic"
-        },
-        "currency": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Czech_koruna"
-        },
-        "currencyCode": {
-            "type": "literal",
-            "value": "CZK"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Kuwait"
-        },
-        "currency": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Kuwaiti_dinar"
-        },
-        "currencyCode": {
-            "type": "literal",
-            "value": "KWD"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Kyrgyzstan"
-        },
-        "currency": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Kyrgyzstani_som"
-        },
-        "currencyCode": {
-            "type": "literal",
-            "value": "KGS"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Laos"
-        },
-        "currency": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Lao_kip"
-        },
-        "currencyCode": {
-            "type": "literal",
-            "value": "LAK"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Latvia"
-        },
-        "currency": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Euro"
-        },
-        "currencyCode": {
-            "type": "literal",
-            "value": "EUR"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Papua_New_Guinea"
-        },
-        "currency": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Papua_New_Guinean_kina"
-        },
-        "currencyCode": {
-            "type": "literal",
-            "value": "PGK"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Paraguay"
-        },
-        "currency": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Paraguayan_guaran\u00ed"
-        },
-        "currencyCode": {
-            "type": "literal",
-            "value": "PYG"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Peru"
-        },
-        "currency": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Peruvian_sol"
-        },
-        "currencyCode": {
-            "type": "literal",
-            "value": "PEN"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Romania"
-        },
-        "currency": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Romanian_leu"
-        },
-        "currencyCode": {
-            "type": "literal",
-            "value": "RON"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Seychelles"
-        },
-        "currency": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Seychellois_rupee"
-        },
-        "currencyCode": {
-            "type": "literal",
-            "value": "SCR"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Sierra_Leone"
-        },
-        "currency": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Sierra_Leonean_leone"
-        },
-        "currencyCode": {
-            "type": "literal",
-            "value": "SLL"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Suriname"
-        },
-        "currency": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Surinamese_dollar"
-        },
-        "currencyCode": {
-            "type": "literal",
-            "value": "SRD"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Sweden"
-        },
-        "currency": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Swedish_krona"
-        },
-        "currencyCode": {
-            "type": "literal",
-            "value": "SEK"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Switzerland"
-        },
-        "currency": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Swiss_franc"
-        },
-        "currencyCode": {
-            "type": "literal",
-            "value": "CHF"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Syria"
-        },
-        "currency": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Syrian_pound"
-        },
-        "currencyCode": {
-            "type": "literal",
-            "value": "SYP"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Syrian_opposition"
-        },
-        "currency": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/US_Dollar"
-        },
-        "currencyCode": {
-            "type": "literal",
-            "value": "SYP"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Syrian_opposition"
-        },
-        "currency": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Turkish_Lira"
-        },
-        "currencyCode": {
-            "type": "literal",
-            "value": "SYP"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Syrian_opposition"
-        },
-        "currency": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Syrian_pound"
-        },
-        "currencyCode": {
-            "type": "literal",
-            "value": "SYP"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/S\u00e3o_Tom\u00e9_and_Pr\u00edncipe"
-        },
-        "currency": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/S\u00e3o_Tom\u00e9_and_Pr\u00edncipe_dobra"
-        },
-        "currencyCode": {
-            "type": "literal",
-            "value": "STN"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Taiwan"
-        },
-        "currency": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/New_Taiwan_dollar"
-        },
-        "currencyCode": {
-            "type": "literal",
-            "value": "TWD"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Tajikistan"
-        },
-        "currency": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Somoni"
-        },
-        "currencyCode": {
-            "type": "literal",
-            "value": "TJS"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Tanzania"
-        },
-        "currency": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Tanzanian_shilling"
-        },
-        "currencyCode": {
-            "type": "literal",
-            "value": "TZS"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Vietnam"
-        },
-        "currency": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Vietnamese_\u0111\u1ed3ng"
-        },
-        "currencyCode": {
-            "type": "literal",
-            "value": "VND"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Estonia"
-        },
-        "currency": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Euro"
-        },
-        "currencyCode": {
-            "type": "literal",
-            "value": "EUR"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Ethiopia"
-        },
-        "currency": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Ethiopian_birr"
-        },
-        "currencyCode": {
-            "type": "literal",
-            "value": "ETB"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Federated_States_of_Micronesia"
-        },
-        "currency": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/United_States_dollar"
-        },
-        "currencyCode": {
-            "type": "literal",
-            "value": "USD"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Federation_of_Bosnia_and_Herzegovina"
-        },
-        "currency": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Convertible_mark"
-        },
-        "currencyCode": {
-            "type": "literal",
-            "value": "BAM"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Fifth_Republic_of_Venezuela"
-        },
-        "currency": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Venezuelan_bol\u00edvar"
-        },
-        "currencyCode": {
-            "type": "literal",
-            "value": "VEF"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Fiji"
-        },
-        "currency": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Fijian_dollar"
-        },
-        "currencyCode": {
-            "type": "literal",
-            "value": "FJD"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Nakhchivan_Autonomous_Republic"
-        },
-        "currency": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Azerbaijan_manat"
-        },
-        "currencyCode": {
-            "type": "literal",
-            "value": "AZN"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Nauru"
-        },
-        "currency": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Australian_dollar"
-        },
-        "currencyCode": {
-            "type": "literal",
-            "value": "AUD"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Nepal"
-        },
-        "currency": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Nepalese_rupee"
-        },
-        "currencyCode": {
-            "type": "literal",
-            "value": "NPR"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Nevis"
-        },
-        "currency": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/East_Caribbean_dollar"
-        },
-        "currencyCode": {
-            "type": "literal",
-            "value": "XCD"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/New_Zealand"
-        },
-        "currency": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/New_Zealand_dollar"
-        },
-        "currencyCode": {
-            "type": "literal",
-            "value": "NZD"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Nicaragua"
-        },
-        "currency": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Nicaraguan_c\u00f3rdoba"
-        },
-        "currencyCode": {
-            "type": "literal",
-            "value": "NIO"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Philippines"
-        },
-        "currency": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Philippine_peso"
-        },
-        "currencyCode": {
-            "type": "literal",
-            "value": ""
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Philippines"
-        },
-        "currency": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Philippine_peso"
-        },
-        "currencyCode": {
-            "type": "literal",
-            "value": "PHP"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Poland"
-        },
-        "currency": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Polish_z\u0142oty"
-        },
-        "currencyCode": {
-            "type": "literal",
-            "value": "PLN"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Portugal"
-        },
-        "currency": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Euro"
-        },
-        "currencyCode": {
-            "type": "literal",
-            "value": "EUR"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Sudan"
-        },
-        "currency": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Sudanese_pound"
-        },
-        "currencyCode": {
-            "type": "literal",
-            "value": "SDG"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Twente"
-        },
-        "currency": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Euro"
-        },
-        "currencyCode": {
-            "type": "literal",
-            "value": "EUR"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Egypt"
-        },
-        "currency": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Egyptian_pound"
-        },
-        "currencyCode": {
-            "type": "literal",
-            "value": "EGP"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/El_Salvador"
-        },
-        "currency": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/United_States_dollar"
-        },
-        "currencyCode": {
-            "type": "literal",
-            "value": "USD"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Equatorial_Guinea"
-        },
-        "currency": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Central_African_CFA_franc"
-        },
-        "currencyCode": {
-            "type": "literal",
-            "value": "XAF"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Eritrea"
-        },
-        "currency": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Eritrean_nakfa"
-        },
-        "currencyCode": {
-            "type": "literal",
-            "value": "ERN"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Himan_and_Heeb"
-        },
-        "currency": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Somali_shilling"
-        },
-        "currencyCode": {
-            "type": "literal",
-            "value": "SOS"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Hirshabelle_State"
-        },
-        "currency": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Somali_shilling"
-        },
-        "currencyCode": {
-            "type": "literal",
-            "value": "SOS"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Mongolia"
-        },
-        "currency": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Mongolian_t\u00f6gr\u00f6g"
-        },
-        "currencyCode": {
-            "type": "literal",
-            "value": "MNT"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Montenegro"
-        },
-        "currency": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Euro"
-        },
-        "currencyCode": {
-            "type": "literal",
-            "value": "EUR"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Morocco"
-        },
-        "currency": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Moroccan_dirham"
-        },
-        "currencyCode": {
-            "type": "literal",
-            "value": "MAD"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Mozambique"
-        },
-        "currency": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Mozambican_metical"
-        },
-        "currencyCode": {
-            "type": "literal",
-            "value": "MZN"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Myanmar"
-        },
-        "currency": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Burmese_kyat"
-        },
-        "currencyCode": {
-            "type": "literal",
-            "value": "MMK"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Jordan"
-        },
-        "currency": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Jordanian_dinar"
-        },
-        "currencyCode": {
-            "type": "literal",
-            "value": "JOD"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Jubaland"
-        },
-        "currency": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Somali_shilling"
-        },
-        "currencyCode": {
-            "type": "literal",
-            "value": "SOS"
         }
     },
     {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Mauritania"
-        },
-        "currency": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Mauritanian_ouguiya"
-        },
         "currencyCode": {
             "type": "literal",
-            "value": "MRU"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Mauritius"
-        },
-        "currency": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Mauritian_rupee"
+            "value": "MXN"
         },
-        "currencyCode": {
-            "type": "literal",
-            "value": "MUR"
-        }
-    },
-    {
         "country": {
             "type": "uri",
             "value": "http://dbpedia.org/resource/Mexico"
         },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "128649565"
+        },
         "currency": {
             "type": "uri",
             "value": "http://dbpedia.org/resource/Mexican_peso"
-        },
-        "currencyCode": {
-            "type": "literal",
-            "value": "MXN"
         }
     },
     {
+        "currencyCode": {
+            "type": "literal",
+            "value": "JPY"
+        },
         "country": {
             "type": "uri",
-            "value": "http://dbpedia.org/resource/Malta"
+            "value": "http://dbpedia.org/resource/Japan"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "125960000"
+        },
+        "currency": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Japanese_yen"
+        }
+    },
+    {
+        "currencyCode": {
+            "type": "literal",
+            "value": ""
+        },
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Philippines"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "109048269"
+        },
+        "currency": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Philippine_peso"
+        }
+    },
+    {
+        "currencyCode": {
+            "type": "literal",
+            "value": "PHP"
+        },
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Philippines"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "109048269"
+        },
+        "currency": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Philippine_peso"
+        }
+    },
+    {
+        "currencyCode": {
+            "type": "literal",
+            "value": "CDF"
+        },
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Democratic_Republic_of_the_Congo"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "101780263"
+        },
+        "currency": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Congolese_franc"
+        }
+    },
+    {
+        "currencyCode": {
+            "type": "literal",
+            "value": "EGP"
+        },
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Egypt"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "100075480"
+        },
+        "currency": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Egyptian_pound"
+        }
+    },
+    {
+        "currencyCode": {
+            "type": "literal",
+            "value": "IRR"
+        },
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Iran"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "83183741"
+        },
+        "currency": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Iranian_rial"
+        }
+    },
+    {
+        "currencyCode": {
+            "type": "literal",
+            "value": "TRY"
+        },
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Turkey"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "83154997"
+        },
+        "currency": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Turkish_lira"
+        }
+    },
+    {
+        "currencyCode": {
+            "type": "literal",
+            "value": "THB"
+        },
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Thailand"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "69758935"
+        },
+        "currency": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Thai_baht"
+        }
+    },
+    {
+        "currencyCode": {
+            "type": "literal",
+            "value": "GBP"
+        },
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/United_Kingdom"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "67886004"
+        },
+        "currency": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Pound_sterling"
+        }
+    },
+    {
+        "currencyCode": {
+            "type": "literal",
+            "value": "EUR"
+        },
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Italy"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "60317116"
+        },
+        "currency": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Euro_sign"
+        }
+    },
+    {
+        "currencyCode": {
+            "type": "literal",
+            "value": "ZAR"
+        },
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/South_Africa"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "59622350"
+        },
+        "currency": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/South_African_rand"
+        }
+    },
+    {
+        "currencyCode": {
+            "type": "literal",
+            "value": "KRW"
+        },
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/South_Korea"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "51709098"
+        },
+        "currency": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/South_Korean_won"
+        }
+    },
+    {
+        "currencyCode": {
+            "type": "literal",
+            "value": "COP"
+        },
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Colombia"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "50372424"
+        },
+        "currency": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Colombian_peso"
+        }
+    },
+    {
+        "currencyCode": {
+            "type": "literal",
+            "value": "EUR"
+        },
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Spain"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "47431256"
         },
         "currency": {
             "type": "uri",
             "value": "http://dbpedia.org/resource/Euro"
-        },
-        "currencyCode": {
-            "type": "literal",
-            "value": "EUR"
         }
     },
     {
+        "currencyCode": {
+            "type": "literal",
+            "value": "ARS"
+        },
         "country": {
             "type": "uri",
-            "value": "http://dbpedia.org/resource/Marshall_Islands"
+            "value": "http://dbpedia.org/resource/Argentina"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "44938712"
         },
         "currency": {
             "type": "uri",
-            "value": "http://dbpedia.org/resource/United_States_dollar"
-        },
-        "currencyCode": {
-            "type": "literal",
-            "value": "USD"
+            "value": "http://dbpedia.org/resource/Argentine_peso"
         }
     },
     {
+        "currencyCode": {
+            "type": "literal",
+            "value": "DZD"
+        },
         "country": {
             "type": "uri",
-            "value": "http://dbpedia.org/resource/Third_Hellenic_Republic"
+            "value": "http://dbpedia.org/resource/Algeria"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "43600000"
         },
         "currency": {
             "type": "uri",
-            "value": "http://dbpedia.org/resource/Euro"
-        },
-        "currencyCode": {
-            "type": "literal",
-            "value": "EUR"
+            "value": "http://dbpedia.org/resource/Algerian_dinar"
         }
     },
     {
+        "currencyCode": {
+            "type": "literal",
+            "value": "UAH"
+        },
         "country": {
             "type": "uri",
-            "value": "http://dbpedia.org/resource/Third_Portuguese_Republic"
+            "value": "http://dbpedia.org/resource/Ukraine"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "41660982"
         },
         "currency": {
             "type": "uri",
-            "value": "http://dbpedia.org/resource/Euro"
-        },
-        "currencyCode": {
-            "type": "literal",
-            "value": "EUR"
+            "value": "http://dbpedia.org/resource/Ukrainian_hryvnia"
         }
     },
     {
+        "currencyCode": {
+            "type": "literal",
+            "value": "SDG"
+        },
         "country": {
             "type": "uri",
-            "value": "http://dbpedia.org/resource/Togo"
+            "value": "http://dbpedia.org/resource/Sudan"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "41592539"
+        },
+        "currency": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Sudanese_pound"
+        }
+    },
+    {
+        "currencyCode": {
+            "type": "literal",
+            "value": "PLN"
+        },
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Poland"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "38383000"
+        },
+        "currency": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Polish_z\u0142oty"
+        }
+    },
+    {
+        "currencyCode": {
+            "type": "literal",
+            "value": "CAD"
+        },
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Canada"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "38005238"
+        },
+        "currency": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Canadian_dollar"
+        }
+    },
+    {
+        "currencyCode": {
+            "type": "literal",
+            "value": "MAD"
+        },
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Morocco"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "36472000"
+        },
+        "currency": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Moroccan_dirham"
+        }
+    },
+    {
+        "currencyCode": {
+            "type": "literal",
+            "value": "SAR"
+        },
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Saudi_Arabia"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "34218169"
+        },
+        "currency": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Saudi_Riyal"
+        }
+    },
+    {
+        "currencyCode": {
+            "type": "literal",
+            "value": "UZS"
+        },
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Uzbekistan"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "33570609"
+        },
+        "currency": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Uzbek_som"
+        }
+    },
+    {
+        "currencyCode": {
+            "type": "literal",
+            "value": "PEN"
+        },
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Peru"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "32824358"
+        },
+        "currency": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Peruvian_sol"
+        }
+    },
+    {
+        "currencyCode": {
+            "type": "literal",
+            "value": "MYR"
+        },
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Malaysia"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "32730000"
+        },
+        "currency": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Malaysian_ringgit"
+        }
+    },
+    {
+        "currencyCode": {
+            "type": "literal",
+            "value": "AFN"
+        },
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Afghanistan"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "32225560"
+        },
+        "currency": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Afghan_afghani"
+        }
+    },
+    {
+        "currencyCode": {
+            "type": "literal",
+            "value": "AOA"
+        },
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Angola"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "31127674"
+        },
+        "currency": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Angolan_kwanza"
+        }
+    },
+    {
+        "currencyCode": {
+            "type": "literal",
+            "value": "GHS"
+        },
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Ghana"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "31072940"
+        },
+        "currency": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Ghanaian_cedi"
+        }
+    },
+    {
+        "currencyCode": {
+            "type": "literal",
+            "value": "MZN"
+        },
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Mozambique"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "30066648"
+        },
+        "currency": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Mozambican_metical"
+        }
+    },
+    {
+        "currencyCode": {
+            "type": "literal",
+            "value": "VES"
+        },
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Venezuela"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "28067000"
+        },
+        "currency": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Venezuelan_bol\u00edvar"
+        }
+    },
+    {
+        "currencyCode": {
+            "type": "literal",
+            "value": "XAF"
+        },
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Cameroon"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "26545864"
+        },
+        "currency": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Central_African_CFA_franc"
+        }
+    },
+    {
+        "currencyCode": {
+            "type": "literal",
+            "value": "XOF"
+        },
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Ivory_Coast"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "26378274"
         },
         "currency": {
             "type": "uri",
             "value": "http://dbpedia.org/resource/West_African_CFA_franc"
+        }
+    },
+    {
+        "currencyCode": {
+            "type": "literal",
+            "value": "TWD"
         },
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Taiwan"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "23780452"
+        },
+        "currency": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/New_Taiwan_dollar"
+        }
+    },
+    {
+        "currencyCode": {
+            "type": "literal",
+            "value": "LKR"
+        },
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Sri_Lanka"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "21803000"
+        },
+        "currency": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Sri_Lankan_rupee"
+        }
+    },
+    {
         "currencyCode": {
             "type": "literal",
             "value": "XOF"
-        }
-    },
-    {
+        },
         "country": {
             "type": "uri",
-            "value": "http://dbpedia.org/resource/Tonga"
+            "value": "http://dbpedia.org/resource/Burkina_Faso"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "21510181"
         },
         "currency": {
             "type": "uri",
-            "value": "http://dbpedia.org/resource/Tongan_pa\u02bbanga"
-        },
-        "currencyCode": {
-            "type": "literal",
-            "value": "TOP"
+            "value": "http://dbpedia.org/resource/West_African_CFA_franc"
         }
     },
     {
+        "currencyCode": {
+            "type": "literal",
+            "value": ""
+        },
         "country": {
             "type": "uri",
-            "value": "http://dbpedia.org/resource/Yemen"
+            "value": "http://dbpedia.org/resource/Mali"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "20250833"
         },
         "currency": {
             "type": "uri",
-            "value": "http://dbpedia.org/resource/Yemeni_rial"
-        },
+            "value": "http://dbpedia.org/resource/West_African_CFA_franc"
+        }
+    },
+    {
         "currencyCode": {
             "type": "literal",
-            "value": "YER"
+            "value": "XOF"
+        },
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Mali"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "20250833"
+        },
+        "currency": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/West_African_CFA_franc"
+        }
+    },
+    {
+        "currencyCode": {
+            "type": "literal",
+            "value": "RON"
+        },
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Romania"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "19317984"
+        },
+        "currency": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Romanian_leu"
+        }
+    },
+    {
+        "currencyCode": {
+            "type": "literal",
+            "value": "MWK"
+        },
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Malawi"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "19129952"
+        },
+        "currency": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Malawian_kwacha"
+        }
+    },
+    {
+        "currencyCode": {
+            "type": "literal",
+            "value": "KZT"
+        },
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Kazakhstan"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "18711200"
+        },
+        "currency": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Kazakhstani_tenge"
+        }
+    },
+    {
+        "currencyCode": {
+            "type": "literal",
+            "value": "SYP"
+        },
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Syria"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "17500657"
+        },
+        "currency": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Syrian_pound"
+        }
+    },
+    {
+        "currencyCode": {
+            "type": "literal",
+            "value": "GTQ"
+        },
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Guatemala"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "17263239"
+        },
+        "currency": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Guatemalan_quetzal"
+        }
+    },
+    {
+        "currencyCode": {
+            "type": "literal",
+            "value": "SOS"
+        },
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Somalia"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "15893219"
+        },
+        "currency": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Somali_shilling"
+        }
+    },
+    {
+        "currencyCode": {
+            "type": "literal",
+            "value": "XAF"
+        },
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Chad"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "13670084"
+        },
+        "currency": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Central_African_CFA_franc"
+        }
+    },
+    {
+        "currencyCode": {
+            "type": "literal",
+            "value": "SSP"
+        },
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/South_Sudan"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "12778250"
+        },
+        "currency": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/South_Sudanese_pound"
+        }
+    },
+    {
+        "currencyCode": {
+            "type": "literal",
+            "value": "RWF"
+        },
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Rwanda"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "12374397"
+        },
+        "currency": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Rwandan_franc"
+        }
+    },
+    {
+        "currencyCode": {
+            "type": "literal",
+            "value": "BIF"
+        },
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Burundi"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "11865821"
+        },
+        "currency": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Burundian_franc"
+        }
+    },
+    {
+        "currencyCode": {
+            "type": "literal",
+            "value": "XOF"
+        },
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Benin"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "11733059"
+        },
+        "currency": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/West_African_CFA_franc"
+        }
+    },
+    {
+        "currencyCode": {
+            "type": "literal",
+            "value": "TND"
+        },
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Tunisia"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "11722038"
+        },
+        "currency": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Tunisian_dinar"
+        }
+    },
+    {
+        "currencyCode": {
+            "type": "literal",
+            "value": "EUR"
+        },
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Belgium"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "11492641"
+        },
+        "currency": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Euro"
+        }
+    },
+    {
+        "currencyCode": {
+            "type": "literal",
+            "value": "BOB"
+        },
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Bolivia"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "11428245"
+        },
+        "currency": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Bolivian_boliviano"
+        }
+    },
+    {
+        "currencyCode": {
+            "type": "literal",
+            "value": "EUR"
+        },
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Third_Hellenic_Republic"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "10768477"
+        },
+        "currency": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Euro"
+        }
+    },
+    {
+        "currencyCode": {
+            "type": "literal",
+            "value": "DOP"
+        },
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Dominican_Republic"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "10735896"
+        },
+        "currency": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Dominican_peso"
+        }
+    },
+    {
+        "currencyCode": {
+            "type": "literal",
+            "value": "EUR"
+        },
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Greece"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "10724599"
+        },
+        "currency": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Euro"
+        }
+    },
+    {
+        "currencyCode": {
+            "type": "literal",
+            "value": "CZK"
+        },
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Czech_Republic"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "10693939"
+        },
+        "currency": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Czech_koruna"
+        }
+    },
+    {
+        "currencyCode": {
+            "type": "literal",
+            "value": "JOD"
+        },
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Jordan"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "10658123"
+        },
+        "currency": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Jordanian_dinar"
+        }
+    },
+    {
+        "currencyCode": {
+            "type": "literal",
+            "value": "SEK"
+        },
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Sweden"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "10343403"
+        },
+        "currency": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Swedish_krona"
+        }
+    },
+    {
+        "currencyCode": {
+            "type": "literal",
+            "value": "EUR"
+        },
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Third_Portuguese_Republic"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "10341330"
+        },
+        "currency": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Euro"
+        }
+    },
+    {
+        "currencyCode": {
+            "type": "literal",
+            "value": "EUR"
+        },
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Portugal"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "10295909"
+        },
+        "currency": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Euro"
+        }
+    },
+    {
+        "currencyCode": {
+            "type": "literal",
+            "value": "AZN"
+        },
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Azerbaijan"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "10127874"
+        },
+        "currency": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Azerbaijani_manat"
+        }
+    },
+    {
+        "currencyCode": {
+            "type": "literal",
+            "value": "AED"
+        },
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/United_Arab_Emirates"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "9890400"
+        },
+        "currency": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/United_Arab_Emirates_dirham"
+        }
+    },
+    {
+        "currencyCode": {
+            "type": "literal",
+            "value": "HUF"
+        },
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Hungary"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "9772756"
+        },
+        "currency": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Hungarian_forint"
+        }
+    },
+    {
+        "currencyCode": {
+            "type": "literal",
+            "value": "TJS"
+        },
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Tajikistan"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "9537645"
+        },
+        "currency": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Somoni"
+        }
+    },
+    {
+        "currencyCode": {
+            "type": "literal",
+            "value": "BYN"
+        },
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Belarus"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "9408400"
+        },
+        "currency": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Belarusian_ruble"
+        }
+    },
+    {
+        "currencyCode": {
+            "type": "literal",
+            "value": "PGK"
+        },
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Papua_New_Guinea"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "8935000"
+        },
+        "currency": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Papua_New_Guinean_kina"
+        }
+    },
+    {
+        "currencyCode": {
+            "type": "literal",
+            "value": "EUR"
+        },
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Austria"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "8902600"
+        },
+        "currency": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Euro"
+        }
+    },
+    {
+        "currencyCode": {
+            "type": "literal",
+            "value": "XOF"
+        },
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Togo"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "8608444"
+        },
+        "currency": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/West_African_CFA_franc"
+        }
+    },
+    {
+        "currencyCode": {
+            "type": "literal",
+            "value": "CHF"
+        },
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Switzerland"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "8570146"
+        },
+        "currency": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Swiss_franc"
+        }
+    },
+    {
+        "currencyCode": {
+            "type": "literal",
+            "value": "PYG"
+        },
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Paraguay"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "7292672"
+        },
+        "currency": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Paraguayan_guaran\u00ed"
+        }
+    },
+    {
+        "currencyCode": {
+            "type": "literal",
+            "value": "LAK"
+        },
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Laos"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "7123205"
+        },
+        "currency": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Lao_kip"
+        }
+    },
+    {
+        "currencyCode": {
+            "type": "literal",
+            "value": "RSD"
+        },
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Serbia"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "6963764"
+        },
+        "currency": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Serbian_dinar"
+        }
+    },
+    {
+        "currencyCode": {
+            "type": "literal",
+            "value": "BGN"
+        },
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Bulgaria"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "6951482"
+        },
+        "currency": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Bulgarian_lev"
+        }
+    },
+    {
+        "currencyCode": {
+            "type": "literal",
+            "value": "LYD"
+        },
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Libya"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "6871287"
+        },
+        "currency": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Libyan_dinar"
+        }
+    },
+    {
+        "currencyCode": {
+            "type": "literal",
+            "value": "KGS"
+        },
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Kyrgyzstan"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "6533500"
+        },
+        "currency": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Kyrgyzstani_som"
+        }
+    },
+    {
+        "currencyCode": {
+            "type": "literal",
+            "value": "NIO"
+        },
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Nicaragua"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "6486201"
+        },
+        "currency": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Nicaraguan_c\u00f3rdoba"
+        }
+    },
+    {
+        "currencyCode": {
+            "type": "literal",
+            "value": "SOS"
+        },
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Galmudug"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "6200000"
+        },
+        "currency": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Somali_shilling"
+        }
+    },
+    {
+        "currencyCode": {
+            "type": "literal",
+            "value": "ERN"
+        },
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Eritrea"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "6081196"
+        },
+        "currency": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Eritrean_nakfa"
+        }
+    },
+    {
+        "currencyCode": {
+            "type": "literal",
+            "value": "TMT"
+        },
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Turkmenistan"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "6031187"
+        },
+        "currency": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Turkmenistan_Manat"
+        }
+    },
+    {
+        "currencyCode": {
+            "type": "literal",
+            "value": "DKK"
+        },
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Denmark"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "5824857"
+        },
+        "currency": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Danish_krone"
+        }
+    },
+    {
+        "currencyCode": {
+            "type": "literal",
+            "value": "EUR"
+        },
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Finland"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "5528737"
+        },
+        "currency": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Euro"
+        }
+    },
+    {
+        "currencyCode": {
+            "type": "literal",
+            "value": "EUR"
+        },
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Slovakia"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "5457926"
+        },
+        "currency": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Euro_sign"
+        }
+    },
+    {
+        "currencyCode": {
+            "type": "literal",
+            "value": "NOK"
+        },
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Norway"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "5432580"
+        },
+        "currency": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Norwegian_krone"
+        }
+    },
+    {
+        "currencyCode": {
+            "type": "literal",
+            "value": "EUR"
+        },
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Republic_of_Ireland"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "4977400"
+        },
+        "currency": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Euro"
+        }
+    },
+    {
+        "currencyCode": {
+            "type": "literal",
+            "value": "KWD"
+        },
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Kuwait"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "4420110"
+        },
+        "currency": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Kuwaiti_dinar"
+        }
+    },
+    {
+        "currencyCode": {
+            "type": "literal",
+            "value": "SOS"
+        },
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Puntland"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "4285000"
+        },
+        "currency": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Somali_shilling"
+        }
+    },
+    {
+        "currencyCode": {
+            "type": "literal",
+            "value": "HRK"
+        },
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Croatia"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "4058165"
+        },
+        "currency": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Croatian_kuna"
+        }
+    },
+    {
+        "currencyCode": {
+            "type": "literal",
+            "value": "UYU"
+        },
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Uruguay"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "3518552"
+        },
+        "currency": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Uruguayan_peso"
+        }
+    },
+    {
+        "currencyCode": {
+            "type": "literal",
+            "value": "MNT"
+        },
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Mongolia"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "3353470"
+        },
+        "currency": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Mongolian_t\u00f6gr\u00f6g"
+        }
+    },
+    {
+        "currencyCode": {
+            "type": "literal",
+            "value": "BAM"
+        },
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Bosnia_and_Herzegovina"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "3301000"
+        },
+        "currency": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Bosnia_and_Herzegovina_convertible_mark"
+        }
+    },
+    {
+        "currencyCode": {
+            "type": "literal",
+            "value": "AMD"
+        },
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Armenia"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "2956900"
+        },
+        "currency": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Armenian_dram"
+        }
+    },
+    {
+        "currencyCode": {
+            "type": "literal",
+            "value": "AMD"
+        },
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Armenia"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "2956900"
+        },
+        "currency": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Armenian_dram_sign"
+        }
+    },
+    {
+        "currencyCode": {
+            "type": "literal",
+            "value": "ALL"
+        },
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Albania"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "2845955"
+        },
+        "currency": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Albanian_lek"
+        }
+    },
+    {
+        "currencyCode": {
+            "type": "literal",
+            "value": "QAR"
+        },
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Qatar"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "2795484"
+        },
+        "currency": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Qatari_riyal"
+        }
+    },
+    {
+        "currencyCode": {
+            "type": "literal",
+            "value": "EUR"
+        },
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Lithuania"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "2794329"
+        },
+        "currency": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Euro"
+        }
+    },
+    {
+        "currencyCode": {
+            "type": "literal",
+            "value": "JMD"
+        },
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Jamaica"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "2726667"
+        },
+        "currency": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Jamaican_dollar"
+        }
+    },
+    {
+        "currencyCode": {
+            "type": "literal",
+            "value": "MDL"
+        },
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Moldova"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "2640438"
+        },
+        "currency": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Moldovan_leu"
+        }
+    },
+    {
+        "currencyCode": {
+            "type": "literal",
+            "value": "GMD"
+        },
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/The_Gambia"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "2173999"
+        },
+        "currency": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Gambian_dalasi"
+        }
+    },
+    {
+        "currencyCode": {
+            "type": "literal",
+            "value": "EUR"
+        },
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Slovenia"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "2095861"
+        },
+        "currency": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Euro"
+        }
+    },
+    {
+        "currencyCode": {
+            "type": "literal",
+            "value": "MKD"
+        },
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/North_Macedonia"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "2077132"
+        },
+        "currency": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Macedonian_denar"
+        }
+    },
+    {
+        "currencyCode": {
+            "type": "literal",
+            "value": "EUR"
+        },
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Latvia"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "1907675"
+        },
+        "currency": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Euro"
+        }
+    },
+    {
+        "currencyCode": {
+            "type": "literal",
+            "value": "EUR"
+        },
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Kosovo"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "1873160"
+        },
+        "currency": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Euro"
+        }
+    },
+    {
+        "currencyCode": {
+            "type": "literal",
+            "value": "SOS"
+        },
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Hirshabelle_State"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "1771636"
+        },
+        "currency": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Somali_shilling"
+        }
+    },
+    {
+        "currencyCode": {
+            "type": "literal",
+            "value": "UGX"
+        },
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Bunyoro"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "1400000"
+        },
+        "currency": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Ugandan_Shilling"
+        }
+    },
+    {
+        "currencyCode": {
+            "type": "literal",
+            "value": "TTD"
+        },
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Trinidad_and_Tobago"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "1363985"
+        },
+        "currency": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Trinidad_and_Tobago_dollar"
+        }
+    },
+    {
+        "currencyCode": {
+            "type": "literal",
+            "value": "SOS"
+        },
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Jubaland"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "1360633"
+        },
+        "currency": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Somali_shilling"
+        }
+    },
+    {
+        "currencyCode": {
+            "type": "literal",
+            "value": "EUR"
+        },
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Estonia"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "1328976"
+        },
+        "currency": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Euro"
+        }
+    },
+    {
+        "currencyCode": {
+            "type": "literal",
+            "value": "MUR"
+        },
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Mauritius"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "1265475"
+        },
+        "currency": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Mauritian_rupee"
+        }
+    },
+    {
+        "currencyCode": {
+            "type": "literal",
+            "value": "FJD"
+        },
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Fiji"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "926276"
+        },
+        "currency": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Fijian_dollar"
+        }
+    },
+    {
+        "currencyCode": {
+            "type": "literal",
+            "value": "DJF"
+        },
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Djibouti"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "921804"
+        },
+        "currency": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Djiboutian_franc"
+        }
+    },
+    {
+        "currencyCode": {
+            "type": "literal",
+            "value": "KMF"
+        },
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Comoros"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "850688"
+        },
+        "currency": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Comorian_franc"
+        }
+    },
+    {
+        "currencyCode": {
+            "type": "literal",
+            "value": "SOS"
+        },
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Himan_and_Heeb"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "811918"
+        },
+        "currency": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Somali_shilling"
+        }
+    },
+    {
+        "currencyCode": {
+            "type": "literal",
+            "value": "GYD"
+        },
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Guyana"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "786391"
+        },
+        "currency": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Guyanese_dollar"
+        }
+    },
+    {
+        "currencyCode": {
+            "type": "literal",
+            "value": "EUR"
+        },
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Twente"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "626586"
+        },
+        "currency": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Euro"
+        }
+    },
+    {
+        "currencyCode": {
+            "type": "literal",
+            "value": "EUR"
+        },
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Luxembourg"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "626108"
+        },
+        "currency": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Euro"
+        }
+    },
+    {
+        "currencyCode": {
+            "type": "literal",
+            "value": "EUR"
+        },
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Montenegro"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "622359"
+        },
+        "currency": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Euro"
+        }
+    },
+    {
+        "currencyCode": {
+            "type": "literal",
+            "value": "EUR"
+        },
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Malta"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "514564"
+        },
+        "currency": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Euro"
+        }
+    },
+    {
+        "currencyCode": {
+            "type": "literal",
+            "value": "PRB"
+        },
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Transnistria"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "469000"
+        },
+        "currency": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Transnistrian_ruble"
+        }
+    },
+    {
+        "currencyCode": {
+            "type": "literal",
+            "value": "BND"
+        },
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Brunei"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "459500"
+        },
+        "currency": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Brunei_dollar"
+        }
+    },
+    {
+        "currencyCode": {
+            "type": "literal",
+            "value": "AZN"
+        },
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Nakhchivan_Autonomous_Republic"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "456100"
+        },
+        "currency": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Azerbaijan_manat"
+        }
+    },
+    {
+        "currencyCode": {
+            "type": "literal",
+            "value": "BZD"
+        },
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Belize"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "408487"
+        },
+        "currency": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Belize_dollar"
+        }
+    },
+    {
+        "currencyCode": {
+            "type": "literal",
+            "value": "MVR"
+        },
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Maldives"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "379270"
+        },
+        "currency": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Maldivian_rufiyaa"
+        }
+    },
+    {
+        "currencyCode": {
+            "type": "literal",
+            "value": "ISK"
+        },
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Iceland"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "364134"
+        },
+        "currency": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Icelandic_kr\u00f3na"
+        }
+    },
+    {
+        "currencyCode": {
+            "type": "literal",
+            "value": "VUV"
+        },
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Vanuatu"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "307815"
+        },
+        "currency": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Vanuatu_vatu"
+        }
+    },
+    {
+        "currencyCode": {
+            "type": "literal",
+            "value": "BBD"
+        },
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Barbados"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "287025"
+        },
+        "currency": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Barbadian_dollar"
+        }
+    },
+    {
+        "currencyCode": {
+            "type": "literal",
+            "value": "PGK"
+        },
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Autonomous_Region_of_Bougainville"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "249358"
+        },
+        "currency": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Papua_New_Guinean_kina"
+        }
+    },
+    {
+        "currencyCode": {
+            "type": "literal",
+            "value": "RUB"
+        },
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Abkhazia"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "245246"
+        },
+        "currency": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Russian_ruble"
+        }
+    },
+    {
+        "currencyCode": {
+            "type": "literal",
+            "value": "RUB"
+        },
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Abkhazia"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "245246"
+        },
+        "currency": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Abkhazian_apsar"
+        }
+    },
+    {
+        "currencyCode": {
+            "type": "literal",
+            "value": "AUD"
+        },
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Kiribati"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "123346"
+        },
+        "currency": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Australian_dollar"
+        }
+    },
+    {
+        "currencyCode": {
+            "type": "literal",
+            "value": "USD"
+        },
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Federated_States_of_Micronesia"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "104468"
+        },
+        "currency": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/United_States_dollar"
+        }
+    },
+    {
+        "currencyCode": {
+            "type": "literal",
+            "value": "EUR"
+        },
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Andorra"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "77543"
+        },
+        "currency": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Euro"
+        }
+    },
+    {
+        "currencyCode": {
+            "type": "literal",
+            "value": "CHF"
+        },
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Liechtenstein"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "38749"
+        },
+        "currency": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Swiss_franc"
+        }
+    },
+    {
+        "currencyCode": {
+            "type": "literal",
+            "value": "EUR"
+        },
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Monaco"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "38300"
+        },
+        "currency": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Euro"
+        }
+    },
+    {
+        "currencyCode": {
+            "type": "literal",
+            "value": "EUR"
+        },
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/San_Marino"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "34232"
+        },
+        "currency": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Euro"
+        }
+    },
+    {
+        "currencyCode": {
+            "type": "literal",
+            "value": "AUD"
+        },
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Tuvalu"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "11646"
+        },
+        "currency": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Australian_dollar"
+        }
+    },
+    {
+        "currencyCode": {
+            "type": "literal",
+            "value": "AUD"
+        },
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Tuvalu"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "11646"
+        },
+        "currency": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Tuvaluan_dollar"
+        }
+    },
+    {
+        "currencyCode": {
+            "type": "literal",
+            "value": "XCD"
+        },
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Carriacou_and_Petite_Martinique"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "6081"
+        },
+        "currency": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/East_Caribbean_dollar"
+        }
+    },
+    {
+        "currencyCode": {
+            "type": "literal",
+            "value": "EUR"
+        },
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Kerguelen_Islands"
+        },
+        "population": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+            "value": "45"
+        },
+        "currency": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Euro"
         }
     }
 ]

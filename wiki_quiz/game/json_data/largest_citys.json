@@ -2307,7 +2307,7 @@
         "cityLabel": {
             "xml:lang": "en",
             "type": "literal",
-            "value": "New Taipei City"
+            "value": "New Taipei"
         },
         "population": {
             "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
@@ -3399,7 +3399,7 @@
         "cityLabel": {
             "xml:lang": "en",
             "type": "literal",
-            "value": "\u014csaka"
+            "value": "Osaka"
         },
         "population": {
             "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
@@ -3747,7 +3747,7 @@
         "cityLabel": {
             "xml:lang": "en",
             "type": "literal",
-            "value": "Luohe"
+            "value": "Qingyang"
         },
         "population": {
             "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
@@ -3759,7 +3759,7 @@
         "cityLabel": {
             "xml:lang": "en",
             "type": "literal",
-            "value": "Qingyang"
+            "value": "Luohe"
         },
         "population": {
             "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
@@ -3963,7 +3963,7 @@
         "cityLabel": {
             "xml:lang": "en",
             "type": "literal",
-            "value": "Dandong"
+            "value": "Shangluo"
         },
         "population": {
             "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
@@ -3975,7 +3975,7 @@
         "cityLabel": {
             "xml:lang": "en",
             "type": "literal",
-            "value": "Shangluo"
+            "value": "Dandong"
         },
         "population": {
             "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
@@ -4371,7 +4371,7 @@
         "cityLabel": {
             "xml:lang": "en",
             "type": "literal",
-            "value": "Jincheng"
+            "value": "Mogadishu"
         },
         "population": {
             "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
@@ -4383,7 +4383,7 @@
         "cityLabel": {
             "xml:lang": "en",
             "type": "literal",
-            "value": "Mogadishu"
+            "value": "Jincheng"
         },
         "population": {
             "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
@@ -6231,6 +6231,18 @@
         "cityLabel": {
             "xml:lang": "en",
             "type": "literal",
+            "value": "Prague"
+        },
+        "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "1335084"
+        }
+    },
+    {
+        "cityLabel": {
+            "xml:lang": "en",
+            "type": "literal",
             "value": "Zapopan"
         },
         "population": {
@@ -6261,18 +6273,6 @@
             "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
             "type": "literal",
             "value": "1324781"
-        }
-    },
-    {
-        "cityLabel": {
-            "xml:lang": "en",
-            "type": "literal",
-            "value": "Prague"
-        },
-        "population": {
-            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
-            "type": "literal",
-            "value": "1324277"
         }
     },
     {
@@ -7749,6 +7749,18 @@
             "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
             "type": "literal",
             "value": "1039205"
+        }
+    },
+    {
+        "cityLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Bok\u00e9 Region"
+        },
+        "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "1036700"
         }
     },
     {
@@ -11319,7 +11331,7 @@
         "cityLabel": {
             "xml:lang": "en",
             "type": "literal",
-            "value": "Portland"
+            "value": "Joinville"
         },
         "population": {
             "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
@@ -11985,18 +11997,6 @@
             "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
             "type": "literal",
             "value": "550000"
-        }
-    },
-    {
-        "cityLabel": {
-            "xml:lang": "en",
-            "type": "literal",
-            "value": "Quebec City"
-        },
-        "population": {
-            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
-            "type": "literal",
-            "value": "549937"
         }
     }
 ]

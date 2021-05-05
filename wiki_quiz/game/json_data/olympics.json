@@ -2,11 +2,11 @@
     {
         "country": {
             "type": "uri",
-            "value": "http://dbpedia.org/resource/Netherlands"
+            "value": "http://dbpedia.org/resource/China"
         },
         "olympic": {
             "type": "literal",
-            "value": "1928 Summer"
+            "value": "2022 Winter"
         }
     },
     {
@@ -16,17 +16,17 @@
         },
         "olympic": {
             "type": "literal",
-            "value": "1948 Winter"
+            "value": "2020 Winter Youth"
         }
     },
     {
         "country": {
             "type": "uri",
-            "value": "http://dbpedia.org/resource/Finland"
+            "value": "http://dbpedia.org/resource/South_Korea"
         },
         "olympic": {
             "type": "literal",
-            "value": "1952 Summer"
+            "value": "2018 Winter"
         }
     },
     {
@@ -36,97 +36,27 @@
         },
         "olympic": {
             "type": "literal",
-            "value": "1952 Winter"
+            "value": "2016 Winter Youth"
         }
     },
     {
         "country": {
             "type": "uri",
-            "value": "http://dbpedia.org/resource/Australia"
+            "value": "http://dbpedia.org/resource/Brazil"
         },
         "olympic": {
             "type": "literal",
-            "value": "1956 Summer"
+            "value": "2016 Summer"
         }
     },
     {
         "country": {
             "type": "uri",
-            "value": "http://dbpedia.org/resource/Italy"
+            "value": "http://dbpedia.org/resource/Russia"
         },
         "olympic": {
             "type": "literal",
-            "value": "1956 Winter"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Italy"
-        },
-        "olympic": {
-            "type": "literal",
-            "value": "1960 Summer"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/United_States"
-        },
-        "olympic": {
-            "type": "literal",
-            "value": "1960 Winter"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Japan"
-        },
-        "olympic": {
-            "type": "literal",
-            "value": "1964 Summer"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Austria"
-        },
-        "olympic": {
-            "type": "literal",
-            "value": "1964 Winter"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Mexico"
-        },
-        "olympic": {
-            "type": "literal",
-            "value": "1968 Summer"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/France"
-        },
-        "olympic": {
-            "type": "literal",
-            "value": "1968 Winter"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Japan"
-        },
-        "olympic": {
-            "type": "literal",
-            "value": "1972 Winter"
+            "value": "2014 Winter"
         }
     },
     {
@@ -136,7 +66,67 @@
         },
         "olympic": {
             "type": "literal",
-            "value": "1976 Summer"
+            "value": "2010 Winter"
+        }
+    },
+    {
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Italy"
+        },
+        "olympic": {
+            "type": "literal",
+            "value": "2006 Winter"
+        }
+    },
+    {
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/United_States"
+        },
+        "olympic": {
+            "type": "literal",
+            "value": "2002 Winter"
+        }
+    },
+    {
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Japan"
+        },
+        "olympic": {
+            "type": "literal",
+            "value": "1998 Winter"
+        }
+    },
+    {
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Norway"
+        },
+        "olympic": {
+            "type": "literal",
+            "value": "1994 Winter"
+        }
+    },
+    {
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/France"
+        },
+        "olympic": {
+            "type": "literal",
+            "value": "1992 Winter"
+        }
+    },
+    {
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Canada"
+        },
+        "olympic": {
+            "type": "literal",
+            "value": "1988 Winter"
         }
     },
     {
@@ -156,27 +146,7 @@
         },
         "olympic": {
             "type": "literal",
-            "value": "1988 Winter"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/France"
-        },
-        "olympic": {
-            "type": "literal",
-            "value": "1992 Winter"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Norway"
-        },
-        "olympic": {
-            "type": "literal",
-            "value": "1994 Winter"
+            "value": "1976 Summer"
         }
     },
     {
@@ -186,7 +156,47 @@
         },
         "olympic": {
             "type": "literal",
-            "value": "1998 Winter"
+            "value": "1972 Winter"
+        }
+    },
+    {
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/France"
+        },
+        "olympic": {
+            "type": "literal",
+            "value": "1968 Winter"
+        }
+    },
+    {
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Mexico"
+        },
+        "olympic": {
+            "type": "literal",
+            "value": "1968 Summer"
+        }
+    },
+    {
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Austria"
+        },
+        "olympic": {
+            "type": "literal",
+            "value": "1964 Winter"
+        }
+    },
+    {
+        "country": {
+            "type": "uri",
+            "value": "http://dbpedia.org/resource/Japan"
+        },
+        "olympic": {
+            "type": "literal",
+            "value": "1964 Summer"
         }
     },
     {
@@ -196,7 +206,7 @@
         },
         "olympic": {
             "type": "literal",
-            "value": "2002 Winter"
+            "value": "1960 Winter"
         }
     },
     {
@@ -206,37 +216,27 @@
         },
         "olympic": {
             "type": "literal",
-            "value": "2006 Winter"
+            "value": "1960 Summer"
         }
     },
     {
         "country": {
             "type": "uri",
-            "value": "http://dbpedia.org/resource/Canada"
+            "value": "http://dbpedia.org/resource/Italy"
         },
         "olympic": {
             "type": "literal",
-            "value": "2010 Winter"
+            "value": "1956 Winter"
         }
     },
     {
         "country": {
             "type": "uri",
-            "value": "http://dbpedia.org/resource/Russia"
+            "value": "http://dbpedia.org/resource/Australia"
         },
         "olympic": {
             "type": "literal",
-            "value": "2014 Winter"
-        }
-    },
-    {
-        "country": {
-            "type": "uri",
-            "value": "http://dbpedia.org/resource/Brazil"
-        },
-        "olympic": {
-            "type": "literal",
-            "value": "2016 Summer"
+            "value": "1956 Summer"
         }
     },
     {
@@ -246,17 +246,17 @@
         },
         "olympic": {
             "type": "literal",
-            "value": "2016 Winter Youth"
+            "value": "1952 Winter"
         }
     },
     {
         "country": {
             "type": "uri",
-            "value": "http://dbpedia.org/resource/South_Korea"
+            "value": "http://dbpedia.org/resource/Finland"
         },
         "olympic": {
             "type": "literal",
-            "value": "2018 Winter"
+            "value": "1952 Summer"
         }
     },
     {
@@ -266,17 +266,17 @@
         },
         "olympic": {
             "type": "literal",
-            "value": "2020 Winter Youth"
+            "value": "1948 Winter"
         }
     },
     {
         "country": {
             "type": "uri",
-            "value": "http://dbpedia.org/resource/China"
+            "value": "http://dbpedia.org/resource/Netherlands"
         },
         "olympic": {
             "type": "literal",
-            "value": "2022 Winter"
+            "value": "1928 Summer"
         }
     }
 ]

@@ -33,7 +33,7 @@ def movie_length_question(data: list) -> Question:
     answers = []
     for element in data:
         movie = get_resource_url(element, "movieLabel")
-        runtime = int(get_resource_url(element, "length"))
+        runtime = int(get_resource_url(element, "lengthLabel"))
 
         answers.append({"movie": movie, "runtime": runtime})
     
@@ -55,11 +55,11 @@ def academy_awards_movie_question(data: list) -> Question:
         movie = get_resource_url(element, "movieLabel")
 
         if i == 0:
-            question_text = f"How many academy awards have the movie {movie} wone?"
-            answers.append(Answer(award_count, True, f"That is correct, the movie {movie} has wone {award_count} academy awards."))
+            question_text = f"How many academy awards have the movie {movie} won?"
+            answers.append(Answer(award_count, True, f"That is correct, the movie {movie} has won {award_count} academy awards."))
         
         else:
-            answers.append(Answer(award_count, False, f"That is incorrect, the movie {movie} has wone {award_count} academy awards."))
+            answers.append(Answer(award_count, False, f"That is incorrect, the movie {movie} has won {award_count} academy awards."))
         
     shuffle(answers)
     return Question(question_text, answers)
@@ -73,11 +73,11 @@ def academy_awards_person_question(data: list) -> Question:
         person = get_resource_url(element, "actorLabel")
 
         if i == 0:
-            question_text = f"How many academy awards have {person} wone?"
-            answers.append(Answer(award_count, True, f"That is correct, {person} has wone {award_count} academy awards."))
+            question_text = f"How many academy awards have {person} won?"
+            answers.append(Answer(award_count, True, f"That is correct, {person} has won {award_count} academy awards."))
         
         else:
-            answers.append(Answer(award_count, False, f"That is incorrect, {person} has wone {award_count} academy awards."))
+            answers.append(Answer(award_count, False, f"That is incorrect, {person} has won {award_count} academy awards."))
         
     shuffle(answers)
     return Question(question_text, answers)
