@@ -1,1 +1,1 @@
-web: gunicorn wiki_quiz.wsgi
+web: gunicorn wiki_quiz.wsgi:application
