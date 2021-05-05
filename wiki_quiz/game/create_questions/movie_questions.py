@@ -33,7 +33,7 @@ def movie_length_question(data: list) -> Question:
     answers = []
     for element in data:
         movie = get_resource_url(element, "movieLabel")
-        runtime = int(get_resource_url(element, "lengthLabel"))
+        runtime = round(float(get_resource_url(element, "lengthLabel")))
 
         answers.append({"movie": movie, "runtime": runtime})
     
