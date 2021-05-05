@@ -68,7 +68,7 @@ def island_question(data: list) -> Question:
         island = get_resource_url(element, 'island')
 
         if i == 0:
-            question_text = f'What country is the island {island} located in?'
+            question_text = f'In what country is the island {island} located in?'
             answer_text = f'That is correct, the island {island} is located in {country}.'
             answers.append(Answer(country, True, answer_text))
 
@@ -131,7 +131,7 @@ def country_neighbors_question(data: list) -> Question:
         end_country = get_resource_url(element, "endLabel")
 
         if i == 0:
-            question_text = f"What country connects {start_country} and {end_country}?"
+            question_text = f"What common neighbour does {start_country} and {end_country} have?"
             answers_text = f"That is correct, {middle_country} connects {start_country} and {end_country}."
             answers.append(Answer(middle_country, True, answers_text))
 
