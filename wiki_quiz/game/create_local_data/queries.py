@@ -76,7 +76,7 @@ queries = {
             ORDER BY DESC (?area)
             LIMIT(100)
         """,
-    #Some mountains missing height
+    #Some mountains missing height, uses regex on ranking to get 100 highest mountains
     "mountain": 
         """
             SELECT DISTINCT ?mountain ?height ?rank ?country 
@@ -207,18 +207,23 @@ queries = {
             order by desc(?count)
         """,
     
+    #Filters by strlen so that we get movies with more than one actor.
     "actors":
         """
-            SELECT DISTINCT ?movieLabel (GROUP_CONCAT(?actorLabel;separator=",") as ?actors)  
-            WHERE {
-                SELECT ?movieLabel ?actorLabel WHERE {
-                    ?movie wdt:P31 wd:Q11424.
-                    ?movie wdt:P166 ?award.
-                    ?award wdt:P31 wd:Q19020.
-                    ?movie wdt:P161 ?actor.
-                    SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en". }
-                }
-            } GROUP BY ?movieLabel
+            SELECT ?movieLabel ?actors WHERE {
+                {SELECT DISTINCT ?movieLabel (GROUP_CONCAT(?actorLabel;separator=",") as ?actors)  
+                WHERE {
+                    SELECT ?movieLabel ?actorLabel 
+                    WHERE {
+                        ?movie wdt:P31 wd:Q11424.
+                        ?movie wdt:P166 ?award.
+                        ?award wdt:P31 wd:Q19020.
+                        ?movie wdt:P161 ?actor.
+                        SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en". }
+                    }
+                } GROUP BY ?movieLabel}
+            filter(strlen(?actors) > 24)
+            }
         """,
 
     "release_year":
@@ -235,6 +240,7 @@ queries = {
             order by desc(?count)
         """,
     
+    #binds the variable bool to true or false depending if an actors parent is also an actor
     "actor_has_actor_parent":
         """ 
             SELECT DISTINCT ?actorLabel ?bool (count(?actor) as ?count)
