@@ -3,22 +3,176 @@
         "pop": {
             "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
             "type": "literal",
-            "value": "210147125"
+            "value": "1409517397"
         },
-        "start_countryLabel": {
+        "startLabel": {
             "xml:lang": "en",
             "type": "literal",
-            "value": "Germany"
+            "value": "Norway"
         },
-        "middle_countryLabel": {
+        "middleLabel": {
             "xml:lang": "en",
             "type": "literal",
-            "value": "France"
+            "value": "Russia"
         },
-        "end_countryLabel": {
+        "endLabel": {
             "xml:lang": "en",
             "type": "literal",
-            "value": "Brazil"
+            "value": "People's Republic of China"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "1409517397"
+        },
+        "startLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Iran"
+        },
+        "middleLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Pakistan"
+        },
+        "endLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "People's Republic of China"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "1409517397"
+        },
+        "startLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Iran"
+        },
+        "middleLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Afghanistan"
+        },
+        "endLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "People's Republic of China"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "1409517397"
+        },
+        "startLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Finland"
+        },
+        "middleLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Russia"
+        },
+        "endLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "People's Republic of China"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "1326093247"
+        },
+        "startLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Iran"
+        },
+        "middleLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Pakistan"
+        },
+        "endLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "India"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "216565318"
+        },
+        "startLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Turkey"
+        },
+        "middleLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Iran"
+        },
+        "endLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Pakistan"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "216565318"
+        },
+        "startLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Iran"
+        },
+        "middleLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Afghanistan"
+        },
+        "endLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Pakistan"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "216565318"
+        },
+        "startLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Iraq"
+        },
+        "middleLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Iran"
+        },
+        "endLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Pakistan"
         }
     },
     {
@@ -27,17 +181,17 @@
             "type": "literal",
             "value": "146804372"
         },
-        "start_countryLabel": {
+        "startLabel": {
             "xml:lang": "en",
             "type": "literal",
-            "value": "Germany"
+            "value": "Norway"
         },
-        "middle_countryLabel": {
+        "middleLabel": {
             "xml:lang": "en",
             "type": "literal",
-            "value": "Poland"
+            "value": "Finland"
         },
-        "end_countryLabel": {
+        "endLabel": {
             "xml:lang": "en",
             "type": "literal",
             "value": "Russia"
@@ -47,22 +201,638 @@
         "pop": {
             "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
             "type": "literal",
-            "value": "66628000"
+            "value": "146804372"
         },
-        "start_countryLabel": {
+        "startLabel": {
             "xml:lang": "en",
             "type": "literal",
-            "value": "Germany"
+            "value": "Turkey"
         },
-        "middle_countryLabel": {
+        "middleLabel": {
             "xml:lang": "en",
             "type": "literal",
-            "value": "Belgium"
+            "value": "Azerbaijan"
         },
-        "end_countryLabel": {
+        "endLabel": {
             "xml:lang": "en",
             "type": "literal",
-            "value": "France"
+            "value": "Russia"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "146804372"
+        },
+        "startLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Turkey"
+        },
+        "middleLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Georgia"
+        },
+        "endLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Russia"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "146804372"
+        },
+        "startLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Iran"
+        },
+        "middleLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Azerbaijan"
+        },
+        "endLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Russia"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "146804372"
+        },
+        "startLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Finland"
+        },
+        "middleLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Norway"
+        },
+        "endLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Russia"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "104957438"
+        },
+        "startLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Egypt"
+        },
+        "middleLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Sudan"
+        },
+        "endLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Ethiopia"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "94798827"
+        },
+        "startLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Lebanon"
+        },
+        "middleLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Israel"
+        },
+        "endLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Egypt"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "94798827"
+        },
+        "startLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Syria"
+        },
+        "middleLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Israel"
+        },
+        "endLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Egypt"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "94798827"
+        },
+        "startLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Jordan"
+        },
+        "middleLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Israel"
+        },
+        "endLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Egypt"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "83614362"
+        },
+        "startLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Iran"
+        },
+        "middleLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Azerbaijan"
+        },
+        "endLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Turkey"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "83614362"
+        },
+        "startLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Iran"
+        },
+        "middleLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Armenia"
+        },
+        "endLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Turkey"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "83614362"
+        },
+        "startLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Iran"
+        },
+        "middleLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Iraq"
+        },
+        "endLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Turkey"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "83614362"
+        },
+        "startLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Iraq"
+        },
+        "middleLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Iran"
+        },
+        "endLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Turkey"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "83614362"
+        },
+        "startLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Saudi Arabia"
+        },
+        "middleLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Iraq"
+        },
+        "endLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Turkey"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "83614362"
+        },
+        "startLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Iraq"
+        },
+        "middleLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Syria"
+        },
+        "endLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Turkey"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "83614362"
+        },
+        "startLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Syria"
+        },
+        "middleLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Iraq"
+        },
+        "endLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Turkey"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "83614362"
+        },
+        "startLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Israel"
+        },
+        "middleLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Syria"
+        },
+        "endLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Turkey"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "83614362"
+        },
+        "startLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Jordan"
+        },
+        "middleLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Iraq"
+        },
+        "endLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Turkey"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "83614362"
+        },
+        "startLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Jordan"
+        },
+        "middleLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Syria"
+        },
+        "endLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Turkey"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "83614362"
+        },
+        "startLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Kuwait"
+        },
+        "middleLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Iraq"
+        },
+        "endLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Turkey"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "83614362"
+        },
+        "startLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Lebanon"
+        },
+        "middleLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Syria"
+        },
+        "endLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Turkey"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "79966230"
+        },
+        "startLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Turkey"
+        },
+        "middleLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Azerbaijan"
+        },
+        "endLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Iran"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "79966230"
+        },
+        "startLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Turkey"
+        },
+        "middleLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Armenia"
+        },
+        "endLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Iran"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "79966230"
+        },
+        "startLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Turkey"
+        },
+        "middleLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Iraq"
+        },
+        "endLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Iran"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "79966230"
+        },
+        "startLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Iraq"
+        },
+        "middleLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Turkey"
+        },
+        "endLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Iran"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "79966230"
+        },
+        "startLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Saudi Arabia"
+        },
+        "middleLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Iraq"
+        },
+        "endLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Iran"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "79966230"
+        },
+        "startLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Syria"
+        },
+        "middleLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Turkey"
+        },
+        "endLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Iran"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "79966230"
+        },
+        "startLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Syria"
+        },
+        "middleLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Iraq"
+        },
+        "endLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Iran"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "79966230"
+        },
+        "startLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Jordan"
+        },
+        "middleLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Iraq"
+        },
+        "endLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Iran"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "79966230"
+        },
+        "startLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Kuwait"
+        },
+        "middleLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Iraq"
+        },
+        "endLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Iran"
         }
     },
     {
@@ -71,130 +841,42 @@
             "type": "literal",
             "value": "66628000"
         },
-        "start_countryLabel": {
+        "startLabel": {
             "xml:lang": "en",
             "type": "literal",
-            "value": "Germany"
+            "value": "Cyprus"
         },
-        "middle_countryLabel": {
-            "xml:lang": "en",
-            "type": "literal",
-            "value": "Luxembourg"
-        },
-        "end_countryLabel": {
-            "xml:lang": "en",
-            "type": "literal",
-            "value": "France"
-        }
-    },
-    {
-        "pop": {
-            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
-            "type": "literal",
-            "value": "66628000"
-        },
-        "start_countryLabel": {
-            "xml:lang": "en",
-            "type": "literal",
-            "value": "Germany"
-        },
-        "middle_countryLabel": {
-            "xml:lang": "en",
-            "type": "literal",
-            "value": "Switzerland"
-        },
-        "end_countryLabel": {
-            "xml:lang": "en",
-            "type": "literal",
-            "value": "France"
-        }
-    },
-    {
-        "pop": {
-            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
-            "type": "literal",
-            "value": "66022273"
-        },
-        "start_countryLabel": {
-            "xml:lang": "en",
-            "type": "literal",
-            "value": "Germany"
-        },
-        "middle_countryLabel": {
-            "xml:lang": "en",
-            "type": "literal",
-            "value": "France"
-        },
-        "end_countryLabel": {
+        "middleLabel": {
             "xml:lang": "en",
             "type": "literal",
             "value": "United Kingdom"
-        }
-    },
-    {
-        "pop": {
-            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
-            "type": "literal",
-            "value": "60317000"
         },
-        "start_countryLabel": {
-            "xml:lang": "en",
-            "type": "literal",
-            "value": "Germany"
-        },
-        "middle_countryLabel": {
-            "xml:lang": "en",
-            "type": "literal",
-            "value": "Switzerland"
-        },
-        "end_countryLabel": {
-            "xml:lang": "en",
-            "type": "literal",
-            "value": "Italy"
-        }
-    },
-    {
-        "pop": {
-            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
-            "type": "literal",
-            "value": "60317000"
-        },
-        "start_countryLabel": {
-            "xml:lang": "en",
-            "type": "literal",
-            "value": "Germany"
-        },
-        "middle_countryLabel": {
-            "xml:lang": "en",
-            "type": "literal",
-            "value": "Austria"
-        },
-        "end_countryLabel": {
-            "xml:lang": "en",
-            "type": "literal",
-            "value": "Italy"
-        }
-    },
-    {
-        "pop": {
-            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
-            "type": "literal",
-            "value": "60317000"
-        },
-        "start_countryLabel": {
-            "xml:lang": "en",
-            "type": "literal",
-            "value": "Germany"
-        },
-        "middle_countryLabel": {
+        "endLabel": {
             "xml:lang": "en",
             "type": "literal",
             "value": "France"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "48468138"
         },
-        "end_countryLabel": {
+        "startLabel": {
             "xml:lang": "en",
             "type": "literal",
-            "value": "Italy"
+            "value": "Egypt"
+        },
+        "middleLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Sudan"
+        },
+        "endLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Kenya"
         }
     },
     {
@@ -203,17 +885,17 @@
             "type": "literal",
             "value": "46733038"
         },
-        "start_countryLabel": {
+        "startLabel": {
             "xml:lang": "en",
             "type": "literal",
-            "value": "Germany"
+            "value": "Cyprus"
         },
-        "middle_countryLabel": {
+        "middleLabel": {
             "xml:lang": "en",
             "type": "literal",
-            "value": "France"
+            "value": "United Kingdom"
         },
-        "end_countryLabel": {
+        "endLabel": {
             "xml:lang": "en",
             "type": "literal",
             "value": "Spain"
@@ -223,19 +905,41 @@
         "pop": {
             "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
             "type": "literal",
+            "value": "42862958"
+        },
+        "startLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Egypt"
+        },
+        "middleLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Sudan"
+        },
+        "endLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Uganda"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
             "value": "42558328"
         },
-        "start_countryLabel": {
+        "startLabel": {
             "xml:lang": "en",
             "type": "literal",
-            "value": "Germany"
+            "value": "Norway"
         },
-        "middle_countryLabel": {
+        "middleLabel": {
             "xml:lang": "en",
             "type": "literal",
-            "value": "Poland"
+            "value": "Russia"
         },
-        "end_countryLabel": {
+        "endLabel": {
             "xml:lang": "en",
             "type": "literal",
             "value": "Ukraine"
@@ -245,19 +949,107 @@
         "pop": {
             "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
             "type": "literal",
+            "value": "42558328"
+        },
+        "startLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Finland"
+        },
+        "middleLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Russia"
+        },
+        "endLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Ukraine"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "41318142"
+        },
+        "startLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Egypt"
+        },
+        "middleLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Libya"
+        },
+        "endLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Algeria"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "40533330"
+        },
+        "startLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Egypt"
+        },
+        "middleLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Libya"
+        },
+        "endLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Sudan"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "40533330"
+        },
+        "startLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Israel"
+        },
+        "middleLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Egypt"
+        },
+        "endLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Sudan"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
             "value": "38382576"
         },
-        "start_countryLabel": {
+        "startLabel": {
             "xml:lang": "en",
             "type": "literal",
-            "value": "Germany"
+            "value": "Norway"
         },
-        "middle_countryLabel": {
+        "middleLabel": {
             "xml:lang": "en",
             "type": "literal",
-            "value": "Czech Republic"
+            "value": "Russia"
         },
-        "end_countryLabel": {
+        "endLabel": {
             "xml:lang": "en",
             "type": "literal",
             "value": "Poland"
@@ -267,286 +1059,2464 @@
         "pop": {
             "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
             "type": "literal",
-            "value": "17282163"
+            "value": "38382576"
         },
-        "start_countryLabel": {
+        "startLabel": {
             "xml:lang": "en",
             "type": "literal",
-            "value": "Germany"
+            "value": "Finland"
         },
-        "middle_countryLabel": {
+        "middleLabel": {
             "xml:lang": "en",
             "type": "literal",
-            "value": "Belgium"
+            "value": "Russia"
         },
-        "end_countryLabel": {
-            "xml:lang": "en",
-            "type": "literal",
-            "value": "Netherlands"
-        }
-    },
-    {
-        "pop": {
-            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
-            "type": "literal",
-            "value": "17100715"
-        },
-        "start_countryLabel": {
-            "xml:lang": "en",
-            "type": "literal",
-            "value": "Germany"
-        },
-        "middle_countryLabel": {
-            "xml:lang": "en",
-            "type": "literal",
-            "value": "Belgium"
-        },
-        "end_countryLabel": {
-            "xml:lang": "en",
-            "type": "literal",
-            "value": "Kingdom of the Netherlands"
-        }
-    },
-    {
-        "pop": {
-            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
-            "type": "literal",
-            "value": "17100715"
-        },
-        "start_countryLabel": {
-            "xml:lang": "en",
-            "type": "literal",
-            "value": "Germany"
-        },
-        "middle_countryLabel": {
-            "xml:lang": "en",
-            "type": "literal",
-            "value": "Netherlands"
-        },
-        "end_countryLabel": {
-            "xml:lang": "en",
-            "type": "literal",
-            "value": "Kingdom of the Netherlands"
-        }
-    },
-    {
-        "pop": {
-            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
-            "type": "literal",
-            "value": "17100715"
-        },
-        "start_countryLabel": {
-            "xml:lang": "en",
-            "type": "literal",
-            "value": "Germany"
-        },
-        "middle_countryLabel": {
-            "xml:lang": "en",
-            "type": "literal",
-            "value": "Netherlands"
-        },
-        "end_countryLabel": {
-            "xml:lang": "en",
-            "type": "literal",
-            "value": "Kingdom of the Netherlands"
-        }
-    },
-    {
-        "pop": {
-            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
-            "type": "literal",
-            "value": "17100715"
-        },
-        "start_countryLabel": {
-            "xml:lang": "en",
-            "type": "literal",
-            "value": "Germany"
-        },
-        "middle_countryLabel": {
-            "xml:lang": "en",
-            "type": "literal",
-            "value": "France"
-        },
-        "end_countryLabel": {
-            "xml:lang": "en",
-            "type": "literal",
-            "value": "Kingdom of the Netherlands"
-        }
-    },
-    {
-        "pop": {
-            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
-            "type": "literal",
-            "value": "15700000"
-        },
-        "start_countryLabel": {
-            "xml:lang": "en",
-            "type": "literal",
-            "value": "Germany"
-        },
-        "middle_countryLabel": {
+        "endLabel": {
             "xml:lang": "en",
             "type": "literal",
             "value": "Poland"
-        },
-        "end_countryLabel": {
-            "xml:lang": "en",
-            "type": "literal",
-            "value": "Czechoslovakia"
         }
     },
     {
         "pop": {
             "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
             "type": "literal",
-            "value": "11431406"
+            "value": "38274618"
         },
-        "start_countryLabel": {
+        "startLabel": {
             "xml:lang": "en",
             "type": "literal",
-            "value": "Germany"
+            "value": "Iran"
         },
-        "middle_countryLabel": {
+        "middleLabel": {
             "xml:lang": "en",
             "type": "literal",
-            "value": "Luxembourg"
+            "value": "Turkey"
         },
-        "end_countryLabel": {
+        "endLabel": {
             "xml:lang": "en",
             "type": "literal",
-            "value": "Belgium"
+            "value": "Iraq"
         }
     },
     {
         "pop": {
             "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
             "type": "literal",
-            "value": "11431406"
+            "value": "38274618"
         },
-        "start_countryLabel": {
+        "startLabel": {
             "xml:lang": "en",
             "type": "literal",
-            "value": "Germany"
+            "value": "Turkey"
         },
-        "middle_countryLabel": {
+        "middleLabel": {
             "xml:lang": "en",
             "type": "literal",
-            "value": "Netherlands"
+            "value": "Iran"
         },
-        "end_countryLabel": {
+        "endLabel": {
             "xml:lang": "en",
             "type": "literal",
-            "value": "Belgium"
+            "value": "Iraq"
         }
     },
     {
         "pop": {
             "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
             "type": "literal",
-            "value": "11431406"
+            "value": "38274618"
         },
-        "start_countryLabel": {
+        "startLabel": {
             "xml:lang": "en",
             "type": "literal",
-            "value": "Germany"
+            "value": "Turkey"
         },
-        "middle_countryLabel": {
+        "middleLabel": {
             "xml:lang": "en",
             "type": "literal",
-            "value": "Netherlands"
+            "value": "Syria"
         },
-        "end_countryLabel": {
+        "endLabel": {
             "xml:lang": "en",
             "type": "literal",
-            "value": "Belgium"
+            "value": "Iraq"
         }
     },
     {
         "pop": {
             "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
             "type": "literal",
-            "value": "11431406"
+            "value": "38274618"
         },
-        "start_countryLabel": {
+        "startLabel": {
             "xml:lang": "en",
             "type": "literal",
-            "value": "Germany"
+            "value": "Oman"
         },
-        "middle_countryLabel": {
+        "middleLabel": {
             "xml:lang": "en",
             "type": "literal",
-            "value": "France"
+            "value": "Saudi Arabia"
         },
-        "end_countryLabel": {
+        "endLabel": {
             "xml:lang": "en",
             "type": "literal",
-            "value": "Belgium"
+            "value": "Iraq"
         }
     },
     {
         "pop": {
             "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
             "type": "literal",
-            "value": "10701777"
+            "value": "38274618"
         },
-        "start_countryLabel": {
+        "startLabel": {
             "xml:lang": "en",
             "type": "literal",
-            "value": "Germany"
+            "value": "Qatar"
         },
-        "middle_countryLabel": {
+        "middleLabel": {
             "xml:lang": "en",
             "type": "literal",
-            "value": "Poland"
+            "value": "Saudi Arabia"
         },
-        "end_countryLabel": {
+        "endLabel": {
             "xml:lang": "en",
             "type": "literal",
-            "value": "Czech Republic"
+            "value": "Iraq"
         }
     },
     {
         "pop": {
             "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
             "type": "literal",
-            "value": "10701777"
+            "value": "38274618"
         },
-        "start_countryLabel": {
+        "startLabel": {
             "xml:lang": "en",
             "type": "literal",
-            "value": "Germany"
+            "value": "Saudi Arabia"
         },
-        "middle_countryLabel": {
+        "middleLabel": {
             "xml:lang": "en",
             "type": "literal",
-            "value": "Austria"
+            "value": "Kuwait"
         },
-        "end_countryLabel": {
+        "endLabel": {
             "xml:lang": "en",
             "type": "literal",
-            "value": "Czech Republic"
+            "value": "Iraq"
         }
     },
     {
         "pop": {
             "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
             "type": "literal",
-            "value": "9769526"
+            "value": "38274618"
         },
-        "start_countryLabel": {
+        "startLabel": {
             "xml:lang": "en",
             "type": "literal",
-            "value": "Germany"
+            "value": "Saudi Arabia"
         },
-        "middle_countryLabel": {
+        "middleLabel": {
             "xml:lang": "en",
             "type": "literal",
-            "value": "Austria"
+            "value": "Jordan"
         },
-        "end_countryLabel": {
+        "endLabel": {
             "xml:lang": "en",
             "type": "literal",
-            "value": "Hungary"
+            "value": "Iraq"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "38274618"
+        },
+        "startLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Syria"
+        },
+        "middleLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Turkey"
+        },
+        "endLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Iraq"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "38274618"
+        },
+        "startLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Syria"
+        },
+        "middleLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Jordan"
+        },
+        "endLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Iraq"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "38274618"
+        },
+        "startLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Israel"
+        },
+        "middleLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Jordan"
+        },
+        "endLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Iraq"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "38274618"
+        },
+        "startLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Israel"
+        },
+        "middleLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Syria"
+        },
+        "endLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Iraq"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "38274618"
+        },
+        "startLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Yemen"
+        },
+        "middleLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Saudi Arabia"
+        },
+        "endLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Iraq"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "38274618"
+        },
+        "startLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "United Arab Emirates"
+        },
+        "middleLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Saudi Arabia"
+        },
+        "endLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Iraq"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "38274618"
+        },
+        "startLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Jordan"
+        },
+        "middleLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Saudi Arabia"
+        },
+        "endLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Iraq"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "38274618"
+        },
+        "startLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Jordan"
+        },
+        "middleLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Syria"
+        },
+        "endLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Iraq"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "38274618"
+        },
+        "startLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Kuwait"
+        },
+        "middleLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Saudi Arabia"
+        },
+        "endLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Iraq"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "38274618"
+        },
+        "startLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Lebanon"
+        },
+        "middleLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Syria"
+        },
+        "endLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Iraq"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "36643815"
+        },
+        "startLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Turkey"
+        },
+        "middleLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Iran"
+        },
+        "endLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Afghanistan"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "36643815"
+        },
+        "startLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Iran"
+        },
+        "middleLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Pakistan"
+        },
+        "endLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Afghanistan"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "36643815"
+        },
+        "startLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Iran"
+        },
+        "middleLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Turkmenistan"
+        },
+        "endLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Afghanistan"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "36643815"
+        },
+        "startLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Iraq"
+        },
+        "middleLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Iran"
+        },
+        "endLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Afghanistan"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "33570609"
+        },
+        "startLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Iran"
+        },
+        "middleLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Turkmenistan"
+        },
+        "endLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Uzbekistan"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "33570609"
+        },
+        "startLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Iran"
+        },
+        "middleLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Afghanistan"
+        },
+        "endLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Uzbekistan"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "33000000"
+        },
+        "startLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Iran"
+        },
+        "middleLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Iraq"
+        },
+        "endLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Saudi Arabia"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "33000000"
+        },
+        "startLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Turkey"
+        },
+        "middleLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Iraq"
+        },
+        "endLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Saudi Arabia"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "33000000"
+        },
+        "startLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Oman"
+        },
+        "middleLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Yemen"
+        },
+        "endLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Saudi Arabia"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "33000000"
+        },
+        "startLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Oman"
+        },
+        "middleLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "United Arab Emirates"
+        },
+        "endLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Saudi Arabia"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "33000000"
+        },
+        "startLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Iraq"
+        },
+        "middleLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Jordan"
+        },
+        "endLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Saudi Arabia"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "33000000"
+        },
+        "startLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Iraq"
+        },
+        "middleLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Kuwait"
+        },
+        "endLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Saudi Arabia"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "33000000"
+        },
+        "startLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Syria"
+        },
+        "middleLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Iraq"
+        },
+        "endLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Saudi Arabia"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "33000000"
+        },
+        "startLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Syria"
+        },
+        "middleLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Jordan"
+        },
+        "endLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Saudi Arabia"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "33000000"
+        },
+        "startLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Israel"
+        },
+        "middleLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Jordan"
+        },
+        "endLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Saudi Arabia"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "33000000"
+        },
+        "startLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "United Arab Emirates"
+        },
+        "middleLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Oman"
+        },
+        "endLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Saudi Arabia"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "33000000"
+        },
+        "startLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Yemen"
+        },
+        "middleLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Oman"
+        },
+        "endLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Saudi Arabia"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "33000000"
+        },
+        "startLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Jordan"
+        },
+        "middleLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Iraq"
+        },
+        "endLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Saudi Arabia"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "33000000"
+        },
+        "startLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Kuwait"
+        },
+        "middleLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Iraq"
+        },
+        "endLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Saudi Arabia"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "28250420"
+        },
+        "startLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Oman"
+        },
+        "middleLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Saudi Arabia"
+        },
+        "endLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Yemen"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "28250420"
+        },
+        "startLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Qatar"
+        },
+        "middleLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Saudi Arabia"
+        },
+        "endLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Yemen"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "28250420"
+        },
+        "startLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Saudi Arabia"
+        },
+        "middleLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Oman"
+        },
+        "endLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Yemen"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "28250420"
+        },
+        "startLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Iraq"
+        },
+        "middleLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Saudi Arabia"
+        },
+        "endLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Yemen"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "28250420"
+        },
+        "startLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "United Arab Emirates"
+        },
+        "middleLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Oman"
+        },
+        "endLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Yemen"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "28250420"
+        },
+        "startLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "United Arab Emirates"
+        },
+        "middleLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Saudi Arabia"
+        },
+        "endLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Yemen"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "28250420"
+        },
+        "startLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Jordan"
+        },
+        "middleLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Saudi Arabia"
+        },
+        "endLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Yemen"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "28250420"
+        },
+        "startLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Kuwait"
+        },
+        "middleLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Saudi Arabia"
+        },
+        "endLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Yemen"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "25490965"
+        },
+        "startLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Norway"
+        },
+        "middleLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Russia"
+        },
+        "endLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "North Korea"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "25490965"
+        },
+        "startLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Finland"
+        },
+        "middleLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Russia"
+        },
+        "endLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "North Korea"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "21477348"
+        },
+        "startLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Egypt"
+        },
+        "middleLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Libya"
+        },
+        "endLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Niger"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "19586539"
+        },
+        "startLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Turkey"
+        },
+        "middleLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Bulgaria"
+        },
+        "endLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Romania"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "18499181"
+        },
+        "startLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Egypt"
+        },
+        "middleLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Israel"
+        },
+        "endLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Syria"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "18499181"
+        },
+        "startLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Iran"
+        },
+        "middleLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Turkey"
+        },
+        "endLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Syria"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "18499181"
+        },
+        "startLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Iran"
+        },
+        "middleLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Iraq"
+        },
+        "endLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Syria"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "18499181"
+        },
+        "startLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Turkey"
+        },
+        "middleLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Iraq"
+        },
+        "endLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Syria"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "18499181"
+        },
+        "startLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Iraq"
+        },
+        "middleLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Turkey"
+        },
+        "endLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Syria"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "18499181"
+        },
+        "startLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Lebanon"
+        },
+        "middleLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Israel"
+        },
+        "endLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Syria"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "18499181"
+        },
+        "startLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Saudi Arabia"
+        },
+        "middleLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Iraq"
+        },
+        "endLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Syria"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "18499181"
+        },
+        "startLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Saudi Arabia"
+        },
+        "middleLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Jordan"
+        },
+        "endLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Syria"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "18499181"
+        },
+        "startLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Iraq"
+        },
+        "middleLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Jordan"
+        },
+        "endLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Syria"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "18499181"
+        },
+        "startLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Israel"
+        },
+        "middleLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Lebanon"
+        },
+        "endLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Syria"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "18499181"
+        },
+        "startLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Israel"
+        },
+        "middleLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Jordan"
+        },
+        "endLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Syria"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "18499181"
+        },
+        "startLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Jordan"
+        },
+        "middleLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Iraq"
+        },
+        "endLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Syria"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "18499181"
+        },
+        "startLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Jordan"
+        },
+        "middleLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Israel"
+        },
+        "endLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Syria"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "18499181"
+        },
+        "startLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Kuwait"
+        },
+        "middleLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Iraq"
+        },
+        "endLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Syria"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "18276500"
+        },
+        "startLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Norway"
+        },
+        "middleLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Russia"
+        },
+        "endLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Kazakhstan"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "18276500"
+        },
+        "startLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Iran"
+        },
+        "middleLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Turkmenistan"
+        },
+        "endLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Kazakhstan"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "18276500"
+        },
+        "startLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Finland"
+        },
+        "middleLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Russia"
+        },
+        "endLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Kazakhstan"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "15477751"
+        },
+        "startLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Egypt"
+        },
+        "middleLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Libya"
+        },
+        "endLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Chad"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "15477751"
+        },
+        "startLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Egypt"
+        },
+        "middleLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Sudan"
+        },
+        "endLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Chad"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "12575714"
+        },
+        "startLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Egypt"
+        },
+        "middleLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Sudan"
+        },
+        "endLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "South Sudan"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "11565204"
+        },
+        "startLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Egypt"
+        },
+        "middleLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Libya"
+        },
+        "endLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Tunisia"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "10760421"
+        },
+        "startLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Turkey"
+        },
+        "middleLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Bulgaria"
+        },
+        "endLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Greece"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "10760421"
+        },
+        "startLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Iran"
+        },
+        "middleLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Turkey"
+        },
+        "endLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Greece"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "10760421"
+        },
+        "startLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Iraq"
+        },
+        "middleLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Turkey"
+        },
+        "endLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Greece"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "10760421"
+        },
+        "startLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Syria"
+        },
+        "middleLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Turkey"
+        },
+        "endLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Greece"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "10428241"
+        },
+        "startLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Egypt"
+        },
+        "middleLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Israel"
+        },
+        "endLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Jordan"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "10428241"
+        },
+        "startLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Iran"
+        },
+        "middleLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Iraq"
+        },
+        "endLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Jordan"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "10428241"
+        },
+        "startLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Turkey"
+        },
+        "middleLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Iraq"
+        },
+        "endLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Jordan"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "10428241"
+        },
+        "startLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Turkey"
+        },
+        "middleLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Syria"
+        },
+        "endLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Jordan"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "10428241"
+        },
+        "startLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Lebanon"
+        },
+        "middleLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Israel"
+        },
+        "endLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Jordan"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "10428241"
+        },
+        "startLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Oman"
+        },
+        "middleLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Saudi Arabia"
+        },
+        "endLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Jordan"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "10428241"
+        },
+        "startLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Qatar"
+        },
+        "middleLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Saudi Arabia"
+        },
+        "endLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Jordan"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "10428241"
+        },
+        "startLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Saudi Arabia"
+        },
+        "middleLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Iraq"
+        },
+        "endLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Jordan"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "10428241"
+        },
+        "startLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Iraq"
+        },
+        "middleLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Saudi Arabia"
+        },
+        "endLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Jordan"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "10428241"
+        },
+        "startLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Iraq"
+        },
+        "middleLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Syria"
+        },
+        "endLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Jordan"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "10428241"
+        },
+        "startLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Syria"
+        },
+        "middleLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Iraq"
+        },
+        "endLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Jordan"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "10428241"
+        },
+        "startLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Syria"
+        },
+        "middleLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Israel"
+        },
+        "endLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Jordan"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "10428241"
+        },
+        "startLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Israel"
+        },
+        "middleLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Syria"
+        },
+        "endLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Jordan"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "10428241"
+        },
+        "startLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Yemen"
+        },
+        "middleLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Saudi Arabia"
+        },
+        "endLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Jordan"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "10428241"
+        },
+        "startLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "United Arab Emirates"
+        },
+        "middleLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Saudi Arabia"
+        },
+        "endLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Jordan"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "10428241"
+        },
+        "startLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Kuwait"
+        },
+        "middleLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Iraq"
+        },
+        "endLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Jordan"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "10428241"
+        },
+        "startLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Kuwait"
+        },
+        "middleLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Saudi Arabia"
+        },
+        "endLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Jordan"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "10428241"
+        },
+        "startLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Lebanon"
+        },
+        "middleLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Syria"
+        },
+        "endLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Jordan"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "10379295"
+        },
+        "startLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Norway"
+        },
+        "middleLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Finland"
+        },
+        "endLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Sweden"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "10379295"
+        },
+        "startLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Finland"
+        },
+        "middleLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Norway"
+        },
+        "endLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Sweden"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "10127874"
+        },
+        "startLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Norway"
+        },
+        "middleLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Russia"
+        },
+        "endLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Azerbaijan"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "10127874"
+        },
+        "startLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Turkey"
+        },
+        "middleLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Georgia"
+        },
+        "endLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Azerbaijan"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "10127874"
+        },
+        "startLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Iran"
+        },
+        "middleLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Turkey"
+        },
+        "endLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Azerbaijan"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "10127874"
+        },
+        "startLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Turkey"
+        },
+        "middleLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Armenia"
+        },
+        "endLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Azerbaijan"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "10127874"
+        },
+        "startLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Turkey"
+        },
+        "middleLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Iran"
+        },
+        "endLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Azerbaijan"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "10127874"
+        },
+        "startLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Iran"
+        },
+        "middleLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Armenia"
+        },
+        "endLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Azerbaijan"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "10127874"
+        },
+        "startLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Iraq"
+        },
+        "middleLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Turkey"
+        },
+        "endLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Azerbaijan"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "10127874"
+        },
+        "startLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Iraq"
+        },
+        "middleLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Iran"
+        },
+        "endLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Azerbaijan"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "10127874"
+        },
+        "startLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Syria"
+        },
+        "middleLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Turkey"
+        },
+        "endLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Azerbaijan"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "10127874"
+        },
+        "startLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Finland"
+        },
+        "middleLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Russia"
+        },
+        "endLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Azerbaijan"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "9400145"
+        },
+        "startLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Oman"
+        },
+        "middleLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Saudi Arabia"
+        },
+        "endLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "United Arab Emirates"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "9400145"
+        },
+        "startLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Qatar"
+        },
+        "middleLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Saudi Arabia"
+        },
+        "endLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "United Arab Emirates"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "9400145"
+        },
+        "startLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Saudi Arabia"
+        },
+        "middleLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Oman"
+        },
+        "endLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "United Arab Emirates"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "9400145"
+        },
+        "startLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Iraq"
+        },
+        "middleLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Saudi Arabia"
+        },
+        "endLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "United Arab Emirates"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "9400145"
+        },
+        "startLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Yemen"
+        },
+        "middleLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Oman"
+        },
+        "endLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "United Arab Emirates"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "9400145"
+        },
+        "startLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Yemen"
+        },
+        "middleLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Saudi Arabia"
+        },
+        "endLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "United Arab Emirates"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "9400145"
+        },
+        "startLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Jordan"
+        },
+        "middleLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Saudi Arabia"
+        },
+        "endLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "United Arab Emirates"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "9400145"
+        },
+        "startLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Kuwait"
+        },
+        "middleLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Saudi Arabia"
+        },
+        "endLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "United Arab Emirates"
         }
     },
     {
@@ -555,17 +3525,17 @@
             "type": "literal",
             "value": "9349645"
         },
-        "start_countryLabel": {
+        "startLabel": {
             "xml:lang": "en",
             "type": "literal",
-            "value": "Germany"
+            "value": "Norway"
         },
-        "middle_countryLabel": {
+        "middleLabel": {
             "xml:lang": "en",
             "type": "literal",
-            "value": "Poland"
+            "value": "Russia"
         },
-        "end_countryLabel": {
+        "endLabel": {
             "xml:lang": "en",
             "type": "literal",
             "value": "Belarus"
@@ -575,154 +3545,1606 @@
         "pop": {
             "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
             "type": "literal",
-            "value": "8809212"
+            "value": "9349645"
         },
-        "start_countryLabel": {
+        "startLabel": {
             "xml:lang": "en",
             "type": "literal",
-            "value": "Germany"
+            "value": "Finland"
         },
-        "middle_countryLabel": {
+        "middleLabel": {
             "xml:lang": "en",
             "type": "literal",
-            "value": "Switzerland"
+            "value": "Russia"
         },
-        "end_countryLabel": {
+        "endLabel": {
             "xml:lang": "en",
             "type": "literal",
-            "value": "Austria"
+            "value": "Belarus"
         }
     },
     {
         "pop": {
             "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
             "type": "literal",
-            "value": "8809212"
+            "value": "9093000"
         },
-        "start_countryLabel": {
+        "startLabel": {
             "xml:lang": "en",
             "type": "literal",
-            "value": "Germany"
+            "value": "Turkey"
         },
-        "middle_countryLabel": {
+        "middleLabel": {
             "xml:lang": "en",
             "type": "literal",
-            "value": "Czech Republic"
+            "value": "Syria"
         },
-        "end_countryLabel": {
+        "endLabel": {
             "xml:lang": "en",
             "type": "literal",
-            "value": "Austria"
+            "value": "Israel"
         }
     },
     {
         "pop": {
             "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
             "type": "literal",
-            "value": "8466017"
+            "value": "9093000"
         },
-        "start_countryLabel": {
+        "startLabel": {
             "xml:lang": "en",
             "type": "literal",
-            "value": "Germany"
+            "value": "Saudi Arabia"
         },
-        "middle_countryLabel": {
+        "middleLabel": {
             "xml:lang": "en",
             "type": "literal",
-            "value": "Austria"
+            "value": "Jordan"
         },
-        "end_countryLabel": {
+        "endLabel": {
             "xml:lang": "en",
             "type": "literal",
-            "value": "Switzerland"
+            "value": "Israel"
         }
     },
     {
         "pop": {
             "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
             "type": "literal",
-            "value": "8466017"
+            "value": "9093000"
         },
-        "start_countryLabel": {
+        "startLabel": {
             "xml:lang": "en",
             "type": "literal",
-            "value": "Germany"
+            "value": "Iraq"
         },
-        "middle_countryLabel": {
+        "middleLabel": {
             "xml:lang": "en",
             "type": "literal",
-            "value": "France"
+            "value": "Jordan"
         },
-        "end_countryLabel": {
+        "endLabel": {
             "xml:lang": "en",
             "type": "literal",
-            "value": "Switzerland"
+            "value": "Israel"
         }
     },
     {
         "pop": {
             "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
             "type": "literal",
-            "value": "5397036"
+            "value": "9093000"
         },
-        "start_countryLabel": {
+        "startLabel": {
             "xml:lang": "en",
             "type": "literal",
-            "value": "Germany"
+            "value": "Iraq"
         },
-        "middle_countryLabel": {
+        "middleLabel": {
             "xml:lang": "en",
             "type": "literal",
-            "value": "Poland"
+            "value": "Syria"
         },
-        "end_countryLabel": {
+        "endLabel": {
             "xml:lang": "en",
             "type": "literal",
-            "value": "Slovakia"
+            "value": "Israel"
         }
     },
     {
         "pop": {
             "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
             "type": "literal",
-            "value": "5397036"
+            "value": "9093000"
         },
-        "start_countryLabel": {
+        "startLabel": {
             "xml:lang": "en",
             "type": "literal",
-            "value": "Germany"
+            "value": "Syria"
         },
-        "middle_countryLabel": {
+        "middleLabel": {
             "xml:lang": "en",
             "type": "literal",
-            "value": "Austria"
+            "value": "Jordan"
         },
-        "end_countryLabel": {
+        "endLabel": {
             "xml:lang": "en",
             "type": "literal",
-            "value": "Slovakia"
+            "value": "Israel"
         }
     },
     {
         "pop": {
             "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
             "type": "literal",
-            "value": "5397036"
+            "value": "9093000"
         },
-        "start_countryLabel": {
+        "startLabel": {
             "xml:lang": "en",
             "type": "literal",
-            "value": "Germany"
+            "value": "Syria"
         },
-        "middle_countryLabel": {
+        "middleLabel": {
             "xml:lang": "en",
             "type": "literal",
-            "value": "Czech Republic"
+            "value": "Lebanon"
         },
-        "end_countryLabel": {
+        "endLabel": {
             "xml:lang": "en",
             "type": "literal",
-            "value": "Slovakia"
+            "value": "Israel"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "9093000"
+        },
+        "startLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Jordan"
+        },
+        "middleLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Syria"
+        },
+        "endLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Israel"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "9093000"
+        },
+        "startLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Lebanon"
+        },
+        "middleLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Syria"
+        },
+        "endLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Israel"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "8921343"
+        },
+        "startLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Iran"
+        },
+        "middleLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Afghanistan"
+        },
+        "endLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Tajikistan"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "7022268"
+        },
+        "startLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Turkey"
+        },
+        "middleLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Bulgaria"
+        },
+        "endLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Serbia"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "7000039"
+        },
+        "startLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Turkey"
+        },
+        "middleLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Greece"
+        },
+        "endLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Bulgaria"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "7000039"
+        },
+        "startLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Iran"
+        },
+        "middleLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Turkey"
+        },
+        "endLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Bulgaria"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "7000039"
+        },
+        "startLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Iraq"
+        },
+        "middleLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Turkey"
+        },
+        "endLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Bulgaria"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "7000039"
+        },
+        "startLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Syria"
+        },
+        "middleLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Turkey"
+        },
+        "endLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Bulgaria"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "6678567"
+        },
+        "startLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Egypt"
+        },
+        "middleLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Sudan"
+        },
+        "endLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Libya"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "6678567"
+        },
+        "startLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Israel"
+        },
+        "middleLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Egypt"
+        },
+        "endLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Libya"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "6100075"
+        },
+        "startLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Egypt"
+        },
+        "middleLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Israel"
+        },
+        "endLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Lebanon"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "6100075"
+        },
+        "startLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Turkey"
+        },
+        "middleLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Syria"
+        },
+        "endLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Lebanon"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "6100075"
+        },
+        "startLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Iraq"
+        },
+        "middleLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Syria"
+        },
+        "endLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Lebanon"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "6100075"
+        },
+        "startLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Syria"
+        },
+        "middleLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Israel"
+        },
+        "endLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Lebanon"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "6100075"
+        },
+        "startLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Israel"
+        },
+        "middleLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Syria"
+        },
+        "endLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Lebanon"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "6100075"
+        },
+        "startLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Jordan"
+        },
+        "middleLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Israel"
+        },
+        "endLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Lebanon"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "6100075"
+        },
+        "startLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Jordan"
+        },
+        "middleLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Syria"
+        },
+        "endLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Lebanon"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "5850901"
+        },
+        "startLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Turkey"
+        },
+        "middleLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Iran"
+        },
+        "endLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Turkmenistan"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "5850901"
+        },
+        "startLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Iran"
+        },
+        "middleLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Afghanistan"
+        },
+        "endLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Turkmenistan"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "5850901"
+        },
+        "startLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Iraq"
+        },
+        "middleLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Iran"
+        },
+        "endLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Turkmenistan"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "5501043"
+        },
+        "startLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Norway"
+        },
+        "middleLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Russia"
+        },
+        "endLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Finland"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "5501043"
+        },
+        "startLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Norway"
+        },
+        "middleLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Sweden"
+        },
+        "endLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Finland"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "5391369"
+        },
+        "startLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Finland"
+        },
+        "middleLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Russia"
+        },
+        "endLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Norway"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "5391369"
+        },
+        "startLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Finland"
+        },
+        "middleLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Sweden"
+        },
+        "endLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Norway"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "4829480"
+        },
+        "startLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Qatar"
+        },
+        "middleLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Saudi Arabia"
+        },
+        "endLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Oman"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "4829480"
+        },
+        "startLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Saudi Arabia"
+        },
+        "middleLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Yemen"
+        },
+        "endLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Oman"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "4829480"
+        },
+        "startLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Saudi Arabia"
+        },
+        "middleLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "United Arab Emirates"
+        },
+        "endLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Oman"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "4829480"
+        },
+        "startLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Iraq"
+        },
+        "middleLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Saudi Arabia"
+        },
+        "endLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Oman"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "4829480"
+        },
+        "startLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Yemen"
+        },
+        "middleLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Saudi Arabia"
+        },
+        "endLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Oman"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "4829480"
+        },
+        "startLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "United Arab Emirates"
+        },
+        "middleLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Saudi Arabia"
+        },
+        "endLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Oman"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "4829480"
+        },
+        "startLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Jordan"
+        },
+        "middleLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Saudi Arabia"
+        },
+        "endLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Oman"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "4829480"
+        },
+        "startLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Kuwait"
+        },
+        "middleLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Saudi Arabia"
+        },
+        "endLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Oman"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "4761865"
+        },
+        "startLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Cyprus"
+        },
+        "middleLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "United Kingdom"
+        },
+        "endLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Ireland"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "4659080"
+        },
+        "startLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Egypt"
+        },
+        "middleLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Sudan"
+        },
+        "endLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Central African Republic"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "4600000"
+        },
+        "startLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Iran"
+        },
+        "middleLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Iraq"
+        },
+        "endLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Kuwait"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "4600000"
+        },
+        "startLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Turkey"
+        },
+        "middleLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Iraq"
+        },
+        "endLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Kuwait"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "4600000"
+        },
+        "startLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Oman"
+        },
+        "middleLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Saudi Arabia"
+        },
+        "endLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Kuwait"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "4600000"
+        },
+        "startLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Qatar"
+        },
+        "middleLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Saudi Arabia"
+        },
+        "endLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Kuwait"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "4600000"
+        },
+        "startLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Saudi Arabia"
+        },
+        "middleLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Iraq"
+        },
+        "endLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Kuwait"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "4600000"
+        },
+        "startLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Iraq"
+        },
+        "middleLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Saudi Arabia"
+        },
+        "endLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Kuwait"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "4600000"
+        },
+        "startLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Syria"
+        },
+        "middleLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Iraq"
+        },
+        "endLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Kuwait"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "4600000"
+        },
+        "startLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Yemen"
+        },
+        "middleLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Saudi Arabia"
+        },
+        "endLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Kuwait"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "4600000"
+        },
+        "startLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "United Arab Emirates"
+        },
+        "middleLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Saudi Arabia"
+        },
+        "endLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Kuwait"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "4600000"
+        },
+        "startLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Jordan"
+        },
+        "middleLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Iraq"
+        },
+        "endLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Kuwait"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "4600000"
+        },
+        "startLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Jordan"
+        },
+        "middleLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Saudi Arabia"
+        },
+        "endLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Kuwait"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "3717100"
+        },
+        "startLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Norway"
+        },
+        "middleLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Russia"
+        },
+        "endLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Georgia"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "3717100"
+        },
+        "startLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Turkey"
+        },
+        "middleLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Azerbaijan"
+        },
+        "endLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Georgia"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "3717100"
+        },
+        "startLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Iran"
+        },
+        "middleLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Turkey"
+        },
+        "endLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Georgia"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "3717100"
+        },
+        "startLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Turkey"
+        },
+        "middleLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Armenia"
+        },
+        "endLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Georgia"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "3717100"
+        },
+        "startLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Iran"
+        },
+        "middleLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Azerbaijan"
+        },
+        "endLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Georgia"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "3717100"
+        },
+        "startLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Iran"
+        },
+        "middleLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Armenia"
+        },
+        "endLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Georgia"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "3717100"
+        },
+        "startLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Iraq"
+        },
+        "middleLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Turkey"
+        },
+        "endLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Georgia"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "3717100"
+        },
+        "startLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Syria"
+        },
+        "middleLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Turkey"
+        },
+        "endLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Georgia"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "3717100"
+        },
+        "startLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Finland"
+        },
+        "middleLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Russia"
+        },
+        "endLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Georgia"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "3497000"
+        },
+        "startLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Egypt"
+        },
+        "middleLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Sudan"
+        },
+        "endLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Eritrea"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "3075647"
+        },
+        "startLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Norway"
+        },
+        "middleLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Russia"
+        },
+        "endLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Mongolia"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "3075647"
+        },
+        "startLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Finland"
+        },
+        "middleLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Russia"
+        },
+        "endLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Mongolia"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "3020209"
+        },
+        "startLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Turkey"
+        },
+        "middleLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Greece"
+        },
+        "endLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Albania"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "2930450"
+        },
+        "startLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Turkey"
+        },
+        "middleLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Azerbaijan"
+        },
+        "endLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Armenia"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "2930450"
+        },
+        "startLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Turkey"
+        },
+        "middleLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Georgia"
+        },
+        "endLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Armenia"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "2930450"
+        },
+        "startLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Iran"
+        },
+        "middleLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Turkey"
+        },
+        "endLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Armenia"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "2930450"
+        },
+        "startLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Turkey"
+        },
+        "middleLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Iran"
+        },
+        "endLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Armenia"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "2930450"
+        },
+        "startLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Iran"
+        },
+        "middleLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Azerbaijan"
+        },
+        "endLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Armenia"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "2930450"
+        },
+        "startLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Iraq"
+        },
+        "middleLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Turkey"
+        },
+        "endLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Armenia"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "2930450"
+        },
+        "startLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Iraq"
+        },
+        "middleLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Iran"
+        },
+        "endLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Armenia"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "2930450"
+        },
+        "startLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Syria"
+        },
+        "middleLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Turkey"
+        },
+        "endLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Armenia"
         }
     },
     {
@@ -731,17 +5153,17 @@
             "type": "literal",
             "value": "2790842"
         },
-        "start_countryLabel": {
+        "startLabel": {
             "xml:lang": "en",
             "type": "literal",
-            "value": "Germany"
+            "value": "Norway"
         },
-        "middle_countryLabel": {
+        "middleLabel": {
             "xml:lang": "en",
             "type": "literal",
-            "value": "Poland"
+            "value": "Russia"
         },
-        "end_countryLabel": {
+        "endLabel": {
             "xml:lang": "en",
             "type": "literal",
             "value": "Lithuania"
@@ -751,176 +5173,308 @@
         "pop": {
             "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
             "type": "literal",
-            "value": "2066880"
+            "value": "2790842"
         },
-        "start_countryLabel": {
+        "startLabel": {
             "xml:lang": "en",
             "type": "literal",
-            "value": "Germany"
+            "value": "Finland"
         },
-        "middle_countryLabel": {
+        "middleLabel": {
             "xml:lang": "en",
             "type": "literal",
-            "value": "Austria"
+            "value": "Russia"
         },
-        "end_countryLabel": {
+        "endLabel": {
             "xml:lang": "en",
             "type": "literal",
-            "value": "Slovenia"
+            "value": "Lithuania"
         }
     },
     {
         "pop": {
             "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
             "type": "literal",
-            "value": "626108"
+            "value": "2639211"
         },
-        "start_countryLabel": {
+        "startLabel": {
             "xml:lang": "en",
             "type": "literal",
-            "value": "Germany"
+            "value": "Oman"
         },
-        "middle_countryLabel": {
+        "middleLabel": {
             "xml:lang": "en",
             "type": "literal",
-            "value": "Belgium"
+            "value": "Saudi Arabia"
         },
-        "end_countryLabel": {
+        "endLabel": {
             "xml:lang": "en",
             "type": "literal",
-            "value": "Luxembourg"
+            "value": "Qatar"
         }
     },
     {
         "pop": {
             "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
             "type": "literal",
-            "value": "626108"
+            "value": "2639211"
         },
-        "start_countryLabel": {
+        "startLabel": {
             "xml:lang": "en",
             "type": "literal",
-            "value": "Germany"
+            "value": "Iraq"
         },
-        "middle_countryLabel": {
+        "middleLabel": {
             "xml:lang": "en",
             "type": "literal",
-            "value": "France"
+            "value": "Saudi Arabia"
         },
-        "end_countryLabel": {
+        "endLabel": {
             "xml:lang": "en",
             "type": "literal",
-            "value": "Luxembourg"
+            "value": "Qatar"
         }
     },
     {
         "pop": {
             "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
             "type": "literal",
-            "value": "563402"
+            "value": "2639211"
         },
-        "start_countryLabel": {
+        "startLabel": {
             "xml:lang": "en",
             "type": "literal",
-            "value": "Germany"
+            "value": "Yemen"
         },
-        "middle_countryLabel": {
+        "middleLabel": {
             "xml:lang": "en",
             "type": "literal",
-            "value": "France"
+            "value": "Saudi Arabia"
         },
-        "end_countryLabel": {
+        "endLabel": {
             "xml:lang": "en",
             "type": "literal",
-            "value": "Suriname"
+            "value": "Qatar"
         }
     },
     {
         "pop": {
             "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
             "type": "literal",
-            "value": "76177"
+            "value": "2639211"
         },
-        "start_countryLabel": {
+        "startLabel": {
             "xml:lang": "en",
             "type": "literal",
-            "value": "Germany"
+            "value": "United Arab Emirates"
         },
-        "middle_countryLabel": {
+        "middleLabel": {
             "xml:lang": "en",
             "type": "literal",
-            "value": "France"
+            "value": "Saudi Arabia"
         },
-        "end_countryLabel": {
+        "endLabel": {
             "xml:lang": "en",
             "type": "literal",
-            "value": "Andorra"
+            "value": "Qatar"
         }
     },
     {
         "pop": {
             "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
             "type": "literal",
-            "value": "38695"
+            "value": "2639211"
         },
-        "start_countryLabel": {
+        "startLabel": {
             "xml:lang": "en",
             "type": "literal",
-            "value": "Germany"
+            "value": "Jordan"
         },
-        "middle_countryLabel": {
+        "middleLabel": {
             "xml:lang": "en",
             "type": "literal",
-            "value": "France"
+            "value": "Saudi Arabia"
         },
-        "end_countryLabel": {
+        "endLabel": {
             "xml:lang": "en",
             "type": "literal",
-            "value": "Monaco"
+            "value": "Qatar"
         }
     },
     {
         "pop": {
             "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
             "type": "literal",
-            "value": "37922"
+            "value": "2639211"
         },
-        "start_countryLabel": {
+        "startLabel": {
             "xml:lang": "en",
             "type": "literal",
-            "value": "Germany"
+            "value": "Kuwait"
         },
-        "middle_countryLabel": {
+        "middleLabel": {
             "xml:lang": "en",
             "type": "literal",
-            "value": "Switzerland"
+            "value": "Saudi Arabia"
         },
-        "end_countryLabel": {
+        "endLabel": {
             "xml:lang": "en",
             "type": "literal",
-            "value": "Liechtenstein"
+            "value": "Qatar"
         }
     },
     {
         "pop": {
             "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
             "type": "literal",
-            "value": "37922"
+            "value": "2075301"
         },
-        "start_countryLabel": {
+        "startLabel": {
             "xml:lang": "en",
             "type": "literal",
-            "value": "Germany"
+            "value": "Turkey"
         },
-        "middle_countryLabel": {
+        "middleLabel": {
             "xml:lang": "en",
             "type": "literal",
-            "value": "Austria"
+            "value": "Greece"
         },
-        "end_countryLabel": {
+        "endLabel": {
             "xml:lang": "en",
             "type": "literal",
-            "value": "Liechtenstein"
+            "value": "North Macedonia"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "2075301"
+        },
+        "startLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Turkey"
+        },
+        "middleLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Bulgaria"
+        },
+        "endLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "North Macedonia"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "1909000"
+        },
+        "startLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Norway"
+        },
+        "middleLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Russia"
+        },
+        "endLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Latvia"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "1909000"
+        },
+        "startLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Finland"
+        },
+        "middleLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Russia"
+        },
+        "endLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Latvia"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "1324820"
+        },
+        "startLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Norway"
+        },
+        "middleLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Russia"
+        },
+        "endLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Estonia"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "1324820"
+        },
+        "startLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Finland"
+        },
+        "middleLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Russia"
+        },
+        "endLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Estonia"
+        }
+    },
+    {
+        "pop": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "53532"
+        },
+        "startLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Turkey"
+        },
+        "middleLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Georgia"
+        },
+        "endLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "South Ossetia"
         }
     }
 ]

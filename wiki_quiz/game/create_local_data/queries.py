@@ -104,19 +104,20 @@ queries = {
             order by desc (?olympic)
         """,
     
+    # Limited to middle east and Nordic due to query time out:
     "country_neighbours":
         """
-            SELECT ?start_countryLabel ?middle_countryLabel ?end_countryLabel ?pop 
+            SELECT ?startLabel ?middleLabel ?endLabel ?pop 
             WHERE {
-                filter(?start_country = wd:Q183)
                 ?border wdt:P31 wd:Q15104814 ;
-                        wdt:P17 ?start_country , ?middle_country .
+                        wdt:P17 ?start , ?middle .
+                {?start wdt:P361 wd:Q7204.} UNION {?start wdt:P361 wd:Q52062.}
                 ?border2 wdt:P31 wd:Q15104814 ;
-                         wdt:P17 ?middle_country , ?end_country .
-                ?end_country wdt:P1082 ?pop
-                FILTER (?start_country != ?middle_country)
-                FILTER (?start_country != ?end_country)
-                FILTER (?middle_country != ?end_country)
+                        wdt:P17 ?middle , ?end .
+                ?end wdt:P1082 ?pop
+                FILTER (?start != ?middle)
+                FILTER (?start != ?end)
+                FILTER (?middle != ?end)
                 SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en". }
             }order by desc(?pop)
         """,
