@@ -1,0 +1,1 @@
+web: gunicorn wiki_quiz.wsgi
