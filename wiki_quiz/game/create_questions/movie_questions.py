@@ -73,7 +73,7 @@ def academy_awards_person_question(data: list) -> Question:
         person = get_resource_url(element, "actorLabel")
 
         if i == 0:
-            question_text = f"How many academy awards have {person} won?"
+            question_text = f"How many academy awards has {person} won?"
             answers.append(Answer(award_count, True, f"That is correct, {person} has won {award_count} academy awards."))
         
         else:
