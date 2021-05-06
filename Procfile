@@ -1,0 +1,1 @@
+web: gunicorn --pythonpath wiki_quiz wiki_quiz.wsgi
