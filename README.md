@@ -38,6 +38,7 @@ It is recommended that you create an empty virtual enviroment before using the p
         This feature was a proof of concept and not used in the final UI due to the poor quality of the generated questions. 
 
 - wiki_quiz/game/create_questions/**main.py**
+
         Takes arguments from django and creates questions based on arguments.
         Uses functions from 'movie_questions.py' and 'geography_questions.py'.
 
