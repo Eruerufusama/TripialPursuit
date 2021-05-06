@@ -1,23 +1,21 @@
 # !!! This was made as a proof of concept to test how a dynamic query would work!!!
 
-# !!! The resault of the query only work for some topics due to data incosistancy 
-# !!! and lack of structure on wikidata!!!
+# !!! The resault of the query only work for some topics due to data incosistancy !!!
+# !!! and lack of structure on wikidata !!!
 
-# !!! Topics we recomend to test are Ronaldo, Donald Trump !!!
+# !!! Topics we recomend to test are Ronaldo, Donald Trump, Norway... !!!
 
-# !!! Due to the poor resault of the generated questions we decided to not implement
-# !!! this code into the final project interfance
+# !!! Due to the poor qualety of the generated questions we decided to not implement !!!
+# !!! this code into the final project interfance !!!
 
+# !!! We had a lot of crashing issues due to toics not having type of attribute !!!
+# !!! and if we implemented subclass of the query would time out !!!
 
-import re
 from urllib.request import urlopen
-from urllib.parse import urljoin
 from bs4 import BeautifulSoup
 from pprint import pprint
-import re
 from random import choice
 from SPARQLWrapper import SPARQLWrapper, JSON
-from data_types import Question, Answer
 
 def get_q_code(search: str, n_searches: int):
     """Lets you search for a ting in wikidata and returns 4 search resaults
