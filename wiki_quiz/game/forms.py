@@ -4,7 +4,6 @@ class MenuForm(forms.Form):
     category = forms.ChoiceField(choices=[
         ('geography', 'geography'),
         ('movie', 'movie'),
-        ('lucky', "I'm feelin' lucky.")
     ])
         
     difficulty = forms.ChoiceField(choices=[
