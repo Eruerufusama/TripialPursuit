@@ -32,3 +32,7 @@ A test to check the quality of questions if we let the user select any topic on 
 
 - wiki_quiz/game/create_questions/**main.py**
 lets you generate and test questions without using the user interface.
+
+[Front page](Images/Front_page.png)
+[Question](Images/question.png)
+[Wrong awnser](Images/wrong_awnser.png)
