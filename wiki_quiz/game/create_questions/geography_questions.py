@@ -136,7 +136,7 @@ def country_neighbors_question(data: list) -> Question:
             answers.append(Answer(middle_country, True, answers_text))
 
         else:
-            answer_text = f"That is incorrect, {middle_country} connects {start_country} and {end_country}."
+            answer_text = f"That is incorrect, {middle_country} is neighbours with {start_country} and {end_country}."
             answers.append(Answer(middle_country, False, answer_text))
     
     shuffle(answers)
@@ -145,7 +145,7 @@ def country_neighbors_question(data: list) -> Question:
 
 def largest_city_question(data: list) -> Question:
     question_choice = choice(['largest', 'smallest'])  
-    question_text = f'Which of these citys has the {question_choice} population?' 
+    question_text = f'Which of these cities has the {question_choice} population?' 
 
     answers = []
     for element in data:  
