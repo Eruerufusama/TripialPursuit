@@ -39,21 +39,19 @@ function showAnswer(index) {
 
     // Show correct and incorrect answers when an answer is clicked.
     if (answers[index].classList.contains('correct')) {
-        console.log('correct!');
         answers[index].style.backgroundColor = "#45f556";
 
         answerText.innerHTML = "That is correct!";
         answerText.style.display ='flex';
     }
     else {
-        console.log('That is false!');
         answers[index].style.backgroundColor = "#f54b45";
 
         for (i = 0; i < answers.length; i++) {
             if (answers[i].classList.contains('correct')) {
                 answers[i].style.backgroundColor = "#45f556";
 
-                answerText.innerHTML = "Big oof.";
+                answerText.innerHTML = "incorrect!";
                 answerText.style.display ='flex';
             }
         }
