@@ -4,10 +4,17 @@ A procedurally generated questionaire
 ## How to run
 It is recommended that you create an empty virtual enviroment before using the project, to avoid version-conflicts.
 
+### Installation
+0. (Optional) create virtual enviroment.
 1. navigate to where the requirements.txt is located
 2. ```pip install -r requirements.txt```
 3. navigate to the folder containing manage.py (```cd wiki_quiz``` from folder with requirements.txt.)
 4. To run site locally, run django with ```python manage.py runserver```
+
+## The basic principles of our program:
+1. Download data with SPARQL queries.
+2. Store the data locally.
+3. Use the stored data in a way that we can generate random questions.
 
 ## Important File explanation:
 ### Querying
