@@ -20,7 +20,7 @@ It is recommended that you create an empty virtual enviroment before using the p
         Queries as strings in a dict.
 
 ### Processing and preparing for django
-- wiki_quiz/game/create_questions/**data_types**
+- wiki_quiz/game/create_questions/**data_types.py**
 
         Describes our datatypes 'Question' and 'Answer'.
 
