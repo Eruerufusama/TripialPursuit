@@ -21,6 +21,7 @@ def main(query_name: str, database: str="dbpedia") -> None:
 
 
 if __name__ == "__main__":
+    # Input the name of the query from queries.py and select the correct database:
     query_name = input("name: ")
     db = input("Database (wikidata/dbpedia): ")
     main(query_name, db)

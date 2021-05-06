@@ -12,6 +12,7 @@ except:
     from data_types import Question
    
 
+# Object that stores the categories and their given functions which returns a question dict
 QUESTIONS = {
     'geography': {
         'capital': capital_question,
