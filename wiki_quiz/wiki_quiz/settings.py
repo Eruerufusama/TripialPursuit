@@ -26,7 +26,7 @@ SECRET_KEY = '%gykw!dz#cb6teq58(^6nxbmf*2)*^z$7o80eik-u@0%ym)l68'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['https://frozen-gorge-23901.herokuapp.com/']
+ALLOWED_HOSTS = ['frozen-gorge-23901.herokuapp.com']
 
 
 # Application definition
