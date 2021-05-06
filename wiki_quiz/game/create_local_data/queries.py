@@ -1,6 +1,8 @@
-# Country queries:
+#We seperate results based on difficulties, we use order to get these difficulties so that easier awnser are at the top
 
 queries = {
+    #Geography queries:
+
     "capital" :
         """
             SELECT DISTINCT ?country ?capital ?pop
@@ -77,7 +79,7 @@ queries = {
             LIMIT(100)
         """,
     #Some mountains missing height, uses regex on ranking to get 100 highest mountains
-    "mountain": 
+        "mountain": 
         """
             SELECT DISTINCT ?mountain ?height ?rank ?country 
             WHERE {
